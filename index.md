@@ -3,7 +3,7 @@
 {% include mathjax_support %}
 {% include command %}
 
-
+* [Course Information](./CourseInformation/index.md)      
 * [Lecture Notes](CourseNotes/CourseTopics.md)
 
 $x^2$
