@@ -1,1 +1,14 @@
+title: ENGN0310, Fall 21. Brown University
+header-includes:
+    - \usepackage{amsmath,amssymb,bm,amsfonts}
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-minimal
+markdown: kramdown
+highlighter: rouge
+kramdown:
+    input:  GFM
+mathjax: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-environment-variables
