@@ -1,0 +1,13 @@
+$$
+\newcommand{\u}[1]{\boldsymbol{\mathsf{#1}}}
+\renewcommand{\b}[1]{\boldsymbol{#1}}
+\newcommand{\t}[1]{\textsf{#1}}
+\newcommand{\m}[1]{\mathbb{#1}}
+\def\RR{\bf R}
+\def\bold#1{\bf #1}
+\def\mbf#1{\mathbf #1}
+\def\uv#1{\hat{\usf {#1}}}
+\def\dl#1{\underline{\underline{#1}}}
+\newcommand{\usf}[1]{\boldsymbol{\mathsf{#1}}}
+\def\bs#1{\usf #1}
+$$
