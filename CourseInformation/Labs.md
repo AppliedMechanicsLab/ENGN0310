@@ -20,7 +20,7 @@ Each lab will be carried by students in groups of   XX--YY. The deadlines to com
 
 ## Location
 
-All three labs will be carried out in the _Applied Mechanics Lab_ located in Barus and Holley YYY <!--TODO: Sayaka add information about the lab-->
+All three labs will be carried out in the _Applied Mechanics Lab_ located in Barus and Holley YYY <!--SK_TODO: Sayaka add information about the lab-->
 
 
 ## Grading
