@@ -1,6 +1,3 @@
----
-layout: default2
----
 
 {% include mathjax_support %}
 {% include command %}
