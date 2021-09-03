@@ -32,4 +32,12 @@ All three labs will be graded equally.
 
 <!--TODO: Sayaka add information here about what materials the students should bring with them to carry about the labs->
 
-## COVID re
+
+
+
+The students need to be trained on how to perform the lab. 
+   -  Sep 10, 15, 20. 2-3 pm.
+   - Handout: This will have informatio about when the labs are due, 
+   - They need to be given materials to do the lab. 
+   - Be availabel when the students have question about the lab.
+   - Grading the lab report.  

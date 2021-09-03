@@ -1,7 +1,7 @@
 {% include mathjax_support %}
 {% include command %}
-
-
+<!-- AB_TODO: go through this section and see if everything is to your liking -->
+<!-- AB_to_HK:  -->
 # Grading
 
 ## Grading distribution
@@ -90,13 +90,16 @@ Let's arrange the above score, with best scores  on the top
 The Midterm and Final exams will be in-person, open notes, open textbook. Use of Mathematica, Matlab, Python etc. during the exam is allowed. Browsing the internet, use of cellphone, and collaboration of any type during the exams is not allowed. Use of any electronic or print media (e-textbooks, e-notes, hardcopy books different from the textbook) not created by the students or the teaching staff is not allowed during the exams.  
 
 #### Midterm exam
+
 The scheduled date for the Midterm exam is : XXYY
+
 <!-- AB_TODO: Andrew add in the missing information above marked as XXYY-->
 
 #### Final exam
+
 The scheduled date for the Final exam is : XXYY
 
-<!-- AB_TODO: Andrew add in the missing information above marked as XXYY-->
+<!-- AB_TODO: Andrew add in the missing information above marked as XXYY -->
 
 
 ## Grading criterion
@@ -110,5 +113,5 @@ The grades in the course will be assigned as follows.
 | C     | $49-30$      |
 | NC    | $<30$        |
 
-
+<!-- SK_TODO: Sayaka what do you think about the above grading policy. -->
 <!-- : -->
