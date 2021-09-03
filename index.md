@@ -10,7 +10,19 @@
 Office Hours:
 
 Sayaka
-Andrew 
+<!-- AB_TODO: Rserve room 751 for yours,  YW, and HK office hours-->
+
+### Office hours
+
+Tuesday : HK 1-3
+Wednesday: YG 1-3
+Thursday: AB 1-3
+Friday: YG (Morning) 10-12
+Friday: AB (Friday) 1-3
+Friday: HK (Friday) 1-3
+
+Person of contact. 
+
 
 
 
