@@ -28,10 +28,12 @@ Each student will have some flexibility in deciding how the total points for the
 
 The points from the different categories should still add up to 100 points.  
 
-_Example_
+
+<details><summary> Example </summary>
 
 For example, a student, named Andreia, might decide to have their Homeworks count for 35 points their Midterm for 12 points, their labs for 28 points and their final exam 25 points. The total points is 35+12+28+25=100
 
+</details>
 
 <!--SK_AB_Question:  Sayaka, Andrew: Are the letter grades  in undergraduate courses typically based on absolute points, or on a relative performance of the students, i.e.,  the top 10% of the students get an A, etc.? Which do students prefer? I would to choose the option that the students would prefer. I think if I were a student I would prefer absolute grading.  -->
 
@@ -45,10 +47,10 @@ The Midterm and Final exams will be in-person, open notes, open textbook. Use of
 There will be 8 HW during the course. The time table of when the different HWs will be released and when they will be due can be found [here](../CourseInformation/Homeworks.md). All home works will count equally. 
 
 
-<font color='Gray'>
+<details><summary> Example </summary>
 
-_Example_
-Continuing from the  previous example. Say there were 8 homeworks during the course. Say that during each of the homeworks count for 100 points.  Andreia gets the following score. 
+
+Continuing from the  previous example. Say there were 10 homeworks during the course. Say that during each of the homeworks count for 100 points.  Andreia gets the following scores. 
 
 | Homeworks | Score   |
 |-----------|---------|
@@ -60,8 +62,28 @@ Continuing from the  previous example. Say there were 8 homeworks during the cou
 | HW 6      | 98/100  |
 | HW 7      | 100/100 |
 | HW 8      | 65/100  |
+| HW 9      | 95/100  |
+| HW 10      | 85/100  |
 
-</font>
+
+Let's arrange the above score, with best scores  on the top
+
+| Homeworks | Score   |
+|-----------|---------|
+| HW 7      | 100/100 |
+| HW 6      | 98/100  |
+| HW 9      | 95/100  |
+| HW 1      | 92/100  |
+| HW 2      | 90/100  |
+| HW 10     | 85/100  |
+| HW 5      | 75/100  |
+| HW 8      | 65/100  |
+| HW 4      | 40/100  |
+| HW 3      | 30/100  |
+
+
+
+</details>
 
 ### Exams 
 
