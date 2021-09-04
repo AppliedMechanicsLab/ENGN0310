@@ -40,6 +40,6 @@
 |Class 39|	Chapter 7 Theories of Failure	|12/06|
 |Class 40|	Chapter 7 Thin Walled Pressure Vessels|	12/08|
 |Class 41|	Review |	12/10|
-|Class 41|	Review| 	12/12|
+|Class 42|	Review| 	12/12|
 |Final| 	Final 02:00:00 PM|	12/14|
 
