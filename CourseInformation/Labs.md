@@ -9,9 +9,9 @@ Each lab will be carried by students in groups of   XX--YY. The deadlines to com
 
 | Lab                     | Deadline |
 |-------------------------|----------|
-| Uniaxial lab            |     XX       |
-| Three point bending lab |     XX       |
-| Vibration metrology lab |     XX       |
+| Uniaxial lab            |     10/08       |
+| Three point bending lab |    11/12        |
+| Vibration metrology lab |    12/01       |
 
 <!-- TODO:  Sayaka   need to add the dealines for the above three labs. 
 

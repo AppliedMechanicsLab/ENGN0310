@@ -5,13 +5,13 @@
 
 | Homework | Release date | Due date |
 |----------|--------------|----------|
-| HW 1     | XXYY1        | XXZZ1    |
-| H 2      | XXYY2        | XXZZ2    |
-| H 3      | XXYY3        | XXZZ3    |
-| H 4      | XXYY4        | XXZZ4    |
-| H 5      | XXYY5        | XXZZ5    |
-| H 6      | XXYY6        | XXZZ6    |
-| H 7      | XXYY7        | XXZZ7    |
-| H 8      | XXYY8        | XXZZ8    |
-| H 9      | XXYY9        | XXZZ9    |
-| H 10     | XXYY9        | XXZZ9    |
+| HW 1     | 09/10        | 09/17    |
+| HW 2     | 09/17       | 09/24    |
+| HW 3     | 09/24       | 10/01    |
+| HW 4     | 10/01       | 10/15    |
+| HW 5     | 10/15       | 10/29    |
+| HW 6     | 10/29       | 11/05    |
+| HW 7     | 11/05       | 11/19    |
+| HW 8     | 11/19       | 11/24    |
+| HW 9     | 11/24       | 12/03    |
+| HW 10    | 12/03        | 12/10    |

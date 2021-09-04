@@ -63,7 +63,7 @@ Person of contact.
 *  Buckling
    - Columns
 
-* Introduction to the theory of elastic.
+* Introduction to the theory of elasticity
  - Particularizing it   Bars
  - Particularizing it Shear
  - Particularizing it Bending
