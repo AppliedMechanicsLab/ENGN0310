@@ -91,13 +91,13 @@ The Midterm and Final exams will be in-person, open notes, open textbook. Use of
 
 #### Midterm exam
 
-The scheduled date for the Midterm exam is : XXYY
+The scheduled date for the Midterm exam is : 10/22
 
 <!-- AB_TODO: Andrew add in the missing information above marked as XXYY-->
 
 #### Final exam
 
-The scheduled date for the Final exam is : XXYY
+The scheduled date for the Final exam is : 12/14
 
 <!-- AB_TODO: Andrew add in the missing information above marked as XXYY -->
 
