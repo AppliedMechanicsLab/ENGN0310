@@ -3,8 +3,12 @@
 {% include mathjax_support %}
 {% include command %}
 
-* [Course Information](./CourseInformation/index.md)
+* [Course Information: Office hours, Grading, Schedule, etc.](./CourseInformation/index.md)
 * [Lecture Notes](CourseNotes/CourseTopics.md)
+* [Home works](Homeworks/index.md.md)
+* [Exams](Exams/index.md)
+* [Labs](Labs/index.md)
+* [Syllabus](Syllabus/index.md) 
 
 
 Office Hours:
@@ -12,14 +16,6 @@ Office Hours:
 Sayaka
 <!-- AB_TODO: Rserve room 751 for yours,  YW, and HK office hours-->
 
-### Office hours
-
-Tuesday : HK 1-3
-Wednesday: YG 1-3
-Thursday: AB 12-2
-Friday: YG (Morning) 10-12
-Friday: AB (Friday) 1-3
-Friday: HK (Friday) 1-3
 
 Person of contact. 
 

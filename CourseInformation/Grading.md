@@ -114,4 +114,3 @@ The grades in the course will be assigned as follows.
 | NC    | $<30$        |
 
 <!-- SK_TODO: Sayaka what do you think about the above grading policy. -->
-<!-- : -->
