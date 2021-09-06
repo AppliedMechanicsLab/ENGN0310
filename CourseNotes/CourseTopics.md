@@ -41,5 +41,5 @@
 | [Lecture34](Lecture_34.md) | December 01, Wednesday | |
 | [Lecture35](Lecture_35.md) | December 03, Friday | |
 | [Lecture36](Lecture_36.md) | December 06, Monday | |
-| [Lecture37](Lecture_37.md) | December 08, Wednesday | |
-| [Lecture38](Lecture_38.md) | December 10, Friday | |
+| [Lecture37](Lecture_37.md) | December 08, Wednesday | Course Review |
+| [Lecture38](Lecture_38.md) | December 10, Friday | Course Review|
