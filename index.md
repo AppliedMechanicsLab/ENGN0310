@@ -11,7 +11,7 @@
 
 #### Lecture timings
 
-Lectures MTW: 9-9:50 am in BH 158.(Instructor: H. Kesari) <br/> 
+Lectures MWF: 9-9:50 am in BH 158.(Instructor: H. Kesari) <br/> 
 Recitation: T: 12:00-12:50 in BH 158. (Instructor: H. Kesari) <br/>
 
 [Information about office hours, grading, etc.](./CourseInformation/index.md)  <!-- HK_to_HK: I am done with Office hours -->
