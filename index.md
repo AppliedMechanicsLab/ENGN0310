@@ -40,7 +40,7 @@ Python, Matlab, Maple, etc. can also be used for the HWs and exams. However, the
 
 ## Homeworks <!-- HK_to_HK: HK done with this section -->
 
-Eight Homework (HW) sets will be released and graded during the course. However, only the six best HW scores will be used for calculating the grade. The schedule of when the HWs will be released and when they are due can be see in the course calendar. 
+Nine Homework (HW) sets will be released and graded during the course. However, only the seven best HW scores will be used for calculating the grade. The schedule of when the HWs will be released and when they are due can be see in the course calendar. 
 
 <!-- AB_TODO: Please update the above paragraph based on your latest schedule. Also update this HW schedule in the course calendar, the one that shows up on the home page of the course website -->
 
