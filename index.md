@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# Mechanics of Solids and Structures
 
 {% include mathjax_support %}
 {% include command %}
@@ -12,7 +12,9 @@
 * [Syllabus](Syllabus/index.md) 
 
 
-
+## Related websites
+[Canvas]()
+[Banner](https://selfservice.brown.edu/ss/twbkwbis.P_GenMenu?name=homepage)
 
 
 <!-- AB_TODO: Rserve room 751 for yours,  YW, and HK office hours-->

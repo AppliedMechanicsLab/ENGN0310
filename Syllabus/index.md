@@ -103,4 +103,6 @@ _From CAB_: Mechanical behavior of materials and analysis of stress and deformat
 | Class 42     | Review                                         | 12/12 |
 | Final        | Final 02:00:00 PM                              | 12/14 |
 
-![](2021-09-05-21-09-04.png)
+
+<img src="2021-09-05-21-09-04.png" alt="drawing" width="600"/>
+
