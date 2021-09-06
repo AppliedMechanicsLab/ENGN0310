@@ -2,7 +2,7 @@ title: ENGN0310, Fall 21. Brown University
 header-includes:
     - \usepackage{amsmath,amssymb,bm,amsfonts}
 show_downloads: false
-logo : "images/images/GalileoBeam.png.png"
+logo : "images/images/GalileoBeam.png"
 google_analytics:
 theme: jekyll-theme-minimal
 markdown: kramdown
