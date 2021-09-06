@@ -1,11 +1,4 @@
-# Syllabus 
-
-## Outline 
-
-_From CAB_: Mechanical behavior of materials and analysis of stress and deformation in engineering structures and continuous media. Topics include concepts of stress and strain; the elastic, plastic, and time-dependent response of materials; principles of structural analysis and application to simple bar structures, beam theory, instability and buckling, torsion of shafts; general three-dimensional states of stress; Mohr's circle; stress concentrations. Lectures, recitations, and laboratory. Prerequisite: ENGN 0030.
-
-
-
+ 
 ## Detailed
 *  **Number of Lectures:** 38. 
 * * Bars

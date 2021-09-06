@@ -112,5 +112,5 @@ The grades in the course will be assigned as follows.
 | B     | $74-50$      |
 | C     | $49-30$      |
 | NC    | $<30$        |
-
+<!-- HK_TODO: Haneesh finish this section -->
 <!-- SK_TODO: Sayaka what do you think about the above grading policy. -->
