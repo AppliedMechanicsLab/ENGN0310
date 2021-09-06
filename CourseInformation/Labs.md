@@ -9,7 +9,7 @@ Each lab will be carried by students in groups of   XX--YY. The deadlines to com
 
 | Lab                     | Deadline |
 |-------------------------|----------|
-| Uniaxial lab            |     10/08       |
+| [Uniaxial lab](UniaxialTestingLab.md)            |     10/08       |
 | Three point bending lab |    11/12        |
 | Vibration metrology lab |    12/01       |
 

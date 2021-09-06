@@ -34,6 +34,7 @@ Mechanical behavior of materials and analysis of stress and deformation in engin
     - [Mathematica learning material](https://appliedmechanicslab.github.io/appliedmechanicslab/Mathematica_software_commands.html)
 
 Python, Matlab, Maple, etc. can also be used for the HWs and exams. However, the lectures and recitations will be carried out solely using Mathematica. Questions related to Python, Matlab can asked during the Intructor or TA office hours.   
+
 ## Homeworks
 
 Ten Homeworks (HWs) will be relesed and graded during the course. However, only the eight best HW scores will be used for calculating the grade.
@@ -49,7 +50,7 @@ Ten Homeworks (HWs) will be relesed and graded during the course. However, only 
 
 ## Schedule/Important dates
 
-* Indigeneous people's dat: Oct 11, Monday <br/>
+* Indigeneous people's day: Oct 11, Monday <br/>
 * Midterm Date: Oct 22, Friday (Online exam) <br/> 
 * Thanksgiving break: Nov, 24th, Wednesday, starting at Noon) to Nov 28, Sunday.<br/>
 * Reading period start date : Dec 8th, Wednesday <br/>
