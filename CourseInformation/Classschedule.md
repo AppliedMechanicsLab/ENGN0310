@@ -1,5 +1,3 @@
-| Class Number | Topic | Date |
-|----------|--------------|----------|
 |Class 1   |Introduction + Computer Algebra	|09/08|
 |Class 2 |Chapter 1 Concept of Stress	|09/10|
 |Class 3| Chapter 1 Concept of Stress|	09/13|
@@ -32,7 +30,7 @@
 |Class 31|Chapter 7 Transformations of Stress and Strain |11/17|
 |Class 32|Chapter 7 Transformations of Stress and Strain |11/19|
 |Class 33|	Dynamics	|11/22|
-|Class 34|	Dynamics	|11/24|
+|Class 34|	No Class	|11/24|
 |Class 35|	No Class	|11/26|
 |Class 36|	Chapter 10 Columns|	11/29|
 |Class 37|	Chapter 10 Columns|	12/01|
@@ -41,5 +39,16 @@
 |Class 40|	Chapter 7 Thin Walled Pressure Vessels|	12/08|
 |Class 41|	Review |	12/10|
 |Class 42|	Review| 	12/12|
+
+
+
 |Final| 	Final 02:00:00 PM|	12/14|
 
+
+## Important dates
+*Number of Lectures:* 37. 
+Reading period start date : Dec 8th, Wednesday
+Last day of classes: Dec 12, Sunday 
+Midterm Date: Oct 22, Friday
+Final Exam date: Dec 14, Tuesday (Online exam).
+Final Exam period: Dec 13, Mon to Dec 21, Tue

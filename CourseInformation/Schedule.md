@@ -1,15 +1,23 @@
 # Schedule 
 
-Number of Lectures: 37. 
-Reading period start date : Dec 8th, Wednesday
+
+## Important dates
+ 
+**Reading period start date** : Dec 8th, Wednesday
 Last day of classes: Dec 12, Sunday 
-Midterm Date: 
-Final Exam date:  
+Midterm Date: Oct 22, Friday
+Final Exam date: Dec 14, Tuesday (Online exam).
+Final Exam period: Dec 13, Mon to Dec 21, Tue
 
+### Breaks
+Indigeneous people's dat: Oct 11, Monday
+Thanksgiving break: Nov, 24th, Wednesday, starting at Noon) to Nov 28, Sunday.<br/>
 
-
+## Easy peasy calendar
 
 <img src="../Syllabus/2021-09-05-21-09-04.png" width=600/>
+
+## Brown official calendar
 
 ## September
 ![](2021-09-05-22-10-12.png)

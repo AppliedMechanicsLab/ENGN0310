@@ -7,7 +7,7 @@ _From CAB_: Mechanical behavior of materials and analysis of stress and deformat
 
 
 ## Detailed
-
+*  **Number of Lectures:** 38. 
 * * Bars
   - Springs
   - 1D Displacements, strains, stresses
@@ -54,6 +54,7 @@ _From CAB_: Mechanical behavior of materials and analysis of stress and deformat
     - Energy Methods.
     - Pressure vessels
     - Plasticity
+
 
 
 
