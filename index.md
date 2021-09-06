@@ -43,14 +43,15 @@ Ten Homeworks (HWs) will be relesed and graded during the course. However, only 
 * [Syllabus](Syllabus/index.md) 
 
 ## Schedule/Important dates
- 
-* **Reading period start date** : Dec 8th, Wednesday <br/>
+
+* Indigeneous people's dat: Oct 11, Monday <br/>
+* Midterm Date: Oct 22, Friday (Online exam) <br/> 
+* Thanksgiving break: Nov, 24th, Wednesday, starting at Noon) to Nov 28, Sunday.<br/>
+* Reading period start date : Dec 8th, Wednesday <br/>
 * Last day of classes: Dec 12, Sunday <br/>
-* Midterm Date: Oct 22, Friday (Online exam) <br/>
 * Final Exam date: Dec 14, Tuesday (Online exam). <br/>
 * Final Exam period: Dec 13, Mon to Dec 21, Tue <br/>
-* Indigeneous people's dat: Oct 11, Monday <br/>
-* Thanksgiving break: Nov, 24th, Wednesday, starting at Noon) to Nov 28, Sunday.<br/>
+
 * [Course calendar](https://calendar.google.com/calendar/u/0?cid=Y182MG1uMnZuNnRxbmM4ODA2a2V1MXF0bzFpY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_60mn2vn6tqnc8806keu1qto1ic%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
