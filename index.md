@@ -24,7 +24,7 @@ Mechanical behavior of materials and analysis of stress and deformation in engin
 [Detailed syllabus and teaching schedule](Syllabus/index.md)
 
 
-## Learning resources
+## Learning resources <!--HK_to_HK: done with this section-->
 
 * [Lecture Notes](CourseNotes/CourseTopics.md)
 
@@ -35,13 +35,16 @@ Mechanical behavior of materials and analysis of stress and deformation in engin
 
 Python, Matlab, Maple, etc. can also be used for the HWs and exams. However, the lectures and recitations will be carried out solely using Mathematica. Questions related to Python, Matlab can asked during the Instructor or TA office hours.   
 
+<!-- AB_TODO : If you know any good online resources to learn Python and/or Matlab please  include them here. Delete this TODO in you have read it -->
 
 
-## Homeworks
+## Homeworks <!-- HK_to_HK: HK done with this section -->
 
-Eight Homework (HW) sets will be released and graded during the course. However, only the six best HW scores will be used for calculating the grade.
+Eight Homework (HW) sets will be released and graded during the course. However, only the six best HW scores will be used for calculating the grade. The schedule of when the HWs will be released and when they are due can be see in the course calendar. 
 
-* [Home works](Homeworks/index.md)
+<!-- AB_TODO: Please update the above paragraph based on your latest schedule. Also update this HW schedule in the course calendar, the one that shows up on the home page of the course website -->
+
+* * [Home works](Homeworks/index.md)
 
 ## Exams
 * [Exams](Exams/index.md)
