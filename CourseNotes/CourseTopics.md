@@ -2,7 +2,8 @@
 {% include command %}
 
 # Lectures
-|Lecrure | date| topics|
+
+|Lecture | Day/Date| tentative topics |
 |----------------|----------------|----------------|
 | [Lecture1](Lecture_1.md) | September 08, Wednesday | Course information. Mathematica download. Force balance. |
 | [Lecture2](Lecture_2.md) | September 10, Friday | |
