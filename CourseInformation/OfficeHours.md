@@ -22,7 +22,7 @@ Thursday:   -->
 
 | Day    | Time      |
 |--------|-----------|
-| Wednesday | 1:00-2:00 |
+| Wednesday     | 12:00-1:00      |
 | Thursday | 2:00-5:00 |
 
 
