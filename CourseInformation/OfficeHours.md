@@ -22,8 +22,8 @@ Thursday:   -->
 
 | Day    | Time      |
 |--------|-----------|
-| XY     | XY        |
-| XX | YY |
+| Wednesday | 1:00-2:00 |
+| Thursday | 2:00-5:00 |
 
 
 Email: Sayaka_Kochiyama@brown.edu <br/>
