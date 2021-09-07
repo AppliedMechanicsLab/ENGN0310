@@ -9,10 +9,26 @@
 
 ## Course Information
 
+#### Teaching team <!--HK_to_HK: done with this section-->
+ * [Haneesh Kesari](https://appliedmechanicslab.github.io/Team)  
+ * [Sayaka Kochiyama](https://appliedmechanicslab.github.io/Team)
+ * [Andrew Bagnoli](XXYY) <!--AB_TODO: Add any link you prefer at the location marked XXYY. Or remove link. Delete this comment after completion.-->
+ * [Yang Wan](https://appliedmechanicslab.github.io/Team)
+
 #### Lecture timings
 
-Lectures MTW: 9-9:50 am in BH 158.(Instructor: H. Kesari) <br/> 
-Recitation: T: 12:00-12:50 in BH 158. (Instructor: H. Kesari) <br/>
+Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
+Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari <br/>
+
+
+
+
+**Office hours:** 
+*  H. Kesari
+    - 2:00-5:00 pm in BH 751.
+    - 12:50-1:50 pm in BH 158.
+* Saya
+  
 
 [Information about office hours, grading, etc.](./CourseInformation/index.md)  <!-- HK_to_HK: I am done with Office hours -->
 
@@ -54,6 +70,9 @@ Eight Homework (HW) sets will be released and graded during the course. However,
 * [Syllabus](Syllabus/index.md) 
 
 ## Schedule/Important dates
+
+
+
 
 * Indigeneous people's day: Oct 11, Monday <br/>
 * Midterm Date: Oct 22, Friday (Online exam) <br/> 
