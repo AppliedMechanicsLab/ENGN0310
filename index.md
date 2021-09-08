@@ -18,32 +18,15 @@
 
 #### Lecture and recitation timings
 
-<<<<<<< HEAD
-Lectures: MWF: 9-9:50 am in BH 158.(Instructor: Haneesh Kesari) <br/> 
-Recitation: T: 12:00-12:50 in BH 158. (Instructor: Haneesh Kesari) <br/>
-=======
 
 Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
 Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon <br/>
 
->>>>>>> 10ecf2d84f272b10689ab1e045ab2f2eb897e23c
 
 
 
 #### Office hours 
 
-<<<<<<< HEAD
-#### Office hours
-*  Haneesh Kesari
-    - Tuesday, 1:00-2:00pm in BH 612.
-    - Friday, 2:00-5:00pm in BH 612.
-* Sayaka Kochiyama
-    - Wednesday, 12:00-1:00pm in BH 744.
-    - Thursday, 2:00-5:00pm in BH 744.
-* Andrew Bagnoli
-    - Tuesday, 12:00-1:00pm in Arnold Lab 322.
-    - Friday, 2:00-5:00pm in Arnold Lab 322.
-=======
 *  H. Kesari
     - Friday 2:00-5:00 pm in BH 751.
     - Tuesday 12:50-1:50 pm in BH 158.
@@ -51,17 +34,19 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
 * Sayaka Kochiyama
    - Wednesday 12:00-1:00 in BH 751     
    - Thursday  2:00-5:00 in BH 751
+
 * Andrew Bagnoli
    - Thursday  12:00-1:00 in BH 751
    -  Friday   2:00-5:00  in BH 751
+
 * Benjamin Grossman-Ponemon
    - TBD
+
 * Yang Wan 
    - through appointment
   
 The room BH 751 is likely going to be changed in the future.
 
->>>>>>> 10ecf2d84f272b10689ab1e045ab2f2eb897e23c
 
 
 
