@@ -9,7 +9,7 @@ Poisson's ratio is a measure of the deformation of a material in directions perp
 
 In this lab, our job is to measure the Young's modulus and Poisson's ratio of a sheet of silicone via uniaxial loading test. We will draw a square on the undeformed sheet (see schematics below). After loading, the square will change to a rectangle. Through measuring the changes of the shape and loading force, we can figure out Young's modulus and Poisson's ratio of the material.
 
-<img src="lab3.PNG" alt="drawing" width="600"/>
+<img src="lab3.png" alt="drawing" width="600"/>
 
 ## 2. Location
 
