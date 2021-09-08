@@ -34,11 +34,14 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
 * Sayaka Kochiyama
    - Wednesday 12:00-1:00 in BH 751     
    - Thursday  2:00-5:00 in BH 751
+
 * Andrew Bagnoli
    - Thursday  12:00-1:00 in BH 751
    -  Friday   2:00-5:00  in BH 751
+
 * Benjamin Grossman-Ponemon
    - TBD
+
 * Yang Wan 
    - through appointment
   
@@ -63,11 +66,13 @@ The grade in the course will be based on the students' performance in the follow
 * Labs, and 
 * Final exam. 
  
-Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The Homeworks category can contain anywhere between 30 and 40 points. The  _Midterm_ exam category can contain anywhere between 20 and 30 points. The _Labs_ category can count for anywhere between 20 and 30 points, and the _Final exam_  category can count for anywhere between 20 and 30 points.
+Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The _Homeworks_ category can contain anywhere between 30 and 40 points. The _Midterm exam_ category can contain anywhere between 10 and 20 points. The _Labs_ category can count for anywhere between 20 and 30 points, and the _Final exam_ category can count for anywhere between 20 and 30 points.
 
 [Detailed information about grading](./CourseInformation/Grading.md) 
 
 ## Learning resources <!--HK_to_HK: done with this section-->
+
+#### Lecture Notes
 
 * [Lecture Notes](CourseNotes/CourseTopics.md)
 
@@ -87,16 +92,22 @@ Nine Homework (HW) sets will be released and graded during the course. However, 
 
 <!-- AB_TODO: Please update the above paragraph based on your latest schedule. Also update this HW schedule in the course calendar, the one that shows up on the home page of the course website -->
 
-* * [Home works](Homeworks/index.md)
+<!-- *  [Home works](Homeworks/index.md) -->
 
 ## Exams
-* [Exams](Exams/index.md)
+
+The midterm and final exams will be online exams (through CANVAS). You will have 48 (resp. 72) hrs over which to take the  midterm (resp. final) exam. The exams can be taken remotely. Once an exam starts you will have a fixed amount of time to complete the exam. The dates for the midterm and final exams can be found in the course calendar. Any further exam related information will be posted at the below link.
+ 
+*  [Exams](Exams/index.md)
 
 ## Labs
-* [Labs](Labs/index.md)
-* [Syllabus](Syllabus/index.md) 
 
-## Schedule/Important dates
+There will be three labs during the semester. Each lab has to be performed in person in a team of about 4 people. Each lab has to be carried out within a 3 hr slot. Several slots are available in a 10 day time frame for each lab. The calendars to reserve the time lots can be found at the below link. Each student has to write a separate report for each of the labs they complete. The time periods when the slots for each lab are available and the deadlines for when the reports are due can be found in the course calendar.
+
+*  [Labs](Labs/index.md)
+
+
+## Schedule/Important dates and Course calendar
 
 
 
