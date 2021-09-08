@@ -95,9 +95,14 @@ Nine Homework (HW) sets will be released and graded during the course. However, 
 <!-- *  [Home works](Homeworks/index.md) -->
 
 ## Exams
-* [Exams](Exams/index.md)
+
+The midterm and final exams will be online exams (through CANVAS). You will have 48 (resp. 72) hrs over which to take the  midterm (resp. final) exam. The exams can be taken remotely. Once an exam starts you will have a fixed amount of time to complete the exam. The dates for the midterm and final exams can be found in the course calendar. Any further exam related information will be posted at the below link.
+ 
+*  [Exams](Exams/index.md)
 
 ## Labs
+
+There will be three labs during the semester. Each lab has to be performed in person in a team of about 4 people. Each lab has to be carried out within a 3 hr slot. Several slots are available in a 10 day time frame for each lab. The calendars to reserve the time lots can be found at the below link. Each student has to write a separate report for each of the labs they complete. The time periods when the slots for each lab are available and the deadlines for when the reports are due can be found in the course calendar.
 
 *  [Labs](Labs/index.md)
 
