@@ -1,17 +1,18 @@
 # Labs
 
-* Three point bending lab
-* Vibration metrology lab
+* Uniaxial tensile testing lab
+* Three point bending testing lab
+* Membrane strain measuring lab
 
-Each lab will be carried by students in groups of   XX--YY. The deadlines to complete the above three labs are as follows. 
+Each lab will be carried by students in groups of   XX--YY. The deadlines to complete the above three labs are as follows.
 
 
 
 | Lab                     | Deadline |
 |-------------------------|----------|
-| [Uniaxial lab](UniaxialTestingLab.md)            |     10/08       |
-| Three point bending lab |    11/12        |
-| Vibration metrology lab |    12/01       |
+| [Uniaxial tensile testing lab](UniaxialTestingLab.md)            |     10/08       |
+| Three point bending testing lab |    11/12        |
+| Membrane strain measuring lab |    12/01       |
 
 <!-- TODO:  Sayaka   need to add the dealines for the above three labs. 
 
