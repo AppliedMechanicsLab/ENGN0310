@@ -91,9 +91,6 @@ The Midterm and Final exams will be in-person, open notes, open textbook. Use of
 
 The scheduled date for the Midterm exam is : $10/22$
 
-
-</details>
-
 #### Final exam
 
 The scheduled date for the Final exam is : $12/14$
