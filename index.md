@@ -55,7 +55,7 @@ The room BH 751 is likely going to be changed in the future.
 
 Mechanical behavior of materials and analysis of stress and deformation in engineering structures and continuous media. Topics include concepts of stress and strain; the elastic, plastic, and time-dependent response of materials; principles of structural analysis and application to simple bar structures, beam theory, instability and buckling, torsion of shafts; general three-dimensional states of stress; Mohr's circle; stress concentrations. Lectures, recitations, and laboratory. Prerequisite: ENGN 0030.
 
-[Detailed syllabus and teaching schedule](Syllabus/index.md)
+[Detailed syllabus and teaching schedule](CourseNotes/CourseTopics.md)
 
 #### Grading
 
@@ -112,7 +112,7 @@ There will be three labs during the semester. Each lab has to be performed in pe
 
 
 
-* Indigeneous people's day: Oct 11, Monday <br/>
+* Indigenous people's day: Oct 11, Monday <br/>
 * Midterm Date: Oct 22, Friday (Online exam) <br/> 
 * Thanksgiving break: Nov, 24th, Wednesday, starting at Noon) to Nov 28, Sunday.<br/>
 * Reading period start date : Dec 8th, Wednesday <br/>
