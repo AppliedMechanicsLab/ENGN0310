@@ -121,8 +121,6 @@ The grades in the course will be assigned as follows.
 | B     | $74-50$      |
 | C     | $49-30$      |
 | NC    | $<30$        |
-<!-- HK_TODO: Haneesh finish this section -->
-<!-- SK_TODO: Sayaka what do you think about the above grading policy. -->
 
 
 <details><summary> Example </summary> Adding up her scores on each section, $30.75$ for the homeworks, $10.8$ for the Midterm, $21.25$ for the final, and $21.93$ for the labs, Andreia's total score is $84.73$, so her letter grade is an A. 
