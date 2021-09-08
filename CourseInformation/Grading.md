@@ -14,8 +14,7 @@ The grade in the course will be based on the students' performance in the follow
 3. Labs, and 
 4. Final exam. 
  
-Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The <font color='LightBlue'>Homeworks</font>
- category can contain anywhere between 30 and 40 points. The  _Midterm_ exam category can contain anywhere between 20 and 30 points. The _Labs_ category can count for anywhere between 20 and 30 points, and the _Final exam_  category can count for anywhere between 20 and 30 points. That is:
+Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The Homeworks category can contain anywhere between 30 and 40 points. The  _Midterm_ exam category can contain anywhere between 20 and 30 points. The _Labs_ category can count for anywhere between 20 and 30 points, and the _Final exam_  category can count for anywhere between 20 and 30 points. That is:
 
 | Item         | Points  |
 |--------------|---------|
@@ -31,7 +30,7 @@ The points from the different categories should still add up to 100 points.
 
 <details><summary> Example </summary>
 
-For example, a student, named Andreia, might decide to have their Homeworks count for 35 points their Midterm for 12 points, their labs for 28 points and their final exam 25 points. The total points is 35+12+28+25=100
+For example, a student, named Andreia, might decide to have her Homeworks count for 35 points, her Midterm for 12 points, her labs for 28 points and her final exam for 25 points. The total points is 35+12+28+25=100.
 
 </details>
 
@@ -42,15 +41,15 @@ For example, a student, named Andreia, might decide to have their Homeworks coun
 
 ###  Homeworks.
 
-The Midterm and Final exams will be in-person, open notes, open textbook. Use of Mathematica, Matlab, Python etc. during the exam is allowed. Browsing the internet, use of cellphone, and collaboration of any type during the exams is not allowed. Use of any electronic or print media (e-textbooks, e-notes, hardcopy books different from the textbook) not created by the students or the teaching staff is not allowed during the exams.  
+The Midterm and Final exams will be online exams. They will be open notes, and open textbook. Use of Mathematica, Matlab, Python etc. during the exam is allowed. Browsing the internet, use of cellphone, and collaboration of any type during the exams is not allowed. Use of any electronic or print media (e-textbooks, e-notes, hardcopy books different from the textbook) not created by the students or the teaching staff or different from the textbook is not allowed during the exams.  
 
-There will be 8 HW during the course. The time table of when the different HWs will be released and when they will be due can be found [here](../CourseInformation/Homeworks.md). All home works will count equally. 
-
+There will be 9 HW during the course. The time table of when the different HWs will be released and when they will be due can be found XXYY. All home works will count equally. 
+<!-- AB_TODO: Add link to home page at XXYY -->
 
 <details><summary> Example </summary>
 
 
-Continuing from the  previous example. Say there were 10 homeworks during the course. Say that during each of the homeworks count for 100 points.  Andreia gets the following scores. 
+Continuing from the  previous example. Say there were 9 homeworks during the course. Say that  each of the homeworks count for 100 points.  Andreia gets the following scores. 
 
 | Homeworks | Score   |
 |-----------|---------|
@@ -63,10 +62,9 @@ Continuing from the  previous example. Say there were 10 homeworks during the co
 | HW 7      | 100/100 |
 | HW 8      | 65/100  |
 | HW 9      | 95/100  |
-| HW 10      | 85/100  |
 
 
-Let's arrange the above score, with best scores  on the top
+Let's arrange the above scores, with best scores  on the top
 
 | Homeworks | Score   |
 |-----------|---------|
@@ -75,13 +73,12 @@ Let's arrange the above score, with best scores  on the top
 | HW 9      | 95/100  |
 | HW 1      | 92/100  |
 | HW 2      | 90/100  |
-| HW 10     | 85/100  |
 | HW 5      | 75/100  |
 | HW 8      | 65/100  |
 | HW 4      | 40/100  |
 | HW 3      | 30/100  |
 
-
+<!--AB_TODO: finish up the above example. That is, 4 and 3 will count. 700 points. (560/700)*35.   -->
 
 </details>
 
@@ -89,18 +86,34 @@ Let's arrange the above score, with best scores  on the top
 
 The Midterm and Final exams will be in-person, open notes, open textbook. Use of Mathematica, Matlab, Python etc. during the exam is allowed. Browsing the internet, use of cellphone, and collaboration of any type during the exams is not allowed. Use of any electronic or print media (e-textbooks, e-notes, hardcopy books different from the textbook) not created by the students or the teaching staff is not allowed during the exams.  
 
+
 #### Midterm exam
 
 The scheduled date for the Midterm exam is : 10/22
 
-<!-- AB_TODO: Andrew add in the missing information above marked as XXYY-->
+<!--AB_TODO: finish up the above example. That is, 4 and 3 will count. 700 points. (560/700)*35.   -->
+
+<details><summary> Example </summary> Andreia get 90/100 in blah 
+
+</details>
 
 #### Final exam
 
 The scheduled date for the Final exam is : 12/14
 
-<!-- AB_TODO: Andrew add in the missing information above marked as XXYY -->
+<!--AB_TODO: finish up the above example. That is, 4 and 3 will count. 700 points. (560/700)*35.   -->
 
+<details><summary> Example </summary> Andreia get 80/100 in Lab 1, and 60/100 in Lab 2 and 95/100 in Lab 3.
+
+</details>
+
+#### Lab.
+
+Say there were fours students in her group. Each students has to prepare the lab report independently. A
+
+<details><summary> Example </summary> Andreia get 80/100 in Lab 1, and 60/100 in Lab 2 and 95/100 in Lab 3.
+
+</details>
 
 ## Grading criterion
 
@@ -114,3 +127,8 @@ The grades in the course will be assigned as follows.
 | NC    | $<30$        |
 <!-- HK_TODO: Haneesh finish this section -->
 <!-- SK_TODO: Sayaka what do you think about the above grading policy. -->
+
+
+<details><summary> Example </summary> Andreia get 90/100 in blah 
+In summary, Andreia got 80/100 and she was awrded an A grade. 
+</details>
