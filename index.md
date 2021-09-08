@@ -102,7 +102,7 @@ The midterm and final exams will be online exams (through CANVAS). You will have
 
 ## Labs
 
-There will be three labs during the semester. Each lab has to be performed in person in a team of about 4 people. Each lab has to be carried out within a 3 hr slot. Several slots are available in a 10 day time frame for each lab. The calendars to reserve the time lots can be found at the below link. Each student has to write a separate report for each of the labs they complete. The time periods when the slots for each lab are available and the deadlines for when the reports are due can be found in the course calendar.
+There will be three labs during the semester. Each lab has to be performed in person in a team of about 4 people. Each lab has to be carried out within a 3 hr slot. Several slots are available in a 10 day time frame for each lab. The calendars to reserve the time slots can be found at the below link. Each student has to write a separate report for each of the labs they complete. The time periods when the slots for each lab are available and the deadlines for when the reports are due can be found in the course calendar.
 
 *  [Labs](Labs/index.md)
 
