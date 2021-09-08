@@ -12,28 +12,38 @@
 #### Teaching team <!--HK_to_HK: done with this section-->
  * [Haneesh Kesari](https://appliedmechanicslab.github.io/Team)  
  * [Sayaka Kochiyama](https://appliedmechanicslab.github.io/Team)
- * [Andrew Bagnoli](XXYY) <!--AB_TODO: Add any link you prefer at the location marked XXYY. Or remove link. Delete this comment after completion.-->
+ * Andrew Bagnoli 
  * [Yang Wan](https://appliedmechanicslab.github.io/Team)
+ * [Benjamin Grossman-Ponemon](https://appliedmechanicslab.github.io/Team)
 
 #### Lecture timings
 
-<<<<<<< HEAD
+
 Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
-Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari <br/>
+Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon <br/>
 
 
 
 
-**Office hours:** 
+#### Office hours 
+
 *  H. Kesari
-    - 2:00-5:00 pm in BH 751.
-    - 12:50-1:50 pm in BH 158.
-* Saya
+    - Friday 2:00-5:00 pm in BH $751^*$.
+    - Tuesday 12:50-1:50 pm in BH 158.
+
+* Sayaka Kochiyama
+   - Wednesday 12:00-1:00 in BH $751^*$     
+   - Thursday  2:00-5:00 in BH $751^*$
+* Andrew Bagnoli
+   - Thursday  12:00-1:00 in BH $751^*$
+   -  Friday   2:00-5:00  in BH $751^*$
+* Benjamin Grossman-Ponemon
+   - TBD
+* Yang Wan 
+   - through appointment
   
-=======
-Lectures MWF: 9-9:50 am in BH 158.(Instructor: H. Kesari) <br/> 
-Recitation: T: 12:00-12:50 in BH 158. (Instructor: H. Kesari) <br/>
->>>>>>> 639a4d877fd52e0796860535f0eecac8dd2da3c0
+This  room information is likely to change in the future.
+
 
 [Information about office hours, grading, etc.](./CourseInformation/index.md)  <!-- HK_to_HK: I am done with Office hours -->
 

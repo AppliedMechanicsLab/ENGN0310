@@ -1,7 +1,7 @@
 
 * [Office hours](OfficeHours.md)
 * [Grading Policy](Grading.md)
-* [Schedule](Schedule.md)
+
 
 
 <!-- *  [Home works](Homeworks)
