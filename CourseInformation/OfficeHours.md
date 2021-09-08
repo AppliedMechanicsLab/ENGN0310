@@ -9,8 +9,8 @@
 
 | Day     | Time      |
 |---------|-----------|
-| Thursday | 12:00-2:00 |
-| Friday  | 1:00-3:00 |
+| Thursday | 12:00-1:00 |
+| Friday  | 2:00-5:00 |
 
 Email: Andrew_Bagnoli@brown.edu <br/>
 Office: Arnold Lab 322

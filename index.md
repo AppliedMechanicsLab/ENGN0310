@@ -17,6 +17,7 @@
 
 #### Lecture timings
 
+<<<<<<< HEAD
 Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
 Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari <br/>
 
@@ -29,6 +30,10 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari <br/>
     - 12:50-1:50 pm in BH 158.
 * Saya
   
+=======
+Lectures MWF: 9-9:50 am in BH 158.(Instructor: H. Kesari) <br/> 
+Recitation: T: 12:00-12:50 in BH 158. (Instructor: H. Kesari) <br/>
+>>>>>>> 639a4d877fd52e0796860535f0eecac8dd2da3c0
 
 [Information about office hours, grading, etc.](./CourseInformation/index.md)  <!-- HK_to_HK: I am done with Office hours -->
 
@@ -56,7 +61,7 @@ Python, Matlab, Maple, etc. can also be used for the HWs and exams. However, the
 
 ## Homeworks <!-- HK_to_HK: HK done with this section -->
 
-Eight Homework (HW) sets will be released and graded during the course. However, only the six best HW scores will be used for calculating the grade. The schedule of when the HWs will be released and when they are due can be see in the course calendar. 
+Nine Homework (HW) sets will be released and graded during the course. However, only the seven best HW scores will be used for calculating the grade. The schedule of when the HWs will be released and when they are due can be see in the course calendar. 
 
 <!-- AB_TODO: Please update the above paragraph based on your latest schedule. Also update this HW schedule in the course calendar, the one that shows up on the home page of the course website -->
 
@@ -93,3 +98,5 @@ Eight Homework (HW) sets will be released and graded during the course. However,
 * [Banner](https://selfservice.brown.edu/ss/twbkwbis.P_GenMenu?name=homepage)
 * [Brown CAB](https://cab.brown.edu/)
 
+
+$x^2$

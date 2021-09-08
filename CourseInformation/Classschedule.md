@@ -1,3 +1,5 @@
+| Class Number | Toppic | Date |
+|----------|--------------|----------|
 |Class 1   |Introduction + Computer Algebra	|09/08|
 |Class 2 |Chapter 1 Concept of Stress	|09/10|
 |Class 3| Chapter 1 Concept of Stress|	09/13|
@@ -39,9 +41,6 @@
 |Class 40|	Chapter 7 Thin Walled Pressure Vessels|	12/08|
 |Class 41|	Review |	12/10|
 |Class 42|	Review| 	12/12|
-
-
-
 |Final| 	Final 02:00:00 PM|	12/14|
 
 
