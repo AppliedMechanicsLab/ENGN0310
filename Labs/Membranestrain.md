@@ -2,7 +2,14 @@
 # Lab3: Membrane strain measuring lab
 
 ## 1. Introduction and objective
-Young's modulus and Poisson's ratio are two 
+Young's modulus and Poisson's ratio are important mechanical properties of materials. 
+Young's modulus quantifies the relationship between tensile stress and corresponding axial strain and predicts how much a material sample extends under tension or shortens under compression.
+Poisson's ratio is a measure of the deformation of a material in directions perpendicular to the specific direction of loading.
+
+
+In this lab, our job is to measure the Young's modulus and Poisson's ratio of a sheet of silicone via uniaxial loading test. We will draw a square on the undeformed sheet (see schematics below). After loading, the square will change to a rectangle. Through measuring the changes of the shape and loading force, we can figure out Young's modulus and Poisson's ratio of the material.
+
+<img src="lab3.PNG" alt="drawing" width="600"/>
 
 ## 2. Location
 
