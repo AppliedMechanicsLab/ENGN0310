@@ -66,7 +66,7 @@ The grade in the course will be based on the students' performance in the follow
 * Labs, and 
 * Final exam. 
  
-Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The _Homeworks_ category can contain anywhere between $30$ and $40$ points. The _Midterm exam_ category can contain anywhere between $10$ and $20$ points. The _Labs_ category can count for anywhere between $20$ and $30$ points, and the _Final exam_ category can count for anywhere between $20$ and $30$ points.
+Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The _Homeworks_ category can contain anywhere between 30 and 40 points. The _Midterm exam_ category can contain anywhere between 10 and 20 points. The _Labs_ category can count for anywhere between 20 and 30 points, and the _Final exam_ category can count for anywhere between 20 and 30 points.
 
 [Detailed information about grading](./CourseInformation/Grading.md) 
 
@@ -90,14 +90,15 @@ Nine Homework (HW) sets will be released and graded during the course. However, 
 
 <!-- AB_TODO: Please update the above paragraph based on your latest schedule. Also update this HW schedule in the course calendar, the one that shows up on the home page of the course website -->
 
-* * [Home works](Homeworks/index.md)
+<!-- *  [Home works](Homeworks/index.md) -->
 
 ## Exams
 * [Exams](Exams/index.md)
 
 ## Labs
-* [Labs](Labs/index.md)
-* [Syllabus](Syllabus/index.md) 
+
+*  [Labs](Labs/index.md)
+
 
 ## Schedule/Important dates
 
