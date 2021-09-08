@@ -28,21 +28,21 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
 #### Office hours 
 
 *  H. Kesari
-    - Friday 2:00-5:00 pm in BH $751^*$.
+    - Friday 2:00-5:00 pm in BH 751.
     - Tuesday 12:50-1:50 pm in BH 158.
 
 * Sayaka Kochiyama
-   - Wednesday 12:00-1:00 in BH $751^*$     
-   - Thursday  2:00-5:00 in BH $751^*$
+   - Wednesday 12:00-1:00 in BH 751     
+   - Thursday  2:00-5:00 in BH 751
 * Andrew Bagnoli
-   - Thursday  12:00-1:00 in BH $751^*$
-   -  Friday   2:00-5:00  in BH $751^*$
+   - Thursday  12:00-1:00 in BH 751
+   -  Friday   2:00-5:00  in BH 751
 * Benjamin Grossman-Ponemon
    - TBD
 * Yang Wan 
    - through appointment
   
-This  room information is likely to change in the future.
+The room BH 751 is likely going to be changed in the future.
 
 
 [Information about office hours, grading, etc.](./CourseInformation/index.md)  <!-- HK_to_HK: I am done with Office hours -->
