@@ -55,7 +55,7 @@ The room BH 751 is likely going to be changed in the future.
 
 Mechanical behavior of materials and analysis of stress and deformation in engineering structures and continuous media. Topics include concepts of stress and strain; the elastic, plastic, and time-dependent response of materials; principles of structural analysis and application to simple bar structures, beam theory, instability and buckling, torsion of shafts; general three-dimensional states of stress; Mohr's circle; stress concentrations. Lectures, recitations, and laboratory. Prerequisite: ENGN 0030.
 
-[Detailed syllabus and teaching schedule](Syllabus/index.md)
+[Detailed syllabus and teaching schedule](CourseNotes/CourseTopics.md)
 
 #### Grading
 
@@ -102,7 +102,7 @@ The midterm and final exams will be online exams (through CANVAS). You will have
 
 ## Labs
 
-There will be three labs during the semester. Each lab has to be performed in person in a team of about 4 people. Each lab has to be carried out within a 3 hr slot. Several slots are available in a 10 day time frame for each lab. The calendars to reserve the time lots can be found at the below link. Each student has to write a separate report for each of the labs they complete. The time periods when the slots for each lab are available and the deadlines for when the reports are due can be found in the course calendar.
+There will be three labs during the semester. Each lab has to be performed in person in a team of about 4 people. Each lab has to be carried out within a 3 hr slot. Several slots are available in a 10 day time frame for each lab. The calendars to reserve the time slots can be found at the below link. Each student has to write a separate report for each of the labs they complete. The time periods when the slots for each lab are available and the deadlines for when the reports are due can be found in the course calendar.
 
 *  [Labs](Labs/index.md)
 
@@ -112,7 +112,7 @@ There will be three labs during the semester. Each lab has to be performed in pe
 
 
 
-* Indigeneous people's day: Oct 11, Monday <br/>
+* Indigenous people's day: Oct 11, Monday <br/>
 * Midterm Date: Oct 22, Friday (Online exam) <br/> 
 * Thanksgiving break: Nov, 24th, Wednesday, starting at Noon) to Nov 28, Sunday.<br/>
 * Reading period start date : Dec 8th, Wednesday <br/>
