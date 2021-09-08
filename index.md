@@ -72,6 +72,8 @@ Each student will have some flexibility in deciding how the total points for the
 
 ## Learning resources <!--HK_to_HK: done with this section-->
 
+#### Lecture Notes
+
 * [Lecture Notes](CourseNotes/CourseTopics.md)
 
 #### Software
@@ -100,7 +102,7 @@ Nine Homework (HW) sets will be released and graded during the course. However, 
 *  [Labs](Labs/index.md)
 
 
-## Schedule/Important dates
+## Schedule/Important dates and Course calendar
 
 
 
