@@ -11,8 +11,6 @@ In this lab, our job is to measure the Young's modulus and Poisson's ratio of a 
 
 <img src="lab3.png" alt="drawing" width="600"/>
 
-
-<img src="lab2.png" alt="drawing" width="600"/>
 ## 2. Location
 
 
