@@ -17,23 +17,22 @@
 
 #### Lecture timings
 
-<<<<<<< HEAD
-Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
-Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari <br/>
+Lectures: MWF: 9-9:50 am in BH 158.(Instructor: Haneesh Kesari) <br/> 
+Recitation: T: 12:00-12:50 in BH 158. (Instructor: Haneesh Kesari) <br/>
 
 
 
 
-**Office hours:** 
-*  H. Kesari
-    - 2:00-5:00 pm in BH 751.
-    - 12:50-1:50 pm in BH 158.
-* Saya
-  
-=======
-Lectures MWF: 9-9:50 am in BH 158.(Instructor: H. Kesari) <br/> 
-Recitation: T: 12:00-12:50 in BH 158. (Instructor: H. Kesari) <br/>
->>>>>>> 639a4d877fd52e0796860535f0eecac8dd2da3c0
+#### Office hours
+*  Haneesh Kesari
+    - Tuesday, 1:00-2:00pm in BH 612.
+    - Friday, 2:00-5:00pm in BH 612.
+* Sayaka Kochiyama
+    - Wednesday, 12:00-1:00pm in BH 744.
+    - Thursday, 2:00-5:00pm in BH 744.
+* Andrew Bagnoli
+    - Tuesday, 12:00-1:00pm in Arnold Lab 322.
+    - Friday, 2:00-5:00pm in Arnold Lab 322.
 
 [Information about office hours, grading, etc.](./CourseInformation/index.md)  <!-- HK_to_HK: I am done with Office hours -->
 
