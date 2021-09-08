@@ -66,7 +66,7 @@ The grade in the course will be based on the students' performance in the follow
 * Labs, and 
 * Final exam. 
  
-Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The Homeworks category can contain anywhere between $30$ and $40$ points. The  Midterm exam category can contain anywhere between $10$ and $20$ points. The Labs category can count for anywhere between $20$ and $30$ points, and the Final exam category can count for anywhere between $20$ and $30$ points. 
+Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The _Homeworks_ category can contain anywhere between $30$ and $40$ points. The _Midterm exam_ category can contain anywhere between $10$ and $20$ points. The _Labs_ category can count for anywhere between $20$ and $30$ points, and the _Final exam_ category can count for anywhere between $20$ and $30$ points.
 
 [Detailed information about grading](./CourseInformation/Grading.md) 
 
