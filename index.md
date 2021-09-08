@@ -16,7 +16,7 @@
  * [Yang Wan](https://appliedmechanicslab.github.io/Team)
  * [Benjamin Grossman-Ponemon](https://appliedmechanicslab.github.io/Team)
 
-#### Lecture timings
+#### Lecture and recitation timings
 
 
 Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
@@ -45,7 +45,7 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
 The room BH 751 is likely going to be changed in the future.
 
 
-[Information about office hours, grading, etc.](./CourseInformation/index.md)  <!-- HK_to_HK: I am done with Office hours -->
+
 
 
 #### Syllabus
@@ -54,6 +54,18 @@ Mechanical behavior of materials and analysis of stress and deformation in engin
 
 [Detailed syllabus and teaching schedule](Syllabus/index.md)
 
+#### Grading
+
+The grade in the course will be based on the students' performance in the following categories 
+
+* Homeworks, 
+* Midterm exam, 
+* Labs, and 
+* Final exam. 
+ 
+Each student will have some flexibility in deciding how the total points for the course should be distributed among the different categories for their individual case. The Homeworks category can contain anywhere between 30 and 40 points. The  _Midterm_ exam category can contain anywhere between 20 and 30 points. The _Labs_ category can count for anywhere between 20 and 30 points, and the _Final exam_  category can count for anywhere between 20 and 30 points.
+
+[Detailed information about grading](./CourseInformation/Grading.md) 
 
 ## Learning resources <!--HK_to_HK: done with this section-->
 
@@ -109,4 +121,3 @@ Nine Homework (HW) sets will be released and graded during the course. However, 
 * [Brown CAB](https://cab.brown.edu/)
 
 
-$x^2$
