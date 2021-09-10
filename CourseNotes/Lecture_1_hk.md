@@ -9,7 +9,7 @@ _Underformed length_: The bar's largest dimension is referred to as its length, 
 _Axial force_:  The forces on a bar, by its very definition, are parallel to its axis (see Figure _force_)
 
 _End faces_ We refer to the bar as $\mathcal{B}$, to its left end as $\Gamma^{\mathscr{g}}$ and its right face as $\Gamma^{\mathscr{h}}$. 
-The end faces are typically parallel to each other other and perpendicular to the bar's axis. The vector $\hat{\boldsymbol{E}}_{\rm a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal we mean that $\hat{\boldsymbol{E}}_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter and towards the outside.
+The end faces are typically parallel to each other other and perpendicular to the bar's axis. The vector $\hat{\boldsymbol{E}}_{a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal we mean that $\hat{\boldsymbol{E}}_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter and towards the outside.
 
 _Lateral surface_ Leaving the end faces the remainder of the surface of $\mathcal{B}$ is called the lateral surface.
 
