@@ -9,7 +9,7 @@ _Underformed length_: The bar's largest dimension is referred to as its length, 
 _Axial force_:  The forces on a bar, by its very definition, are parallel to its axis (see Figure _force_)
 
 _End faces_ We refer to the bar as $\mathcal{B}$, to its left end as $\Gamma^{\mathscr{g}}$ and its right face as $\Gamma^{\mathscr{h}}$. 
-The end faces are typically parallel to each other other and perpendicular to the bar's axis. The vector $\hat{\boldsymbol{E}}_{a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal we mean that $\hat{\boldsymbol{E}}_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter and towards the outside.
+The end faces are typically parallel to each other other and perpendicular to the bar's axis. The vector $ \hat{\boldsymbol{E}}_{\\rm a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal we mean that $\hat{\boldsymbol{E}}_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter and towards the outside.
 
 _Lateral surface_ Leaving the end faces the remainder of the surface of $\mathcal{B}$ is called the lateral surface.
 
@@ -24,8 +24,7 @@ The vector $\hat{\boldsymbol{n}}^{1}$ is (outward) normal to $S^1$. By normal we
 
 Note that $\hat{\boldsymbol{n}}^{1}=-\hat{\boldsymbol{n}}^{2}$
 
-Let the net force acting on the bars right end face, $\Gamma^{\mathscr{h}}$, be $\boldsymbol{F}_{\rm a}=F\
-hat{\boldsymbol{E}}_{a}$. From equilibrium it follows that the force acting on the bar's left face, $\Gamma^{\mathscr{g}}$, is $-\boldsymbol{F}_{\rm a}$. When we $F>0$ we say the bar is under tension, and when $F<0$ we say that the bar is under compression.
+Let the net force acting on the bars right end face, $\Gamma^{\mathscr{h}}$, be $ \mathbf{F}_{\rm a}=F \hat{\mathbf{E}}_{a}$. From equilibrium it follows that the force acting on the bar's left face, $\Gamma^{\mathscr{g}}$, is $-\boldsymbol{F}_{\rm a}$. When we $F>0$ we say the bar is under tension, and when $F<0$ we say that the bar is under compression.
 
 
 Let the position vector of the $\Gamma^{\mathscr{h}}$'s centeroid before any forces are applied to the bar be $\boldsymbol{X}$. On choosing the origin of the physical space $\mathcal{E}^3$ to origin to be located at the centeroid of the bar's left face, we gave that $\boldsymbol{X}=L\hat{\boldsymbol{E}}_{\rm a}$, and after the application of force be $\boldsymbol{x}=l\hat{\boldsymbol{E}}_{\rm a}$. The vector $\boldsymbol{u}=\boldsymbol{x}-\boldsymbol{X}$ is called the displacement of the bar's right face w.r.t to its left face, and $\boldsymbol{u}⋅ \hat{\boldsymbol{E}}_{a}=: \delta$ is called the bar's change in length (length change). When $\delta>0$ we say that the bar has been strecthed, and $\delta$ is called extension, and when  $\delta<0$ we say that the bar has been compressed, and $\delta$ is called compression.
