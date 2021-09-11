@@ -39,6 +39,9 @@ $$
 \end{equation}
 $$
 
+<p>
+
+
 1. Consider a solid cylindrical titanium alloy bar of length 15 cm, whose cross-section is a circle of diameter $2~\rm{cm}$ and  $\delta=90~\rm{\mu m}$. 
  (i). What is the stress in the bar?
  (ii). What is the force acting on the bar?  
@@ -70,6 +73,8 @@ $$
 
 <p align="center">
     <img src="HW1-9.png" alt="drawing" width="300"/>
+<p/>
+
 <p/>
 
 
