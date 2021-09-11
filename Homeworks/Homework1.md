@@ -41,18 +41,20 @@ $$
 
 
 1. Determine the  force on a solid cylindrical titanium alloy bar of length 15 cm, whose cross-section is a circle of diameter $2~\rm{cm}$ and  $\delta=90~\rm{\mu m}$. 
-</br>
+<br/>
 
 2. Determine the elongation $\delta$ when the  stress in a $25~\rm{cm}$ long steel bar is equal to $100~\rm{MPa}$. Note that we have not specified what the shape of the bar's cross-section is. That is because the answer will not depend on the shape, or in this current problem, size, of the bar's cross-section. 
 
-</br>
+<br/>
 
 3. (i) We call the ratio $\delta/L$ the unit elongation/strain. What is the ratio of Young's modulus $E$ of the materials of two bars if the bars are of the same size and their unit elongations are in the ratio 5/3 when subjected to equal tensile loading?
 
     (ii) Determine the elongations in each bar if one is made of steel, the other is made of titanium alloy, and the tensile stress is $50~\rm{MPa}$.
-</br>
-4. A piece of wire, with circular cross-section, $6~\rm{mm}$ thick and $30~\rm{m}$ long is subjected to a tensile force $P = 5~\rm{kN}$. If the wire elongates by $2~\rm{cm}$, what is its Young's modulus?
-</br>
+<br/>
+
+5. 4. A piece of wire, with circular cross-section, $6~\rm{mm}$ thick and $30~\rm{m}$ long is subjected to a tensile force $P = 5~\rm{kN}$. If the wire elongates by $2~\rm{cm}$, what is its Young's modulus?
+<br/>
+
 5. (i) Determine the diameter $d$ of the steel bolts of circular cross-section (marked as $N$ in the below Figure) of a press for a maximum compressive force $P = 490~\rm{kN}$, if the tensile strength (working stress) for steel bars  is $\sigma_w = 70~\rm{MPa}$. The tensile strength is defined to be the critical value for $\sigma$ on which the bar would fail if exceeded.
 
     (ii) Determine the elongation $\delta$　of the bolts at the maximum load, if the length between their heads is $L = 125~\rm{cm}$.
