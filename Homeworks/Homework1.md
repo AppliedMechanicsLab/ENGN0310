@@ -28,7 +28,7 @@
 
 
 
-  In the context of the bar, the  stress $\sigma$ along the bar's length is defined to be the ratio $F/A$, where as discussed in class, $F\hat{\boldsymbol{E}}_{a}$ is the force acting on the bar's right end face $\Gamma^{\mathscr{h}}$, and $A$ is the area of the bar's cross-section. The units of $\sigma$ are the same as those of $E$ (the Young's modulus) which are $\rm N/m^2$.  
+  In the context of the bar, the  stress $\sigma$ along the bar's length is defined to be the ratio $F/A$, where as discussed in class, $F\hat{\boldsymbol{E}}_{a}$ is the force acting on the bar's right end face $\Gamma^{\mathscr{h}}$, and $A$ is the area of the bar's cross-section. The units of $\sigma$ are the same as those of $E$ (the Young's modulus) which are $\rm N/m^2$. One Pascal of stress, or 1 Pa, is $1~\rm N/m^2$ amount of stress.  One Giga-Pascal of stress, or one GPa is $10^9~\rm N/m^2$ amount of stress. 
   
   The ratio $F/\delta$ is called the bar's stiffness, $k$. It has units of $\rm N/m$.
 
@@ -40,7 +40,9 @@ $$
 $$
 
 
-1. Determine the  force on a solid cylindrical titanium alloy bar of length 15 cm, whose cross-section is a circle of diameter $2~\rm{cm}$ and  $\delta=90~\rm{\mu m}$. 
+1. Consider a solid cylindrical titanium alloy bar of length 15 cm, whose cross-section is a circle of diameter $2~\rm{cm}$ and  $\delta=90~\rm{\mu m}$. 
+ (i). What is the stress in the bar?
+ (ii). What is the force acting on the bar?  
 <br/>
 
 2. Determine the elongation $\delta$ when the  stress in a $25~\rm{cm}$ long steel bar is equal to $100~\rm{MPa}$. Note that we have not specified what the shape of the bar's cross-section is. That is because the answer will not depend on the shape, or in this current problem, size, of the bar's cross-section. 
@@ -66,7 +68,7 @@ $$
 <!-- 6. A structure consisting of two equal steel bars 5 meters long and with hinged ends is submitted to the action of a vertical load P. Determine the necessary cross sectional areas of the bars and the deflection of the point $B$ ($BB'$) when $P = 20~\rm{kN}$ and the working stress is $\sigma_w = 70~\rm{MPa}$.The initial angle of inclination of the bars is $\theta = 30~\degree$.  -->
 
 
-6. A spring with stiffness $k$ is encased in a tube of length $L$, which is shorter than the spring by length $h$. Derive an expression for the compression $\delta$ of the tube when the spring is compressed by an axial load $P$ applied to the plate. Assume that the tube has an inner diameter $d_i$, outer diameter $d_o$, and Young's modulus $E$. You may ignore the mass of the plate. Hint: You will have to consider two scenarios, the first in which the force is so small (however, still non-zero) such that the plate does not come into contact with the tube's top surface, and the second in which it does.
+6. A spring with stiffness $k$ is encased in a tube of length $L$, which is shorter than the spring by length $h$. Derive an expression for the compression $\delta$ of the tube when the spring is compressed by an axial load $\boldsymbol{F}=-P \hat{\boldsymbol{E}}_{a}$ applied to the plate. Assume that the tube has an inner diameter $d_i$, outer diameter $d_o$, and Young's modulus $E$. You may ignore the mass of the plate. **Hint:** You will have to consider two scenarios, the first in which the force is so small (however, still non-zero) such that the plate does not come into contact with the tube's top surface, and the second in which it does.
 
 7. Imagine that the top plate is compressed to get it into contact with the tube's top surface and then the two of them are welded together. After the welding operation the applied force on the plate is removed. What will be the stress in the tube in this final state. 
 
