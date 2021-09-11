@@ -92,7 +92,7 @@ Nine Homework (HW) sets will be released and graded during the course. However, 
 
 <!-- AB_TODO: Please update the above paragraph based on your latest schedule. Also update this HW schedule in the course calendar, the one that shows up on the home page of the course website -->
 
-<!-- *  [Home works](Homeworks/index.md) -->
+ *  [Homeworks](Homeworks/index.md)
 
 ## Exams
 
