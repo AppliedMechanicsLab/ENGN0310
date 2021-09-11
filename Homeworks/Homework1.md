@@ -9,7 +9,7 @@
 
 
 
-> Please upload your assignment to Canvas.
+> Please upload your assignment to Canvas.<br/>
 > Contact Sayaka_Kochiyama@brown.edu if you have questions about the below problems.   
 
 
@@ -17,7 +17,7 @@
 
 #### Additional concepts needed for solving the HW problems
 
-<center>
+
 
 | Materials      | $E ~(\rm{GPa})$ |
 |----------------|-----------------|
@@ -25,7 +25,7 @@
 | Titanium alloy | 120             |
 
 
-</center>
+
 
 
   In the context of the bar, the  stress $\sigma$ along the bar's length is defined to be the ratio $F/A$, where as discussed in class, $F\hat{\boldsymbol{E}}_{a}$ is the force acting on the bar's right end face $\Gamma^{\mathscr{h}}$, and $A$ is the area of the bar's cross-section. The units of $\sigma$ are the same as those of $E$ (the Young's modulus) which are $\rm N/m^2$.  
@@ -68,7 +68,7 @@ $$
 
 6. A spring with stiffness $k$ is encased in a tube of length $L$, which is shorter than the spring by length $h$. Derive an expression for the compression $\delta$ of the tube when the spring is compressed by an axial load $P$ applied to the plate. Assume that the tube has an inner diameter $d_i$, outer diameter $d_o$, and Young's modulus $E$. You may ignore the mass of the plate. Hint: You will have to consider two scenarios, the first in which the force is so small (however, still non-zero) such that the plate does not come into contact with the tube's top surface, and the second in which it does.
 
-8. Imagine that the top plate is compressed to get it into contact with the tube's top surface and then the two of them are welded together. After the welding operation the applied force on the plate is removed. What will be the stress in the tube in this final state. 
+7. Imagine that the top plate is compressed to get it into contact with the tube's top surface and then the two of them are welded together. After the welding operation the applied force on the plate is removed. What will be the stress in the tube in this final state. 
 
 <p align="center">
     <img src="HW1-9.png" alt="drawing" width="300"/>
