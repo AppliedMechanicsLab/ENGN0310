@@ -46,7 +46,6 @@ $$
 <br/>
 
 2. Determine the elongation $\delta$ when the  stress in a $25~\rm{cm}$ long steel bar is equal to $100~\rm{MPa}$. Note that we have not specified what the shape of the bar's cross-section is. That is because the answer will not depend on the shape, or in this current problem, size, of the bar's cross-section. 
-
 <br/>
 
 3. (i) We call the ratio $\delta/L$ the unit elongation/strain. What is the ratio of Young's modulus $E$ of the materials of two bars if the bars are of the same size and their unit elongations are in the ratio 5/3 when subjected to equal tensile loading?
@@ -69,6 +68,7 @@ $$
 
 
 6. A spring with stiffness $k$ is encased in a tube of length $L$, which is shorter than the spring by length $h$. Derive an expression for the compression $\delta$ of the tube when the spring is compressed by an axial load $\boldsymbol{F}=-P \hat{\boldsymbol{E}}_{a}$ applied to the plate. Assume that the tube has an inner diameter $d_i$, outer diameter $d_o$, and Young's modulus $E$. You may ignore the mass of the plate. **Hint:** You will have to consider two scenarios, the first in which the force is so small (however, still non-zero) such that the plate does not come into contact with the tube's top surface, and the second in which it does.
+<br/>
 
 7. Imagine that the top plate is compressed to get it into contact with the tube's top surface and then the two of them are welded together. After the welding operation the applied force on the plate is removed. What will be the stress in the tube in this final state?
 
