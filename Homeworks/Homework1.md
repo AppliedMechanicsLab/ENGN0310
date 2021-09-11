@@ -28,7 +28,7 @@
 
 
 
-  In the context of the bar, the  stress $\sigma$ along the bar's length is defined to be the ratio $F/A$, where as discussed in class, $F\hat{\boldsymbol{E}}_{a}$ is the force acting on the bar's right end face $\Gamma^{\mathscr{h}}$, and $A$ is the area of the bar's cross-section. The units of $\sigma$ are the same as those of $E$ (the Young's modulus) which are $\rm N/m^2$. One Pascal of stress, or 1 Pa, is $1~\rm N/m^2$ amount of stress.  One Giga-Pascal of stress, or one GPa is $10^9~\rm N/m^2$ amount of stress. 
+  In the context of the bar, the  stress $\sigma$ along the bar's length is defined to be the ratio $F/A$, where as discussed in class, $F\hat{\boldsymbol{E}}_{a}$ is the force acting on the bar's right end face $\Gamma^{\mathscr{h}}$, and $A$ is the area of the bar's cross-section. The units of $\sigma$ are the same as those of $E$ (the Young's modulus) which are $\rm N/m^2$. One Pascal of stress, or $1~rm{Pa}$, is $1~\rm N/m^2$ amount of stress.  One Giga-Pascal of stress, or $1~\rm{GPa}$ is $10^9~\rm N/m^2$ amount of stress. 
   
   The ratio $F/\delta$ is called the bar's stiffness, $k$. It has units of $\rm N/m$.
 
