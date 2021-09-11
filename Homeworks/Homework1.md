@@ -59,16 +59,16 @@ $$
 5. (i) Determine the diameter $d$ of the steel bolts of circular cross-section (marked as $N$ in the below Figure) of a press for a maximum compressive force $P = 490~\rm{kN}$, if the tensile strength (working stress) for steel bars  is $\sigma_w = 70~\rm{MPa}$. The tensile strength is defined to be the critical value for $\sigma$ on which the bar would fail if exceeded.
 
     (ii) Determine the elongation $\delta$ of the bolts at the maximum load, if the length between their heads is $L = 125~\rm{cm}$.
-<center>
-    <img src="HW1-8.png" alt="drawing" width="200"/>
-</center>
+    <center>
+        <img src="HW1-8.png" alt="drawing" width="200"/>
+    </center>
 <br/>
 
 6. A spring with stiffness $k$ is encased in a tube of length $L$, which is shorter than the spring by length $h$. Derive an expression for the compression $\delta$ of the tube when the spring is compressed by an axial load $\boldsymbol{F}=-P \hat{\boldsymbol{E}}_{a}$ applied to the plate. Assume that the tube has an inner diameter $d_i$, outer diameter $d_o$, and Young's modulus $E$. You may ignore the mass of the plate. **Hint:** You will have to consider two scenarios, the first in which the force is so small (however, still non-zero) such that the plate does not come into contact with the tube's top surface, and the second in which it does.
 
-<center>
-    <img src="HW1-9.png" alt="drawing" width="300"/>
-</center>
+    <center>
+     <img src="HW1-9.png" alt="drawing" width="300"/>
+    </center>
 <br/>
 
 7. Imagine that the top plate is compressed to get it into contact with the tube's top surface and then the two of them are welded together. After the welding operation the applied force on the plate is removed. What will be the stress in the tube in this final state?
