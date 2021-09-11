@@ -39,8 +39,6 @@ $$
 \end{equation}
 $$
 
-<p>
-
 
 1. Consider a solid cylindrical titanium alloy bar of length 15 cm, whose cross-section is a circle of diameter $2~\rm{cm}$ and  $\delta=90~\rm{\mu m}$. 
  (i). What is the stress in the bar?
@@ -62,9 +60,9 @@ $$
 
     (ii) Determine the elongation $\delta$ of the bolts at the maximum load, if the length between their heads is $L = 125~\rm{cm}$.
 
-<p align="center">
+<center>
     <img src="HW1-8.png" alt="drawing" width="200"/>
-<p/>
+<center/>
 
 6. A spring with stiffness $k$ is encased in a tube of length $L$, which is shorter than the spring by length $h$. Derive an expression for the compression $\delta$ of the tube when the spring is compressed by an axial load $\boldsymbol{F}=-P \hat{\boldsymbol{E}}_{a}$ applied to the plate. Assume that the tube has an inner diameter $d_i$, outer diameter $d_o$, and Young's modulus $E$. You may ignore the mass of the plate. **Hint:** You will have to consider two scenarios, the first in which the force is so small (however, still non-zero) such that the plate does not come into contact with the tube's top surface, and the second in which it does.
 <br/>
@@ -75,7 +73,7 @@ $$
     <img src="HW1-9.png" alt="drawing" width="300"/>
 <p/>
 
-<p/>
+
 
 
 <!-- 6. A structure consisting of two equal steel bars 5 meters long and with hinged ends is submitted to the action of a vertical load P. Determine the necessary cross sectional areas of the bars and the deflection of the point $B$ ($BB'$) when $P = 20~\rm{kN}$ and the working stress is $\sigma_w = 70~\rm{MPa}$.The initial angle of inclination of the bars is $\theta = 30~\degree$.  -->
