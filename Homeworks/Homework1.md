@@ -60,7 +60,7 @@ $$
 
     (ii) Determine the elongation $\delta$ of the bolts at the maximum load, if the length between their heads is $L = 125~\rm{cm}$.
     <center>
-        <img src="HW1-8.png" alt="drawing" width="200"/>
+     <img src="HW1-8.png" alt="drawing" width="200"/>
     </center>
 <br/>
 
