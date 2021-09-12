@@ -69,7 +69,6 @@ The constant in the above limit depends on the material composing the bar and it
 
 
 
-#### To do
 
 <!-- 
 TODO: The compression of the chair. 
