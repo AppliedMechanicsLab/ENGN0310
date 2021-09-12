@@ -4,7 +4,9 @@
 
 
 
-![](2021-09-11-22-45-30.png)
+
+![Bar](2021-09-11-22-50-32.png)
+
 _Bar_ A bar is a mechanical structure whose dimensions in one direction are typically much longer than its other dimensions. The directions of the bar's largest dimension are referred to as the bar's axial's directions, or the bar's axis, $ \hat{\boldsymbol{E}}\_{\rm a}$.  The primary mechanical function of a bar is to transmit forces along its length, or its axis.
 
 _Underformed length_: The bar's largest dimension is referred to as its length, $L$. This length is also referred to as the bar's unformed length. Since, that will be the length we will measure when there are no forces acting on the bar.

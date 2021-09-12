@@ -53,7 +53,8 @@ The room BH 751 is likely going to be changed in the future.
 
 #### Syllabus
 
-Mechanical behavior of materials and analysis of stress and deformation in engineering structures and continuous media. Topics include concepts of stress and strain; the elastic, plastic, and time-dependent response of materials; principles of structural analysis and application to simple bar structures, beam theory, instability and buckling, torsion of shafts; general three-dimensional states of stress; Mohr's circle; stress concentrations. Lectures, recitations, and laboratory. Prerequisite: ENGN 0030.
+Mechanical behavior of materials and analysis of stress and deformation in engineering structures and continuous media. Topics include concepts of stress and strain; the elastic, plastic, and time-dependent response of materials; principles of structural analysis and application to simple bar structures, beam theory, instability and buckling, torsion of shafts; general three-dimensional states of stress; Mohr's circle; stress concentrations. Lecture
+s, recitations, and laboratory. Prerequisite: ENGN 0030.
 
 [Detailed syllabus and teaching schedule](CourseNotes/CourseTopics.md)
 
@@ -74,7 +75,8 @@ Each student will have some flexibility in deciding how the total points for the
 
 #### Lecture Notes
 
-* [Lecture Notes](CourseNotes/CourseTopics.md)
+
+* [Lecture Notes](CourseNotes/index.md)
 
 #### Software
 * Mathematica 
