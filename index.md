@@ -75,9 +75,13 @@ Each student will have some flexibility in deciding how the total points for the
 
 #### Lectures
 
+* :balloon::new::balloon: [Lecture schedule and links to video recordings of lectures ](CourseNotes/CourseTopics.md)
+* :balloon::new::balloon: [Instructor's notes (by topic), on which the lectures are based](CourseNotes/index.md)
 
-* [Lecture schedule and links to video recordings of lectures ](CourseNotes/CourseTopics.md)
-* [Lecture schedule and links to video recordings of lectures ]
+
+#### Textbook and referece books
+
+
 
 #### Software
 * Mathematica 
