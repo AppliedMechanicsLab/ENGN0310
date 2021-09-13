@@ -13,3 +13,4 @@ mathjax: true
 plugins:
   - jekyll-seo-tag
   - jekyll-environment-variables
+  - jemoji
