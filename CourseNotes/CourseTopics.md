@@ -24,7 +24,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 |Lecture | Day/Date| tentative topics | Link to video recording|
 |----------------|----------------|----------------|-------|
 | [Lecture1](Lecture_1.md) | Sep 08, Wed | Course information. |Recording not available|
-| [Lecture2](Lecture_2.md) | Sep 10, Fri | Bars |[Link](https://www.dropbox.com/s/dmyis07ps4uvovy/zoom_0.mp4?dl=0). Black board not viscible.|
+| [Lecture2](Lecture_2.md) | Sep 10, Fri | Bars |[Link](https://www.dropbox.com/sh/iaydi3p18gm5mp5/AADvcdZVd6ImaMcPrSiL6MtRa?dl=0). Black board not viscible.|
 | [Lecture3](Lecture_3.md) | Sep 13, Mon | Bars |[Recorded video+audio](https://www.dropbox.com/sh/as2gnbrb7fzkr3d/AAB_h7GD2anBSG-3P0jMTdhKa?dl=0)|
 | [Lecture4](Lecture_4.md) | Sep 15, Wed | Bars ||
 | [Lecture5](Lecture_5.md) | Sep 17, Fri | Torsion ||

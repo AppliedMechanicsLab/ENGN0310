@@ -73,10 +73,11 @@ Each student will have some flexibility in deciding how the total points for the
 
 ## Learning resources <!--HK_to_HK: done with this section-->
 
-#### Lecture Notes
+#### Lectures
 
 
-* [Lecture Notes](CourseNotes/CourseTopics.md)
+* [Lecture schedule and links to video recordings of lectures ](CourseNotes/CourseTopics.md)
+* [Lecture schedule and links to video recordings of lectures ]
 
 #### Software
 * Mathematica 
@@ -85,7 +86,7 @@ Each student will have some flexibility in deciding how the total points for the
 
 Python, Matlab, Maple, etc. can also be used for the HWs and exams. However, the lectures and recitations will be carried out solely using Mathematica. Questions related to Python, Matlab can asked during the Instructor or TA office hours.   
 
-<!-- AB_TODO : If you know any good online resources to learn Python and/or Matlab please  include them here. Delete this TODO in you have read it -->
+
 
 
 ## Homeworks <!-- HK_to_HK: HK done with this section -->
