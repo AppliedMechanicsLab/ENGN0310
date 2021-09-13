@@ -76,7 +76,7 @@ Each student will have some flexibility in deciding how the total points for the
 #### Lecture Notes
 
 
-* [Lecture Notes](CourseNotes/index.md)
+* [Lecture Notes](CourseNotes/CourseTopics.md)
 
 #### Software
 * Mathematica 
