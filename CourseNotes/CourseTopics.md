@@ -3,7 +3,7 @@
 
 # Lectures
 
-## Allan discussion
+
 
 <!-- Bars (Springs)
 Torsion
