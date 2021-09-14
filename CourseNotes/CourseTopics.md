@@ -25,7 +25,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 |----------------|----------------|----------------|-------|------------|
 | [Lecture1](Lecture_1.md) | Sep 08, Wed | Course information. |Lecture not recorded||
 | [Lecture2](Lecture_2.md) | Sep 10, Fri | Bars |[Link](https://www.dropbox.com/sh/iaydi3p18gm5mp5/AADvcdZVd6ImaMcPrSiL6MtRa?dl=0). Black board and Projector screen not visible.||
-| [Lecture3](Lecture_3.md) | Sep 13, Mon | Bars |[Recorded video+audio](https://www.dropbox.com/sh/as2gnbrb7fzkr3d/AAB_h7GD2anBSG-3P0jMTdhKa?dl=0). Projector screen not visible| [chair leg compression calculation](/WFiles/ChairLegCompression.nb)|
+| [Lecture3](Lecture_3.md) | Sep 13, Mon | Bars |[Recorded video+audio](https://www.dropbox.com/sh/as2gnbrb7fzkr3d/AAB_h7GD2anBSG-3P0jMTdhKa?dl=0). Projector screen not visible| [chair leg compression calculation](WFiles/ChairLegCompression.nb)|
 | Recitation 1 | Sep 14, Tuesday | Bars | [Part 1](https://brown.zoom.us/rec/share/JkcfYkay_wd5uf3dC8Y0VEdQ1x-SaVE6grVDuEXper8zgxIiM9HGgXDYhQxY0-T4.qD4L8y2yI97duA_t?startTime=1631635347000). [Part 2](https://brown.zoom.us/rec/share/Qs-tbWQ3lktWWx223jd09n-_TSUddnLuMZ_jEHR5vnsRoGexRNx9BAW4fk3BKe8.8LA5r9WvYK5GfxzS?startTime=1631637309000).||
 | [Lecture4](Lecture_4.md) | Sep 15, Wed | Bars |||
 | [Lecture5](Lecture_5.md) | Sep 17, Fri | Torsion |||
