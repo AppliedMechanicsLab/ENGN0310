@@ -28,7 +28,7 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
 #### Office hours 
 
 *  H. Kesari
-    - Friday 2:00-5:00 pm in BH 751.
+    - Friday 2:00-5:00 pm in BH 744.
     - Tuesday 12:50-1:50 pm in BH 158.
 
 * Sayaka Kochiyama
