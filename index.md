@@ -36,8 +36,8 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
    - Thursday  2:00-5:00 in BH 751
 
 * Andrew Bagnoli
-   - Thursday  12:00-1:00 in BH 751
-   -  Friday   2:00-5:00  in BH 751
+   - Thursday  4:00-5:00 in BH 158
+   -  Friday   2:00-5:00  in ERC 125
 
 * Benjamin Grossman-Ponemon
    - TBD
