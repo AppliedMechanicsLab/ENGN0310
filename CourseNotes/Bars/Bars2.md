@@ -18,22 +18,22 @@ $$
 \end{equation}
 $$
 
-
-We define $\delta$ to be the magnitude of $\boldsymbol{u}(\mathcal{C})$, i.e., 
-
+We define $\delta$ to be
 $$
 \begin{equation}
-\delta := \left|\left|\boldsymbol{u}(\mathcal{C})\right|\right|.
+\delta := \boldsymbol{u}(\mathcal{C})⋅ \hat{\boldsymbol{E}}\_{a},
+\end{equation}
+$$
+where the dot in the above equation denotes the "dot product between vectors." It follows from the last two equations that
+$$
+\begin{equation}
+\delta = l-L.
 \label{eq:two}
 \end{equation}
 $$ 
 
-It follows from the equations $\eqref{eq:one}$ and $\eqref{eq:two}$ that
-$$
-\begin{equation}
-\delta := \boldsymbol{u}(\mathcal{C})⋅ \hat{\boldsymbol{E}}\_{a}
-\end{equation}
-$$ 
+
+
 or equivalently 
 
 is called the bar's change in length (length change
