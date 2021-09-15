@@ -27,15 +27,34 @@ $$
 where the dot in the above equation denotes the "dot product between vectors." It follows from the last two equations that
 $$
 \begin{equation}
-\delta = l-L.
+\delta = l-L,
 \label{eq:two}
 \end{equation}
 $$ 
+which matches our rudimentary definition for $\delta$. 
+
+#### Using the position vectors of particles when the solid is undeformed as their names, and as a means of referring to them
+
+There are a lot more points on $\mathcal{B}_{\rm ref}$ other then just $\mathcal{C}$. We will soon run of letters to name them all. Therefore we following strategy to name all the materials particle composing the solid $\mathcal{B}_{\rm Ref}$. Since each of the materials particle  have a unique position vector when the bar is undeformed we can infact use those position vectors to refer to them. That is, say the particle $\mathcal{P}$ has the position vector $\boldsymbol{P}$ in the reference configuration $\mathcal{B}_{\rm ref}$. Then instead of saying the material particle $\mathcal{P}$ we can just start saying the material particle $\boldsymbol{P}$.  Be prepared, as we are quickly going to be putting this naming convention to use.  
 
 
+The material particle $\boldsymbol{X}$ (That is a material particle which when the bar is undeformed has the position vector $\boldsymbol{X}$) has the new position vector $\boldsymbol{x}(\boldsymbol{X})$ when the bar is deformed. We will call the vector 
 
-or equivalently 
+$$
+\begin{equation}
+\boldsymbol{u}(\boldsymbol{X}):=\boldsymbol{x}(\boldsymbol{X})-\boldsymbol{X}
+\end{equation}
+$$
+the displacement vector of $\boldsymbol{X}$, and the function $\boldsymbol{u} :\mathcal{B}_{\rm Ref}\to \mathcal{B}$ the displacement field.
 
+When the bar remains aligned with $\hat{\boldsymbol{E}}\_a$ before and after deformation, we can define the scalr dispplacement field $u:[0,L]\to [0,l]$ as,
+$$
+\begin{equation}
+u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}\_a).\boldsymbol{E}
+\end{equation}
+$$
+
+<!-- 
 is called the bar's change in length (length change
 ). When $\delta>0$ we say that the bar has been stretched, and $\delta$ is called extension, and when  $\delta<0$ we say that the bar has been compressed, and $\delta$ is called compression.
 
@@ -48,4 +67,4 @@ As we can see from the above discussion the
 ![](2021-09-11-23-51-41.png)
 
 
-![](2021-09-15-13-08-56.png)
+![](2021-09-15-13-08-56.png) -->
