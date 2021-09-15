@@ -32,12 +32,12 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
     - Tuesday 12:50-1:50 pm in BH 158.
 
 * Sayaka Kochiyama
-   - Wednesday 12:00-1:00 in BH 751     
+   - Wednesday 12:00-1:00 in ERC125    
    - Thursday  2:00-5:00 in BH 751
 
 * Andrew Bagnoli
-   - Thursday  12:00-1:00 in BH 751
-   -  Friday   2:00-5:00  in BH 751
+   - Thursday  4:00-5:00 in BH 158
+   -  Friday   2:00-5:00  in ERC 125
 
 * Benjamin Grossman-Ponemon
    - TBD
