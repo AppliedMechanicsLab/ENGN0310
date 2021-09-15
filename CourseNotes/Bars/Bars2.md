@@ -1,8 +1,5 @@
 {% include mathjax_support %}
 {% include command %}
-{%
-\newcommand{\nrm}{\left|\left| #1 \right|\right|}
-%}
 
 ##### Displacment field
 
