@@ -2,10 +2,6 @@
 #### Structures
  
 * [Bars. Constant cross-sectional area](Bars/Bars.md)
-* [Displacement field](Bars/Bars2.md)
+    * [Displacement field](Bars/Bars2.md)
+    * [Proof of Proof of  $ \lim_{\epsilon\to 0}\frac{1}{\epsilon}\int_{a}^{a+\epsilon}f(\xi)\, d\xi=f(a)$](Bars/Leibnitz.md)
 
-<!-- * [Bars. Variable cross-sectional area and Young's modulus](Bars/Bars2.md)
-* [Bars. Body force.](Bars/Bars3.md)
-* Rods
-* Pressure vessels
-* Beams
