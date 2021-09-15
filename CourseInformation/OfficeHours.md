@@ -7,10 +7,10 @@
 
 ### Andrew Bagnoli
 
-| Day     | Time      |
-|---------|-----------|
-| Thursday | 12:00-1:00 |
-| Friday  | 2:00-5:00 |
+| Day     | Time      | Location |
+|---------|-----------|-----------|
+| Thursday | 4:00-5:00 | BH 158|
+| Friday  | 2:00-5:00 |ERC 125  |
 
 Email: Andrew_Bagnoli@brown.edu <br/>
 Office: Arnold Lab 322
