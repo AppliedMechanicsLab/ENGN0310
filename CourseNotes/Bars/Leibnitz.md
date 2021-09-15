@@ -1,3 +1,7 @@
+{% include mathjax_support %}
+{% include command %}
+
+
 # Proof of  $ \lim_{\epsilon\to 0}\frac{1}{\epsilon}\int_{a}^{a+\epsilon}f(\xi)\, d\xi=f(a)$
 
 
