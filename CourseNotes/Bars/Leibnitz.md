@@ -1,3 +1,4 @@
+
 {% include mathjax_support %}
 {% include command %}
 
@@ -25,11 +26,11 @@ F(a+\epsilon) - F(a) &= \int_{a}^{a+\epsilon} f(y) dy,\\
 \lim_{\epsilon \to 0^+}\frac{F(a+\epsilon) - F(a)}{\epsilon} &= \lim_{\epsilon \to 0^+}\frac{1}{\epsilon}\int_{a}^{a+\epsilon} f(y) dy
 \end{align}
 $$
-The term on the left hand side of the last equation is infact the  value of the right derivative of $F$  $a$. However, since $F$ is differentiable in $(b,c)$ the term is equal to $F'(a)$. Finally, since $F’(x) = f(x)$ we get that
+The term on the left hand side of the last equation is infact the  value of the right derivative of $F$ at $a$. However, since $F$ is differentiable in $(b,c)$ the term is equal to $F'(a)$. Finally, since $F’(x) = f(x)$ we get that
 
 $$
 \begin{align}
-f(a)=\lim_{\epsilon \to 0^+}\frac{1}{\epsilon}\int_{a}^{a+\epsilon} f(y) dy
+f(a)=\lim_{\epsilon \to 0^+}\frac{1}{\epsilon}\int_{a}^{a+\epsilon} f(y) dy.
 \end{align}
 $$
 
