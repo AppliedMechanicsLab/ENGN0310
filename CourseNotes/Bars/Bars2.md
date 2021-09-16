@@ -12,14 +12,14 @@ Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, $\mathcal{C}$,
 
 $$
 \begin{equation}
-\boldsymbol{u}(\mathcal{C})=(l-L) \hat{\boldsymbol{E}}\_{\rm a}.
+\boldsymbol{u}(\mathcal{C})=(l-L) \hat{\boldsymbol{E}}_{\rm a}.
 \end{equation}
 $$
 
 We define $\delta$ to be
 $$
 \begin{equation}
-\delta := \boldsymbol{u}(\mathcal{C})⋅ \hat{\boldsymbol{E}}\_{\rm a},
+\delta := \boldsymbol{u}(\mathcal{C})⋅ \hat{\boldsymbol{E}}_{\rm a},
 \end{equation}
 $$
 
@@ -55,7 +55,7 @@ the displacement vector of $\boldsymbol{X}$, and the function $\boldsymbol{u} :\
 When the bar remains aligned with $\hat{\boldsymbol{E}}\_{\rm a}$ before and after deformation, we can define the scalar displacement field $u:[0,L]\to [0,l]$ as,
 $$
 \begin{equation}
-u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}\_{\rm a}).\boldsymbol{E}\_{\rm a}
+u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}_{\rm a}).\boldsymbol{E}_{\rm a}
 \end{equation}
 $$
 
