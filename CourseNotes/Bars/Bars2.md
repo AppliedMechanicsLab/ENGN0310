@@ -49,7 +49,7 @@ $$
 \boldsymbol{u}(\boldsymbol{X}):=\boldsymbol{x}(\boldsymbol{X})-\boldsymbol{X}
 \end{equation}
 $$
-the displacement vector of $\boldsymbol{X}$, and the function $\boldsymbol{u} :\mathcal{B}\_{\rm Ref}\to \mathcal{B}$ the displacement field. Carrying on the previous example, the gray material particle's displacement vector is $\boldsymbol{u}(^0\\!\boldsymbol{X})=^0\boldsymbol{x}- ^0\boldsymbol{X}$ ;  the red material particle's displacement vector $\boldsymbol{u}(^1\boldsymbol{X})=^1\boldsymbol{x}-^1\boldsymbol{X}$, the orange material particle's displacement vector is $\boldsymbol{u}(^2\boldsymbol{X})=^2\boldsymbol{x}-^2\boldsymbol{X}$, and so on.
+the displacement vector of $\boldsymbol{X}$, and the function $\boldsymbol{u} :\mathcal{B}\_{\rm Ref}\to \mathcal{B}$ the displacement field. Carrying on the previous example, the gray material particle's displacement vector is $\boldsymbol{u}(^0\\!\boldsymbol{X})=^\\!0\boldsymbol{x}- ^\\!0\boldsymbol{X}$ ;  the red material particle's displacement vector $\boldsymbol{u}(^\\!1\boldsymbol{X})=^\\!1\boldsymbol{x}-^\\!1\boldsymbol{X}$, the orange material particle's displacement vector is $\boldsymbol{u}(^\\!2\boldsymbol{X})=^\\!2\boldsymbol{x}-^\\!2\boldsymbol{X}$, and so on.
 
 When the bar remains aligned with $\hat{\boldsymbol{E}}\_a$ before and after deformation, we can define the scalar dispplacement field $u:[0,L]\to [0,l]$ as,
 $$
