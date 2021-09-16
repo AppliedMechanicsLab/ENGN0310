@@ -8,7 +8,7 @@ We have been talking about the change in length $\delta$ as the difference betwe
 
 ![](ClassNotes-7.jpg)
 
-Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, $\mathcal{C}$, before any forces are applied to the bar be $\boldsymbol{X}(\mathcal{C})$ (red arrow in the top panel of the above figure). On choosing the origin of the physical space $\mathcal{E}^3$ to be located at the centroid of the bar's left face, we get that $\boldsymbol{X}(\mathcal{C})=L\hat{\boldsymbol{E}}\_{\rm a}$, and after the application of force the position vector of the centroid becomes $\boldsymbol{x}(\mathcal{C})$. If the length of bar after deformation is $l$, then we can express the position vector of $\mathcal{C}$ in the deformed configuration as $\boldsymbol{x}(\mathcal{C})=l\hat{\boldsymbol{E}}\_{\rm a}$. The vector $\boldsymbol{u}(\mathcal{C})=\boldsymbol{x}(\mathcal{C})-\boldsymbol{X}(\mathcal{C})$ is called the displacement of the bar's right face. This displacement vector can be written as
+Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, $\mathcal{C}$, before any forces are applied to the bar, be $\boldsymbol{X}(\mathcal{C})$ (red arrow in the top panel of the above figure). On choosing the origin of the physical space $\mathcal{E}^3$ to be located at the centroid of the bar's left face, we get that $\boldsymbol{X}(\mathcal{C})=L\hat{\boldsymbol{E}}\_{\rm a}$, and after the application of force the position vector of the centroid becomes $\boldsymbol{x}(\mathcal{C})$. If the length of bar after deformation is $l$, then we can express the position vector of $\mathcal{C}$ in the deformed configuration as $\boldsymbol{x}(\mathcal{C})=l\hat{\boldsymbol{E}}\_{\rm a}$. The vector $\boldsymbol{u}(\mathcal{C})=\boldsymbol{x}(\mathcal{C})-\boldsymbol{X}(\mathcal{C})$ is called the displacement of the bar's right face. This displacement vector can be written as
 
 $$
 \begin{equation}
@@ -17,6 +17,7 @@ $$
 $$
 
 We define $\delta$ to be
+
 $$
 \begin{equation}
 \delta := \boldsymbol{u}(\mathcal{C})⋅ \hat{\boldsymbol{E}}_{\rm a},
@@ -24,11 +25,13 @@ $$
 $$
 
 where the dot in the above equation denotes the "dot product between vectors." It follows from the last two equations that
+
 $$
 \begin{equation}
 \delta = l-L,
 \end{equation}
 $$ 
+
 which matches our rudimentary definition for $\delta$. 
 
 #### Using the position vectors of particles when the solid is undeformed as their names
@@ -53,9 +56,10 @@ $$
 the displacement vector of $\boldsymbol{X}$, and the function $\boldsymbol{u} :\mathcal{B}\_{\rm Ref}\to \mathcal{B}$ the displacement field. Carrying on the previous example, the gray material particle's displacement vector is $\boldsymbol{u}(^0\\!\boldsymbol{X})=^0\\!\boldsymbol{x}- ^0\\!\boldsymbol{X}$ ;  the red material particle's displacement vector is $\boldsymbol{u}(^1\\!\boldsymbol{X})=^1\\!\boldsymbol{x}-^1\\!\boldsymbol{X}$, the orange material particle's displacement vector is $\boldsymbol{u}(^2\\!\boldsymbol{X})=^2\\!\boldsymbol{x}-^2\\!\boldsymbol{X}$, and so on.
 
 When the bar remains aligned with $\hat{\boldsymbol{E}}\_{\rm a}$ before and after deformation, we can define the scalar displacement field $u:[0,L]\to [0,l]$ as,
+
 $$
 \begin{equation}
-u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}_{\rm a}).\boldsymbol{E}_{\rm a}
+u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}_{\rm a})⋅ \boldsymbol{E}_{\rm a}
 \end{equation}
 $$
 
