@@ -15,8 +15,9 @@
 
 
 
-#### Additional concepts needed for solving the HW problems
+#### Concepts useful for solving the HW problems
 
+[Reference and deformed configurations. Reference and current position vectors of a material particle. Calling a  material particle by its reference position vector.](../CourseNotes/Bars/Bars2.md)
 
 
 #### Problem 1. 
@@ -33,7 +34,7 @@ A square prism of   rubber  is lying flat on a table. The length of prism is 5 c
   
   * Let's call the material particle that is  at the center of the prism's face that is touching the table $\mathcal{A}$. What is the position vector of $\mathcal{A}$? Express it in terms of $\hat{\boldsymbol{E}}_1$, $\hat{\boldsymbol{E}}_2$. and $\hat{\boldsymbol{E}}_3$.  
 
-The prism is now streched along its axis to that its length increases to 8 cm. The left and right faces still remain squares, and the top, bottom, front, and back faces still remain rectangles. The material particles that were at the centers of the faces when the prism was undeformed are at, respective centers of the deformed faces as well. The origin does not move as the prism is deformed. The bottom face of the prims still remains in contact with the table's top surface. 
+* The prism is now streched along its axis to that its length increases to 8 cm. The left and right faces still remain squares, and the top, bottom, front, and back faces still remain rectangles. The material particles that were at the centers of the faces when the prism was undeformed are at, respective centers of the deformed faces as well. The origin does not move as the prism is deformed. The bottom face of the prims still remains in contact with the table's top surface. 
 
 3. Draw a 2D view of a  the prism's deformed configuration, $\mathcal{B}$, when viewed from the $\hat{\boldsymbol{E}}_3$ direction.
 
