@@ -1,3 +1,6 @@
+{% include mathjax_support %}
+{% include command %}
+
 # Vector form of the Hooke's law for the bar
 
 In the [introductory section on bars](Bars.md) we introduced the Hooke's law for the bar to be
