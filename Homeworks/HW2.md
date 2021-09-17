@@ -69,4 +69,4 @@ The vector $\hat{\boldsymbol{n}}^{1}$ is (outward) normal to $S^1$. By normal we
 
 Note that $\hat{\boldsymbol{n}}^{1}=-\hat{\boldsymbol{n}}^{2}$ 
 
-![](HW2_1.png)
+![](./HW2_1.png)
