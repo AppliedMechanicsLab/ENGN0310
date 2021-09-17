@@ -65,8 +65,20 @@ $$
 \end{equation}
 $$ 
 
-The constant in the above limit depends on the material composing the bar and it called that materials Young's modulus.
+The constant in the above limit depends on the material composing the bar and it called that materials Young's modulus, $E$. In terms of $E$, the last displayed equation, which is called Hooke's law can be expressed as
+$$
+\begin{equation}
+\frac{F L}{A \delta} =E,
+\end{equation}
+$$ 
+or equivalently,
+$$
+\begin{equation}
+F  =\frac{E A}{L} \delta
+\end{equation}
+$$ 
 
+The term $E A/L$ is called the bar's stiffness.
 
 
 
