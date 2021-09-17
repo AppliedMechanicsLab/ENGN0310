@@ -56,3 +56,17 @@ A square prism of   rubber  is lying flat on a table. The length of prism is 5 c
  - What is the current position vector of the material particle $10~\rm cm\hat{\boldsymbol{E}}_1-\frac{1}{2}~\rm cm~\hat{\boldsymbol{E}}_2-\frac{1}{2}~\rm cm~\hat{\boldsymbol{E}}_3$
 
 #### Problem 2. 
+
+
+
+Let us cut the  $\mathcal{B}_0$, into two pieces, $^1\mathcal{B}$ and $^2\mathcal{B}$. Specifically, let us cut $\mathcal{B}$ with the $A$-$A'$ plane (see Figure), which is normal to the bar's axis $\pm \hat{\boldsymbol{e}}_a$.
+
+We will call the  left piece $^1\mathcal{B}$ and the right piece  $^2\mathcal{B}$.
+
+Let the  surface on $^1\mathcal{B}$ that is newly created be called $S^1$ and that that on  $^2\mathcal{B}$ that is newly created be called $S^2$. 
+
+The vector $\hat{\boldsymbol{n}}^{1}$ is (outward) normal to $S^1$. By normal we mean that $\hat{\boldsymbol{n}}^{1}$ is perpendicular to $S^1$ and points away from the $^1\mathcal{B}$ internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $\hat{\boldsymbol{n}}^{1}$ is normal to $S^2$, i.e., it is perpendicular to $S^2$ and points away from the $^2\mathcal{B}$ internal matter and towards the outside.
+
+Note that $\hat{\boldsymbol{n}}^{1}=-\hat{\boldsymbol{n}}^{2}$ 
+
+![](2021-09-17-15-40-39.png)
