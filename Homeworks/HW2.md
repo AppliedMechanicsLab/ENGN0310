@@ -35,7 +35,7 @@ c=\sqrt{a^2+b^2﹣2ab\cos{γ}}
 $$
 
 
-#### Problem 1 (40 pts). 
+#### Problem 1 (25 pts). 
 1. A rectangle of sides 5 cm and 1 cm rests on a table. Take the origin to be the center of it's left edge ($\Gamma^{g}$), see figure below. The $\hat{\boldsymbol{E}}_1$ to be in the direction of the rectangle's axis, $\hat{\boldsymbol{E}}_a$. The rectangle's short side is of length 1 cm. Take $\hat{\boldsymbol{E}}_2$ to be  perpendicular to the table and pointing upward.   
 
    ![](2021-09-17-22-11-28.png)
@@ -56,13 +56,13 @@ $$
 rectangle's edges remain at the, respective, edge centers in the  deformed rectangle as well.  The material particles that were at the corners remain at the corners. The origin does not move as the rectangle is deformed. The deformed configuration is sketched in the figure (red rectangle). 
 
  
-   (5 pts) (i) What are the position vectors of the material particles $C$, $A$, and $F$, and $E$ after the rectangle has been deformed? Express them as a combination of $\hat{\boldsymbol{E}}_1$, and $\hat{\boldsymbol{E}}_2$. 
+   (2.5 pts) (i) What are the position vectors of the material particles $C$, $A$, and $F$, and $E$ after the rectangle has been deformed? Express them as a combination of $\hat{\boldsymbol{E}}_1$, and $\hat{\boldsymbol{E}}_2$. 
 
-   (5 pts) (ii) What are the displacement vectors of  $C$, $A$, $F$, and $E$? Express them in terms of  $\hat{\boldsymbol{E}}_1$, and $\hat{\boldsymbol{E}}_2$.
+   (2.5 pts) (ii) What are the displacement vectors of  $C$, $A$, $F$, and $E$? Express them in terms of  $\hat{\boldsymbol{E}}_1$, and $\hat{\boldsymbol{E}}_2$.
    
-   (10 pts) (iii) What is the current position vector of the material particle $5~\rm cm\hat{\boldsymbol{E}}_1+\frac{1}{2}~\rm cm~\hat{\boldsymbol{E}}_2$? What is the displacement of this material particle?
+   (5 pts) (iii) What is the current position vector of the material particle $5~\rm cm\hat{\boldsymbol{E}}_1+\frac{1}{2}~\rm cm~\hat{\boldsymbol{E}}_2$? What is the displacement of this material particle?
    
-   (10 pts) (iv) What is the material particle whose current position vector is $8~\rm cm\hat{\boldsymbol{E}}_1+\frac{1}{4}~\rm cm~\hat{\boldsymbol{E}}_2$? What is this material particle's displacement?
+   (5 pts) (iv) What is the material particle whose current position vector is $8~\rm cm\hat{\boldsymbol{E}}_1+\frac{1}{4}~\rm cm~\hat{\boldsymbol{E}}_2$? What is this material particle's displacement?
 
 
 
