@@ -52,8 +52,8 @@ $$
 
    (2 pts) (v) Let's call the material particle that is at the top left corner of the rectangle $E$ (see Figure). What is the position vector of $E$? Express it in terms of $\hat{\boldsymbol{E}}_1$, and $\hat{\boldsymbol{E}}_2$. 
 
-2. The rectangle is now streched along its axis so that its length increases. After the deformation, the bar still remains a rectangle. The length of the rectangle is now 8 cm, and the side is 1/2 cm. The material particles that were at the centers of the reference 
-rectangle's edges remain at the, respective, edge centers in the  deformed rectangle as well.  The material particles that were at the corners remain at the corners. The origin does not move as the rectangle is deformed. The deformed cofiguration is sketched in the figure (red rectangle). 
+2. The rectangle is now stretched along its axis so that its length increases. After the deformation, the bar still remains a rectangle. The length of the rectangle is now 8 cm, and the side is 1/2 cm. The material particles that were at the centers of the reference 
+rectangle's edges remain at the, respective, edge centers in the  deformed rectangle as well.  The material particles that were at the corners remain at the corners. The origin does not move as the rectangle is deformed. The deformed configuration is sketched in the figure (red rectangle). 
 
  
    (5 pts) (i) What are the position vectors of the material particles $C$, $A$, and $F$, and $E$ after the rectangle has been deformed? Express them as a combination of $\hat{\boldsymbol{E}}_1$, and $\hat{\boldsymbol{E}}_2$. 
