@@ -69,7 +69,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
  
  
-#### Problem 2.
+#### Problem 2 (30 pts).
 
 ![](./HW2_1.png)
 
@@ -77,31 +77,31 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
 1. Take the structure given above and assume that the components are all rigid. Assume that the positive ${\hat{\boldsymbol{E}}_1}$ direction is pointing to the right and the positive ${\hat{\boldsymbol{E}}_2}$ direction is pointing up. The bar $AB$, that is the bar between points $A$ and $B$, has a square cross section with a $50 mm$ length. The bar $BC$ has a circular cross section with a $20 mm$ diameter. Assume both bars are made of steel and the Modulus of Elasticity is $E=200 GPa$.
 
-    (# pts) (i) What is the reaction force at pin $A$ in the ${\hat{\boldsymbol{E}}_1}$ direction?
+    (2 pts) (i) What is the reaction force at pin $A$ in the ${\hat{\boldsymbol{E}}_1}$ direction?
 
-    (# pts) (ii) What is the reaction force at pin $C$ in the ${\hat{\boldsymbol{E}}_1}$ direction?
+    (2 pts) (ii) What is the reaction force at pin $C$ in the ${\hat{\boldsymbol{E}}_1}$ direction?
 
-    (# pts) (iii) What is the reaction force at pin $A$ in the ${\hat{\boldsymbol{E}}_2}$ direction?
+    (2 pts) (iii) What is the reaction force at pin $A$ in the ${\hat{\boldsymbol{E}}_2}$ direction?
 
-    (# pts) (iv) What is the reaction force at pin $C$ in the ${\hat{\boldsymbol{E}}_2}$ direction?
+    (2 pts) (iv) What is the reaction force at pin $C$ in the ${\hat{\boldsymbol{E}}_2}$ direction?
 
     ![](./HW2_2.png)
 
-    (# pts) (v) Now say that we were to cut the bar $AB$ in half at some arbitrary point between pins $A$ and $B$, shown in the figure above. Note that $\hat{\boldsymbol{n}}^-=-\hat{\boldsymbol{n}}^+$. What is the force on the face $Γ^+$ in the direction of the unit normal $\hat{\boldsymbol{n}}^+$. 
+    (5 pts) (v) Now say that we were to cut the bar $AB$ in half at some arbitrary point between pins $A$ and $B$, shown in the figure above. Note that $\hat{\boldsymbol{n}}^-=-\hat{\boldsymbol{n}}^+$. What is the force on the face $Γ^+$ in the direction of the unit normal $\hat{\boldsymbol{n}}^+$. 
 
     ![](./HW2_3.png)
 
-    (# pts) (vi) Repeat part v) for the bar $BC$. 
+    (5 pts) (vi) Repeat part v) for the bar $BC$. 
 
 ![](./HW2_4.png)
 
 2. Now assume that the bars are not rigid, so that they can change in length but no bending is occurring, as shown in the exaggerated figure above. 
 
-    (# pts) (i) What is the extension in the bar $AB$ due to the force along its axis?
+    (4 pts) (i) What is the extension in the bar $AB$ due to the force along its axis?
 
-    (# pts) (ii) What is the extension in the bar $BC$ due to the force along its axis?
+    (4 pts) (ii) What is the extension in the bar $BC$ due to the force along its axis?
 
-    (# pts) (iii) What will be the final displacement of the pin at point $B$. 
+    (4 pts) (iii) What will be the final displacement of the pin at point $B$. 
 
 
 <br/>
@@ -109,21 +109,21 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
 ![](./HW2_6.png)
 
-#### Problem 3.
+#### Problem 3 (20 pts).
 
 1. Assume that, as in the figure above, that you have two connected cylinders, where cylinder AB has length of $.3m$ and a diameter of $30mm$ and cylinder BC has a length of $.7m$ and a diameter of $50mm$. For now assume that both cylinders are made of steel with $E = 200 GPa$.
 
-    (# pts) (i)  Now assume that an upward force of $50kN$ is applied to cylinder $AB$ at point $A$ in the direction of the normal to the top surface. What is the total displacement at point $A$. 
+    (6 pts) (i)  Now assume that an upward force of $50kN$ is applied to cylinder $AB$ at point $A$ in the direction of the normal to the top surface. What is the total displacement at point $A$. 
     
-    (# pts) (ii)  Now assume there is a downward force being applied at point $B$ to cylinder $BC$. What should the magnitude of the force be to create a net displacement at point $A$ of zero.
+    (7 pts) (ii)  Now assume there is a downward force being applied at point $B$ to cylinder $BC$. What should the magnitude of the force be to create a net displacement at point $A$ of zero.
     
-    (# pts) (iii)  Now assume the bar BC is made of titanium with $E=120 GPa$, now what is the magnitude of the downward force applied at point $B$ to cylinder $BC$ such that the net displacement at point $A$ is zero
+    (7 pts) (iii)  Now assume the bar BC is made of titanium with $E=120 GPa$, now what is the magnitude of the downward force applied at point $B$ to cylinder $BC$ such that the net displacement at point $A$ is zero
 <br/>
 
 ![](./HW2_5.png)
 
-#### Problem 4.
+#### Problem 4 (25 pts).
 
-1. (# pts) Assume a circular bar, with Elastic Modulus $E$ and length $L$, has a variable radius circular cross section with radius given by $r(x) = r_0e^{ax}$, where $x$ is the distance from point $A$ as seen above. What is the displacement at point $A$ when a force $P$ is applied along the center axis?
+1. (25 pts) Assume a circular bar, with Elastic Modulus $E$ and length $L$, has a variable radius circular cross section with radius given by $r(x) = r_0e^{ax}$, where $x$ is the distance from point $A$ as seen above. What is the displacement at point $A$ when a force $P$ is applied along the center axis?
 
 <br/>
