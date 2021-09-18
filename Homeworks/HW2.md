@@ -128,6 +128,6 @@ A square prism of   rubber  is lying flat on a table. The length of prism is 5 c
 
 #### Problem 4.
 
-1. (# pts) Assume a circular bar has a variable radius circular cross section with radius given by $r(x) = r_0e^{ax}$, where $x$ is the distance from point $A$ as seen above. What is the displacement at point $A$ when a force $P$ is applied along the center axis?
+1. (# pts) Assume a circular bar, with Elastic Modulus $E$ and length $L$, has a variable radius circular cross section with radius given by $r(x) = r_0e^{ax}$, where $x$ is the distance from point $A$ as seen above. What is the displacement at point $A$ when a force $P$ is applied along the center axis?
 
 <br/>
