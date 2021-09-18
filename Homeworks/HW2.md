@@ -105,7 +105,7 @@ A square prism of   rubber  is lying flat on a table. The length of prism is 5 c
 
     (# pts) (ii) What is the extension in the bar $BC$ due to the force along its axis?
 
-    (# pts) (iii) What will be the final position of the pin at point $B$. 
+    (# pts) (iii) What will be the final displacement of the pin at point $B$. 
 
 
 <br/>
@@ -121,13 +121,13 @@ A square prism of   rubber  is lying flat on a table. The length of prism is 5 c
     
     (# pts) (ii)  Now assume there is a downward force being applied at point $B$ to cylinder $BC$. What should the magnitude of the force be to create a net displacement at point $A$ of zero.
     
-    (# pts) (iiii)  Now assume the bar BC is made of titanium with $E=120 GPa$, now what is the magnitude of the downward force applied at point $B$ to cylinder $BC$ such that the net displacement at point $A$ is zero
+    (# pts) (iii)  Now assume the bar BC is made of titanium with $E=120 GPa$, now what is the magnitude of the downward force applied at point $B$ to cylinder $BC$ such that the net displacement at point $A$ is zero
 <br/>
 
 ![](./HW2_5.png)
 
 #### Problem 4.
 
-1. (# pts) The circular bar has a variable circular cross section with radius given by $r(x) = r_0e^{ax}$, where $x$ is the distance from point $A$ as seen above. What is the displacement at point $A$ when a force $P$ is applied along the center axis?
+1. (# pts) Assume a circular bar has a variable radius circular cross section with radius given by $r(x) = r_0e^{ax}$, where $x$ is the distance from point $A$ as seen above. What is the displacement at point $A$ when a force $P$ is applied along the center axis?
 
 <br/>
