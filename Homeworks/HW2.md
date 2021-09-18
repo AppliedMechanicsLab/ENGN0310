@@ -19,6 +19,21 @@
 
 [Reference and deformed configurations. Reference and current position vectors of a material particle. Calling a  material particle by its reference position vector.](../CourseNotes/Bars/Bars2.md)
 
+| Materials      | $E ~(\rm{GPa})$ |
+|----------------|-----------------|
+| Steel          | 200             |
+| Titanium alloy | 120             |
+
+Remeber the law of Cosines for the triangle:
+
+![](./HW2_7.png)
+
+$$
+\begin{equation}
+c=\sqrt{a^2+b^2﹣2ab\cos{γ}}
+\end{equation}
+$$
+
 
 #### Problem 1. 
 ![](./RubberPrism.png)
@@ -64,7 +79,7 @@ A square prism of   rubber  is lying flat on a table. The length of prism is 5 c
 
 
 
-1. Take the structure given above and assume that the components are all rigid. Assume that the positive ${\hat{\boldsymbol{E}}_1}$ direction is pointing to the right and the positive ${\hat{\boldsymbol{E}}_2}$ direction is pointing up. The bar $AB$, that is the bar between points $A$ and $B$, has a square cross section with $50 mm$ length. The bar $BC$ has a circular cross section with a $20 mm$ diameter. Assume both bars are made of steel and the Modulus of Elasticity is $E=200 GPa$.
+1. Take the structure given above and assume that the components are all rigid. Assume that the positive ${\hat{\boldsymbol{E}}_1}$ direction is pointing to the right and the positive ${\hat{\boldsymbol{E}}_2}$ direction is pointing up. The bar $AB$, that is the bar between points $A$ and $B$, has a square cross section with a $50 mm$ length. The bar $BC$ has a circular cross section with a $20 mm$ diameter. Assume both bars are made of steel and the Modulus of Elasticity is $E=200 GPa$.
 
     (# pts) (i) What is the reaction force at pin $A$ in the ${\hat{\boldsymbol{E}}_1}$ direction?
 
@@ -100,7 +115,7 @@ A square prism of   rubber  is lying flat on a table. The length of prism is 5 c
 
 #### Problem 3.
 
-1. Assume that Assume, as in the figure above, that you have two connected cylinders, where cylinder AB has length of $.3m$ and a diameter of $30mm$ and cylinder BC has a length of $.7m$ and a diameter of $50mm$. For now assume that both cylinders are made of steel with $E = 200 GPa$.
+1. Assume that, as in the figure above, that you have two connected cylinders, where cylinder AB has length of $.3m$ and a diameter of $30mm$ and cylinder BC has a length of $.7m$ and a diameter of $50mm$. For now assume that both cylinders are made of steel with $E = 200 GPa$.
 
     (# pts) (i)  Now assume that an upward force of $50kN$ is applied to cylinder $AB$ at point $A$ in the direction of the normal to the top surface. What is the total displacement at point $A$. 
     
