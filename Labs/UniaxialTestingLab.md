@@ -21,10 +21,12 @@ Through the lab, we are going to answer:
 
 
 ## 2. Location
-
+Brown Design Workshop
 
 ## 3. Theory
+* [Hooke's law for the bar](./CourseNotes/Bars/Bars.md)
 
+* [Displacement field within the bar](./CourseNotes/Bars/Bars3.md)
 
 ## 4. Equipment and Materials
 
