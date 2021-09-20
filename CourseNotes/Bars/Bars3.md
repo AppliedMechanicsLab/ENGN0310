@@ -4,9 +4,9 @@
 In deriving the displacement field within the bar we will assume that "plane cross-sections remain plane." 
 
 <!-- 
-HK_TODO: Need to explain what it means to say plane sections remain plane. 
+HK_DONE: Need to explain what it means to say plane sections remain plane. Done in class. 
 
-HK_TODO: Need to present the vector form of the Hook'e law.
+HK_DONE: Need to present the vector form of the Hook'e law.
 
 Consider the following surface 
 $$
