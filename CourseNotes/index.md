@@ -13,7 +13,7 @@
             - :construction: [Explicit expression for the case of constant cross-section](Bars/Bars3.md)
     * Bars with variable cross-section 
         *  :construction: [Force-displacement law for the case of Variable crossectional area](Bars/Bars4.md)
-        - :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5.md)
+        - :construction: [Explicit expression for the case of variable cross-section (not available yet)](Bars/Bars5.md)
 * Mathematical analysis results
     * [Proof of  $ \lim_{\epsilon\to 0}\frac{1}{\epsilon}\int_{a}^{a+\epsilon}f(\xi)\, d\xi=f(a)$](Bars/Leibnitz.md)
 
