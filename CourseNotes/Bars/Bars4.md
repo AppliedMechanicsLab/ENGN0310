@@ -7,36 +7,6 @@
 In this section we are going to determine the force-deflection law for a bar with variable cross-section.
 
 
-#### Two springs in parralle. 
-
-The ends of the first spring are at $^0\!\boldsymbol{X}$, $^1\!\boldsymbol{X}$, and that of the second spring are at $^1\!\boldsymbol{X}$ and $^2\!\boldsymbol{X}$. The inital length vectors are $^1\!\boldsymbol{X}-^0\!\boldsymbol{X}$ and $^2\!\boldsymbol{X}-^1\!\boldsymbol{X}$. After deformation the springs ends are at $^0\!\boldsymbol{x}$ -$^1\!\boldsymbol{x}$, and $^1\!\boldsymbol{x}$-$^1\!\boldsymbol{x}$. The final length vectors are $^1\!\boldsymbol{x}-^0\!\boldsymbol{x}$, and $^2\!\boldsymbol{x}-^1\!\boldsymbol{x}$. 
-
-The change in length vectors are $^1\!\boldsymbol{\delta}=^1\!\boldsymbol{l}-^1\!\boldsymbol{L}$, $^2\!\boldsymbol{\delta}=^2\!\boldsymbol{l}-^2\!\boldsymbol{L}$. From the vector form of the hooke's law we have that
-
-$$
-\begin{align}
-^1\!\boldsymbol{F}&=k_1\, ^1\!\boldsymbol{\delta}\\
-^2\!\boldsymbol{F}&=k_2\, ^2\!\boldsymbol{\delta}
-\end{align}
-$$
-
-The forces on the right end are the same
-$$
-\begin{align}
-\boldsymbol{F}/k_1&=(^1\!\boldsymbol{l}-^1\!\boldsymbol{L})\\
-\boldsymbol{F}/k_2&=(^2\!\boldsymbol{l}-^2\!\boldsymbol{L})
-\end{align}
-$$
-Adding the above two equations together we get that
-$$
-\begin{align}
-\boldsymbol{F}\left(1/k_1+1/k_2\right)&=(^1\!\boldsymbol{l}+^2\!\boldsymbol{l}-(^1\!\boldsymbol{L}+^2\!\boldsymbol{L}))\\
-&=(^2\!\boldsymbol{x}-^0\!\boldsymbol{x}-(^2\!\boldsymbol{X}-^0\!\boldsymbol{X}))\\
-&=(\boldsymbol{l}-\boldsymbol{L})\\
-\boldsymbol{F}&=\left(1/k_1+1/k_2\right)^{-1}\boldsymbol{\delta}
-\end{align}
-$$
-
 
 
 #### Variable  cross-section bar
