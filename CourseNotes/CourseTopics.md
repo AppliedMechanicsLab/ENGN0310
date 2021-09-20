@@ -26,20 +26,10 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | [Lecture1](Lecture_1.md) | Sep 08, Wed | Course information. |Lecture not recorded||
 | [Lecture2](Lecture_2.md) | Sep 10, Fri | Bars |[Link](https://www.dropbox.com/sh/iaydi3p18gm5mp5/AADvcdZVd6ImaMcPrSiL6MtRa?dl=0). Black board and Projector screen not visible.||
 | [Lecture3](Lecture_3.md) | Sep 13, Mon | Bars |[Recorded video+audio](https://www.dropbox.com/sh/as2gnbrb7fzkr3d/AAB_h7GD2anBSG-3P0jMTdhKa?dl=0). Projector screen not visible| [chair leg compression calculation](WFiles/ChairLegCompression.nb)|
-| Recitation 1 | Sep 14, Tuesday | Bars | [Part 1](https://brown.zoom.us/rec/share/JkcfYkay_wd5uf3dC8Y0VEdQ1x-SaVE6grVDuEXper8zgxIiM9HGgXDYhQxY0-T4.qD4L8y2yI97duA_t?startTime=1631635347000). [Part 2](https://brown.zoom.us/rec/share/Qs-tbWQ3lktWWx223jd09n-_TSUddnLuMZ_jEHR5vnsRoGexRNx9BAW4fk3BKe8.8LA5r9WvYK5GfxzS?startTime=1631637309000).||
+| Recitation 1 | Sep 14, Tuesday | Bars | [Part 1](https://brown.zoom.us/rec/share/JkcfYkay_wd5uf3dC8Y0VEdQ1x-SaVE6grVDuEXper8zgxIiM9HGgXDYhQxY0-T4.qD4L8y2yI97duA_t?startTime=1631635347000), [Part 2](https://brown.zoom.us/rec/share/Qs-tbWQ3lktWWx223jd09n-_TSUddnLuMZ_jEHR5vnsRoGexRNx9BAW4fk3BKe8.8LA5r9WvYK5GfxzS?startTime=1631637309000)||
 | [Lecture4](Lecture_4.md) | Sep 15, Wed | Bars |||
-<<<<<<< HEAD
-<<<<<<< HEAD
 | [Lecture5](Lecture_5.md) | Sep 17, Fri | Torsion |[Link](https://www.dropbox.com/s/bsvvpkazu1dzr29/ENGN0310_Sep17.mp4?dl=0)||
 | [Lecture6](Lecture_6.md) | Sep 20, Mon | Torsion |[Part 1](https://www.dropbox.com/s/3bel261ivxzinqa/ENGN0310_Sep20_Part1.mp4?dl=0), [Part 2](https://www.dropbox.com/s/lk8bjgdvfc4vxyl/ENGN0310_Sep20_Part2.mp4?dl=0)||
-=======
-| [Lecture5](Lecture_5.md) | Sep 17, Fri | Torsion |[Link](ENGN0310_Sep20_Part1)||
-| [Lecture6](Lecture_6.md) | Sep 20, Mon | Torsion |[Part 1](ENGN0310_Sep20_Part1), [Part 2](ENGN0310_Sep20_Part2)||
->>>>>>> parent of 7965c35 ()
-=======
-| [Lecture5](Lecture_5.md) | Sep 17, Fri | Torsion |||
-| [Lecture6](Lecture_6.md) | Sep 20, Mon | Torsion |||
->>>>>>> parent of e4781b8 ()
 | [Lecture7](Lecture_7.md) | Sep 22, Wed | Torsion |||
 | [Lecture8](Lecture_8.md) | Sep 24, Fri | Strain |||
 | [Lecture9](Lecture_9.md) | Sep 27, Mon | Strain |||
