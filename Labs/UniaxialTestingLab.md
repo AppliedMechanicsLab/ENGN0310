@@ -1,3 +1,5 @@
+{% include mathjax_support %}
+{% include command %}
 
 # Lab1: Uniaxial tensile testing lab
 
