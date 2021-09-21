@@ -27,7 +27,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture2 | Sep 10, Fri | Bars |[Link](https://www.dropbox.com/sh/iaydi3p18gm5mp5/AADvcdZVd6ImaMcPrSiL6MtRa?dl=0). Black board and Projector screen not visible.||
 | Lecture3 | Sep 13, Mon | Bars |[Recorded video+audio](https://www.dropbox.com/sh/as2gnbrb7fzkr3d/AAB_h7GD2anBSG-3P0jMTdhKa?dl=0). Projector screen not visible| [chair leg compression calculation](WFiles/ChairLegCompression.nb)|
 | Recitation 1 | Sep 14, Tuesday | Bars | [Part 1](https://brown.zoom.us/rec/share/JkcfYkay_wd5uf3dC8Y0VEdQ1x-SaVE6grVDuEXper8zgxIiM9HGgXDYhQxY0-T4.qD4L8y2yI97duA_t?startTime=1631635347000), [Part 2](https://brown.zoom.us/rec/share/Qs-tbWQ3lktWWx223jd09n-_TSUddnLuMZ_jEHR5vnsRoGexRNx9BAW4fk3BKe8.8LA5r9WvYK5GfxzS?startTime=1631637309000)||
-| Lecture4 | Sep 15, Wed | Bars |||  [frame deformation calculation](WFiles/SpaceFrame.nb)|
+| Lecture4 | Sep 15, Wed | Bars || [frame deformation calculation](WFiles/SpaceFrame.nb)|
 | Lecture5 | Sep 17, Fri | Torsion |[Link](https://www.dropbox.com/s/bsvvpkazu1dzr29/ENGN0310_Sep17.mp4?dl=0)||
 | Lecture6 | Sep 20, Mon | Torsion |[Part 1](https://www.dropbox.com/s/3bel261ivxzinqa/ENGN0310_Sep20_Part1.mp4?dl=0), [Part 2](https://www.dropbox.com/s/lk8bjgdvfc4vxyl/ENGN0310_Sep20_Part2.mp4?dl=0)||
 | Lecture7 | Sep 22, Wed | Torsion |||
