@@ -18,5 +18,5 @@
 * Mathematical analysis results
     * [Proof of  $ \lim_{\epsilon\to 0}\frac{1}{\epsilon}\int_{a}^{a+\epsilon}f(\xi)\, d\xi=f(a)$](Bars/Leibnitz.md)
 * Notation
-    * [Kronecker-Delta symbol](https://appliedmechanicslab.github.io/appliedmechanicslab/course_notes/ENGN1370/KroneckerDeltaSymbol.html)
+    * [Kronecker delta symbol](https://appliedmechanicslab.github.io/appliedmechanicslab/course_notes/ENGN1370/KroneckerDeltaSymbol.html)
     * [Einstein summation convention](https://appliedmechanicslab.github.io/appliedmechanicslab/course_notes/ENGN1370/ESC.html)
