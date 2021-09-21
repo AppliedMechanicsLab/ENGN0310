@@ -21,7 +21,7 @@ The forces on a bar, by its very definition, are parallel to its axis (see Figur
 
 
 #### Surfaces. End faces, Lateral surface. 
-<ins>End faces </ins>: We refer to the bar as $\mathcal{B}$, to its left face as $\Gamma^{\mathscr{g}}$ and its right face as $\Gamma^{\mathscr{h}}$. The end faces are typically parallel to each other and perpendicular to the bar's axis. The vector $ \hat{\boldsymbol{E}}\_{\rm a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal we mean that $\hat{\boldsymbol{E}}\_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}\_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter and towards the outside.
+<ins>End faces </ins>: We refer to the bar as $\mathcal{B}$[^1], to its left face as $\Gamma^{\mathscr{g}}$ and its right face as $\Gamma^{\mathscr{h}}$. The end faces are typically parallel to each other and perpendicular to the bar's axis. The vector $ \hat{\boldsymbol{E}}\_{\rm a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal we mean that $\hat{\boldsymbol{E}}\_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}\_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter and towards the outside.
 
 Leaving the end faces the remainder of the surface of $\mathcal{B}$ is called the lateral surface.
 
@@ -80,7 +80,7 @@ $$
 
 The term $E A/L$ is called the bar's stiffness.
 
-
+[^1]: (when we want to make the distinction between referencehkesarideformed cofiguration and deformed/current configurationm, then we refer to the reference configuration as $\mathcal{B}_{\rm ref}$ and to the deformed configuration as $\mathcal{B}$)
 
 <!-- 
 TODO: The compression of the chair. 
