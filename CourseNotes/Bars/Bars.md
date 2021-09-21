@@ -58,7 +58,7 @@ $$
 \end{equation}
 $$ 
 
- is approximately as constant. Mathematically speaking 
+ is approximately a constant. Mathematically speaking 
 $$
 \begin{equation}
 \lim_{\delta/L\to 0}\frac{F L}{A \delta} =\text{constant}
@@ -72,6 +72,7 @@ $$
 \end{equation}
 $$ 
 or equivalently,
+
 $$
 \begin{equation}
 F  =\frac{E A}{L} \delta
@@ -80,7 +81,7 @@ $$
 
 The term $E A/L$ is called the bar's stiffness.
 
-[^1]: (when we want to make the distinction between referencehkesarideformed cofiguration and deformed/current configurationm, then we refer to the reference configuration as $\mathcal{B}_{\rm ref}$ and to the deformed configuration as $\mathcal{B}$)
+[^1]: when we want to make the distinction between referencehkesarideformed cofiguration and deformed/current configurationm, then we refer to the reference configuration as $\mathcal{B}_{\rm ref}$ and to the deformed configuration as $\mathcal{B}$
 
 <!-- 
 TODO: The compression of the chair. 
