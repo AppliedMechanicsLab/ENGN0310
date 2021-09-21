@@ -79,7 +79,14 @@ Each student will have some flexibility in deciding how the total points for the
 * :balloon::new::balloon: [Instructor's notes (by topic), on which the lectures are based](CourseNotes/index.md)
 
 
-#### Textbook and referece books
+#### Textbook and reference books
+
+<center>
+     <img src="textbookImg.png" alt="drawing" width="300"/>
+    </center>
+<br/>
+
+[Mechanics of Materials 8th Edition](https://www.amazon.com/Mechanics-Materials-Ferdinand-P-Beer/dp/1260113272) (Ferdinand Beer, E. Johnston, John DeWolf, David Mazurek)
 
 
 
