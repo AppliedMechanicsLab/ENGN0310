@@ -25,7 +25,7 @@ For the current case, we have that
 
 $$
 \begin{equation}
-\boldsymbol{\delta}=(l-L)\hat{\boldsymbol{E}}\_{\rm a}
+\boldsymbol{\delta}=(l-L)\hat{\boldsymbol{E}}\_{\rm a}.
 \end{equation}
 $$
 
