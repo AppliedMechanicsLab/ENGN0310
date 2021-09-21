@@ -9,12 +9,12 @@
 
 #### Bar definition
 
-  A bar is a mechanical structure whose dimensions in one direction are typically much longer than its other dimensions. The directions of the bar's largest dimension are referred to as the bar's axial direction, or the bar's axis, $ \hat{\boldsymbol{E}}\_{\rm a}$.  The primary mechanical function of a bar is to transmit forces along its length, or its axis.
+  A bar is a mechanical structure whose dimension in one direction is typically much longer than its other dimensions. The direction of the bar's largest dimension is referred to as the bar's axial direction, or the bar's axis, $ \hat{\boldsymbol{E}}\_{\rm a}$.  The primary mechanical function of a bar is to transmit forces along its length, or its axis.
 
 
 #### Axial force. Equilibrium, compression, tension.   
 
-The forces on a bar, by its very definition, are parallel to its axis (see Figure _force_). Let the net force acting on the bar's right end face, $\Gamma^{\mathscr{h}}$, be $ \mathbf{F}\_{\rm a}=F \hat{\mathbf{E}}\_{a}$. From equilibrium it follows that the force acting on the bar's left face, $\Gamma^{\mathscr{g}}$, is $-\boldsymbol{F}\_{\rm a}$. When $F>0$ we say the bar is under tension, and when $F<0$ we say that the bar is under compression.
+The forces on a bar, by its very definition, are parallel to its axis (see Figure _force_). Let the net force acting on the bar's right end face, $\Gamma^{\mathscr{h}}$, be $ \mathbf{F}\_{\rm a}=F \hat{\mathbf{E}}\_{a}$. From equilibrium, it follows that the force acting on the bar's left face, $\Gamma^{\mathscr{g}}$, is $-\boldsymbol{F}\_{\rm a}$. When $F>0$ we say the bar is under tension, and when $F<0$ we say that the bar is under compression.
 
 ![Forces on the bar](2021-09-11-23-01-57.png)
 
@@ -52,6 +52,7 @@ Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, before any for
 Let the area of the bar's cross section be $\mathcal{m}(\Gamma^{\mathscr{h}})=A$. 
 
 It was experimentally found (Lab 1) that  when $\delta /L$ is "small,"
+
 $$
 \begin{equation}
 \frac{F L}{A \delta} 
