@@ -6,7 +6,7 @@
  
 * Bars.
     * Bars with constant cross-section 
-        * :construction:[Force-displacement law for the case of constant cross-sectional area](Bars/Bars.md)
+        * [Force-displacement law for the case of constant cross-sectional area](Bars/Bars.md)
         * :construction: [Force-displacement law in vector form](./Bars/VectorFormHookesLaw.md)
         * Displacement field
             - [Defintion. What is a displacement field?](Bars/Bars2.md)
