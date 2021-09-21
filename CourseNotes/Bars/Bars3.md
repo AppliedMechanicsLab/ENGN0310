@@ -1,6 +1,8 @@
 {% include mathjax_support %}
 {% include command %}
 
+# Displacement field within a bar of constant cross-sectional area
+
 In deriving the displacement field within the bar we will assume that "plane cross-sections remain plane." 
 
 <!-- 
@@ -27,7 +29,7 @@ $$
 
 The scalar displacement field can be used as follows. Say the material particle $\boldsymbol{X}$ can be expressed as $\boldsymbol{X}=X \hat{\boldsymbol{E}}\_{a}$ then its  displacement can be computed as $u(X) \hat{\boldsymbol{E}}_{\rm a}$. 
 
-
+![](2021-09-21-16-29-16.png)
 Now, let us focus on a small slice of the bar. Let the position vector of the material particle on (the centeroid of) the left face of the slice be $X \hat{\boldsymbol{E}}\_{a}$ and, the position vector of the material particle on (the centeroid of) the right face of the slice be  $(X+\Delta X) \hat{\boldsymbol{E}}\_{a}$. The reference length vector of the slice is, of course, $\Delta X \hat{\boldsymbol{E}}\_{a}$. Let the scalar displacement field in the bar be   $u$. Then the current position vector of the left particle is $(X+u(X))\hat{\boldsymbol{E}}\_{a}$ and of the right particle is $(X+\Delta X+u(X+\Delta X))\hat{\boldsymbol{E}}\_{a}$. Thus, the current length vector of the slice is $(\Delta X+u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$. The change in length vector is $(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$
 
 On applying the Hooke's law to the slice we have that the force vector on the righ face of the slice is

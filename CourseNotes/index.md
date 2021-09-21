@@ -5,7 +5,8 @@
 #### Structures
  
 * Bars.
-    * Bars with constant cross-section 
+    * Bars with constant 
+    * cross-section 
         * [Force-displacement law for the case of constant cross-sectional area](Bars/Bars.md)
         * [Force-displacement law in vector form](./Bars/VectorFormHookesLaw.md)
         * Displacement field
