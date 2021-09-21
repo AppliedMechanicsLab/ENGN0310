@@ -2,13 +2,13 @@
 {% include command %}
 
 
-#### Prelude: two springs in parrallel. 
+#### Prelude: two springs in parallel. 
 
 ![](2021-09-20-19-48-57.png)
 
-The ends of the first spring are at $^0\\!\boldsymbol{X}$, $^1\\!\boldsymbol{X}$, and that of the second spring are at $^1\\!\boldsymbol{X}$ and $^2\\!\boldsymbol{X}$. The inital length vectors are $^1\\!\boldsymbol{X}-^0\\!\boldsymbol{X}$ and $^2\\!\boldsymbol{X}-^1\\!\boldsymbol{X}$. After deformation the springs ends are at $^0\\!\boldsymbol{x}$, $^1\\!\boldsymbol{x}$, and $^1\\!\boldsymbol{x}$, $^1\\!\boldsymbol{x}$, respectively. The final length vectors are $^1\\!\boldsymbol{x}-^0\\!\boldsymbol{x}$, and $^2\\!\boldsymbol{x}-^1\\!\boldsymbol{x}$. 
+The ends of the first spring are at $^0\\!\boldsymbol{X}$, $^1\\!\boldsymbol{X}$, and that of the second spring are at $^1\\!\boldsymbol{X}$ and $^2\\!\boldsymbol{X}$. The inital length vectors are $^1\\!\boldsymbol{X}-^0\\!\boldsymbol{X}$ and $^2\\!\boldsymbol{X}-^1\\!\boldsymbol{X}$. After deformation, the springs ends are at $^0\\!\boldsymbol{x}$, $^1\\!\boldsymbol{x}$, and $^1\\!\boldsymbol{x}$, $^2\\!\boldsymbol{x}$, respectively. The final length vectors are $^1\\!\boldsymbol{x}-^0\\!\boldsymbol{x}$, and $^2\\!\boldsymbol{x}-^1\\!\boldsymbol{x}$. 
 
-The change in length vectors are $^1\!\boldsymbol{\delta}=^1\!\boldsymbol{l}-^1\!\boldsymbol{L}$, $^2\!\boldsymbol{\delta}=^2\!\boldsymbol{l}-^2\!\boldsymbol{L}$. Applying the the vector form of the hooke's law to each of the springs we have that
+The change in length vectors are $^1\\!\boldsymbol{\delta}=^1\\!\boldsymbol{l}-^1\\!\boldsymbol{L}$, $^2\\!\boldsymbol{\delta}=^2\\!\boldsymbol{l}-^2\\!\boldsymbol{L}$. Applying the the vector form of the hooke's law to each of the springs we have that
 
 $$
 \begin{align}
