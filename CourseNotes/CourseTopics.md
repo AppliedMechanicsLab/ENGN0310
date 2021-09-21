@@ -23,48 +23,48 @@ HW 6-8 (On days when lab is due don't have a home work due)
 
 |Lecture | Day/Date| tentative topics | Link to video recording| Mathematica files|
 |----------------|----------------|----------------|-------|------------|
-| [Lecture1](Lecture_1.md) | Sep 08, Wed | Course information. |Lecture not recorded||
-| [Lecture2](Lecture_2.md) | Sep 10, Fri | Bars |[Link](https://www.dropbox.com/sh/iaydi3p18gm5mp5/AADvcdZVd6ImaMcPrSiL6MtRa?dl=0). Black board and Projector screen not visible.||
-| [Lecture3](Lecture_3.md) | Sep 13, Mon | Bars |[Recorded video+audio](https://www.dropbox.com/sh/as2gnbrb7fzkr3d/AAB_h7GD2anBSG-3P0jMTdhKa?dl=0). Projector screen not visible| [chair leg compression calculation](WFiles/ChairLegCompression.nb)|
+| Lecture1 | Sep 08, Wed | Course information. |Lecture not recorded||
+| Lecture2 | Sep 10, Fri | Bars |[Link](https://www.dropbox.com/sh/iaydi3p18gm5mp5/AADvcdZVd6ImaMcPrSiL6MtRa?dl=0). Black board and Projector screen not visible.||
+| Lecture3 | Sep 13, Mon | Bars |[Recorded video+audio](https://www.dropbox.com/sh/as2gnbrb7fzkr3d/AAB_h7GD2anBSG-3P0jMTdhKa?dl=0). Projector screen not visible| [chair leg compression calculation](WFiles/ChairLegCompression.nb)|
 | Recitation 1 | Sep 14, Tuesday | Bars | [Part 1](https://brown.zoom.us/rec/share/JkcfYkay_wd5uf3dC8Y0VEdQ1x-SaVE6grVDuEXper8zgxIiM9HGgXDYhQxY0-T4.qD4L8y2yI97duA_t?startTime=1631635347000), [Part 2](https://brown.zoom.us/rec/share/Qs-tbWQ3lktWWx223jd09n-_TSUddnLuMZ_jEHR5vnsRoGexRNx9BAW4fk3BKe8.8LA5r9WvYK5GfxzS?startTime=1631637309000)||
-| [Lecture4](Lecture_4.md) | Sep 15, Wed | Bars |||
-| [Lecture5](Lecture_5.md) | Sep 17, Fri | Torsion |[Link](https://www.dropbox.com/s/bsvvpkazu1dzr29/ENGN0310_Sep17.mp4?dl=0)||
-| [Lecture6](Lecture_6.md) | Sep 20, Mon | Torsion |[Part 1](https://www.dropbox.com/s/3bel261ivxzinqa/ENGN0310_Sep20_Part1.mp4?dl=0), [Part 2](https://www.dropbox.com/s/lk8bjgdvfc4vxyl/ENGN0310_Sep20_Part2.mp4?dl=0)||
-| [Lecture7](Lecture_7.md) | Sep 22, Wed | Torsion |||
-| [Lecture8](Lecture_8.md) | Sep 24, Fri | Strain |||
-| [Lecture9](Lecture_9.md) | Sep 27, Mon | Strain |||
-| [Lecture10](Lecture_10.md) | Sep 29, Wed | Strain |||
-| [Lecture11](Lecture_11.md) | Oct 01, Fri | Stress |||
-| [Lecture12](Lecture_12.md) | Oct 04, Mon | Stress |||
-| [Lecture13](Lecture_13.md) | Oct 06, Wed | Stress |||
-| [Lecture14](Lecture_14.md) | Oct 08, Fri |  Transformation of strain/stress |||
+| Lecture4 | Sep 15, Wed | Bars |||  [frame deformation calculation](WFiles/SpaceFrame.nb)|
+| Lecture5 | Sep 17, Fri | Torsion |[Link](https://www.dropbox.com/s/bsvvpkazu1dzr29/ENGN0310_Sep17.mp4?dl=0)||
+| Lecture6 | Sep 20, Mon | Torsion |[Part 1](https://www.dropbox.com/s/3bel261ivxzinqa/ENGN0310_Sep20_Part1.mp4?dl=0), [Part 2](https://www.dropbox.com/s/lk8bjgdvfc4vxyl/ENGN0310_Sep20_Part2.mp4?dl=0)||
+| Lecture7 | Sep 22, Wed | Torsion |||
+| Lecture8 | Sep 24, Fri | Strain |||
+| Lecture9 | Sep 27, Mon | Strain |||
+| Lecture10 | Sep 29, Wed | Strain |||
+| Lecture11 | Oct 01, Fri | Stress |||
+| Lecture12 | Oct 04, Mon | Stress |||
+| Lecture13 | Oct 06, Wed | Stress |||
+| Lecture14 | Oct 08, Fri |  Transformation of strain/stress |||
 | No lecture | Oct 11, Mon | Indigenous people's day |||
-| [Lecture15](Lecture_15.md) | Oct 13, Wed | Transformation of strain/stress |||
-| [Lecture16](Lecture_16.md) | Oct 15, Fri | Transformation of strain/stress |||
-| [Lecture17](Lecture_17.md) | Oct 18, Mon |  Thin Walled Pressure Vessels |||
-| [Lecture18](Lecture_18.md) | Oct 20, Wed | Thin Walled Pressure Vessels |||
-| [Lecture19](Lecture_19.md) | Oct 22, Fri | Failure theories |||
-| [Lecture20](Lecture_20.md) | Oct 25, Mon | Failure theories |||
-| [Lecture21](Lecture_21.md) | Oct 27, Wed | Pure Bending |||
-| [Lecture22](Lecture_22.md) | Oct 29, Fri | Pure Bending |||
-| [Lecture23](Lecture_23.md) | Nov 01, Mon | Pure Bending |||
-| [Lecture24](Lecture_24.md) | Nov 03, Wed | Pure Bending |||
-| [Lecture25](Lecture_25.md) | Nov 05, Fri | Beams |||
-| [Lecture26](Lecture_26.md) | Nov 08, Mon | Beams|||
-| [Lecture27](Lecture_27.md) | Nov 10, Wed | Beams |||
-| [Lecture28](Lecture_28.md) | Nov 12, Fri | Shearing stresses|||
-| [Lecture29](Lecture_29.md) | Nov 15, Mon | Shearing stresses |||
-| [Lecture30](Lecture_30.md) | Nov 17, Wed | Deflection of Beams |||
-| [Lecture31](Lecture_31.md) | Nov 19, Fri | Deflection of Beams |||
-| [Lecture32](Lecture_32.md) | Nov 22, Mon | Deflection of Beams |||
+| Lecture15 | Oct 13, Wed | Transformation of strain/stress |||
+| Lecture16 | Oct 15, Fri | Transformation of strain/stress |||
+| Lecture17 | Oct 18, Mon |  Thin Walled Pressure Vessels |||
+| Lecture18 | Oct 20, Wed | Thin Walled Pressure Vessels |||
+| Lecture19 | Oct 22, Fri | Failure theories |||
+| Lecture20 | Oct 25, Mon | Failure theories |||
+| Lecture21 | Oct 27, Wed | Pure Bending |||
+| Lecture22 | Oct 29, Fri | Pure Bending |||
+| Lecture23 | Nov 01, Mon | Pure Bending |||
+| Lecture24 | Nov 03, Wed | Pure Bending |||
+| Lecture25 | Nov 05, Fri | Beams |||
+| Lecture26 | Nov 08, Mon | Beams|||
+| Lecture27 | Nov 10, Wed | Beams |||
+| Lecture28 | Nov 12, Fri | Shearing stresses|||
+| Lecture29 | Nov 15, Mon | Shearing stresses |||
+| Lecture30 | Nov 17, Wed | Deflection of Beams |||
+| Lecture31 | Nov 19, Fri | Deflection of Beams |||
+| Lecture32 | Nov 22, Mon | Deflection of Beams |||
 | No lecture | Nov 24, Wed | Thanksgiving |||
 | No lecture | Nov 26, Fri | Thanksgiving |||
-| [Lecture33](Lecture_33.md) | Nov 29, Mon | Deflection of Beams |||
-| [Lecture34](Lecture_34.md) | Dec 01, Wed | Columns |||
-| [Lecture35](Lecture_35.md) | Dec 03, Fri | Columns |||
-| [Lecture36](Lecture_36.md) | Dec 06, Mon | Columns|||
-| [Lecture37](Lecture_37.md) | Dec 08, Wed | Course Review |||
-| [Lecture38](Lecture_38.md) | Dec 10, Fri | Course Review|||
+| Lecture33 | Nov 29, Mon | Deflection of Beams |||
+| Lecture34 | Dec 01, Wed | Columns |||
+| Lecture35 | Dec 03, Fri | Columns |||
+| Lecture36 | Dec 06, Mon | Columns|||
+| Lecture37 | Dec 08, Wed | Course Review |||
+| Lecture38 | Dec 10, Fri | Course Review|||
 
 
 

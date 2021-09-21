@@ -1,0 +1,360 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13600,        352]
+NotebookOptionsPosition[     12743,        330]
+NotebookOutlinePosition[     13234,        348]
+CellTagsIndexPosition[     13191,        345]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["Problem: Deformation of a space frame. \n\n",
+  FontWeight->"Bold"],
+ "The space frame shown below is composed of two bars. The left end of the \
+left bar and the right end of the right bar are connected to the surroundings \
+through pin joints (white disks in figure). The bars are connected to each \
+other through a pin joint as well. The left bar makes an angle of \[Pi]/6 \
+with the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     OverscriptBox[
+      StyleBox["E",
+       FontWeight->"Bold"], "^"], "1"], " "}], TraditionalForm]],
+  ExpressionUUID->"8f7d598f-294d-4f5f-903a-d7d29c4e6913"],
+ " direction. The initial undeformed length of each of the bars is 15 feet. \
+The tensile strength of the bar is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[Sigma]", "w"], "="}], TraditionalForm]],ExpressionUUID->
+  "d33ba706-f123-435c-ac80-483d155de6ea"],
+ "10000 ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"lb", "/", 
+    SuperscriptBox["in", "2"]}], TraditionalForm]],ExpressionUUID->
+  "32bf623d-9d84-4e38-b112-c8f3ee7f90d8"],
+ ". \n\n1.  What should be the minimum value for the cross-sectional areas of \
+the bars so that the space frame is able to support a vertical load of 5000 \
+lb. That is, a force of ",
+ StyleBox["P",
+  FontWeight->"Bold",
+  FontSlant->"Italic"],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "= -5000 ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     OverscriptBox[
+      StyleBox["E",
+       FontWeight->"Bold"], "^"], "2"], " "}], TraditionalForm]],
+  ExpressionUUID->"eeef980a-8def-4db7-9ccd-beed34a6f512"],
+ "applied to the pin connecting the two bars.  For enforcing force \
+equilibrium, assume that the change in the angles and dimensions of the frame \
+are negligible (this kind of assumption is called \
+\[OpenCurlyDoubleQuote]geometric linearization.\[CloseCurlyDoubleQuote])\n\n\
+2.",
+ StyleBox["  ",
+  FontWeight->"Bold"],
+ "The Young\[CloseCurlyQuote]s modulus of the steel composing the bars is \
+E=30 X ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["10", "6"], " ", 
+    RowBox[{"lb", "/", 
+     SuperscriptBox["in", "2"]}]}], TraditionalForm]],ExpressionUUID->
+  "b210209c-8dc6-4d6a-95c7-5bb729c44ac1"],
+ ".  What is the displacement of the pin  when the structure is supporting ",
+ StyleBox["P",
+  FontWeight->"Bold",
+  FontSlant->"Italic"],
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "= -5000 ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     OverscriptBox[
+      StyleBox["E",
+       FontWeight->"Bold"], "^"], "2"], " "}], TraditionalForm]],
+  ExpressionUUID->"85f2f5b8-ff18-4f60-bc28-238f55068234"],
+ "?"
+}], "Text",
+ CellChangeTimes->{{3.8411415654022284`*^9, 3.841141645454233*^9}, {
+  3.841141744465311*^9, 3.8411421884057713`*^9}, {3.841154223910684*^9, 
+  3.841154246520862*^9}, {3.8411544144028063`*^9, 
+  3.841154451322336*^9}},ExpressionUUID->"17389399-8caa-4670-a6e0-\
+aecf0e54a74b"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Thickness[0.02], 
+    LineBox[NCache[{{0, 0}, {
+       Rational[15, 2] 3^Rational[1, 2], Rational[-15, 2]}, {
+       15 3^Rational[1, 2], 0}}, {{0, 0}, {12.990381056766578`, -7.5}, {
+       25.980762113533157`, 0}}]]}, 
+   ArrowBox[NCache[{{12.990381056766578`, -7.4}, {
+      Rational[15, 2] 3^Rational[1, 2], Rational[-21, 2]}}, {{
+     12.990381056766578`, -7.4}, {12.990381056766578`, -10.5}}]], 
+   {Dashing[{Small, Small}], 
+    LineBox[NCache[{{0, 0}, {15 3^Rational[1, 2], 0}}, {{0, 0}, {
+       25.980762113533157`, 0}}]]}, 
+   {EdgeForm[{RGBColor[1, 0.5, 0], Dashing[{Small, Small}]}], FaceForm[
+    GrayLevel[1]], 
+    DiskBox[{0, 0}, 3, 
+     NCache[{Rational[-1, 6] Pi, 0}, {-0.5235987755982988, 0}]]}, 
+   {RGBColor[1, 0.5, 0], InsetBox["\<\"\[Theta]=\[Pi]/6\"\>", {1, -2}]}, 
+   {GrayLevel[1], DiskBox[{0, 0}, 0.2]}, 
+   {GrayLevel[1], 
+    DiskBox[NCache[{Rational[15, 2] 3^Rational[1, 2], Rational[-15, 2]}, {
+      12.990381056766578`, -7.5}], 0.2]}, 
+   {GrayLevel[1], 
+    DiskBox[NCache[{15 3^Rational[1, 2], 0}, {25.980762113533157`, 0}], 0.2]},
+    InsetBox["\<\"P\"\>", 
+    NCache[{1 + Rational[15, 2] 3^Rational[1, 2], Rational[-19, 2]}, {
+     13.990381056766578`, -9.5}]]}]], "Output",
+ Editable->False,
+ CellChangeTimes->{{3.8411410627724648`*^9, 3.841141100290448*^9}, 
+   3.841141160480793*^9, {3.841141192244253*^9, 3.841141203594359*^9}, {
+   3.841141237606413*^9, 3.841141312474666*^9}, {3.84114136564399*^9, 
+   3.841141426892004*^9}},
+ CellLabel->
+  "Out[112]=",ExpressionUUID->"ee989cd4-4953-483c-a24e-1733554e06aa"],
+
+Cell[BoxData[""], "Input",ExpressionUUID->"2e46891f-6628-4511-8e39-6c098a4315e4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Unprotect", "[", 
+     RowBox[{"D", ",", "E"}], "]"}], ";"}], 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"In", " ", "Mathematica"}], ",", " ", 
+     RowBox[{
+     "D", " ", "and", " ", "E", " ", "are", " ", "reserved", " ", "for", " ", 
+      "derivative", " ", "and", " ", "exponential", " ", "at", " ", 
+      RowBox[{"default", ".", " ", "\"\<Unprotect\>\""}], " ", "the", " ", 
+      "letters", " ", "first", " ", "to", " ", "assign", " ", "our", " ", 
+      "own", " ", "values", " ", "to", " ", "them"}]}], "  ", "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ClearAll", "[", 
+     RowBox[{"Tmag", ",", " ", "Amag", ",", "P"}], "]"}], ";"}], " ", 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"L", "=", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"15", ",", "\"\<feet\>\""}], "]"}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Initial", " ", "length", " ", "of", " ", "the", " ", "bars"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"E", "=", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{
+       RowBox[{"30", " ", 
+        SuperscriptBox["10", "6"]}], ",", 
+       FractionBox["\"\<PoundsForce\>\"", 
+        SuperscriptBox["\"\<Inches\>\"", "2"]]}], "]"}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Young", "'"}], "s", " ", "modulus", " ", "of", " ", "the", " ", 
+     "bars"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"\[Theta]", "=", 
+     RowBox[{"\[Pi]", "/", "6"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"D", "=", 
+     RowBox[{"L", " ", 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}]}], ";"}], " ", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"H", "=", 
+     RowBox[{"L", " ", 
+      RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}], ";"}], "\[IndentingNewLine]",
+    "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"\[Sigma]w", "=", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"10000", " ", ",", 
+       FractionBox["\"\<PoundsForce\>\"", 
+        SuperscriptBox["\"\<Inches\>\"", "2"]]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"P", "=", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"5000", " ", ",", "\"\<PoundsForce\>\""}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"T", "=", 
+     RowBox[{"Quantity", "[", " ", 
+      RowBox[{"Tmag", ",", "\"\<PoundsForce\>\""}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"A", "=", " ", 
+     RowBox[{"Quantity", "[", 
+      RowBox[{"Amag", ",", 
+       SuperscriptBox["\"\<Inches\>\"", "2"]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"eq1", "=", 
+     RowBox[{"P", "\[Equal]", 
+      RowBox[{"2", "T", " ", 
+       RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Force", " ", "balance", " ", "in", " ", "the", " ", "vertical", " ", 
+     "direction"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"ineq1", "=", 
+     RowBox[{
+      FractionBox["T", "A"], "==", "\[Sigma]w"}]}], " ", ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Failure", " ", "criterion"}], "*)"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"sol", "=", 
+     RowBox[{
+      RowBox[{"Solve", "[", 
+       RowBox[{
+        RowBox[{"eq1", " ", "&&", " ", "ineq1"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"Tmag", ",", "Amag"}], "}"}]}], "]"}], "//", "N"}]}], ";"}], 
+   " ", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Solve", " ", "for", " ", "the", " ", "values", " ", "of", " ", "Tmag", 
+     " ", "and", " ", "Amag"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"Tmag", ",", " ", "Amag"}], "}"}], "=", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"Tmag", ",", " ", "Amag"}], "}"}], "/.", 
+      RowBox[{"sol", "[", 
+       RowBox[{"[", "1", "]"}], "]"}]}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"If", " ", "you", " ", 
+      RowBox[{"aren", "'"}], "t", " ", "familiar", " ", "with", " ", "this", 
+      " ", "step"}], ",", " ", 
+     RowBox[{
+     "try", " ", "reading", " ", 
+      "\"\<https://reference.wolfram.com/language/howto/UseRuleSolutions.html\
+\>\""}]}], "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"\[Delta]", "=", " ", 
+     FractionBox[
+      RowBox[{"T", " ", "L"}], 
+      RowBox[{"E", " ", "A"}]]}], " ", 
+    RowBox[{"(*", 
+     RowBox[{"change", " ", "in", " ", "length", " ", "length"}], "*)"}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"l", "=", 
+     RowBox[{"L", "+", "\[Delta]"}]}], " ", 
+    RowBox[{"(*", 
+     RowBox[{"Final", " ", "length"}], "*)"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"\[CapitalDelta]", "=", 
+    RowBox[{"UnitConvert", "[", 
+     RowBox[{
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          SuperscriptBox["l", "2"], "-", 
+          SuperscriptBox["D", "2"]}], ")"}], 
+        RowBox[{"1", "/", "2"}]], "-", "H"}], ",", "\"\<inches\>\""}], "]"}], 
+    
+    RowBox[{"(*", 
+     RowBox[{"displacement", " ", "of", " ", "the", " ", "pin"}], 
+     "*)"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.840655586921039*^9, 3.840655663096457*^9}, {
+   3.8406645175070066`*^9, 3.840664628790971*^9}, {3.840664691493231*^9, 
+   3.840664965812108*^9}, {3.840665050445632*^9, 3.840665345544847*^9}, {
+   3.8406654333933897`*^9, 3.840665471132485*^9}, {3.840665564557324*^9, 
+   3.840665616812495*^9}, {3.840665846287362*^9, 3.840665848578774*^9}, 
+   3.84069884884315*^9, {3.840698892901032*^9, 3.840698894552454*^9}, {
+   3.8411409192062807`*^9, 3.8411409969931107`*^9}, {3.841141717157179*^9, 
+   3.841141726400693*^9}, 3.841141928309005*^9, {3.841142203866294*^9, 
+   3.841142235510306*^9}, {3.841154486892131*^9, 3.8411547754094877`*^9}, {
+   3.841155030524272*^9, 3.841155045501091*^9}, {3.8411550978154488`*^9, 
+   3.841155107220385*^9}, {3.841155196490653*^9, 3.84115521959302*^9}, 
+   3.841155252131003*^9, {3.841155286099134*^9, 3.841155287779141*^9}, {
+   3.841155398852457*^9, 3.841155407215996*^9}, {3.8411554429746428`*^9, 
+   3.841155443638155*^9}, {3.841222691818577*^9, 3.841222720999935*^9}, {
+   3.841222755724037*^9, 3.8412227757973757`*^9}, {3.841222814996599*^9, 
+   3.841222871946334*^9}, {3.841222902220299*^9, 3.8412229439085073`*^9}, {
+   3.8412234646269083`*^9, 3.841223577440454*^9}, {3.841223658381516*^9, 
+   3.841223660365758*^9}, {3.841224125943437*^9, 3.841224167639168*^9}, {
+   3.841224285337336*^9, 3.841224343362314*^9}, {3.841224479108042*^9, 
+   3.841224630328849*^9}, {3.841224764315527*^9, 3.841224817588602*^9}, {
+   3.841224860749329*^9, 3.8412248622237577`*^9}, {3.841224897326734*^9, 
+   3.841224939708663*^9}, {3.8412250899957314`*^9, 3.841225114655657*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"662ab4f4-dad4-4677-8757-4c4ffbb8ee0f"],
+
+Cell[BoxData[
+ TemplateBox[{"0.11994007987357946`", "\"in\"", "inches", "\"Inches\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.8411417052189617`*^9, 3.841141727677725*^9}, {
+   3.841142228384547*^9, 3.841142235865409*^9}, 3.841155186601428*^9, {
+   3.841155220803132*^9, 3.8411552610619707`*^9}, {3.841155411093472*^9, 
+   3.841155430726097*^9}, 3.841223578392288*^9, {3.841224104849278*^9, 
+   3.841224108984836*^9}, 3.841224774563066*^9, 3.84122488506671*^9, 
+   3.8412251152338142`*^9},
+ CellLabel->"Out[72]=",ExpressionUUID->"c4ff0963-4a76-463c-ada0-a10992b9c258"]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{160, Automatic}, {Automatic, -31}},
+TaggingRules->{
+ "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1e032a7a-bce9-4dd9-a6ec-606de1d84b60"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2927, 83, 204, "Text",ExpressionUUID->"17389399-8caa-4670-a6e0-aecf0e54a74b"],
+Cell[3488, 105, 1586, 33, 172, "Output",ExpressionUUID->"ee989cd4-4953-483c-a24e-1733554e06aa"],
+Cell[5077, 140, 81, 0, 30, "Input",ExpressionUUID->"2e46891f-6628-4511-8e39-6c098a4315e4"],
+Cell[CellGroupData[{
+Cell[5183, 144, 6965, 172, 620, "Input",ExpressionUUID->"662ab4f4-dad4-4677-8757-4c4ffbb8ee0f"],
+Cell[12151, 318, 576, 9, 36, "Output",ExpressionUUID->"c4ff0963-4a76-463c-ada0-a10992b9c258"]
+}, Open  ]]
+}
+]
+*)
+
