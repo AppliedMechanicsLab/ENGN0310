@@ -13,9 +13,11 @@ $$
 
 The above equation is a scalar equation. We would like write it in a vector form. 
 
-In the following, we focus our attention on when the bar just stretches along its own axis (with no rotation.) That is, we focus on the case in which  the bar remains aligned with $\hat{\boldsymbol{E}}\_{\rm a}$ before and after deformation.
+In the following, we focus our attention on the cases in which the bar just stretches along its own axis (with no rotation), so that the bar remains aligned with $\hat{\boldsymbol{E}}\_{\rm a}$ before and after deformation.
 
 Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, before any forces are applied to the bar, be $\boldsymbol{X}(\mathcal{C})$ (red arrow in the top panel of the below figure). The difference between the position vectors of the centroids of the right and left faces is called the length vector. 
+
+![](ClassNotes-7.jpg)
 
 When the position vectors considered are reference position vectors, then the length vector is called the <u>initial length vector</u>, or the <u>reference length vector</u>. When the position vectors considered are current position vectors, then the length vector is called the <u>deformed length vector</u>, or the <u>current length vector</u>.  
 
@@ -25,7 +27,7 @@ For the current case, we have that
 
 $$
 \begin{equation}
-\boldsymbol{\delta}=(l-L)\hat{\boldsymbol{E}}\_{\rm a}.
+\boldsymbol{\delta}=(l-L)\hat{\boldsymbol{E}}_{\rm a}.
 \end{equation}
 $$
 
@@ -35,7 +37,7 @@ $$
 \boldsymbol{F}=\frac{E A}{L} \boldsymbol{\delta}
 $$ 
 
-Since we focus on the case in which the bar just stretches along its own axis, we can write $\boldsymbol{F}=F\hat{\boldsymbol{E}}\_a$, and $\boldsymbol{\delta}=\delta\hat{\boldsymbol{E}}\_a$. Then it follows from the last displayed equation that
+Since we focus on the case in which the bar just stretches along its own axis, we can write $\boldsymbol{F}=F\hat{\boldsymbol{E}}\_{\rm a}$, and $\boldsymbol{\delta}=\delta\hat{\boldsymbol{E}}\_{\rm a}$. Then it follows from the last displayed equation that
 
 $$
 F=\frac{E A}{L} \delta,
@@ -50,6 +52,6 @@ The vector  -->
 
 
 
-![](ClassNotes-7.jpg)
+
 <!-- HK_TODO: In the figure u(C) needs to be chnaged to bold \dekta -->
 

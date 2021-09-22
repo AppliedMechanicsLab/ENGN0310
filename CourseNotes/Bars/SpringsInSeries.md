@@ -2,7 +2,7 @@
 {% include command %}
 
 
-#### Prelude: Two springs in parallel. 
+#### Prelude: Two springs in series. 
 
 ![](2021-09-20-19-48-57.png)
 
