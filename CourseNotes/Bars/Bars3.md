@@ -41,11 +41,11 @@ $$
 \end{align}
 $$ 
 
-From force equilibrium, we know that the force vector on the right face of the slice is the same as the force vector acting on the right face, $\Gamma^{\mathscr{h}}$, of the bar. The force on the right face of the bar, of course, is $F \hat{\boldsymbol{E}}\_a$, where $F= (E A/L) \delta$, and $\delta = l-L$. Combining this information with the last displayed equation, we get that
+From force equilibrium, we know that the force vector on the right face of the slice is the same as the force vector acting on the right face, $\Gamma^{\mathscr{h}}$, of the bar. The force on the right face of the bar, of course, is $F \hat{\boldsymbol{E}}\_{\rm a}$, where $F= (E A/L) \delta$, and $\delta = l-L$. Combining this information with the last displayed equation, we get that
 
 $$
 \begin{align}
-F \hat{\boldsymbol{E}}\_{\rm a} &=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}_{\rm a}\\
+F \hat{\boldsymbol{E}}_{\rm a} &=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}_{\rm a}\\
 \frac{E A}{L} \delta&=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\\
  \frac{\delta}{L}&=\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
  \lim_{\Delta X\to 0}\frac{\delta}{L}&=\lim_{\Delta X\to 0}\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
@@ -54,7 +54,7 @@ F \hat{\boldsymbol{E}}\_{\rm a} &=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\
 $$
 
 
-Integrating the above differential equation, we get that
+Integrating the differential equation above, we get that
 
 $$
 \begin{align}
