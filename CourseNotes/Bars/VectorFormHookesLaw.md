@@ -17,6 +17,8 @@ In the following, we focus our attention on the cases in which the bar just stre
 
 Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, before any forces are applied to the bar, be $\boldsymbol{X}(\mathcal{C})$ (red arrow in the top panel of the below figure). The difference between the position vectors of the centroids of the right and left faces is called the length vector. 
 
+![](ClassNotes-7.jpg)
+
 When the position vectors considered are reference position vectors, then the length vector is called the <u>initial length vector</u>, or the <u>reference length vector</u>. When the position vectors considered are current position vectors, then the length vector is called the <u>deformed length vector</u>, or the <u>current length vector</u>.  
 
 Say we choose the origin of the physical space $\mathcal{E}^3$ to be located at the centroid of the bar's left face. Then the reference position vector of the bar's left face is  simply the null vector $\boldsymbol{0}$. In this case, $\boldsymbol{X}(\mathcal{C})$ is also the initial (or reference) length vector. If the initial, undeformed length of the bar is $L$, then $\boldsymbol{X}(\mathcal{C})=L\hat{\boldsymbol{E}}\_{\rm a}$. Say that after  the application of force, the position vector of the centroid of the bar's right face is  $\boldsymbol{x}(\mathcal{C})$.  The centroid of its left face remains at the origin, thus its current position is $\boldsymbol{0}$.  Therefore, the deformed length is $\boldsymbol{x}(\mathcal{C})$. If the current (or deformed) length is $l$, then $\boldsymbol{x}(\mathcal{C})=l\hat{\boldsymbol{E}}\_{\rm a}$. The difference between the current and reference length vectors is called the change in length vector $\boldsymbol{\delta}$.   
@@ -50,6 +52,6 @@ The vector  -->
 
 
 
-![](ClassNotes-7.jpg)
+
 <!-- HK_TODO: In the figure u(C) needs to be chnaged to bold \dekta -->
 
