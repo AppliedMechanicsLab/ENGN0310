@@ -17,9 +17,9 @@ $$
 \end{equation}
 $$   -->
 
-Let $\boldsymbol{u}$ be the displacement field of a bar. In the [previous section](./Bars2.md), we learned that $\boldsymbol{u}(\boldsymbol{X})$ is the displacement of the material particle $\boldsymbol{X}$. The displacement vector tells us how much the material particle has moved on the application of the force. Recall that we are referring to material particles by their position vectors in the reference configuration.  
+Let $\boldsymbol{u}$ be the displacement field of a bar. In the [previous section](./Bars2.md), we learned that $\boldsymbol{u}(\boldsymbol{X})$ is the displacement of the material particle $\boldsymbol{X}$. The displacement vector tells us by how much the material particle has moved on the application of the force. Recall that we are referring to material particles by their position vectors in the reference configuration.  
 
-In the following, we focus our attention on when the bar just stretches along its own axis (with no rotation.) That is, we focus on the case in which  the bar remains aligned with $\hat{\boldsymbol{E}}\_{\rm a}$ before and after deformation. In this case, we can work with the scalar displacement field $u$, which is defined as 
+In the following, we focus our attention on the cases in which the bar just stretches along its own axis (with no rotation) so that the bar remains aligned with $\hat{\boldsymbol{E}}\_{\rm a}$ before and after deformation. In this case, we can work with the scalar displacement field $u$, which is defined as 
 
 $$
 \begin{equation}
@@ -31,13 +31,13 @@ The scalar displacement field can be used as follows. Say the material particle 
 
 ![](2021-09-21-16-29-16.png)
 
-Now, let us focus on a small slice of the bar. Let the position vector of the material particle on (the centroid of) the left face of the slice be $X \hat{\boldsymbol{E}}\_{a}$ and, the position vector of the material particle on (the centroid of) the right face of the slice be  $(X+\Delta X) \hat{\boldsymbol{E}}\_{a}$. The reference length vector of the slice is, of course, $\Delta X \hat{\boldsymbol{E}}\_{a}$. Let the scalar displacement field in the bar be   $u$. Then, the current position vector of the left particle is $(X+u(X))\hat{\boldsymbol{E}}\_{a}$ and of the right particle is $(X+\Delta X+u(X+\Delta X))\hat{\boldsymbol{E}}\_{a}$. Thus, the current length vector of the slice is $(\Delta X+u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$. The change in length vector is $(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$
+Now, let us focus on a small slice of the bar. Let the position vector of the material particle on (the centroid of) the left face of the slice be $X \hat{\boldsymbol{E}}\_{a}$, and the position vector of the material particle on (the centroid of) the right face of the slice be  $(X+\Delta X) \hat{\boldsymbol{E}}\_{\rm a}$. The reference length vector of the slice is, of course, $\Delta X \hat{\boldsymbol{E}}\_{\rm a}$. Let the scalar displacement field in the bar be   $u$. Then, the current position vector of the left particle is $(X+u(X))\hat{\boldsymbol{E}}\_{\rm a}$, and that of the right particle is $(X+\Delta X+u(X+\Delta X))\hat{\boldsymbol{E}}\_{\rm a}$. Thus, the current length vector of the slice is $(\Delta X+u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{\rm a}$. The change in length vector is $(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}_{\rm a}$
 
 On applying the [vector form of the Hooke's law](VectorFormHookesLaw.md) to the slice, we have that the force vector on the right face of the slice is
 
 $$
 \begin{align}
-\boldsymbol{F}=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}
+\boldsymbol{F}=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}_{\rm a}
 \end{align}
 $$ 
 
@@ -45,7 +45,7 @@ From force equilibrium, we know that the force vector on the right face of the s
 
 $$
 \begin{align}
-F \hat{\boldsymbol{E}}\_{a} &=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}\\
+F \hat{\boldsymbol{E}}\_{\rm a} &=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}_{\rm a}\\
 \frac{E A}{L} \delta&=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\\
  \frac{\delta}{L}&=\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
  \lim_{\Delta X\to 0}\frac{\delta}{L}&=\lim_{\Delta X\to 0}\frac{u(X+\Delta X)-u(X)}{\Delta X}\\

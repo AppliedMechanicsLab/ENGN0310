@@ -14,7 +14,7 @@
 
 #### Axial force. Equilibrium, compression, tension.   
 
-The forces on a bar, by its very definition, are parallel to its axis (see Figure _force_). Let the net force acting on the bar's right end face, $\Gamma^{\mathscr{h}}$, be $ \mathbf{F}\_{\rm a}=F \hat{\mathbf{E}}\_{a}$. From equilibrium, it follows that the force acting on the bar's left face, $\Gamma^{\mathscr{g}}$, is $-\boldsymbol{F}\_{\rm a}$. When $F>0$ we say the bar is under tension, and when $F<0$ we say that the bar is under compression.
+The forces on a bar, by its very definition, are parallel to its axis (see Figure _force_). Let the net force acting on the bar's right end face, $\Gamma^{\mathscr{h}}$, be $ \mathbf{F}\_{\rm a}=F \hat{\boldsymbol{E}}\_{\rm a}$. From equilibrium, it follows that the force acting on the bar's left face, $\Gamma^{\mathscr{g}}$, is $-\boldsymbol{F}\_{\rm a}$. When $F>0$ we say the bar is under tension, and when $F<0$ we say that the bar is under compression.
 
 ![Forces on the bar](2021-09-11-23-01-57.png)
 
@@ -44,7 +44,7 @@ Note that $\hat{\boldsymbol{n}}^{1}=-\hat{\boldsymbol{n}}^{2}$ -->
 The bar's largest dimension is referred to as its length, $L$. This length is also referred to as the bar's undeformed length. This will be the length we will measure when there are no forces acting on the bar.
 
 
-Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, before any forces are applied to the bar, be $\boldsymbol{X}$ (red arrow in the top panel of the below figure). On choosing the origin of the physical space $\mathcal{E}^3$ to be located at the centroid of the bar's left face, we get that $\boldsymbol{X}=L\hat{\boldsymbol{E}}\_{\rm a}$, and after the application of force, the position vector of the centroid becomes $\boldsymbol{x}=l\hat{\boldsymbol{E}}\_{\rm a}$. The vector $\boldsymbol{u}=\boldsymbol{x}-\boldsymbol{X}$ is called the displacement of the bar's right face w.r.t to its left face, and $\boldsymbol{u}⋅ \hat{\boldsymbol{E}}\_{a}=: \delta$ is called the bar's change in length (length change). When $\delta>0$, we say that the bar has been stretched and $\delta$ is called extension, and when  $\delta<0$, we say that the bar has been compressed and $\delta$ is called compression.
+Let the position vector of the $\Gamma^{\mathscr{h}}$'s centroid, before any forces are applied to the bar, be $\boldsymbol{X}$ (red arrow in the top panel of the below figure). On choosing the origin of the physical space $\mathcal{E}^3$ to be located at the centroid of the bar's left face, we get that $\boldsymbol{X}=L\hat{\boldsymbol{E}}\_{\rm a}$, and after the application of force, the position vector of the centroid becomes $\boldsymbol{x}=l\hat{\boldsymbol{E}}\_{\rm a}$. The vector $\boldsymbol{u}=\boldsymbol{x}-\boldsymbol{X}$ is called the displacement of the bar's right face w.r.t to its left face, and $\boldsymbol{u}⋅ \hat{\boldsymbol{E}}\_{\rm a}=: \delta$ is called the bar's change in length (length change). When $\delta>0$, we say that the bar has been stretched and $\delta$ is called extension, and when  $\delta<0$, we say that the bar has been compressed and $\delta$ is called compression.
 
 ![](2021-09-11-23-51-41.png)
 
