@@ -35,7 +35,7 @@ $$
 \boldsymbol{F}=\frac{E A}{L} \boldsymbol{\delta}
 $$ 
 
-Since we focus on the case in which the bar just stretches along its own axis, we can write $\boldsymbol{F}=F\hat{\boldsymbol{E}}\_a$, and $\boldsymbol{\delta}=\delta\hat{\boldsymbol{E}}\_a$. Then it follows from the last displayed equation that
+Since we focus on the case in which the bar just stretches along its own axis, we can write $\boldsymbol{F}=F\hat{\boldsymbol{E}}\_{\rm a}$, and $\boldsymbol{\delta}=\delta\hat{\boldsymbol{E}}\_{\rm a}$. Then it follows from the last displayed equation that
 
 $$
 F=\frac{E A}{L} \delta,
