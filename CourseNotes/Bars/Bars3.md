@@ -27,11 +27,11 @@ u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}_{\rm a})⋅ \hat{\boldsymbol{E}}_{\rm
 \end{equation}
 $$
 
-The scalar displacement field can be used as follows. Say the material particle $\boldsymbol{X}$ can be expressed as $\boldsymbol{X}=X \hat{\boldsymbol{E}}\_{a}$. Then, its  displacement can be computed as $u(X) \hat{\boldsymbol{E}}_{\rm a}$. 
+The scalar displacement field can be used as follows. Say the material particle $\boldsymbol{X}$ can be expressed as $\boldsymbol{X}=X \hat{\boldsymbol{E}}\_{\rm a}$. Then, its  displacement can be computed as $u(X) \hat{\boldsymbol{E}}_{\rm a}$. 
 
 ![](2021-09-21-16-29-16.png)
 
-Now, let us focus on a small slice of the bar. Let the position vector of the material particle on (the centroid of) the left face of the slice be $X \hat{\boldsymbol{E}}\_{a}$, and the position vector of the material particle on (the centroid of) the right face of the slice be  $(X+\Delta X) \hat{\boldsymbol{E}}\_{\rm a}$. The reference length vector of the slice is, of course, $\Delta X \hat{\boldsymbol{E}}\_{\rm a}$. Let the scalar displacement field in the bar be   $u$. Then, the current position vector of the left particle is $(X+u(X))\hat{\boldsymbol{E}}\_{\rm a}$, and that of the right particle is $(X+\Delta X+u(X+\Delta X))\hat{\boldsymbol{E}}\_{\rm a}$. Thus, the current length vector of the slice is $(\Delta X+u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{\rm a}$. The change in length vector is $(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}_{\rm a}$
+Now, let us focus on a small slice of the bar. Let the position vector of the material particle on (the centroid of) the left face of the slice be $X \hat{\boldsymbol{E}}\_{\rm a}$, and the position vector of the material particle on (the centroid of) the right face of the slice be  $(X+\Delta X) \hat{\boldsymbol{E}}\_{\rm a}$. The reference length vector of the slice is, of course, $\Delta X \hat{\boldsymbol{E}}\_{\rm a}$. Let the scalar displacement field in the bar be   $u$. Then, the current position vector of the left particle is $(X+u(X))\hat{\boldsymbol{E}}\_{\rm a}$, and that of the right particle is $(X+\Delta X+u(X+\Delta X))\hat{\boldsymbol{E}}\_{\rm a}$. Thus, the current length vector of the slice is $(\Delta X+u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{\rm a}$. The change in length vector is $(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}_{\rm a}$
 
 On applying the [vector form of the Hooke's law](VectorFormHookesLaw.md) to the slice, we have that the force vector on the right face of the slice is
 
