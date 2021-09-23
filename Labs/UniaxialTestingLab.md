@@ -60,9 +60,13 @@ Brown Design Workshop
   <img src="lab1task1.png" alt="drawing" width="600"/>
 </center>
 
+
 #### Data analysis
  * Plot the force vs. displacement. Is the data linear? Add a straight line to fit the plot (see the figure below for example).
-  <img src="lab1task12.PNG" alt="drawing" width="600"/>
+
+ <center>
+  <img src="lab1task12.png" alt="drawing" width="600"/>
+</center>
 
 ### Task 2: Calculate Young's modulus $E=\frac{FL}{A\delta}$ of rubber bar
 
@@ -73,7 +77,9 @@ Brown Design Workshop
 
   (c) Repeat Step (b) for each rubbar bar.
 
-<img src="rubber.PNG" alt="drawing" width="600"/>
+<center>
+<img src="rubber.png" alt="drawing" width="600"/>
+</center>
 
 #### Data analysis
    * For each bar, calculate the term $\frac{FL}{A\delta}$, where $A$ is the area of cross section the rubber bar and $A=(\frac{D}{2})^2\pi$
@@ -83,7 +89,9 @@ Brown Design Workshop
 
    * Calculate the Young's modulus by choosing the averaged values of each bar.
 
-<img src="lab1task2.PNG" alt="drawing" width="600"/>
+<center>
+<img src="lab1task2.png" alt="drawing" width="600"/>
+</center>
 
 ### Task 3: Determine the displacement field of rubber bar under uniaxial tensile test
 
@@ -98,7 +106,9 @@ Brown Design Workshop
 
   (c) Stretch the bar to the displacememt of $\delta=20~\rm mm$, record the corresponding force and take a piture of the deformed bar after waiting for 2 minutes.
 
-<img src="lab1task31.PNG" alt="drawing" width="600"/>
+<center>
+<img src="lab1task31.png" alt="drawing" width="600"/>
+</center>
 
 #### Data analysis
    * Now you have two pictures of undeformed and deformed bar, you can measure the displacement of each marked position using ImageJ following steps below ([Detailed guidence to use ImageJ](ImageJguide.md)):
@@ -109,7 +119,9 @@ Brown Design Workshop
 
    * Plot displacement vs. position of each marked position. Set the postion of bottom marked line of the bar as $X=0$. From the class, we know the displacement field of the bar under unaixal tensile test is $U(X)=\delta\frac{X}{L}$. Add a plot of function $U$ such that $U(X)=\delta\frac{X}{L}$, where $\delta$ and $L$ is determined from the experiment(see figure below for example). 
 
-<img src="lab1task32.PNG" alt="drawing" width="600"/>
+<center>
+<img src="lab1task32.png" alt="drawing" width="600"/>
+</center>
 
 ### Task 4: Validate Hooke's law for the rubber bar
 
@@ -117,8 +129,9 @@ Brown Design Workshop
 
 * Following Task 1, add a plot of function $F$ such that $F(\delta)=\frac{EA}{L}\delta$, where $E$ is Young's modulus of the rubber calculated from Task 2, $A$ and $L$ are measured from Task 1 (see figure below for example).
 
-<img src="lab1task4.PNG" alt="drawing" width="600"/>
-
+<center>
+<img src="lab1task4.png" alt="drawing" width="600"/>
+</center>
 
 ## 6. Lab report guidelines
 1. The lab report should be written as a single, professional-prepared document for each student. 
