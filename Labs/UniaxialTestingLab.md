@@ -104,7 +104,7 @@ Brown Design Workshop
 
   (d) Take a picture of the bar before loading.
 
-  (c) Stretch the bar to the displacememt of $\delta=20~\rm mm$, record the corresponding force and take a piture of the deformed bar after waiting for 2 minutes.
+  (e) Stretch the bar to the displacememt of $\delta=20~\rm mm$, record the corresponding force and take a piture of the deformed bar after waiting for 2 minutes.
 
 <center>
 <img src="lab1task31.png" alt="drawing" width="600"/>
@@ -150,18 +150,18 @@ Please use International System of Units (SI), for example using meter and kilog
 
 ## 7. Lab report organization 
 
-### 1) **Introduction**: Write a brief statement describing the purpose of the lab.
+1. **Introduction**: Write a brief statement describing the purpose of the lab.
 
-### 2) **Methods and Materials**: Describe the experimental setup and procedural details for the experiment.
+2. **Methods and Materials**: Describe the experimental setup and procedural details for the experiment.
 
-### 3) **Results and Discussion**:
+3. **Results and Discussion**:
 * Following Data analysis of each task to show your experiment results using plots and tables.
 * For each task, discuss the theoretical analysis that allows you to relate different measurements of the experiment, for example, the relationship between Force and Displacement in  Task 1.
 * Discuss any possible sources of error.
 
-### 4) **Conclusion**: Write a brief statement describing your conclusions and what you learned in the lab.
+4. **Conclusion**: Write a brief statement describing your conclusions and what you learned in the lab.
 
-### 5) **Appendices**: Include tables of your raw data, detailed calculations, and other information/figures that you deem pertinent but non-essential to the body of your report.
+5. **Appendices**: Include tables of your raw data, detailed calculations, and other information/figures that you deem pertinent but non-essential to the body of your report.
 
 ## [8. Lab calendar](https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York)
 
