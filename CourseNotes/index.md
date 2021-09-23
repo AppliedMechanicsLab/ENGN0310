@@ -11,9 +11,9 @@
         * [Force-displacement law in vector form](./Bars/VectorFormHookesLaw.md)
         * Displacement field
             - [Defintion. What is a displacement field?](Bars/Bars2.md)
-            - :construction:  [Explicit expression for the case of constant cross-section](Bars/Bars3.md)
+            - [Explicit expression for the case of constant cross-section](Bars/Bars3.md)
     * Bars with variable cross-section 
-        * [Two springs in parallel](./Bars/SpringsInParallel.md)
+        * [Two springs in series](./Bars/SpringsInSeries.md)
         *  :construction: :construction: [Force-displacement law for the case of Variable crossectional area](Bars/Bars4.md)
         - :construction: :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5.md)
 * Mathematical analysis results

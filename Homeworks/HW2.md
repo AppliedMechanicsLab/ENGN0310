@@ -60,7 +60,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
    (2.5 pts) (ii) What are the displacement vectors of  $C$, $A$, $F$, and $E$? Express them in terms of  $\hat{\boldsymbol{E}}_1$, and $\hat{\boldsymbol{E}}_2$.
    
-   (5 pts) (iii) What is the current position vector of the material particle $5~\rm cm\hat{\boldsymbol{E}}_1+\frac{1}{2}~\rm cm~\hat{\boldsymbol{E}}_2$? What is the displacement of this material particle?
+   (5 pts) (iii) What is the current position vector of the material particle $5~\rm cm\hat{\boldsymbol{E}}_1+\frac{1}{2}~\rm cm~\hat{\boldsymbol{E}}_2$? What is the displacement of this material particle? Hint: We will generally name material particles after their original position in the reference body, and this is the case here.
    
    (5 pts) (iv) What is the material particle whose current position vector is $8~\rm cm\hat{\boldsymbol{E}}_1+\frac{1}{4}~\rm cm~\hat{\boldsymbol{E}}_2$? What is this material particle's displacement?
 
