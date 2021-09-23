@@ -56,7 +56,9 @@ Brown Design Workshop
 
   (d) For each applied displacement loading, record the corresponding force after waiting for 2 minutes (Rubber is kind of polymeric materials. To record the stable elastic deformation of rubber when applying load on it, we need wait for a while when the rubber is fully relaxed. Based on our experience, 2 minutes is enough). 
 
-  <img src="lab1task1.PNG" alt="drawing" width="600"/>
+<center>
+  <img src="lab1task1.png" alt="drawing" width="600"/>
+</center>
 
 #### Data analysis
  * Plot the force vs. displacement. Is the data linear? Add a straight line to fit the plot (see the figure below for example).
