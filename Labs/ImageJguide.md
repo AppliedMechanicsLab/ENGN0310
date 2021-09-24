@@ -1,3 +1,5 @@
+{% include mathjax_support %}
+{% include command %}
 # ImageJ Guidence
 * Step 1:  Open your image. Draw line of known length on your image using the line segment (5th) icon, for example, draw a line from $0~\rm cm$ to $2~\rm cm$ of the ruler scale, see figure below.
 
