@@ -182,9 +182,6 @@
     $$
 
 
-<br>
-
-
 7. (20 pts) Imagine that the top plate is compressed to get it into contact with the tube's top surface and then the two of them are welded together. After the welding operation the applied force on the plate is removed. What will be the stress in the tube in this final state?
 
     **Solution:** 
@@ -300,7 +297,7 @@
     $$
 
     so that 
-    
+
     $$
     \begin{equation}
     \delta=\frac{khL}{kL+EA}
