@@ -4,7 +4,7 @@
 
 
 # ENGN0310: Homework 2
-## Due Friday 11:59 pm, September 24th, 2021
+## Due Friday 11:59 pm, September 25th, 2021
 
 
 
