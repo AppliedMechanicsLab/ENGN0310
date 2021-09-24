@@ -317,7 +317,7 @@
     $$
 
 
->**Point distribution**:
+    >**Point distribution**:
     >If you didn't have the correct answer, I generally tried to give partial credits based on the following:
     >* If you wrote $\sigma = F/A$, <u>+2 points</u>
     >* If you recognized that the tube will deform by some amount so that there will be some stress in the tube (wrote $F=EA\delta/L$),  <u>+2 points</u>
