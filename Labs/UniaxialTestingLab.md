@@ -29,6 +29,7 @@ The measurements acquired through the experiment will answer the following quest
 
 Brown Design Workshop 
 
+<br>
 
 ## 3. Theory
 * [Hooke's law for the bar](../CourseNotes/Bars/Bars.md)
@@ -51,11 +52,9 @@ Brown Design Workshop
 
     (All materials/equipments will be provided except for the phone)
 
-</br>   
+<br>   
 
 ## 5. Experimental setup and data analysis
-
-<br>
 
 ### <b> Task 1: Measure the force and the displacement of a rubber bar under uniaxial tensile testing </b>
 
