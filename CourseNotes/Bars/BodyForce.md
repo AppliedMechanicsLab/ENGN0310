@@ -1,8 +1,6 @@
 {% include mathjax_support %}
 {% include command %}
 
-## Variable material properties
-Previously when we derived the displacement field when the cross-section area of the bar is varying along its length that we got that
 
 
 * Human bone
@@ -11,38 +9,6 @@ Previously when we derived the displacement field when the cross-section area of
 
 
 
-### Hooke's Law or Stiffness
-
-$$
-\begin{align}
-\boldsymbol{F}&=
-\left(
-\int_{0}^{L}\frac{dX}{E A(X)}
-\right)^{-1}
-\boldsymbol{\delta}
-\end{align}
-$$
-
-$$
-\begin{align}
-\boldsymbol{F}&=
-\left(
-\int_{0}^{L}\frac{dX}{E(X) A}
-\right)^{-1}
-\boldsymbol{\delta}
-\end{align}
-$$
-
-
-$$
-\begin{align}
-\boldsymbol{F}&=
-\left(
-\int_{0}^{L}\frac{dX}{E(X) A(X)}
-\right)^{-1}
-\boldsymbol{\delta}
-\end{align}
-$$
 
 ### Displacement field
 

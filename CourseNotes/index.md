@@ -16,6 +16,7 @@
         * [Two springs in series](./Bars/SpringsInSeries.md)
         *  :construction: :construction: [Force-displacement law for the case of Variable crossectional area](Bars/Bars4.md)
         - :construction: :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5.md)
+    * [Bars with both cross-sections and areas varying their lengths](Bars6.md) 
 * Mathematical analysis results
     * [Proof of  $ \lim_{\epsilon\to 0}\frac{1}{\epsilon}\int_{a}^{a+\epsilon}f(\xi)\, d\xi=f(a)$](Bars/Leibnitz.md)
 * Notation
