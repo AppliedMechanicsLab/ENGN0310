@@ -1,32 +1,11 @@
 {% include mathjax_support %}
 {% include command %}
 
-
-
-* Human bone
-* Tendon
-
-
-
-
-
 ### Displacement field
 
 
 
 
-$$
-u(X)=F\int_{0}^{X} \frac{\, d\, Y}{E A(Y)}
-$$
-
-
-$$
-u(X)=F\int_{0}^{X} \frac{\, d\, Y}{E(Y) A}
-$$
-
-$$
-u(X)=F\int_{0}^{X} \frac{\, d\, Y}{E(Y) A(Y)}
-$$
 
 
 
