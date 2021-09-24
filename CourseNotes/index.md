@@ -17,7 +17,7 @@
     - :construction: :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5.md)
 * [Bars with both cross-sections and areas varying their lengths](Bars6.md) 
 * Bars with body force
-     [Most general version of the constitutive law for the bar](BodyForce.md)
+     [Most general version of the constitutive law for the bar](Bars/BodyForce.md)
 
 ## Mathematical analysis results
 

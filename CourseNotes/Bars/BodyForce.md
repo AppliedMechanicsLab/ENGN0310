@@ -3,14 +3,21 @@
 
 ### A more fundamental Hooke's Law
 
-We started with the following equation for the force deflection relation for the bar
+We started presenting following equation as the constitutive law (force deflection relation) for the bar
 $$
 \begin{equation}
 F=\frac{E A}{L}\delta
 \end{equation}
 $$
 
-We then presented a vector form of the above equation. Specifically, we postulated that if $\u{F}$
+We then presented a vector form of the above equation. Specifically, we presented
+$$
+\begin{equation}
+\boldsymbol{F}=\frac{E A}{L}\boldsymbol{\delta},
+\end{equation}
+$$
+where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\boldsymbol{l}=l\$
+
 
 ![](2021-09-21-16-29-16.png)
 
@@ -97,7 +104,7 @@ $$
 
 Now, let us focus on a small slice of the bar. Let the position vector of the material particle on (the centeroid of) the left face of the slice be $X \hat{\boldsymbol{E}}\_{a}$ and, the position vector of the material particle on (the centeroid of) the right face of the slice be  $(X+\Delta X) \hat{\boldsymbol{E}}\_{a}$. The reference length vector of the slice is, of course, $\Delta X \hat{\boldsymbol{E}}\_{a}$. Let the scalar displacement field in the bar be   $u$. Then the current position vector of the left particle is $(X+u(X))\hat{\boldsymbol{E}}\_{a}$ and of the right particle is $(X+\Delta X+u(X+\Delta X))\hat{\boldsymbol{E}}\_{a}$. Thus, the current length vector of the slice is $(\Delta X+u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$. The change in length vector is $(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$
 
-On applying the [vector form of the Hooke's law](VectorFormHookesLaw.md) to the slice we have that the force vector on the righ face of the slice is
+On applying the [vector form of the Hooke's law](VectorFormHookesLaw.md) to the slice we have that the force vector on the right face of the slice is
 $$
 \begin{align}
 \boldsymbol{F}=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}
