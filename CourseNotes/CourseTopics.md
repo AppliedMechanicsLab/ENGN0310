@@ -31,7 +31,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture5 | Sep 17, Fri | Torsion |[Link](https://www.dropbox.com/s/bsvvpkazu1dzr29/ENGN0310_Sep17.mp4?dl=0)||
 | Lecture6 | Sep 20, Mon | Torsion |[Part 1](https://www.dropbox.com/s/3bel261ivxzinqa/ENGN0310_Sep20_Part1.mp4?dl=0), [Part 2](https://www.dropbox.com/s/lk8bjgdvfc4vxyl/ENGN0310_Sep20_Part2.mp4?dl=0)||
 |Recitation 2|Sep 21, Tuesday| Vectors. Static Equilibrium| [Video](https://brown.zoom.us/rec/share/UBQ782ydJlObMsxPJXvCV3zhEr6kua2yXzxTGHB1R5Dbiz6j1ooDfqgOvilnl9l2.DtIQ9OSaKN66ML3-?startTime=1632240022000) ||
-| Lecture7 | Sep 22, Wed | Torsion |||
+| Lecture7 | Sep 22, Wed | Torsion |[Link](https://www.dropbox.com/s/lwluxk2u9muexgj/engn0310-sep22_kuARC8xg_n5R7.mp4?dl=0)||
 | Lecture8 | Sep 24, Fri | Strain |||
 | Lecture9 | Sep 27, Mon | Strain |||
 | Lecture10 | Sep 29, Wed | Strain |||
