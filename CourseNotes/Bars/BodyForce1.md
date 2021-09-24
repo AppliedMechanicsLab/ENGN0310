@@ -15,7 +15,7 @@ We then presented a vector form of the above equation. Specifically, we presente
 $$
 \begin{equation}
 \boldsymbol{F}=\frac{E A}{L}\boldsymbol{\delta},
-\labe{eq:HookesLawVectorForm}
+\label{eq:HookesLawVectorForm}
 \end{equation}
 $$
 where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\u{l}=l\uv{E}_a$, and $\u{L}=L\uv{E}_a$.
