@@ -181,6 +181,18 @@
     \end{equation*}
     $$
 
+    <br>
+
+    >**Point distribution**:
+    >If you didn't have the correct answer, I generally tried to give partial credits based on the following:
+    >* If you recognized $\delta=0$ for $P<kh$,  <u>+3 points</u>
+    >* If you wrote Hooke's law $E=FL/A\delta$,  <u>+2 points</u>
+    >* If you had correct expression for the force in the deformed spring, $k(h+\delta)$, <u>+5 points</u>
+    >* If you recognized that $\sum F=0$ and set up the equation correctly so that the signs made sense, <u>+5 points</u>.
+    >* For any reasonable attempt to find the expression for $\delta$, up to <u>+5 points</u>.
+    
+
+    <br>
 
 7. (20 pts) Imagine that the top plate is compressed to get it into contact with the tube's top surface and then the two of them are welded together. After the welding operation the applied force on the plate is removed. What will be the stress in the tube in this final state?
 
@@ -304,6 +316,16 @@
     \end{equation*}
     $$
 
+
+>**Point distribution**:
+    >If you didn't have the correct answer, I generally tried to give partial credits based on the following:
+    >* If you wrote $\sigma = F/A$, <u>+2 points</u>
+    >* If you recognized that the tube will deform by some amount so that there will be some stress in the tube (wrote $F=EA\delta/L$),  <u>+2 points</u>
+    >* If you took into account the deformation of the tube and had correct expression for the force in the spring, <u>+2 points</u>
+    >* If you had the correct force balance equation, <u>+2 points</u>
+    >* If you recognized that in this case, "$\delta$" is an unknown that must be solved for --and got the correct expression, <u>+6 points</u>
+    >* For any attempt to solve for the stress in the tube using the appropriate equation (Hooke's law), up to <u>+6 points</u>
+    
     
 
 
