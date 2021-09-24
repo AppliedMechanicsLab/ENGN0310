@@ -2,7 +2,7 @@
 {% include command %}
 
 
-## Structures
+## Structural mechanics
 
 ### Bars.
 * Bars with constant cross-section 
@@ -17,7 +17,16 @@
     - :construction: :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5.md)
 * [Bars with both cross-sections and areas varying their lengths](Bars6.md) 
 * Bars with body force
-     [Most general version of the constitutive law for the bar](Bars/BodyForce.md)
+  - [Most general version of the constitutive law for the bar](Bars/BodyForce1.md)
+  - [Equilibrium in 1D](Bars/BodyForce2.md)
+
+### Shafts (Torsion)
+### Beams (Bending)
+
+## Solid Mechanics
+
+### Stress
+### Strain
 
 ## Mathematical analysis results
 

@@ -1,41 +1,11 @@
 {% include mathjax_support %}
 {% include command %}
 
-### A more fundamental Hooke's Law
-
-We started presenting following equation as the constitutive law (force deflection relation) for the bar
-$$
-\begin{equation}
-F=\frac{E A}{L}\delta
-\end{equation}
-$$
-
-We then presented a vector form of the above equation. Specifically, we presented
-$$
-\begin{equation}
-\boldsymbol{F}=\frac{E A}{L}\boldsymbol{\delta},
-\end{equation}
-$$
-where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\boldsymbol{l}=l\$
-
+# Force equilibrium
 
 ![](2021-09-21-16-29-16.png)
 
 
-$$
-\begin{align}
-F(X+\Delta X) \hat{\boldsymbol{E}}\_{a} &=\frac{E(X) A(X)}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}\\
-F(X+\Delta X) &=\frac{E(X) A(X)}{\Delta X}(u(X+\Delta X)-u(X))\\
- \frac{F(X+\Delta X)}{A(X)}&=E(X)\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
- \lim_{\Delta X\to 0}
- \frac{F(X+\Delta X)}{A(X)} &=
- \lim_{\Delta X\to 0}
- E(X)\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
- &=
- \\
-\sigma_{11}(X)&=E u'(X)
-\end{align}
-$$
 
 
 
