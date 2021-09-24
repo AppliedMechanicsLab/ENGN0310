@@ -4,6 +4,7 @@
 # A more fundamental Hooke's Law
 
 We started presenting following equation as the constitutive law (force deflection relation) for the bar
+
 $$
 \begin{equation}
 F=\frac{E A}{L}\delta
@@ -12,12 +13,14 @@ F=\frac{E A}{L}\delta
 $$
 
 We then presented a vector form of the above equation. Specifically, we presented
+
 $$
 \begin{equation}
 \boldsymbol{F}=\frac{E A}{L}\boldsymbol{\delta},
 \label{eq:HookesLawVectorForm}
 \end{equation}
 $$
+
 where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\u{l}=l\uv{E}_a$, and $\u{L}=L\uv{E}_a$.
 
 The force-displacement relations and the displacement field, both for constant and variable area/property bars were derived using the above equations. However, so far the force inside the bar has always remained constnat. 
