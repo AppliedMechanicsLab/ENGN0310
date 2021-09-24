@@ -27,13 +27,10 @@ The measurements acquired through the experiment will answer the following quest
 
 Brown Design Workshop 
 
-<br>
 
 ## 3. Theory
 * [Hooke's law for the bar](../CourseNotes/Bars/Bars.md)
 * [Displacement field within the bar](../CourseNotes/Bars/Bars3.md)
-
-<br>
 
 ## 4. Equipment and Materials
 
