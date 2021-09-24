@@ -17,9 +17,7 @@ In this lab, we will study the mechanical behavior of the materials through unia
 
 The measurements acquired through the experiment will answer the following questions:
 1. How does the length of the specimen change when applying different loads?
-
 2. What is the displacement field of a rubber bar under uniaxial tensile testing?
-
 3. For specimens of the same material but in different geometry, will they have the same mechanical behaviors?
 
 
@@ -33,7 +31,6 @@ Brown Design Workshop
 
 ## 3. Theory
 * [Hooke's law for the bar](../CourseNotes/Bars/Bars.md)
-
 * [Displacement field within the bar](../CourseNotes/Bars/Bars3.md)
 
 <br>
@@ -99,7 +96,6 @@ Brown Design Workshop
 
 #### <u>Data analysis </u>
    * For each bar, calculate the term $\frac{FL}{A\delta}$, where $A$ is cross-sectional area of the rubber bar.
-   <!--and $A=(\frac{D}{2})^2\pi$ -->.
 
    * Plot the value of $\frac{FL}{A\delta}$ vs. length of bar. Is $\frac{FL}{A\delta}$ constant? 
    Add a horizontal line to fit the data (see the figure below for example).
@@ -131,7 +127,7 @@ Brown Design Workshop
 </center>
 
 #### <u>Data analysis </u>
-   * Now you have two pictures of the specimen, before and after loading. You can measure the displacement of each marked position using ImageJ, which can be downloaded [here](http://rsbweb.nih.gov/ij/download.html). See [Detailed guidance to use ImageJ](ImageJguide.md) for how to use the software.
+   * Now you have two pictures of the specimen, before and after loading. You can measure the displacement of each marked position using ImageJ, which can be downloaded [here](http://rsbweb.nih.gov/ij/download.html). See [Detailed guidance to using ImageJ](ImageJguide.md) for how to use the software.
 
 <!--
      * Download and open ImageJ (download from http://rsbweb.nih.gov/ij/download.html) . Open your the image. Click Analyze in the dropdown menu, followed by Set Scale. You can put in the scale to convert pixels to mm or cm use a fixed object (ruler) for the scale conversion.
