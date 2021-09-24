@@ -27,6 +27,7 @@
     **Solution:**
 
     (i) Simply plugging in $E=120~\rm{GPa}$, $\delta=90~\rm{\mu m}$, and $L=15cm$,
+
     $$
     \begin{equation}
     \sigma=\frac{F}{A}=E\frac{\delta}{L}=72~\rm{MPa}
@@ -34,6 +35,7 @@
     $$
 
     (ii) Taking $\sigma=72~\rm{MPa}$ and $d=2~\rm{cm}$,
+
     $$
     \begin{equation}
     F=\sigma A= \sigma(\pi\frac{d^2}{4})=22.6~\rm{kN}
@@ -46,6 +48,7 @@
     **Solution:**
 
     Taking $E=200~\rm{GPa}$ for steel, 
+
     $$
     \begin{equation}
     \delta=\frac{FL}{AE} =\frac{\sigma}{E} L=125~\rm{\mu m}
@@ -63,6 +66,7 @@
     (i) Since $\delta/L$ is inversely proportional to $E$, under equal tensile loading $F$ and cross-sectional area $A$, the ratio of $E$ of the two materials are 3/5.
 
     (ii) Steel:
+
     $$
     \begin{equation}
     \frac{\delta}{L}=\frac{\sigma}{E} = \frac{50~\rm{MPa}}{200~\rm{GPa}} = 2.5\times10^{-4}
@@ -70,6 +74,7 @@
     $$
 
     Titanium alloy:
+
     $$
     \begin{equation}
     \frac{\delta}{L}=\frac{\sigma}{E} = \frac{50~\rm{MPa}}{120~\rm{GPa}} = 4.16\times10^{-4}
@@ -84,6 +89,7 @@
     **Solution:**
 
     Plugging in $P = 5~\rm{kN}$, $L=30~\rm{m}$, $d=6~\rm{mm}$, and $\delta=2~\rm{cm}$,
+
     $$
     \begin{equation}
     E=\frac{P L}{A\delta}=\frac{P L}{(\pi d^2/4)\delta} = 265~\rm{GPa}
@@ -101,11 +107,13 @@
     **Solution:**
 
     (i) The diameter $d$ has to be such that the stress $\sigma$ in the two steel bolts, each with cross-sectional area $A=\pi d^2/4$, do not exceed the working stress when compressive force $P$ is applied.
+
     $$
     \begin{equation}
      \sigma = \frac{P}{2A} \leq \sigma_w
     \end{equation}
     $$
+
     $$
     \begin{equation}
     \Leftrightarrow d \geq \left(\frac{2P}{\pi\sigma_w}\right)^{1/2}=6.68~\rm{cm}
@@ -113,6 +121,7 @@
     $$
 
     (ii) At maximum load, $\sigma=\sigma_w=70~\rm{MPa}$ 
+
     $$
     \begin{equation}
     \delta=\frac{\sigma}{E} L = 438~\rm{\mu m}
@@ -165,6 +174,7 @@
     $$
 
     With $A=\pi (d_o^2-d_i^2)/4$,
+
     $$
     \begin{equation}
     \delta=\frac{4(P-kh)}{4kL+\pi E(d_o^2-d_i^2)} L
@@ -204,6 +214,7 @@
 
 
     Solving for $\delta$,
+
     $$
     \begin{equation}
     \delta=\frac{khL}{kL+EA}
@@ -211,6 +222,7 @@
     $$
 
     Hence, the stress in the tube is
+
     $$
     \begin{equation}
     \sigma = E\frac{\delta}{L} = \frac{khE}{kL+EA}
@@ -218,6 +230,7 @@
     $$
 
     where, again,  $A=\pi (d_o^2-d_i^2)/4 $ and
+
     $$
     \begin{equation}
     \sigma =\frac{4khE}{4kL+\pi E(d_o^2-d_i^2)}
@@ -287,6 +300,7 @@
     $$
 
     so that 
+    
     $$
     \begin{equation}
     \delta=\frac{khL}{kL+EA}
