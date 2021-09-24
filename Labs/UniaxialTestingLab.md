@@ -124,7 +124,7 @@ Brown Design Workshop
 </center>
 
 #### <u>Data analysis </u>
-   * Now you have two pictures of the specimen, before and after loading. You can measure the displacement of each marked position using ImageJ, which can be downloaded [here](http://rsbweb.nih.gov/ij/download.html). See [Detailed guidance to using ImageJ](ImageJguide.md) for how to use the software.
+   * Now you have two pictures of the specimen, before and after loading. You can measure the displacement of each marked position using ImageJ, which can be downloaded [here](https://imagej.nih.gov/ij/download.html). See [Detailed guidance to using ImageJ](ImageJguide.md) for how to use the software.
 
 <!--
      * Download and open ImageJ (download from http://rsbweb.nih.gov/ij/download.html) . Open your the image. Click Analyze in the dropdown menu, followed by Set Scale. You can put in the scale to convert pixels to mm or cm use a fixed object (ruler) for the scale conversion.
