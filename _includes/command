@@ -1,5 +1,5 @@
 $$
-\newcommand{\u}[1]{\boldsymbol{\mathsf{#1}}}
+\newcommand{\u}[1]{\boldsymbol{#1}}
 \newcommand{\v}[1]{\u{#1}}
 \newcommand{\uv}[1]{\hat{\v{#1}}}
 \renewcommand{\b}[1]{\boldsymbol{#1}}
