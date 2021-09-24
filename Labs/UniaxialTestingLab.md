@@ -4,8 +4,8 @@
 # Lab1: Uniaxial tensile testing lab
 
 ## 1. Introduction and objective
-Designing mechanical structures requires an understanding of the mechanical behaviors of the material consisting them. Generally, to determine how materials behave under loading, we test the materials using universal testing machines like those shown below.
-The usual procedure involves taking a small section of the material and applying controlled loads to measure deformation such as changes in length and diameter, or vice versa. 
+Designing mechanical structures requires an understanding of the mechanical behaviors of the material consisting them. Generally, to determine how materials behave under loading, we perform tests using universal testing machines like those shown below.
+The usual procedure involves taking a small section of the material of interest and applying controlled loads to measure their deformation (such as changes in length and diameter), or vice versa. 
 
 <img src="Instron.jpeg" alt="drawing" width="600"/>
 
@@ -23,7 +23,7 @@ The measurements acquired through the experiment will answer the following quest
 3. For specimens of the same material but in different geometry, will they have the same mechanical behaviors?
 
 
-</br>
+<br>
 
 ## 2. Location 
 
@@ -35,7 +35,7 @@ Brown Design Workshop
 
 * [Displacement field within the bar](../CourseNotes/Bars/Bars3.md)
 
-</br>
+<br>
 
 ## 4. Equipment and Materials
 
@@ -51,11 +51,11 @@ Brown Design Workshop
 
     (All materials/equipments will be provided except for the phone)
 
-    </br>
+</br>   
 
 ## 5. Experimental setup and data analysis
 
-</br>
+<br>
 
 ### <b> Task 1: Measure the force and the displacement of a rubber bar under uniaxial tensile testing </b>
 
@@ -83,7 +83,7 @@ Brown Design Workshop
   <img src="lab1task12.png" alt="drawing" width="600"/>
 </center>
 
-</br>
+<br>
 
 ### <b> Task 2: Calculate the Young's modulus $E=\frac{FL}{A\delta}$ of the rubber bars </b>
 
@@ -111,7 +111,7 @@ Brown Design Workshop
 <img src="lab1task2.png" alt="drawing" width="600"/>
 </center>
 
-</br>
+<br>
 
 ### <b> Task 3: Determine the displacement field of rubber bar under uniaxial tensile test </b>
 
@@ -146,7 +146,7 @@ Brown Design Workshop
 <img src="lab1task32.png" alt="drawing" width="600"/>
 </center>
 
-</br>
+<br>
 
 ### <b> Task 4: Validate Hooke's law for the rubber bar </b>
 
@@ -158,7 +158,7 @@ Brown Design Workshop
 <img src="lab1task4.png" alt="drawing" width="600"/>
 </center>
 
-</br>
+<br>
 
 ## 6. Lab report guidelines
 1. The lab report should be written as a single, professional-prepared document for each student. 
@@ -175,7 +175,7 @@ Please use International System of Units (SI), for example using meter and kilog
 
 6. Lab reports should be submitted electronically on Canvas in PDF format. No paper reports will be accepted.
 
-</br>
+<br>
 
 ## 7. Lab report organization 
 
@@ -193,7 +193,7 @@ Please use International System of Units (SI), for example using meter and kilog
 5. **Appendices**: Include tables of your raw data, detailed calculations, and other information/figures that you deem pertinent but non-essential to the body of your report.
 
 
-</br>
+<br>
 
 ## [8. Lab calendar](https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York)
 
