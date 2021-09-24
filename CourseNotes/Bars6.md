@@ -56,4 +56,4 @@ u(X)=F\int_{0}^{X} \frac{\, d\, Y}{E(Y) A(Y)}
 $$
 
 
-We will not be discussing the deriavtion of $\eqref{eq:NewDispField}$. However, the steps in deriving $\eqref{eq:NewDispField}$ are almost exactly the same as those used in deriving $\eqref{eq:OldDispField}$, see section [Displacement field inside a bar of variable cross-section](./Bars/Bars5.md)
+We will not be discussing the derivation of $\eqref{eq:NewDispField}$. However, the steps in deriving $\eqref{eq:NewDispField}$ are almost exactly the same as those used in deriving $\eqref{eq:OldDispField}$, see section [Displacement field inside a bar of variable cross-section](./Bars/Bars5.md)

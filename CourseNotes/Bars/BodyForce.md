@@ -1,29 +1,16 @@
 {% include mathjax_support %}
 {% include command %}
 
-### Displacement field
-
-
-
-
-
-
-
-
-
 ### A more fundamental Hooke's Law
 
-Let $\boldsymbol{u}$ be the displacement field of a bar. In the [previous section](./Bars2.md) we learnt that $\boldsymbol{u}(\boldsymbol{X})$ is the displacement of the material particle $\boldsymbol{X}$. The displacement vector tells us by how much the material particle has moved  on the application of the force. Recall that we are referring to material particles by their position vectors in the reference configuration.  
-
-In the following we focus our attention when the bar just streches along its own axis (with no rotation.) That is, we focus on the case in which  the bar remains aligned with $\hat{\boldsymbol{E}}\_{\rm a}$ before and after deformation. In this case, we can work with the scalar displacement field $u$, which is defined as 
-
+We started with the following equation for the force deflection relation for the bar
 $$
 \begin{equation}
-u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}_{\rm a})⋅ \hat{\boldsymbol{E}}_{\rm a}
+F=\frac{E A}{L}\delta
 \end{equation}
 $$
 
-The scalar displacement field can be used as follows. Say the material particle $\boldsymbol{X}$ can be expressed as $\boldsymbol{X}=X \hat{\boldsymbol{E}}\_{a}$ then its  displacement can be computed as $u(X) \hat{\boldsymbol{E}}_{\rm a}$. 
+We then presented a vector form of the above equation. Specifically, we postulated that if $\u{F}$
 
 ![](2021-09-21-16-29-16.png)
 
