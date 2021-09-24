@@ -2,7 +2,7 @@
 {% include command %}
 
 
-## Structures
+## Structural mechanics
 
 ### Bars.
 * Bars with constant cross-section 
@@ -18,6 +18,14 @@
 * [Bars with both cross-sections and areas varying their lengths](Bars6.md) 
 * Bars with body force
      [Most general version of the constitutive law for the bar](Bars/BodyForce.md)
+
+### Shafts (Torsion)
+### Beams (Bending)
+
+## Solid Mechanics
+
+### Stress
+### Strain
 
 ## Mathematical analysis results
 

@@ -7,6 +7,7 @@ We started presenting following equation as the constitutive law (force deflecti
 $$
 \begin{equation}
 F=\frac{E A}{L}\delta
+\label{eq:HookesLawScalarForm}
 \end{equation}
 $$
 
@@ -14,28 +15,34 @@ We then presented a vector form of the above equation. Specifically, we presente
 $$
 \begin{equation}
 \boldsymbol{F}=\frac{E A}{L}\boldsymbol{\delta},
+\labe{eq:HookesLawVectorForm}
 \end{equation}
 $$
-where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\boldsymbol{l}=l\$
+where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\u{l}=l\uv{E}_a$, and $\u{L}=L\uv{E}_a$.
+
+The force-displacement relations and the displacement field, both for constant and variable area/property bars were derived using the above equations. However, so far the force inside the bar has always remained constnat. 
+ 
+Now we consider the case in which the force too varies along the bar. This usually happens when there is a body forces acting on the bar. body forces can arise due to gravity, dynamics, magnetic field, etc. For solving the problem of  a bar is subject to  body we will need to use more fundamental constitutive law, than the laws given in $\eqref{eq:HookesLawScalarForm}$ and $\eqref{eq:HookesLawVectorForm}$. 
+Defining
+$$
+\begin{equation}
+\sigma_{11}(X)=F(X)/A(X)
+\end{equation}
+$$
+we present this law, which is a particularization of the constitutive equation from the linear theory of elasticity, as 
+$$
+\begin{equation}
+\sigma_{11}(X)=E(X) u'(X)
+\label{eq:}
+\end{equation}
+$$
+
+The laws $\eqref{eq:HookesLawScalarForm}$ and $\eqref{eq:HookesLawVectorForm}$ can be shown derive from 
 
 
 ![](2021-09-21-16-29-16.png)
 
 
-$$
-\begin{align}
-F(X+\Delta X) \hat{\boldsymbol{E}}\_{a} &=\frac{E(X) A(X)}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}\\
-F(X+\Delta X) &=\frac{E(X) A(X)}{\Delta X}(u(X+\Delta X)-u(X))\\
- \frac{F(X+\Delta X)}{A(X)}&=E(X)\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
- \lim_{\Delta X\to 0}
- \frac{F(X+\Delta X)}{A(X)} &=
- \lim_{\Delta X\to 0}
- E(X)\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
- &=
- \\
-\sigma_{11}(X)&=E u'(X)
-\end{align}
-$$
 
 
 
