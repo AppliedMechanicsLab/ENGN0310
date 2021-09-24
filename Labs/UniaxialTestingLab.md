@@ -23,14 +23,19 @@ The measurements acquired through the experiment will answer the following quest
 3. For specimens of the same material but in different geometry, will they have the same mechanical behaviors?
 
 
+</br>
 
-## 2. Location
-Brown Design Workshop
+## 2. Location 
+
+Brown Design Workshop 
+
 
 ## 3. Theory
 * [Hooke's law for the bar](../CourseNotes/Bars/Bars.md)
 
 * [Displacement field within the bar](../CourseNotes/Bars/Bars3.md)
+
+</br>
 
 ## 4. Equipment and Materials
 
@@ -46,7 +51,11 @@ Brown Design Workshop
 
     (All materials/equipments will be provided except for the phone)
 
+    </br>
+
 ## 5. Experimental setup and data analysis
+
+</br>
 
 ### <b> Task 1: Measure the force and the displacement of a rubber bar under uniaxial tensile testing </b>
 
@@ -60,7 +69,7 @@ Brown Design Workshop
 
   (d) Repeat step (c) for the following displacements: $6, 9, 12, 15, 18, 21, 24 ~\rm mm$
 
-    *NOTE: Not all materials behave like an ideal spring-like material. Buna-N rubber is an example of such material, so that its instantaneous response to applied displacement deviates from such idealized behavior. This deviation diminishes over time. Therefore, to record its stable elastic deformation, we need to wait for some time. Based on our preliminary testing, 2 minutes was found to be sufficient. 
+  > *NOTE: Not all materials behave like an ideal spring-like material. Buna-N rubber is an example of such material, so that its instantaneous response to applied displacement deviates from such idealized behavior. This deviation diminishes over time. Therefore, to record its stable elastic deformation, we need to wait for some time. Based on our preliminary testing, 2 minutes was found to be sufficient. 
 
 <center>
   <img src="lab1task1.png" alt="drawing" width="600"/>
@@ -74,6 +83,7 @@ Brown Design Workshop
   <img src="lab1task12.png" alt="drawing" width="600"/>
 </center>
 
+</br>
 
 ### <b> Task 2: Calculate the Young's modulus $E=\frac{FL}{A\delta}$ of the rubber bars </b>
 
@@ -100,6 +110,8 @@ Brown Design Workshop
 <center>
 <img src="lab1task2.png" alt="drawing" width="600"/>
 </center>
+
+</br>
 
 ### <b> Task 3: Determine the displacement field of rubber bar under uniaxial tensile test </b>
 
@@ -134,6 +146,8 @@ Brown Design Workshop
 <img src="lab1task32.png" alt="drawing" width="600"/>
 </center>
 
+</br>
+
 ### <b> Task 4: Validate Hooke's law for the rubber bar </b>
 
 #### <u>Data analysis </u>
@@ -143,6 +157,8 @@ Brown Design Workshop
 <center>
 <img src="lab1task4.png" alt="drawing" width="600"/>
 </center>
+
+</br>
 
 ## 6. Lab report guidelines
 1. The lab report should be written as a single, professional-prepared document for each student. 
@@ -159,6 +175,8 @@ Please use International System of Units (SI), for example using meter and kilog
 
 6. Lab reports should be submitted electronically on Canvas in PDF format. No paper reports will be accepted.
 
+</br>
+
 ## 7. Lab report organization 
 
 1. **Introduction**: Write a brief statement describing the purpose of the lab.
@@ -174,6 +192,10 @@ Please use International System of Units (SI), for example using meter and kilog
 
 5. **Appendices**: Include tables of your raw data, detailed calculations, and other information/figures that you deem pertinent but non-essential to the body of your report.
 
+
+</br>
+
 ## [8. Lab calendar](https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York)
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
