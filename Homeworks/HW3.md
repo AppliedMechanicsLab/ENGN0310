@@ -62,15 +62,16 @@ Figure 3
 
 Figure 4
 
-![](./HW3_5.png)
-
-Figure 5
-
 1. Assume that the bar in figure 3 above, tapered linearly with initial outer diameter $D_{0i}$ and final outer diameter $D_{0f}$, has constant thickness $t$ as shown in figure 4 above. For part 1 assume that there is no force due to gravity. Assume the bar is made of material with Young's Modulus $E$ and density $\rho$.
 
     (5 pts) (i) What is the formula for the cross-sectional area as a function of $x$, which defined as the distance from point $A$ as seen above.
 
     (5 pts) (ii) What is the net displacement at point $B$ due to the force $P$?
+
+
+![](./HW3_5.png)
+
+Figure 5
 
 2. Now instead assume that there is force due to gravity, but the bar is replaced by a cylinder of constant diameter $D_{0i}$ that has no hole, that is it is a simple cylindrical bar of length $L$ and diameter $D_{0i}$ as seen in figure 5. The force $P$ is still applied at the end of the bar. 
 
