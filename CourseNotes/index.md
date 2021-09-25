@@ -19,6 +19,8 @@
 * Bars with body force
   - [Most general version of the constitutive law for the bar](Bars/BodyForce1.md)
   - [Equilibrium in 1D](Bars/BodyForce2.md)
+* Stress Concentrators in Bars
+  - [Here](Bars7.md)
 
 ### Shafts (Torsion)
 ### Beams (Bending)
