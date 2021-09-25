@@ -70,7 +70,7 @@ Figure 4
 
 ![](./HW3_5.png)
 
-Figure 6
+Figure 5
 
 2. Now instead assume that there is force due to gravity, but the bar is replaced by a cylinder of constant diameter D_0i that has no hole, that is it is a simple cylindrical bar of length L and diameter D_0i as seen in figure 2. The force P is still applied at the end of the bar.
 
