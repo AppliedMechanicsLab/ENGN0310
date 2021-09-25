@@ -17,7 +17,7 @@
 
 #### Concepts useful for solving the HW problems
 
- In a solid or liquid, there is a dynamic balance between the cohesive forces holding the atoms or molecules together and the increasing kinetic energy created by temperature; higher temperatures imply greater distance between atoms. Different materials have different bonding forces and therefore different expansion coefficients. The elongation due to temperature, $\delta_{T}$, is given by $\delta_{T}=\alpha L \Delta T$, where $\alpha$ is the coeficent of thermal expansion, $L$ is the original length, and $\Delta T$ is the temperature change. This elongation is not due to any force put on the bar, simply the bar itself expanding due to increasing temperature. Additional information on the topic can be found in Chapter 2.3 of the Textbook.
+ In a solid or liquid, there is a dynamic balance between the cohesive forces holding the atoms or molecules together and the increasing kinetic energy created by temperature; higher temperatures imply greater distance between atoms. Different materials have different bonding forces and therefore different expansion coefficients. The elongation due to temperature, $\delta_{T}$, is given by $\delta_{T}=\alpha L \Delta T$, where $\alpha$ is the coeficent of thermal expansion, $L$ is the original length, and $\Delta T$ is the temperature change. This elongation is not due to any force put on the bar, simply the bar itself physically expanding due to increasing temperature. Additional information on the topic can be found in Chapter 2.3 of the Textbook.
 
  Reading on stress concentrators can be found [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html), and additional information can be found in the textbook Chapter 2.11.
 
