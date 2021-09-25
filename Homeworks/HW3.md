@@ -76,9 +76,9 @@ Figure 5
 
     (5 pts) (i) What is the internal force in the bar as a function of $x$.
 
-    (5 pts) (ii) What is the net displacement at point $B$ due to the force $P$?
+    (5 pts) (ii) What is the net displacement at point $B$ due to the force $P$ and the force of gravity?
 
-3. (10 pts) Now assume there is force due to gravity and the bar has returned to its configuration in part 1, shown in figure 3. What is the net displacement at point $B$ due to the force $P$?
+3. (10 pts) Now assume there is force due to gravity and the bar has returned to its configuration in part 1, shown in figure 3. What is the net displacement at point $B$ due to the force $P$ and the force of gravity ?
 
 <br>
 
