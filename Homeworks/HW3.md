@@ -19,7 +19,7 @@
 
  In a solid or liquid, there is a dynamic balance between the cohesive forces holding the atoms or molecules together and the conditions created by temperature; higher temperatures imply greater distance between atoms. Different materials have different bonding forces and therefore different expansion coefficients. The elongation due to temperature, $\delta_{T}$, is given by $\delta_{T}=\alpha L \Delta T$, where $\alpha$ is the coeficent of thermal expansion, $L$ is the original length, and $\Delta T$ is the temperature change. Additional information on the topic can be found in Chapter 2.3 of the Textbook.
 
- Reading on stress concentrators can be found [here](CourseNotes\Bars7.md), and additional information can be found in the textbook Chapter 2.11.
+ Reading on stress concentrators can be found [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html), and additional information can be found in the textbook Chapter 2.11.
 
 #### Problem 1 (# pts). 
 
@@ -102,7 +102,7 @@ Figure 6
 
 Figure 7
 
-1. Read the about stress concentrations at the link [here](CourseNotes\Bars7.md). Notice that in the figure above there is a cylindrical hole through the width of the bar, of diameter $10mm$ (not drawn to scale), whose center is at the centerpoint of the bar (i.e. the center of the hole is $2m$ from the left face of the bar and $1m$ up from the bottom face of the bar). The dimensions of the bar are as in figure X above, length 4m, height 2m, and width .25m. Assume that the bar is large enough compared to the hole to assume that the applied stress σ can be considered a far field stress, σ_∞. 
+1. Read the about stress concentrations at the link [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html). Notice that in the figure above there is a cylindrical hole through the width of the bar, of diameter $10mm$ (not drawn to scale), whose center is at the centerpoint of the bar (i.e. the center of the hole is $2m$ from the left face of the bar and $1m$ up from the bottom face of the bar). The dimensions of the bar are as in figure X above, length 4m, height 2m, and width .25m. Assume that the bar is large enough compared to the hole to assume that the applied stress σ can be considered a far field stress, σ_∞. 
 
     (# pts) (i) If the bar is made of a material with a yield stress of σ_y=330MPa, then what is the maximum allowable applied stress σ that can be applied before any yielding begins to occur.
 
