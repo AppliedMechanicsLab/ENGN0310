@@ -21,7 +21,7 @@
 
  Reading on stress concentrators can be found [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html), and additional information can be found in the textbook Chapter 2.11.
 
-#### Problem 1 (20 pts). 
+#### Problem 1 (15 pts). 
 
 ![](./HW3_1.png)
 
@@ -29,11 +29,11 @@ Figure 1
 
 1. Assume we have the simple bar shown above, where section $AB$ has cross sectional area $A_{AB}$ and section $BC$ has cross sectional area $A_{BC}$. 
 
-    (6 pts) (i) Plot the internal force in the bar as a function of $x$, defined as the distance from the base at point $$ shown in the figure above.
+    (5 pts) (i) Plot the internal force in the bar as a function of $x$, defined as the distance from the base at point $C$ shown in the figure above.
 
-    (7 pts) (ii) Plot the internal stress in the bar as a function of $x$.
+    (5 pts) (ii) Plot the internal stress in the bar as a function of $x$.
 
-    (7 pts) (iii) Plot the displacement in the bar as a function of $x$.
+    (5 pts) (iii) Plot the displacement in the bar as a function of $x$.
 
 
 <br>
@@ -82,7 +82,7 @@ Figure 5
 
 <br>
 
-#### Problem 4 (10 pts). 
+#### Problem 4 (15 pts). 
 
 ![](./HW3_6.png)
 
@@ -90,9 +90,9 @@ Figure 6
 
 1. Assume that a cylindrical bar has length $1m$ and diameter $25mm$, thermal expansion coefficient $10\times10^{-6}\frac{1}{°C}$, and Young’s Modulus 200GPa, shown in figure 6, at room temperature ($20°C$). Notice that there is a $1mm$ gap between the end of the bar and the wall.
 
-    (5 pts) (i) At what temperature will the gap be completely closed?
+    (7.5 pts) (i) At what temperature will the gap be completely closed?
 
-    (5 pts) (ii) What is the internal force in the bar when the temperature is $500°C$?
+    (7.5 pts) (ii) What is the internal force in the bar when the temperature is $500°C$?
 
 <br>
 
