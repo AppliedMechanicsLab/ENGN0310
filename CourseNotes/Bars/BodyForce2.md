@@ -28,8 +28,8 @@ The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElas
 
 When there were no body forces acting on the bar we know that the force on any cross-section of the bar is the same. However, when there are body forces acting on the bar the axial force can vary along the length of the bar.  We next derive the ordinary differential equation that governs how the force varies along the bar. 
 
-Let the axial force along the bar be $F(X)\uv{E}_{a}$, and the body force on the bar be $B(X)\uv{E}_{a}$.Consider a slice of the block from the previous section. The block occupies the region $[X, X+\Delta X]$.
-The force on the left face of the block is $-F(X)\u{E}_1$. The force on the right face of the block is $-F(X)\u{E}_1$. The  body force field $b(X)$ is defined such that the net force on the slice is 
+Let the axial force along the bar be $F(X)\uv{E}\_{a}$, and the body force on the bar be $B(X)\uv{E}\_{a}$. Consider a slice of the block from the previous section. The block occupies the region $[X, X+\Delta X]$.
+The force on the left face of the block is $-F(X)\u{E}\_{a}$. The force on the right face of the block is $-F(X)\u{E}\_a$. The  body force field $b(X)\u{E}\_a$ is defined such that the net force on the slice is 
 
 $$
 \int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}_a. 
@@ -40,7 +40,7 @@ Applying force equilibirum on the slice we get that
 
 
 $$
-F(X+\Delta X)-F(X)\u{E}_1+\int_{Y=X}^{X+\Delta X}b(Y) \u{E}_1\, dY=0
+F(X+\Delta X)\uv{E}_1-F(X)\uv{E}_1+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}_1\, dY=0
 $$
 
 $$
