@@ -3,7 +3,7 @@
 
 # A more fundamental Hooke's Law
 
-We started by presenting following equation as the constitutive law (force deflection relation) for the bar
+We started in this [section](./Bars.md) by presenting the following equation as the constitutive law (force deflection relation) for the bar
 
 $$
 \begin{equation}
@@ -12,7 +12,8 @@ F=\frac{E A}{L}\delta.
 \end{equation}
 $$
 
-We then presented a vector form of the above equation. Specifically, we presented
+
+We then, in this [section](./VectorFormHookesLaw.md), presented a vector form of the above equation. Specifically, we presented
 
 $$
 \begin{equation}
@@ -20,6 +21,7 @@ $$
 \label{eq:HookesLawVectorForm}
 \end{equation}
 $$
+
 
 where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\u{l}=l\uv{E}_a$, and $\u{L}=L\uv{E}_a$.
 
