@@ -3,9 +3,9 @@
 
 # General force equilibrium in 1D
 
-![](2021-09-21-16-29-16.png)
 
 
+![](2021-09-26-18-41-59.png)
 
 
 In the [previous section](./BodyForce1.md) we presented that 
