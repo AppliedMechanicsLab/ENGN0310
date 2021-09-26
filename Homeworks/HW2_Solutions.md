@@ -67,7 +67,9 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
  
    (2.5 pts) (i) What are the position vectors of the material particles $C$, $A$, and $F$, and $E$ after the rectangle has been deformed? Express them as a combination of $\hat{\mathbf{E}}_1$, and $\hat{\mathbf{E}}_2$. 
    
-   **Solution:** $\mathbf{C}=8cm\hat{\mathbf{E}}_1$
+   **Solution:** 
+   
+   $\mathbf{C}=8cm\hat{\mathbf{E}}_1$
 
    $\mathbf{A}=8cm\hat{\mathbf{E}}_1-.25cm\hat{\mathbf{E}}_2$
 
