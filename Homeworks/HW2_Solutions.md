@@ -82,13 +82,13 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     **Solution:**
     
-   $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$
+   $\mathbf{u}_{C}=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$
 
-   $\mathbf{u}_A=\mathbf{A}-\mathbf{A}_{ref}=3cm\hat{\mathbf{E}}_1+.25cm\hat{\mathbf{E}}_2$
+   $\mathbf{u}_{A}=\mathbf{A}-\mathbf{A}_{ref}=3cm\hat{\mathbf{E}}_1+.25cm\hat{\mathbf{E}}_2$
 
-   $\mathbf{u}_F=\mathbf{F}-\mathbf{F}_{ref}=1.5cm\hat{\mathbf{E}}_1+.25cm\hat{\mathbf{E}}_2$
+   $\mathbf{u}_{F}=\mathbf{F}-\mathbf{F}_{ref}=1.5cm\hat{\mathbf{E}}_1+.25cm\hat{\mathbf{E}}_2$
 
-   $\mathbf{u}_E=\mathbf{E}-\mathbf{E}_{ref}=-.25cm\hat{\mathbf{E}}_2$
+   $\mathbf{u}_{E}=\mathbf{E}-\mathbf{E}_{ref}=-.25cm\hat{\mathbf{E}}_2$
 
    
    (5 pts) (iii) What is the current position vector of the material particle $5cm\hat{\mathbf{E}}_1+\frac{1}{2}cm\hat{\mathbf{E}}_2$? What is the displacement of this material particle? Hint: We will generally name material particles after their original position in the reference body, and this is the case here.
