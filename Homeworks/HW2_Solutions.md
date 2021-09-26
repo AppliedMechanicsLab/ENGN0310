@@ -79,6 +79,8 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
 
    (2.5 pts) (ii) What are the displacement vectors of  $C$, $A$, $F$, and $E$? Express them in terms of  $\hat{\mathbf{E}}_1$, and $\hat{\mathbf{E}}_2$.
+
+    **Solution:**
     
    $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$
 
@@ -152,7 +154,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
     (4 pts) (i) What is the extension in the bar $AB$ due to the force along its axis?
 
     **Solution:**
-     From the vector form of the internal force in bar $AB$, $\mathbf{F}_{AB}=-40kN{\hat{\mathbf{E}}_1}$, we can plug direcatly into the displacement equation to get the vector displacement, $\mathbf{\delta}_{AB}=\frac{\mathbf{F}_{AB}L_{AB}}{EA_{AB}}$, where $L_{AB}=.8m$, $E=200GPa$, and $A_{AB}=.0025m^2$, so $\mathbf{\delta}_{AB}=-6.4\times10^{-5}m{\hat{\mathbf{E}}_1}$.
+     From the vector form of the internal force in bar $AB$, $\mathbf{F}_{AB}=-40kN{\hat{\mathbf{E}}_1}$ , we can plug direcatly into the displacement equation to get the vector displacement, $\mathbf{\delta}_{AB}=\frac{\mathbf{F}_{AB}L_{AB}}{EA_{AB}}$, where $L_{AB}=.8m$, $E=200GPa$, and $A_{AB}=.0025m^2$, so $\mathbf{\delta}_{AB}=-6.4\times10^{-5}m{\hat{\mathbf{E}}_1}$.
 
     (4 pts) (ii) What is the extension in the bar $BC$ due to the force along its axis?
 
