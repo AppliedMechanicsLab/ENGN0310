@@ -91,11 +91,13 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
    $\mathbf{u}_E=\mathbf{E}-\mathbf{E}_{ref}=-.25cm\hat{\mathbf{E}}_2$
 
    
-   (5 pts) (iii) What is the current position vector of the material particle $5~\rm cm\hat{\mathbf{E}}_1+\frac{1}{2}~\rm cm~\hat{\mathbf{E}}_2$? What is the displacement of this material particle? Hint: We will generally name material particles after their original position in the reference body, and this is the case here.
+   (5 pts) (iii) What is the current position vector of the material particle $5cm\hat{\mathbf{E}}_1+\frac{1}{2}cm\hat{\mathbf{E}}_2$? What is the displacement of this material particle? Hint: We will generally name material particles after their original position in the reference body, and this is the case here.
 
-    **Solution:** $5~\rm cm\hat{\mathbf{E}}_1+\frac{1}{2}~\rm cm~\hat{\mathbf{E}}_2$ refers to the original position of the top right corner of the original body, which will deform to the top right corner of the reference body, which is at $8~\rm cm\hat{\mathbf{E}}_1+\frac{1}{4}~\rm cm~\hat{\mathbf{E}}_2$. Therefore the displacement is $\mathbf{u}=3~\rm cm\hat{\mathbf{E}}_1-.25~\rm cm~\hat{\mathbf{E}}_2$
+    **Solution:** 
+    
+    $5cm\hat{\mathbf{E}}_1+\frac{1}{2}cm\hat{\mathbf{E}}_2$ refers to the original position of the top right corner of the original body, which will deform to the top right corner of the reference body, which is at $8~\rm cm\hat{\mathbf{E}}_1+\frac{1}{4}~\rm cm~\hat{\mathbf{E}}_2$. Therefore the displacement is $\mathbf{u}=3~\rm cm\hat{\mathbf{E}}_1-.25~\rm cm~\hat{\mathbf{E}}_2$
    
-   (5 pts) (iv) What is the material particle whose current position vector is $8~\rm cm\hat{\mathbf{E}}_1+\frac{1}{4}~\rm cm~\hat{\mathbf{E}}_2$? What is this material particle's displacement?
+   (5 pts) (iv) What is the material particle whose current position vector is $8cm\hat{\mathbf{E}}_1+\frac{1}{4}cm\hat{\mathbf{E}}_2$? What is this material particle's displacement?
 
    **Solution:** $8~\rm cm\hat{\mathbf{E}}_1+\frac{1}{4}~\rm cm~\hat{\mathbf{E}}_2$ refers to the final position of the top right corner of the deformed body, which was originally the top right corner of the reference body, which is at $5~\rm cm\hat{\mathbf{E}}_1+\frac{1}{2}~\rm cm~\hat{\mathbf{E}}_2$. Therefore the displacement is $\mathbf{u}=3~\rm cm\hat{\mathbf{E}}_1-.25~\rm cm~\hat{\mathbf{E}}_2$
 
