@@ -1,3 +1,6 @@
+{% include mathjax_support %}
+{% include command %}
+
 #### Stress Concentrators
 
 ![](./SC1.png)
