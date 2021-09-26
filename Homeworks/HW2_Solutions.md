@@ -132,7 +132,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     **Solution:** ![](./HWS2_4.png)
 
-    Setting up our force balance on the imaginary cut plane we get the equation $F_{AB}+A_1=0$ so $F_{AB}=-40kN$, then in vector form $\boldsymbol{F}_{AB}=-40kN{\hat{\boldsymbol{E}}_1}$
+    Setting up our force balance on the imaginary cut plane we get the equation $F_{AB}+A_1=0$ so $F_{AB}=-40kN$, then in vector form $\boldsymbol{F}_{AB}=-40kN{\hat{\boldsymbol{E}}_1}$.
 
     ![](./HW2_3.png)
 
@@ -140,7 +140,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     **Solution:** ![](./HWS2_5.png)
 
-    Setting up our force balances on the imaginary cut plane in both directions we get the equations $F_{BC1}+C_1=0$ and $F_{BC2}+C_2=0$ and we find that in vector form $\boldsymbol{F}_{BC}=40kN{\hat{\boldsymbol{E}}_1}-30kN{\hat{\boldsymbol{E}}_1}$
+    Setting up our force balances on the imaginary cut plane in both directions we get the equations $F_{BC1}+C_1=0$ and $F_{BC2}+C_2=0$ and we find that in vector form $\boldsymbol{F}_{BC}=40kN{\hat{\boldsymbol{E}}_1}-30kN{\hat{\boldsymbol{E}}_1}$. Then the magnitude in the axial direction is $F_{BC}=50kN$.
 
 ![](./HW2_4.png)
 
