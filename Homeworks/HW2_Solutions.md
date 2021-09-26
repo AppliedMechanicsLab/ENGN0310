@@ -146,7 +146,9 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     **Solution:** ![](./HWS2_5.png)
 
-    Setting up our force balances on the imaginary cut plane in both directions we get the equations $F_{BC1}+C_1=0$ and $F_{BC2}+C_2=0$ and we find that in vector form $\mathbf{F}\_{BC}=40kN \hat{\mathbf{E}}_1-30kN \hat{\mathbf{E}}_1$ then the magnitude in the axial direction is $F_{BC}=50kN$.
+    Setting up our force balances on the imaginary cut plane in both directions we get the equations $F_{BC1}+C_1=0$ and $F_{BC2}+C_2=0$ and we find that in vector form $\mathbf{F}\_{BC}=40kN\hat{\mathbf{E}}\_1-30kN \hat{\mathbf{E}}\_1$ then the magnitude in the axial direction is $F_{BC}=50kN$.
+
+<!-- =40kN \hat{\mathbf{E}}_1-30kN \hat{\mathbf{E}}_1 -->
 
 ![](./HW2_4.png)
 
@@ -155,12 +157,12 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
     (4 pts) (i) What is the extension in the bar $AB$ due to the force along its axis?
 
     **Solution:**
-     From the vector form of the internal force in bar $AB$, $\mathbf{F}\_{AB}=-40kN{\hat{\mathbf{E}}_1}$ , we can plug directly into the displacement equation to get the vector displacement, $\mathbf{\delta}\_{AB}=\frac{\mathbf{F}\_{AB}L_{AB}}{EA_{AB}}$, where $L_{AB}=.8m$, $E=200GPa$, and $A_{AB}=.0025m^2$, so $\mathbf{\delta}\_{AB}=-6.4\times10^{-5}m{\hat{\mathbf{E}}_1}$.
+     From the vector form of the internal force in bar $AB$, $\mathbf{F}\_{AB}=-40kN{\hat{\mathbf{E}}\_1}$ , we can plug directly into the displacement equation to get the vector displacement, $\mathbf{\delta}\_{AB}=\frac{\mathbf{F}\_{AB}L_{AB}}{EA_{AB}}$, where $L_{AB}=.8m$, $E=200GPa$, and $A_{AB}=.0025m^2$, so $\mathbf{\delta}\_{AB}=-6.4\times10^{-5}m{\hat{\mathbf{E}}\_1}$.
 
     (4 pts) (ii) What is the extension in the bar $BC$ due to the force along its axis?
 
     **Solution:** 
-    Similarly to above, where $\mathbf{F}\_{BC}=40kN{\hat{\mathbf{E}}_1}-30kN{\hat{\mathbf{E}}_1}$, $\mathbf{\delta}\_{BC}=\frac{\mathbf{F}\_{BC}L_{BC}}{EA_{BC}}$, where $L_{BC}=1m$, $E=200GPa$, and $A_{BC}=3.142\times10^{-4}m^2$, so $\mathbf{\delta}\_{BC}=6.365\times10^{-4}m{\hat{\mathbf{E}}_1}-4.774\times10^{-4}m{\hat{\mathbf{E}}_2}$.
+    Similarly to above, where $\mathbf{F}\_{BC}=40kN{\hat{\mathbf{E}}\_1}-30kN{\hat{\mathbf{E}}\_1}$, $\mathbf{\delta}\_{BC}=\frac{\mathbf{F}\_{BC}L_{BC}}{EA_{BC}}$, where $L_{BC}=1m$, $E=200GPa$, and $A_{BC}=3.142\times10^{-4}m^2$, so $\mathbf{\delta}\_{BC}=6.365\times10^{-4}m{\hat{\mathbf{E}}\_1}-4.774\times10^{-4}m{\hat{\mathbf{E}}\_2}$.
 
     (4 pts) (iii) What will be the final displacement of the pin at point $B$. 
 
@@ -169,11 +171,11 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
     ![](./HWS2_6.png)
 
     
-    To find the deformed lengths of the bars we have to add the vector displacements to the vector forms of the lenghts. The deformed length of the bar $AB$ is $\mathbf{l}_{AB}=\mathbf{L}\_{AB}+\mathbf{\delta}\_{AB}=.8m{\hat{\mathbf{E}}_1}-6.4\times10^{-5}m{\hat{\mathbf{E}}_1}=.79994m{\hat{\mathbf{E}}_1}$, which has the magnitude $|\mathbf{l}_{AB}|=l_{AB}=.79994m$. Similarly we find that  $\mathbf{l}\_{BC}=\mathbf{L}\_{BC}+\mathbf{\delta}\_{BC}=.8m{\hat{\mathbf{E}}_1}-.6m{\hat{\mathbf{E}}_2}+6.365\times10^{-4}m{\hat{\mathbf{E}}_1}-4.774\times10^{-4}m{\hat{\mathbf{E}}_2}=.80064m{\hat{\mathbf{E}}_1}-.60048m{\hat{\mathbf{E}}_1}$, which has the magnitude $|\mathbf{l}\_{BC}|=l_{BC}=1.0008m$. Then by applying the Law of Cosines we can solve for the angle $\alpha$ in the figure above using the equation:
+    To find the deformed lengths of the bars we have to add the vector displacements to the vector forms of the lengths. The deformed length of the bar $AB$ is $\mathbf{l}\_{AB}=\mathbf{L}\_{AB}+\mathbf{\delta}\_{AB}=.8m{\hat{\mathbf{E}}\_1}-6.4\times10^{-5}m{\hat{\mathbf{E}}\_1}=.79994m{\hat{\mathbf{E}}\_1}$, which has the magnitude $\vert\mathbf{l}\_{AB}\vert=l_{AB}=.79994m$. Similarly we find that  $\mathbf{l}\_{BC}=\mathbf{L}\_{BC}+\mathbf{\delta}\_{BC}=.8m{\hat{\mathbf{E}}\_1}-.6m{\hat{\mathbf{E}}\_2}+6.365\times10^{-4}m{\hat{\mathbf{E}}\_1}-4.774\times10^{-4}m{\hat{\mathbf{E}}\_2}=.80064m{\hat{\mathbf{E}}\_1}-.60048m{\hat{\mathbf{E}}\_1}$, which has the magnitude $|\mathbf{l}\_{BC}|=l_{BC}=1.0008m$. Then by applying the Law of Cosines we can solve for the angle $\alpha$ in the figure above using the equation:
 
     ![](./HWS2_7.png)
 
-    Then we can solve for the angle $\phi=\frac{\pi}{2}-\alpha=.6447$. Then the deformed position of the pin $B$ is just $\mathbf{B}=l_{BC}\cos{\phi}{\hat{\mathbf{E}}_1}-(l_{BC}\sin{\phi}-.6m){\hat{\mathbf{E}}_2}$. Then, as $\mathbf{B}\_{ref}=.8m{\hat{\mathbf{E}}_1}$, we have that the final displacement of the pin $B$ is given by $\mathbf{u}_B=\mathbf{B}-\mathbf{B}_{ref}=-6.525\times10^{-5}m{\hat{\mathbf{E}}_1}-.00141m{\hat{\mathbf{E}}_2}$. Note that the value $-6.525\times10^{-5}m$ is highly dependent on the number of significant figures that you were keeping throughout the problem, so if your answer is $\pm4\times10^{-5}m$ the actual solution than it should be considered correct, but if you keep at enough significant figures your answer should be correct.
+    Then we can solve for the angle $\phi=\frac{\pi}{2}-\alpha=.6447$. Then the deformed position of the pin $B$ is just $\mathbf{B}=l_{BC}\cos{\phi}{\hat{\mathbf{E}}\_1}-(l_{BC}\sin{\phi}-.6m){\hat{\mathbf{E}}\_2}$. Then, as $\mathbf{B}\_{ref}=.8m{\hat{\mathbf{E}}\_1}$, we have that the final displacement of the pin $B$ is given by $\mathbf{u}_B=\mathbf{B}-\mathbf{B}\_{ref}=-6.525\times10^{-5}m{\hat{\mathbf{E}}\_1}-.00141m{\hat{\mathbf{E}}\_2}$. Note that the value $-6.525\times10^{-5}m$ is highly dependent on the number of significant figures that you were keeping throughout the problem, so if your answer is $\pm4\times10^{-5}m$ the actual solution than it should be considered correct, but if you keep at enough significant figures your answer should be correct.
 
 
 <br/>
