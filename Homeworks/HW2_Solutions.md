@@ -148,15 +148,19 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     (4 pts) (i) What is the extension in the bar $AB$ due to the force along its axis?
 
-    **Solution:** From the vector form of the internal force in bar $AB$, $\boldsymbol{F}_{AB}=-40kN{\hat{\boldsymbol{E}}_1}$, we can plug direcatly into the displacement equation to get the vector displacement, $\boldsymbol{\delta}_{AB}=\frac{\boldsymbol{F}_{AB}L_{AB}}{EA_{AB}}$, where $L_{AB}=.8m$, $E=200GPa$, and $A_{AB}=.0025m^2$, so $\boldsymbol{\delta}_{AB}=-6.4\times10^{-5}m{\hat{\boldsymbol{E}}_1}$.
+    **Solution:**
+     From the vector form of the internal force in bar $AB$, $\boldsymbol{F}_{AB}=-40kN{\hat{\boldsymbol{E}}_1}$, we can plug direcatly into the displacement equation to get the vector displacement, $\boldsymbol{\delta}_{AB}=\frac{\boldsymbol{F}_{AB}L_{AB}}{EA_{AB}}$, where $L_{AB}=.8m$, $E=200GPa$, and $A_{AB}=.0025m^2$, so $\boldsymbol{\delta}_{AB}=-6.4\times10^{-5}m{\hat{\boldsymbol{E}}_1}$.
 
     (4 pts) (ii) What is the extension in the bar $BC$ due to the force along its axis?
 
-    **Solution:** Similarly to above, where $\boldsymbol{F}_{BC}=40kN{\hat{\boldsymbol{E}}_1}-30kN{\hat{\boldsymbol{E}}_1}$, $\boldsymbol{\delta}_{BC}=\frac{\boldsymbol{F}_{BC}L_{BC}}{EA_{BC}}$, where $L_{BC}=1m$, $E=200GPa$, and $A_{BC}=3.142\times10^{-4}m^2$, so $\boldsymbol{\delta}_{BC}=6.365\times10^{-4}m{\hat{\boldsymbol{E}}_1}-4.774\times10^{-4}m{\hat{\boldsymbol{E}}_2}$.
+    **Solution:** 
+    Similarly to above, where $\boldsymbol{F}_{BC}=40kN{\hat{\boldsymbol{E}}_1}-30kN{\hat{\boldsymbol{E}}_1}$, $\boldsymbol{\delta}_{BC}=\frac{\boldsymbol{F}_{BC}L_{BC}}{EA_{BC}}$, where $L_{BC}=1m$, $E=200GPa$, and $A_{BC}=3.142\times10^{-4}m^2$, so $\boldsymbol{\delta}_{BC}=6.365\times10^{-4}m{\hat{\boldsymbol{E}}_1}-4.774\times10^{-4}m{\hat{\boldsymbol{E}}_2}$.
 
     (4 pts) (iii) What will be the final displacement of the pin at point $B$. 
 
-    **Solution:** ![](./HWS2_6.png)
+    **Solution:** 
+    
+    ![](./HWS2_6.png)
 
     
     To find the deformed lenghts of the bars we have to add the vector displacements to the vector forms of the lenghts. The deformed length of the bar $AB$ is $\boldsymbol{l}_{AB}=\boldsymbol{L}_{AB}+\boldsymbol{\delta}_{AB}=.8m{\hat{\boldsymbol{E}}_1}-6.4\times10^{-5}m{\hat{\boldsymbol{E}}_1}=.79994m{\hat{\boldsymbol{E}}_1}$, which has the magnitude $|\boldsymbol{l}_{AB}|=l_{AB}=.79994m$. Similarly we find that  $\boldsymbol{l}_{BC}=\boldsymbol{L}_{BC}+\boldsymbol{\delta}_{BC}=.8m{\hat{\boldsymbol{E}}_1}-.6m{\hat{\boldsymbol{E}}_2}+6.365\times10^{-4}m{\hat{\boldsymbol{E}}_1}-4.774\times10^{-4}m{\hat{\boldsymbol{E}}_2}=.80064m{\hat{\boldsymbol{E}}_1}-.60048m{\hat{\boldsymbol{E}}_1}$, which has the magnitude $|\boldsymbol{l}_{BC}|=l_{BC}=1.0008m$. Then by applying the Law of Cosines we can solve for the angle $\alpha$ in the figure above using the equation:
