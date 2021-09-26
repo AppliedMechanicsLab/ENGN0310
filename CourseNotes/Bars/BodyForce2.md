@@ -43,43 +43,52 @@ $$
 F(X+\Delta X)\uv{E}_1-F(X)\uv{E}_1+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}_1\, dY=0
 $$
 
+Divding the equation with the length of the slice $\Delta X$ we get
+
 $$
 \begin{align}
 \frac{F(X+\Delta X)-F(X)}{\Delta X}+
 \frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY&=0\\
+\end{align}
+$$
+
+On taking the limit $\Delta X$ going to zero the term $\frac{F(X+\Delta X)-F(X)}{\Delta X}$ converges to $F'(X)$, and the term  $\frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY$ converges to $b(X)$. For a proof of this latter statement see [this](./Leibnitz.md) section. Thus in the limit $\Delta X\to 0$ we get.
+
+
+$$
+\begin{align}
 F'(X)+b(X)&=0
 \end{align}
 $$
 
+On integrating the above equation from $X$ to the end of the bar and defining 
+$$
+B(X)=\int_{Y=X}^{L}b(Y)\, dY
+$$
+we get that
+
 $$
 \begin{align}
-(\sigma_{11}(X)A(X))'+b(X)&=0\\
-(\sigma_{11}(X)A(X))'+b(X)&=0
+F(L)-F(X)+B(X)&=0\\
+F(X)&=F(L)+B(X)0
+\end{align}
+$$
+
+Knowing the axial force along the bar's length we can find the displacement field using the contitutive equation $\eqref{eq:LinearElasticity1D}$
+
+
+$$
+\begin{align}
+\sigma_{11}(X))&=E(X)u'(X)\\
+F(X)/A(X)&=E(X)u'(X)\\
+u'(X)&=\frac{F(X)}{E(X)A(X)}
 \end{align}
 $$
 
 
-
-Now, let us focus on a small slice of the bar. Let the position vector of the material particle on (the centeroid of) the left face of the slice be $X \hat{\boldsymbol{E}}\_{a}$ and, the position vector of the material particle on (the centeroid of) the right face of the slice be  $(X+\Delta X) \hat{\boldsymbol{E}}\_{a}$. The reference length vector of the slice is, of course, $\Delta X \hat{\boldsymbol{E}}\_{a}$. Let the scalar displacement field in the bar be   $u$. Then the current position vector of the left particle is $(X+u(X))\hat{\boldsymbol{E}}\_{a}$ and of the right particle is $(X+\Delta X+u(X+\Delta X))\hat{\boldsymbol{E}}\_{a}$. Thus, the current length vector of the slice is $(\Delta X+u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$. The change in length vector is $(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}$
-
-On applying the [vector form of the Hooke's law](VectorFormHookesLaw.md) to the slice we have that the force vector on the right face of the slice is
+Integrating the last equation we get
 $$
 \begin{align}
-\boldsymbol{F}=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}
-\end{align}
-$$ 
-
-From force equilibrium we know that the force vector on the right face of the slice is the same as the force vector acting on the right face, $\Gamma^{\mathscr{h}}$, of the bar. The force on the right face of the bar, of course, is $F \hat{\boldsymbol{E}}\_a$, where $F= (E A/L) \delta$, and $\delta = l-L$. Combing this information with last displayed equation we get that
-
-$$
-\begin{align}
-F \hat{\boldsymbol{E}}\_{a} &=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\boldsymbol{E}}\_{a}\\
-\frac{E A}{L} \delta&=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\\
- \frac{\delta}{L}&=\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
- \lim_{\Delta X\to 0}\frac{\delta}{L}&=\lim_{\Delta X\to 0}\frac{u(X+\Delta X)-u(X)}{\Delta X}\\
- \frac{\delta}{L}&=u'(X)
+u(X)=\int_{Y=0}^{X}\frac{F(Y)\, dY}{E(Y)A(Y)}
 \end{align}
 $$
-
-
-$(E(X)A(X)u'(X))'+B(X)=0$
