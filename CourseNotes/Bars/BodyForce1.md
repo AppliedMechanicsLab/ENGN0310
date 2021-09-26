@@ -25,7 +25,8 @@ $$
 
 where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\u{l}=l\uv{E}_a$, and $\u{L}=L\uv{E}_a$.
 
-The force-displacement relations and the displacement field, both for constant and variable area/property bars were derived using the above equations. However, so far the force inside the bar has always remained constant. 
+The force-displacement relations and the displacement field, for constant area ([force-elongation](./Bars.md) and [displacement field](./Bars3.md)), variable area ([force-elongation](./Bars4.md
+) and [displacement field](./Bars5.md)) as well as [variable area and property bars](./Bars6.md)  were derived using the above equations. However, so far the force inside the bar has always remained constant. 
  
 Now we consider the case in which the force too varies along the bar. This usually happens when there is a body forces acting on the bar. Body forces can arise due to gravity, dynamics, magnetic field, etc. For solving the problem of  a bar is subject to  body forces we will need to use more a fundamental form of the constitutive law, than the versions given in $\eqref{eq:HookesLawScalarForm}$ and $\eqref{eq:HookesLawVectorForm}$. 
 
