@@ -171,7 +171,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
     ![](./HWS2_6.png)
 
     
-    To find the deformed lengths of the bars we have to add the vector displacements to the vector forms of the lengths. The deformed length of the bar $AB$ is $\mathbf{l}\_{AB}=\mathbf{L}\_{AB}+\mathbf{\delta}\_{AB}=.8m{\hat{\mathbf{E}}\_1}-6.4\times10^{-5}m{\hat{\mathbf{E}}\_1}=.79994m{\hat{\mathbf{E}}\_1}$, which has the magnitude $\vert\mathbf{l}\_{AB}\vert=l_{AB}=.79994m$. Similarly we find that  $\mathbf{l}\_{BC}=\mathbf{L}\_{BC}+\mathbf{\delta}\_{BC}=.8m{\hat{\mathbf{E}}\_1}-.6m{\hat{\mathbf{E}}\_2}+6.365\times10^{-4}m{\hat{\mathbf{E}}\_1}-4.774\times10^{-4}m{\hat{\mathbf{E}}\_2}=.80064m{\hat{\mathbf{E}}\_1}-.60048m{\hat{\mathbf{E}}\_1}$, which has the magnitude $|\mathbf{l}\_{BC}|=l_{BC}=1.0008m$. Then by applying the Law of Cosines we can solve for the angle $\alpha$ in the figure above using the equation:
+    To find the deformed lengths of the bars we have to add the vector displacements to the vector forms of the lengths. The deformed length of the bar $AB$ is $\mathbf{l}\_{AB}=\mathbf{L}\_{AB}+\mathbf{\delta}\_{AB}=.8m{\hat{\mathbf{E}}\_1}-6.4\times10^{-5}m{\hat{\mathbf{E}}\_1}=.79994m{\hat{\mathbf{E}}\_1}$, which has the magnitude $\vert\mathbf{l}\_{AB}\vert=l_{AB}=.79994m$. Similarly, we find that  $\mathbf{l}\_{BC}=\mathbf{L}\_{BC}+\mathbf{\delta}\_{BC}=.8m{\hat{\mathbf{E}}\_1}-.6m{\hat{\mathbf{E}}\_2}+6.365\times10^{-4}m{\hat{\mathbf{E}}\_1}-4.774\times10^{-4}m{\hat{\mathbf{E}}\_2}=.80064m{\hat{\mathbf{E}}\_1}-.60048m{\hat{\mathbf{E}}\_1}$, which has the magnitude $\vert\mathbf{l}\_{BC}\vert=l_{BC}=1.0008m$. Then by applying the Law of Cosines we can solve for the angle $\alpha$ in the figure above using the equation:
 
     ![](./HWS2_7.png)
 
@@ -208,6 +208,6 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
 1. (25 pts) Assume a circular bar, with Elastic Modulus $E$ and length $L$, has a variable radius circular cross section with radius given by $r(x) = r_0e^{ax}$, where $x$ is the distance from point $A$ as seen above. What is the displacement at point $A$ when a force $P$ is applied along the center axis?
 
-**Solution:** Now instead of the scalar version of the displacement equation we must use the functional version of the equation, because not all of the quantities in the equation are constant. $\delta={\int_{0}^{L} \frac{P(x)}{E(x)A(x)} \,dx}$, where $P(x)=P$, $E(x)=E$, and $A(x)=\pi r(x)^2=\pi{r_0}^2e^{2ax}$. Then $\delta=\frac{P}{\pi{r_0}^2E}{\int_{0}^{L} e^{-2ax} \,dx}=\frac{P}{\pi{r_0}^2E}[-\frac{e^{-2ax}}{2a}]|_0^L=\frac{P}{2\pi a{r_0}^2E}(1-e^{-2aL})$.
+**Solution:** Now instead of the scalar version of the displacement equation we must use the functional version of the equation, because not all of the quantities in the equation are constant. $\delta={\int_{0}^{L} \frac{P(x)}{E(x)A(x)} \,dx}$, where $P(x)=P$, $E(x)=E$, and $A(x)=\pi r(x)^2=\pi{r_0}^2e^{2ax}$. Then $\delta=\frac{P}{\pi{r_0}^2E}{\int_{0}^{L} e^{-2ax} \,dx}=\frac{P}{\pi{r_0}^2E}[-\frac{e^{-2ax}}{2a}]\vert_0^L=\frac{P}{2\pi a{r_0}^2E}(1-e^{-2aL})$.
 
 <br/>
