@@ -84,7 +84,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
    $\mathbf{C}=8cm\hat{\mathbf{E}}_1$
 
-   $\mathbf{u}_C$
+   $\mathbf{u}_C=\mathbf{C}$
     
    <!-- $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$ -->
 
