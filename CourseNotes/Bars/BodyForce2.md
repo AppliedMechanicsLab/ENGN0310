@@ -1,52 +1,28 @@
 {% include mathjax_support %}
 {% include command %}
 
-# Force equilibrium
+# General force equilibrium in 1D
 
 ![](2021-09-21-16-29-16.png)
 
 
 
 
-
-
-## Bar with body force
-
-In the previous section we derived that 
+In the [previous section](./BodyForce1.md) we presented that 
 
 $$
 \begin{align}
-F=
+\sigma_{11}(X)=E(X)u'(X)
+\label{eq:LinearElasticity1D}
 \end{align}
 $$
 
 
-## Torsion
-
-The Hooke's Law for Torsion is 
-
-$$
-\begin{align}
-\frac{T L}{J \theta}=\text{constant}=G
-\end{align}
-$$
-
-<!-- 
-HK_DONE: Need to explain what it means to say plane sections remain plane. Done in class. 
-
-HK_DONE: Need to present the vector form of the Hook'e law.
-
-Consider the following surface 
-$$
-\begin{equation}
-\{X_2\hat{\boldsymbol{E}}_2+\}
-\end{equation}
-$$   -->
-A more fundamental law. Derives from Linear elasticity. The law we had for Bar is surely. Consistent with the below law. 
-$\sigma (X)= E(X)u'(X)$
+The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElasticity1D}$. In that $\eqref{eq:LinearElasticity1D}$ is a more fundamental law. Equation $\eqref{eq:LinearElasticity1D}$ itself derives from the constitutive equation of the the   linear theory of elasticity. 
 
 
-$(E(X)A(X)u'(X))'+B(X)=0$
+
+
 
 #### Force equilibrium
 
@@ -92,3 +68,6 @@ F \hat{\boldsymbol{E}}\_{a} &=\frac{E A}{\Delta X}(u(X+\Delta X)-u(X))\hat{\bold
  \frac{\delta}{L}&=u'(X)
 \end{align}
 $$
+
+
+$(E(X)A(X)u'(X))'+B(X)=0$
