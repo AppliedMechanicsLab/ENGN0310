@@ -8,7 +8,6 @@ $$
 \def\RR{\bf R}
 \def\bold#1{\bf #1}
 \def\mbf#1{\mathbf #1}
-\def\uv#1{\hat{\usf {#1}}}
 \def\dl#1{\underline{\underline{#1}}}
 \newcommand{\usf}[1]{\boldsymbol{\mathsf{#1}}}
 \def\bs#1{\usf #1}
