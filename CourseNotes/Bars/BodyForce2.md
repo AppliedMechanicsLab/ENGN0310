@@ -29,7 +29,7 @@ The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElas
 When there were no body forces acting on the bar we know that the force on any cross-section of the bar is the same. However, when there are body forces acting on the bar the axial force can vary along the length of the bar.  We next derive the ordinary differential equation that governs how the force varies along the bar. 
 
 Let the axial force along the bar be $F(X)\uv{E}\_{a}$, and the body force on the bar be $B(X)\uv{E}\_{a}$. Consider a slice of the block from the previous section. The block occupies the region $[X, X+\Delta X]$.
-The force on the left face of the block is $-F(X)\u{E}\_{a}$. The force on the right face of the block is $-F(X)\u{E}\_a$. The  body force field $b(X)\u{E}\_a$ is defined such that the net force on the slice is 
+The force on the left face of the block is $-F(X)\uv{E}\_{a}$. The force on the right face of the block is $-F(X)\uv{E}\_a$. The  body force field $b(X)\u{E}\_a$ is defined such that the net force on the slice is 
 
 $$
 \int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}_a. 
@@ -40,7 +40,7 @@ Applying force equilibirum on the slice we get that
 
 
 $$
-F(X+\Delta X)\uv{E}_1-F(X)\uv{E}_1+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}_1\, dY=0
+F(X+\Delta X)\uv{E}_a-F(X)\uv{E}_a+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}_a\, dY=\u{0}
 $$
 
 Divding the equation with the length of the slice $\Delta X$ we get
@@ -52,12 +52,12 @@ $$
 \end{align}
 $$
 
-On taking the limit $\Delta X$ going to zero the term $\frac{F(X+\Delta X)-F(X)}{\Delta X}$ converges to $F'(X)$, and the term  $\frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY$ converges to $b(X)$. For a proof of this latter statement see [this](./Leibnitz.md) section. Thus in the limit $\Delta X\to 0$ we get.
+On taking the limit $\Delta X$ going to zero the term $(F(X+\Delta X)-F(X))/\Delta X$ converges to $F'(X)$, and the term  $\frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY$ converges to $b(X)$. For a proof of this latter statement see [this](./Leibnitz.md) section. Thus in the limit $\Delta X\to 0$ we get that
 
 
 $$
 \begin{align}
-F'(X)+b(X)&=0
+F'(X)+b(X)&=0.
 \end{align}
 $$
 
@@ -70,7 +70,7 @@ we get that
 $$
 \begin{align}
 F(L)-F(X)+B(X)&=0\\
-F(X)&=F(L)+B(X)0
+F(X)&=F(L)+B(X)
 \end{align}
 $$
 
@@ -79,8 +79,14 @@ Knowing the axial force along the bar's length we can find the displacement fiel
 
 $$
 \begin{align}
-\sigma_{11}(X))&=E(X)u'(X)\\
+\sigma_{11}(X)&=E(X)u'(X)\\
 F(X)/A(X)&=E(X)u'(X)\\
+\end{align}
+$$
+
+Reversing the two sides of the equation and re-arranging we get that
+$$
+\begin{align}
 u'(X)&=\frac{F(X)}{E(X)A(X)}
 \end{align}
 $$
