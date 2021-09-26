@@ -65,7 +65,7 @@ $$
 rectangle's edges remain at the, respective, edge centers in the  deformed rectangle as well.  The material particles that were at the corners remain at the corners. The origin does not move as the rectangle is deformed. The deformed configuration is sketched in the figure (red rectangle). 
 
  
-   (2.5 pts) (i) What are $\mathbf{u}_C=\mathbf{C}_{ref}$ the position vectors of the material particles $C$, $A$, and $F$, and $E$ after the rectangle has been deformed? Express them as a combination of $\hat{\mathbf{E}}_1$, and $\hat{\mathbf{E}}_2$. 
+   (2.5 pts) (i) What are the position vectors of the material particles $C$, $A$, and $F$, and $E$ after the rectangle has been deformed? Express them as a combination of $\hat{\mathbf{E}}_1$, and $\hat{\mathbf{E}}_2$. 
    
    **Solution:** 
    
@@ -83,6 +83,8 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
    **Solution:**
 
    $\mathbf{C}=8cm\hat{\mathbf{E}}_1$
+
+   $\mathbf{u}_C=\mathbf{C}\_{ref}$
     
    <!-- $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$ -->
 
