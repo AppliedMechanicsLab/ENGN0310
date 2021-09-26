@@ -83,8 +83,10 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
    **Solution:**
 
    $\mathbf{C}=8cm\hat{\mathbf{E}}_1$
+
+   $\mathbf{u}_C$
     
-   $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$
+   <!-- $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$ -->
 
    <!-- $\mathbf{u}_A=\mathbf{A}-\mathbf{A}_{ref}=3cm\hat{\mathbf{E}}_1+.25cm\hat{\mathbf{E}}_2$ -->
 
