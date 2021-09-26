@@ -77,11 +77,12 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
    $\mathbf{E}=.25cm\hat{\mathbf{E}}_2$
 
-   
 
    (2.5 pts) (ii) What are the displacement vectors of  $C$, $A$, $F$, and $E$? Express them in terms of  $\hat{\mathbf{E}}_1$, and $\hat{\mathbf{E}}_2$.
 
-    **Solution:** $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$
+    **Solution:** 
+    
+   $\mathbf{u}_C=\mathbf{C}-\mathbf{C}_{ref}=3cm\hat{\mathbf{E}}_1$
 
    $\mathbf{u}_A=\mathbf{A}-\mathbf{A}_{ref}=3cm\hat{\mathbf{E}}_1+.25cm\hat{\mathbf{E}}_2$
 
