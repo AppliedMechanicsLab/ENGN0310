@@ -44,7 +44,7 @@ Figure 1
 
 Figure 2
 
-1. Assume we have the bar given in figure 2 above. Note that the outer diameter for the section AB is given by the equation $D(x)=D\_{o} + \frac{L}{2} - x$ and the outer diameter for the section $BC$ is $D_0$. Note also that there is a hole through the section BC of the bar with diameter $D_i$. Assume the Young's Modulus in both sections is $E$.
+1. Assume we have the bar given in figure 2 above. Note that the outer diameter for the section $AB$ is given by the equation $D(x)=D\_{o} + \frac{L}{2} - x$ and the outer diameter for the section $BC$ is $D_0$. Note also that there is a hole through the section BC of the bar with diameter $D_i$. Assume the Young's Modulus in both sections is $E$.
 
     (10 pts) (i) What is the cross-sectional area in the bar as a function of $x$, defined as the distance from the base of the bar at point $A$. 
 
