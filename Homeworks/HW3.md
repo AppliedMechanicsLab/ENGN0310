@@ -27,7 +27,7 @@
 
 Figure 1
 
-1. Assume we have the simple bar shown above. $P_{A}=35kN$, $P_{B}=10kN$, $E_{1}=200GPa$, $E_{1}=120GPa$, $L_{1}=3m$, $L_{2}=1m$, the diameter of bar $AB$ is $25mm$, and the diameter of bar $AB$ is $75mm$.
+1. Assume we have the simple bar shown above. $P_{A}=35kN$, $P_{B}=10kN$, $E_{1}=200GPa$, $E_{1}=120GPa$, $L_{1}=3m$, $L_{2}=1m$, the diameter of bar $AB$ is $25mm$, and the diameter of bar $BC$ is $75mm$.
 
     (5 pts) (i) Plot the internal force in the bar as a function of $x$, defined as the distance from the base at point $C$ shown in the figure above.
 
