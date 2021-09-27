@@ -1,3 +1,6 @@
+{% include mathjax_support %}
+{% include command %}
+
 # Truncated cone
 
 _Problem statement_ A truncated is rigidly fixed to a wall on its left face. A force of $P\hat{\boldsymbol{E}}\_a$ is acting on its right face. Its left face wich is the larger face is of radius $2c$ and its right end is of radius $c$. Take the Young's modulus of the cone to be $E$. 

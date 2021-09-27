@@ -40,6 +40,7 @@ $$
 $$
 
 a more general version of the constitutive equation for the bar is
+
 $$
 \begin{equation}
 \sigma_{11}(X)=E(X) u'(X)
