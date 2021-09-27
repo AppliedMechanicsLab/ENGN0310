@@ -24,7 +24,8 @@
   - :construction: [Equilibrium in 1D](Bars/BodyForce2.md)
     - :construction::construction: :pencil:[_Solved Problem: A free hanging bar with constant area_](Bars/HangingBar1.md)
     - :construction::construction: :pencil:[_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
-* Stress Concentrators in Bars
+* Thermal expansion and biological growth.
+*  Stress Concentrators in Bars
   - [Here](Bars7.md)
 
 ### Shafts (Torsion)
