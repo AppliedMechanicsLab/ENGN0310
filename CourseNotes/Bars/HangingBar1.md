@@ -5,7 +5,7 @@
 
 ### Problem statement
 
-A bar of cross-sectional area $A$ and Young's modulus $A$ is fixed on one of its end and hang's freely. Take the density of the bar to be $\rho$ and acceleration due to gravity to be $g$.
+A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its end and hang's freely. Take the density of the bar to be $\rho$ and acceleration due to gravity to be $g$.
 
 Q. What is the elongation of the bar due to its own weight.  
 
@@ -24,7 +24,6 @@ We are going to solve this problem using the equations
 $$
 \begin{align}
 u(X)&=\int_{Y=0}^{X}\frac{F(Y)\, dY}{E(Y)A(Y)},\\
-\label{eq:uX}
 \end{align}
 $$
 
@@ -32,7 +31,7 @@ which, since the area and the modulus are constants, will simplify  to
 
 $$
 \begin{align}
-u(X)&=\int_{Y=0}^{X}\frac{F(Y)\, dY}{EA},\\
+u(X)&=\int_{Y=0}^{X}\frac{F(Y)}{EA} \, dY\\
 \label{eq:uX}
 \end{align}
 $$
@@ -41,15 +40,15 @@ and
 
 $$
 \begin{align}
-F(X)&=F(L)+B(X)\label{eq:FX}
+F(X)&=F(L)+B(X),\label{eq:FX}
 \end{align}
 $$
 
-where,
+where
 
 $$
 \begin{align}
-B(X)=\int_{Y=X}^{L}b(Y)\, dY.
+B(X):=\int_{Y=X}^{L}b(Y)\, dY.
 \label{eq:BX}
 \end{align}
 $$
@@ -60,10 +59,10 @@ $$
 \int_{X}^{X+\Delta X}b(Y)\, dY\hat{\boldsymbol{E}}_a
 $$
 
-is the body force on the matter composing on the slice $[X, X+\Delta X]$. 
+is the body force acting on the matter in the  slice $[X, X+\Delta X]$. 
 
 
-A volume of the slice the slice $[X, X+\Delta X]$  is $A \Delta X$. The mass of slice is $\rho A \Delta X$. The force due to gravity on this slice  is $\rho A \Delta X g$. This force can be written as
+The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$. The mass of slice is $\rho A \Delta X$. The force due to gravity on this slice  is $\rho A \Delta X g$. This force can be written as
 
 $$
 \begin{align}
@@ -113,7 +112,7 @@ $$
 \begin{align}
 u(X)&=
 \int_{Y=0}^{X}
-\frac{\rho A g (L-X)}{EA}
+\frac{\rho A g (L-Y)}{EA}
 \, dY
 \\
 &=\frac{\rho g}{E}(LX -X^2/2)
@@ -126,7 +125,7 @@ Specifically the elongation of the bar is
 $$
 \begin{align}
 \delta=u(L)&=
-\frac{\rho g L^2}{E2}
+\frac{\rho g L^2}{2E}
 \end{align}
 $$
 
