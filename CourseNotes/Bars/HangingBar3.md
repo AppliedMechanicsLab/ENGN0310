@@ -5,9 +5,9 @@
 
 ### Problem statement
 
-A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its end and hang's freely. Take the density of the bar to be $\rho$ and acceleration due to gravity to be $g$. Further the bottom face of the bar is subject to the force $F_0 \uv{E}\_a$.
+A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its end and hangs freely. Take the density of the bar to be $\rho$ and acceleration due to gravity to be $g$. The bottom face of the bar is subject to the force $F_0 \uv{E}\_{\rm a}$.
 
-Q. What is the displacementv field and elongation of the bar due to its own weight and bottom force.  
+<u> Q. What is the displacement field and elongation of the bar due to its own weight and the force acting on its bottom face?</u>
 
 
 
@@ -19,7 +19,7 @@ Q. What is the displacementv field and elongation of the bar due to its own weig
 <!-- ![](2021-09-26-21-46-42.png) -->
 ### Solution
 
-We are going to solve this problem using the equations
+We are going to solve this problem using the equation
 
 $$
 \begin{align}
@@ -56,23 +56,26 @@ $$
 The function $b(X)$ is defined such that 
 
 $$
-\int_{X}^{X+\Delta X}b(Y)\, dY\hat{\boldsymbol{E}}_a
+\int_{X}^{X+\Delta X}b(Y)\, dY\hat{\boldsymbol{E}}_{\rm a}
 $$
 
 is the body force acting on the matter in the  slice $[X, X+\Delta X]$. 
 
 
-The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$. The mass of slice is $\rho A \Delta X$. The force due to gravity on this slice  is $\rho A \Delta X g$. This force can be written as
+The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$, so the mass of slice is $\rho A \Delta X$ and the force due to gravity on this slice  is $\rho A \Delta X g$. 
+
+This force can be written as
 
 $$
 \begin{align}
-&=\rho A g\int_{X}^{X+\Delta X}\, dY\hat{\boldsymbol{E}}_a\\
+&=\rho A g\int_{X}^{X+\Delta X}\, dY\hat{\boldsymbol{E}}_{\rm a}\\
 &=\int_{X}^{X+\Delta X}
-\rho A g\, dY\hat{\boldsymbol{E}}_a,
+\rho A g\, dY\hat{\boldsymbol{E}}_{\rm a},
 \end{align}
 $$. 
 
 which implies that
+
 $$
 \begin{align}
 b(X)=\rho A g.
@@ -80,7 +83,7 @@ b(X)=\rho A g.
 $$
 
 
-Substituting $b(X)$ from the last equation into $\eqref{eq:BX}$ we get that
+Substituting $b(X)$ from the last equation into $\eqref{eq:BX}$, we get that
 
 $$
 \begin{align}
@@ -88,7 +91,7 @@ B(X)&=\rho A g (L-X) \\
 \end{align}
 $$
 
-Substituting $B(X)$ from the last equation into $\eqref{eq:FX}$ we get that
+Substituting $B(X)$ from the last equation into $\eqref{eq:FX}$, we get that
 
 $$
 \begin{align}
@@ -97,7 +100,7 @@ F(X)&=\rho A g (L-X) +F(L)\\
 $$
 
 
-The  force on the lower face of the  bar is $F_0 \uv{E}\_a$. So, in the last equation $F(L)=F_0$. Thus, we get that 
+The  force on the bottom face of the  bar is $F_0 \uv{E}\_a$. So, in the last equation, $F(L)=F_0$. Thus, we get that 
 
 $$
 \begin{align}
@@ -106,7 +109,7 @@ F(X)&=\rho A g (L-X)+F_0 \\
 $$
 
 
-Substituting $F(X)$ from the last equation into $\eqref{eq:uX}$ we get that
+Substituting $F(X)$ from the last equation into $\eqref{eq:uX}$, we get that
 
 $$
 \begin{align}
@@ -120,7 +123,7 @@ u(X)&=
 $$
 
 
-Specifically the elongation of the bar is 
+Specifically, the elongation of the bar is 
 
 $$
 \begin{align}
