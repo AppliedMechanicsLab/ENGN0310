@@ -7,7 +7,7 @@
 
 A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its end and hangs freely. Take the density of the bar to be $\rho$ and acceleration due to gravity to be $g$. The bottom face of the bar is subject to the force $F_0 \uv{E}\_{\rm a}$.
 
-<u> Q. What is the displacement field and elongation of the bar due to its own weight and bottom force?</u>
+<u> Q. What is the displacement field and elongation of the bar due to its own weight and the force acting on its bottom face?</u>
 
 
 
