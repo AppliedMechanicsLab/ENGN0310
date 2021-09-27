@@ -46,6 +46,12 @@ $$
 \begin{align}
 \delta&=P\int_{0}^{L}\frac{dY}{E A(Y)}\\
 &=\frac{P}{\pi E c^2}\int_{0}^{L}\frac{dY}{ (2-Y/L)^2}\\
+\end{align}
+$$
+
+Evaluating the integral ([here is the MMA notebook for evaulating the intergral](./SimpleIntegral.nb))
+$$
+\begin{align}
 &=\frac{P L}{2\pi E c^2}
 \end{align}
 $$
