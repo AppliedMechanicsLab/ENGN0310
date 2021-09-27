@@ -148,11 +148,13 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     Setting up our force balances on the imaginary cut plane in both directions we get the equations $F_{BC1}+C_1=0$ and $F_{BC2}+C_2=0$ and we find that in vector form $\mathbf{F}\_{BC}=40kN\hat{\mathbf{E}}\_1-30kN \hat{\mathbf{E}}\_1$ then the magnitude in the axial direction is $F_{BC}=50kN$.
 
-<!-- =40kN \hat{\mathbf{E}}_1-30kN \hat{\mathbf{E}}_1 -->
 
-![](./HW2_4.png)
 
-2. Now assume that the bars are not rigid, so that they can change in length but no bending is occurring, as shown in the exaggerated figure above. 
+    
+
+2. Now assume that the bars are not rigid, so that they can change in length but no bending is occurring, as shown in the exaggerated figure below. 
+
+    ![](./HW2_4.png)
 
     (4 pts) (i) What is the extension in the bar $AB$ due to the force along its axis?
 
@@ -189,7 +191,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     (6 pts) (i)  Now assume that an upward force of $50kN$ is applied to cylinder $AB$ at point $A$ in the direction of the normal to the top surface. What is the total displacement at point $A$. 
 
-    **Solution:** The internal force in both bars is just going to be $50kN$, so $\delta_{AB}=\frac{F_{AB}L_{AB}}{A_{AB}E_{AB}}$, where $F_{AB}=50kN$, $L_{AB}=.3m$, $E_{AB}=200GPa$, and $A_{AB}=7.069\times10^{-4}m^2$, then $\delta_{AB}=1.061\times10^{-4}m$. Similarly we find that $\delta_{BC}=8.913\times10^{-5}m$, as $F_{BC}=50kN$, $L_{BC}=.7m$, $E_{BC}=200GPa$, and $A_{BC}=.0020m^2$. Then the total displacement is $\delta_T=\delta_{AB}+\delta_{BC}=1.952\times10^{_4}m$
+    **Solution:** The internal force in both bars is just going to be $50kN$, so $\delta_{AB}=\frac{F_{AB}L_{AB}}{A_{AB}E_{AB}}$, where $F_{AB}=50kN$, $L_{AB}=.3m$, $E_{AB}=200GPa$, and $A_{AB}=7.069\times10^{-4}m^2$, then $\delta_{AB}=1.061\times10^{-4}m$. Similarly we find that $\delta_{BC}=8.913\times10^{-5}m$, as $F_{BC}=50kN$, $L_{BC}=.7m$, $E_{BC}=200GPa$, and $A_{BC}=.0020m^2$. Then the total displacement is $\delta_T=\delta_{AB}+\delta_{BC}=1.952\times10^{-4}m$
     
     (7 pts) (ii)  Now assume there is a downward force being applied at point $B$ to cylinder $BC$. What should the magnitude of the force be to create a net displacement at point $A$ of zero.
 
