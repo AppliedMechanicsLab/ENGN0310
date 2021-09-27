@@ -177,7 +177,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     ![](./HWS2_7.png)
 
-    Then we can solve for the angle $\phi=\frac{\pi}{2}-\alpha=.6447$. Then the deformed position of the pin $B$ is just $\mathbf{B}=l_{BC}\cos{\phi}{\hat{\mathbf{E}}\_1}-(l_{BC}\sin{\phi}-.6m){\hat{\mathbf{E}}\_2}$. Then, as $\mathbf{B}\_{ref}=.8m{\hat{\mathbf{E}}\_1}$, we have that the final displacement of the pin $B$ is given by $\mathbf{u}_B=\mathbf{B}-\mathbf{B}\_{ref}=-6.525\times10^{-5}m{\hat{\mathbf{E}}\_1}-.00141m{\hat{\mathbf{E}}\_2}$. Note that the value $-6.525\times10^{-5}m$ is highly dependent on the number of significant figures that you were keeping throughout the problem, so if your answer is $\pm4\times10^{-5}m$ the actual solution than it should be considered correct, but if you keep at enough significant figures your answer should be correct.
+    Then we can solve for the angle $\phi=\frac{\pi}{2}-\alpha=.6447$. Then the deformed position of the pin $B$ is just $\mathbf{B}=l_{BC}\cos{\phi}{\hat{\mathbf{E}}\_1}-(l_{BC}\sin{\phi}-.6m){\hat{\mathbf{E}}\_2}$. Then, as $\mathbf{B}\_{ref}=.8m{\hat{\mathbf{E}}\_1}$, we have that the final displacement of the pin $B$ is given by $\mathbf{u}_B=\mathbf{B}-\mathbf{B}\_{ref}=-6.525\times10^{-5}m{\hat{\mathbf{E}}\_1}-.00141m{\hat{\mathbf{E}}\_2}$. Note that the value $-6.525\times10^{-5}m$ is highly dependent on the number of significant figures that you were keeping throughout the problem, so if your answer is $\pm4\times10^{-5}m$ the actual solution following the correct solution procedure than it should be considered correct, but if you keep at enough significant figures your answer should be correct.
 
 
 <br/>
