@@ -1,7 +1,7 @@
 {% include mathjax_support %}
 {% include command %}
 
-# Elongation of a free hanging bar with constant cross-sectional area
+# Elongation of a free hanging bar with constant cross-sectional area and end force
 
 ### Problem statement
 
@@ -13,7 +13,7 @@ Q. What is the elongation of the bar due to its own weight.
 
 
 
-<!-- ![](2021-09-26-21-34-38.png) -->
+![](2021-09-26-22-43-14.png)
 
 
 <!-- ![](2021-09-26-21-46-42.png) -->
@@ -97,11 +97,11 @@ F(X)&=\rho A g (L-X) +F(L)\\
 $$
 
 
-There is no force on the lower face for bar. So, in the last equation $F(L)=0$. Thus, we get that 
+The  force on the lower face of the  bar is $F_0 \uv{E}\_a$. So, in the last equation $F(L)=F_0$. Thus, we get that 
 
 $$
 \begin{align}
-F(X)&=\rho A g (L-X) \\
+F(X)&=\rho A g (L-X)+F_0 \\
 \end{align}
 $$
 
@@ -112,10 +112,10 @@ $$
 \begin{align}
 u(X)&=
 \int_{Y=0}^{X}
-\frac{\rho A g (L-Y)}{EA}
+\frac{\rho A g (L-Y)+F_0}{EA}
 \, dY
 \\
-&=\frac{\rho g}{E}(LX -X^2/2)
+&=\frac{\rho g}{E}(LX -X^2/2)+\frac{F_0 X}{EA}
 \end{align}
 $$
 
@@ -125,7 +125,7 @@ Specifically the elongation of the bar is
 $$
 \begin{align}
 \delta=u(L)&=
-\frac{\rho g L^2}{2E}
+\frac{\rho g L^2}{2E}+\frac{F_0 L}{EA}
 \end{align}
 $$
 
