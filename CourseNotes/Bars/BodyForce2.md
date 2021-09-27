@@ -32,7 +32,7 @@ Let the axial force along the bar be $F(X)\uv{E}\_{\rm a}$, and the body force o
 The force on the left face of the block is $-F(X)\uv{E}\_{\rm a}$. The force on the right face of the block is $-F(X)\uv{E}\_{\rm a}$. The  body force field $b(X)\u{E}\_{\rm a}$ is defined such that the net force on the slice is 
 
 $$
-\int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}\_{\rm a}. 
+\int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}_{\rm a}. 
 $$
 
 Applying force equilibrium on the slice, we get that
@@ -40,7 +40,7 @@ Applying force equilibrium on the slice, we get that
 
 
 $$
-F(X+\Delta X)\uv{E}\_{\rm a}-F(X)\uv{E}\_{\rm a}+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}\_{\rm a}\, dY=\u{0}
+F(X+\Delta X)\uv{E}_{\rm a}-F(X)\uv{E}_{\rm a}+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}_{\rm a}\, dY=\u{0}
 $$
 
 Dividing the equation with the length of the slice $\Delta X$, we get
@@ -52,7 +52,19 @@ $$
 \end{align}
 $$
 
-On taking the limit $\Delta X$ going to zero, the term $(F(X+\Delta X)-F(X))/\Delta X$ converges to $F'(X)$, and the term  $\frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY$ converges to $b(X)$. For a proof of this latter statement, see [this](./Leibnitz.md) section. Thus, in the limit $\Delta X\to 0$, we get that
+On taking the limit $\Delta X$ going to zero, the term 
+
+$$
+(F(X+\Delta X)-F(X))/\Delta X
+$$ 
+
+converges to $F'(X)$, and the term  
+
+$$
+\frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY
+$$ 
+
+converges to $b(X)$. For a proof of this latter statement, see [this](./Leibnitz.md) section. Thus, in the limit $\Delta X\to 0$, we get that
 
 
 $$
