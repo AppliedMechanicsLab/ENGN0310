@@ -3,7 +3,7 @@
 
 ![](2021-09-26-23-43-26.png)
 
-Both bars are made of steel.
+The top bar is made of steel, while the bottom bar is made of titanium.
 Consider an upward 50kN force applied at A (see Homework 2, Problem 3).
 
 We want the displacement.
