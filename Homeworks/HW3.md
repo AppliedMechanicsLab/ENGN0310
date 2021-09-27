@@ -69,7 +69,7 @@ Figure 3
 
     Figure 4
 
-2. Now instead assume that there is force due to gravity, but the bar is replaced by a cylinder of constant diameter $D_{0i}$ that has no hole, that is it is a simple cylindrical bar of length $L$ and diameter $D_{i}$ as seen in figure 4. The force $P$ is still applied at the end of the bar. 
+2. Now instead assume that there is force due to gravity, but the bar is replaced by a cylinder of constant diameter $D_{i}$, that is it is a simple cylindrical bar of length $L$ and diameter $D_{i}$ as seen in figure 4. The force $P$ is still applied at the end of the bar. 
 
     (5 pts) (i) What is the internal force in the bar as a function of $x$.
 
