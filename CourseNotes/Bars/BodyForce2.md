@@ -29,7 +29,7 @@ The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElas
 When there are no body forces acting on the bar, we know that the force on any cross-section of the bar is the same. However, when there are body forces acting on the bar, the axial force can vary along the length of the bar.  We will now derive the ordinary differential equation that governs how the force varies along the bar. 
 
 Let the axial force along the bar be $F(X)\uv{E}\_{\rm a}$, and the body force on the bar be $B(X)\uv{E}\_{\rm a}$. Consider a slice of block shown above. The block occupies the region $[X, X+\Delta X]$.
-The force on the left face of the block is $-F(X)\uv{E}\_{\rm a}$. The force on the right face of the block is $-F(X)\uv{E}\_{\rm a}$. The  body force field $b(X)\u{E}\_{\rm a}$ is defined such that the net force on the slice is 
+The force on the left face of the block is $-F(X)\uv{E}\_{\rm a}$. The force on the right face of the block is $F(X)\uv{E}\_{\rm a}$. The  body force field $b(X)\u{E}\_{\rm a}$ is defined such that the net force on the slice is 
 
 $$
 \int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}_{\rm a}. 
