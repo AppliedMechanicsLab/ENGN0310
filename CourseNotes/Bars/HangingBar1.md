@@ -56,7 +56,7 @@ $$
 The function $b(X)$ is defined such that 
 
 $$
-\int_{X}^{X+\Delta X}b(Y)\, dY\hat{\boldsymbol{E}}_a
+\int_{X}^{X+\Delta X}b(Y)\, dY\hat{\boldsymbol{E}}_{\rm a}
 $$
 
 is the body force acting on the matter in the  slice $[X, X+\Delta X]$. 
