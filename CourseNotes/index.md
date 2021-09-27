@@ -10,15 +10,15 @@
     * [Force-displacement law for the case of constant cross-sectional area](Bars/Bars.md)
     * [Force-displacement law in vector form](./Bars/VectorFormHookesLaw.md)
     * Displacement field
-        - [Defintion. What is a displacement field?](Bars/Bars2.md)
+        - [Definition. What is a displacement field?](Bars/Bars2.md)
         - [Explicit expression for the case of constant cross-section](Bars/Bars3.md)
 * Bars with variable cross-section 
     * [Two springs in series](./Bars/SpringsInSeries.md)
-    *  :construction: :construction: [Force-displacement law for the case of Variable crossectional area](Bars/Bars4.md)
+    *  :construction: :construction: [Force-displacement law for the case of Variable cross-sectional area](Bars/Bars4.md)
     - :construction: :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5.md)
-    - :construction: :balloon:[_Solved problem: Titanium, Steel stepped, composite bar_ ](./Bars/SegmentedComposite.md)
-    - :construction: :balloon:[_Solved problem: Titanium, Steel stepped, composite bar with two forces_](./Bars/SegmentedComposite2.md) 
-* [Bars with both cross-sections and areas varying their lengths](Bars/Bars6.md)
+    -  :balloon:[_Solved problem: Titanium, Steel stepped, composite bar_ ](./Bars/SegmentedComposite.md)
+    -  :balloon:[_Solved problem: Titanium, Steel stepped, composite bar with two forces_](./Bars/SegmentedComposite2.md) 
+* [Bars with both cross-sectional area and material property varying along their length](Bars/Bars6.md)
     -  :balloon: [_Solved problem: Truncated cone_](./Bars/TruncatedCone.md) 
 * Bars with body force
   -  [Most general version of the constitutive law for the bar](Bars/BodyForce1.md)
