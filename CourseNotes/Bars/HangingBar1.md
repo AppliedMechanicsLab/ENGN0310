@@ -5,9 +5,9 @@
 
 ### Problem statement
 
-A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its end and hang's freely. Take the density of the bar to be $\rho$ and acceleration due to gravity to be $g$.
+A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its end and hangs freely. Take the density of the bar to be $\rho$ and acceleration due to gravity to be $g$.
 
-Q. What is the elongation of the bar due to its own weight.  
+<u>Q. What is the elongation of the bar due to its own weight? </u>
 
 
 
@@ -19,7 +19,7 @@ Q. What is the elongation of the bar due to its own weight.
 <!-- ![](2021-09-26-21-46-42.png) -->
 ### Solution
 
-We are going to solve this problem using the equations
+We are going to solve this problem using the equation
 
 $$
 \begin{align}
@@ -62,7 +62,13 @@ $$
 is the body force acting on the matter in the  slice $[X, X+\Delta X]$. 
 
 
-The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$. The mass of slice is $\rho A \Delta X$. The force due to gravity on this slice  is $\rho A \Delta X g$. This force can be written as
+The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$. 
+
+The mass of slice is $\rho A \Delta X$. 
+
+The force due to gravity on this slice  is $\rho A \Delta X g$. 
+
+This force can be written as
 
 $$
 \begin{align}
@@ -80,7 +86,7 @@ b(X)=\rho A g.
 $$
 
 
-Substituting $b(X)$ from the last equation into $\eqref{eq:BX}$ we get that
+Substituting $b(X)$ from the last equation into $\eqref{eq:BX}$, we get that
 
 $$
 \begin{align}
@@ -88,7 +94,7 @@ B(X)&=\rho A g (L-X) \\
 \end{align}
 $$
 
-Substituting $B(X)$ from the last equation into $\eqref{eq:FX}$ we get that
+Substituting $B(X)$ from the last equation into $\eqref{eq:FX}$, we get that
 
 $$
 \begin{align}
@@ -106,7 +112,7 @@ F(X)&=\rho A g (L-X) \\
 $$
 
 
-Substituting $F(X)$ from the last equation into $\eqref{eq:uX}$ we get that
+Substituting $F(X)$ from the last equation into $\eqref{eq:uX}$, we get that
 
 $$
 \begin{align}
@@ -120,7 +126,7 @@ u(X)&=
 $$
 
 
-Specifically the elongation of the bar is 
+Specifically, the elongation of the bar is 
 
 $$
 \begin{align}
