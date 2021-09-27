@@ -8,7 +8,7 @@
 ![](2021-09-26-18-41-59.png)
 
 
-In the [previous section](./BodyForce1.md) we presented that 
+In the [previous section](./BodyForce1.md), we presented that 
 
 $$
 \begin{align}
@@ -18,7 +18,7 @@ $$
 $$
 
 
-The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElasticity1D}$. In that $\eqref{eq:LinearElasticity1D}$ is a more fundamental law. Equation $\eqref{eq:LinearElasticity1D}$ itself derives from the constitutive equation of the the   linear theory of elasticity. 
+The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElasticity1D}$. In that regards, $\eqref{eq:LinearElasticity1D}$ is a more fundamental law. Equation $\eqref{eq:LinearElasticity1D}$ itself derives from the constitutive equation of the the  linear theory of elasticity. 
 
 
 
@@ -26,24 +26,24 @@ The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElas
 
 #### Force equilibrium
 
-When there were no body forces acting on the bar we know that the force on any cross-section of the bar is the same. However, when there are body forces acting on the bar the axial force can vary along the length of the bar.  We next derive the ordinary differential equation that governs how the force varies along the bar. 
+When there are no body forces acting on the bar, we know that the force on any cross-section of the bar is the same. However, when there are body forces acting on the bar, the axial force can vary along the length of the bar.  We will now derive the ordinary differential equation that governs how the force varies along the bar. 
 
-Let the axial force along the bar be $F(X)\uv{E}\_{a}$, and the body force on the bar be $B(X)\uv{E}\_{a}$. Consider a slice of the block from the previous section. The block occupies the region $[X, X+\Delta X]$.
-The force on the left face of the block is $-F(X)\uv{E}\_{a}$. The force on the right face of the block is $-F(X)\uv{E}\_a$. The  body force field $b(X)\u{E}\_a$ is defined such that the net force on the slice is 
-
-$$
-\int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}_a. 
-$$
-
-Applying force equilibirum on the slice we get that
-
-
+Let the axial force along the bar be $F(X)\uv{E}\_{\rm a}$, and the body force on the bar be $B(X)\uv{E}\_{\rm a}$. Consider a slice of block shown above. The block occupies the region $[X, X+\Delta X]$.
+The force on the left face of the block is $-F(X)\uv{E}\_{\rm a}$. The force on the right face of the block is $-F(X)\uv{E}\_{\rm a}$. The  body force field $b(X)\u{E}\_{\rm a}$ is defined such that the net force on the slice is 
 
 $$
-F(X+\Delta X)\uv{E}_a-F(X)\uv{E}_a+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}_a\, dY=\u{0}
+\int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}\_{\rm a}. 
 $$
 
-Divding the equation with the length of the slice $\Delta X$ we get
+Applying force equilibrium on the slice, we get that
+
+
+
+$$
+F(X+\Delta X)\uv{E}\_{\rm a}-F(X)\uv{E}\_{\rm a}+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}\_{\rm a}\, dY=\u{0}
+$$
+
+Dividing the equation with the length of the slice $\Delta X$, we get
 
 $$
 \begin{align}
@@ -52,7 +52,7 @@ $$
 \end{align}
 $$
 
-On taking the limit $\Delta X$ going to zero the term $(F(X+\Delta X)-F(X))/\Delta X$ converges to $F'(X)$, and the term  $\frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY$ converges to $b(X)$. For a proof of this latter statement see [this](./Leibnitz.md) section. Thus in the limit $\Delta X\to 0$ we get that
+On taking the limit $\Delta X$ going to zero, the term $(F(X+\Delta X)-F(X))/\Delta X$ converges to $F'(X)$, and the term  $\frac{1}{\Delta X}\int_{Y=X}^{X+\Delta X}b(Y) \, dY$ converges to $b(X)$. For a proof of this latter statement, see [this](./Leibnitz.md) section. Thus, in the limit $\Delta X\to 0$, we get that
 
 
 $$
@@ -62,9 +62,11 @@ F'(X)+b(X)&=0.
 $$
 
 On integrating the above equation from $X$ to the end of the bar and defining 
+
 $$
 B(X)=\int_{Y=X}^{L}b(Y)\, dY
 $$
+
 we get that
 
 $$
@@ -74,7 +76,7 @@ F(X)&=F(L)+B(X)
 \end{align}
 $$
 
-Knowing the axial force along the bar's length we can find the displacement field using the contitutive equation $\eqref{eq:LinearElasticity1D}$
+Knowing the axial force along the bar's length, we can find the displacement field using the constitutive equation $\eqref{eq:LinearElasticity1D}$
 
 
 $$
@@ -84,7 +86,8 @@ F(X)/A(X)&=E(X)u'(X)\\
 \end{align}
 $$
 
-Reversing the two sides of the equation and re-arranging we get that
+Reversing the two sides of the equation and re-arranging, we get that
+
 $$
 \begin{align}
 u'(X)&=\frac{F(X)}{E(X)A(X)}
@@ -92,7 +95,8 @@ u'(X)&=\frac{F(X)}{E(X)A(X)}
 $$
 
 
-Integrating the last equation we get
+Integrating the last equation, we get
+
 $$
 \begin{align}
 u(X)=\int_{Y=0}^{X}\frac{F(Y)\, dY}{E(Y)A(Y)}
