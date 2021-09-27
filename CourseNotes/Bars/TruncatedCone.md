@@ -44,7 +44,7 @@ $$
 Rearranging,
 
 $$
-r(X)=\frac{1}{c(2-X/L)}
+r(X)=c(2-X/L)
 $$
 
 from which we get that
@@ -66,7 +66,7 @@ Evaluating the integral ([here is the MMA notebook for evaluating the integral](
 
 $$
 \begin{align}
-&=\frac{P L}{2\pi E c^2}
+\delta&=\frac{P L}{2\pi E c^2}
 \end{align}
 $$
 
