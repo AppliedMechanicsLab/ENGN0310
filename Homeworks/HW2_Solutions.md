@@ -148,7 +148,7 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
     Setting up our force balances on the imaginary cut plane in both directions we get the equations $F_{BC1}+C_1=0$ and $F_{BC2}+C_2=0$ and we find that in vector form $\mathbf{F}\_{BC}=40kN\hat{\mathbf{E}}\_1-30kN \hat{\mathbf{E}}\_1$ then the magnitude in the axial direction is $F_{BC}=50kN$.
 
-<!-- =40kN \hat{\mathbf{E}}_1-30kN \hat{\mathbf{E}}_1 -->
+
 
     
 
