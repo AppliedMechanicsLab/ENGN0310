@@ -4,6 +4,7 @@
 # Truncated cone
 
 _Problem statement_ A truncated is rigidly fixed to a wall on its left face. A force of $P\hat{\boldsymbol{E}}\_a$ is acting on its right face. Its left face wich is the larger face is of radius $2c$ and its right end is of radius $c$. Take the Young's modulus of the cone to be $E$. 
+
 a. Find the elongation of the cone
 b. FInd the displacement field in the cone.  
 
@@ -40,7 +41,7 @@ $$
 A(X)=\pi c^2(2-X/L)^2
 $$
 
-a. We get the elongation to be
+**a.** We get the elongation to be
 $$
 \begin{align}
 \delta&=P\int_{0}^{L}\frac{dY}{E A(Y)}\\
@@ -51,7 +52,7 @@ $$
 
 ![](2021-09-26-20-08-08.png)
 
-b. We get the displacement field to be
+**b.** We get the displacement field to be
 $$
 \begin{align}
 u(X)&=P\int_{0}^{X}\frac{dY}{E A(X)}\\
