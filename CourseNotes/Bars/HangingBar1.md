@@ -62,11 +62,7 @@ $$
 is the body force acting on the matter in the  slice $[X, X+\Delta X]$. 
 
 
-The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$. 
-
-The mass of slice is $\rho A \Delta X$. 
-
-The force due to gravity on this slice  is $\rho A \Delta X g$. 
+The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$, so the mass of slice is $\rho A \Delta X$, and the force due to gravity on this slice  is $\rho A \Delta X g$. 
 
 This force can be written as
 
@@ -103,7 +99,7 @@ F(X)&=\rho A g (L-X) +F(L)\\
 $$
 
 
-There is no force on the lower face for bar. So, in the last equation $F(L)=0$. Thus, we get that 
+There is no force on the lower face of the bar. So, in the last equation $F(L)=0$. Thus, we get that 
 
 $$
 \begin{align}
