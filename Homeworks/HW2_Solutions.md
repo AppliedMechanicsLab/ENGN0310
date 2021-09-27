@@ -150,9 +150,11 @@ rectangle's edges remain at the, respective, edge centers in the  deformed recta
 
 <!-- =40kN \hat{\mathbf{E}}_1-30kN \hat{\mathbf{E}}_1 -->
 
-    ![](./HW2_4.png)
+    
 
-2. Now assume that the bars are not rigid, so that they can change in length but no bending is occurring, as shown in the exaggerated figure above. 
+2. Now assume that the bars are not rigid, so that they can change in length but no bending is occurring, as shown in the exaggerated figure below. 
+
+    ![](./HW2_4.png)
 
     (4 pts) (i) What is the extension in the bar $AB$ due to the force along its axis?
 
