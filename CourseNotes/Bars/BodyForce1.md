@@ -36,10 +36,10 @@ The force-displacement relations and the displacement field for
 
 were derived using the above equations. However, so far, the force inside the bar has always remained constant. 
  
-Now we consider the case in which the force also varies along the bar. This usually happens when there is a body force acting on the bar. Body forces can arise due to gravity, dynamics, magnetic field, etc. To solve problems involving bars subject to  body forces, we will need to use a more fundamental form of the constitutive law than those forms given in $\eqref{eq:HookesLawScalarForm}$ and $\eqref{eq:HookesLawVectorForm}$. 
+Now we consider the case in which the force also varies along the bar. This usually happens when there is a body force acting on the bar. Body forces can arise due to gravity, dynamics, magnetic field, etc. To solve problems involving bars subject to  body forces, we will need to use a more fundamental form of the constitutive law than those given in $\eqref{eq:HookesLawScalarForm}$ and $\eqref{eq:HookesLawVectorForm}$. 
 
 
-Let the axial force in the bar vary as $\u{F}(X)=F(X)\uv{E}\_a$. The value $\u{F}(X)$ at $X=L$ equals the force applied to the right face of the bar.  Defining 
+Let the axial force in the bar vary as $\u{F}(X)=F(X)\uv{E}\_{\rm a}$. The value $\u{F}(X)$ at $X=L$ equals the force applied to the right face of the bar.  Defining 
 
 $$
 \begin{equation}
