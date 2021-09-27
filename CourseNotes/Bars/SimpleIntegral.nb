@@ -1,0 +1,125 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3432,        115]
+NotebookOptionsPosition[      2645,         93]
+NotebookOutlinePosition[      3043,        109]
+CellTagsIndexPosition[      3000,        106]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"1", "/", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"2", "-", 
+       FractionBox["X", "L"]}], ")"}], "2"]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"X", ",", "0", ",", "L"}], "}"}]}], "]"}]], "Input",
+ CellLabel->
+  "In[141]:=",ExpressionUUID->"91f59aae-7444-4a6d-9e08-7b7e520db3fe"],
+
+Cell[BoxData[
+ FractionBox["L", "2"]], "Output",
+ CellChangeTimes->{3.8416946322701817`*^9},
+ CellLabel->
+  "Out[141]=",ExpressionUUID->"41232905-9ea8-433d-8a76-2c97999e7d7a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"1", "/", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"2", "-", 
+       FractionBox["Y", "L"]}], ")"}], "2"]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Y", ",", "0", ",", "X"}], "}"}]}], "]"}]], "Input",
+ CellLabel->
+  "In[142]:=",ExpressionUUID->"4093536a-a592-4dde-9d25-17fd284cc38a"],
+
+Cell[BoxData[
+ TemplateBox[{
+   FractionBox[
+    RowBox[{"L", " ", "X"}], 
+    RowBox[{
+      RowBox[{"4", " ", "L"}], "-", 
+      RowBox[{"2", " ", "X"}]}]], 
+   RowBox[{
+     RowBox[{
+       RowBox[{"2", " ", 
+         RowBox[{"Re", "[", 
+           FractionBox["L", "X"], "]"}]}], ">", "1"}], "||", 
+     RowBox[{
+       RowBox[{"Re", "[", 
+         FractionBox["L", "X"], "]"}], "<", "0"}], "||", 
+     RowBox[{
+       FractionBox["L", "X"], "\[NotElement]", 
+       TemplateBox[{}, "Reals"]}]}]},
+  "ConditionalExpression"]], "Output",
+ CellChangeTimes->{3.841694640690572*^9},
+ CellLabel->
+  "Out[142]=",ExpressionUUID->"9972d953-f964-43ee-b928-85d843eddf75"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"NotebookSave", "[", 
+  RowBox[{
+   RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+   "\"\</Users/haneeshkesari/Downloads/temp/ENGN0310/CourseNotes/Bars\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.841694646112846*^9, 3.841694655658897*^9}, {
+  3.841694690957185*^9, 3.841694771310796*^9}, {3.841694803726976*^9, 
+  3.841694806527527*^9}},
+ CellLabel->
+  "In[145]:=",ExpressionUUID->"5aab5b06-9b7f-4b7e-bc55-cab9184934fd"]
+},
+WindowSize->{808, 911},
+WindowMargins->{{60, Automatic}, {Automatic, 144}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"3d9acbf4-571e-4f01-b1da-f1d271ab48ba"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 356, 11, 47, "Input",ExpressionUUID->"91f59aae-7444-4a6d-9e08-7b7e520db3fe"],
+Cell[939, 35, 175, 4, 50, "Output",ExpressionUUID->"41232905-9ea8-433d-8a76-2c97999e7d7a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1151, 44, 356, 11, 47, "Input",ExpressionUUID->"4093536a-a592-4dde-9d25-17fd284cc38a"],
+Cell[1510, 57, 665, 21, 59, "Output",ExpressionUUID->"9972d953-f964-43ee-b928-85d843eddf75"]
+}, Open  ]],
+Cell[2190, 81, 451, 10, 52, "Input",ExpressionUUID->"5aab5b06-9b7f-4b7e-bc55-cab9184934fd"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
