@@ -16,9 +16,10 @@
     * [Two springs in series](./Bars/SpringsInSeries.md)
     *  :construction: :construction: [Force-displacement law for the case of Variable crossectional area](Bars/Bars4.md)
     - :construction: :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5.md)
-    - :construction: :pencil:[_Solved problem: Titanium, Steel stepped, composite bar_](./Bars/SegmentedComposite.nb) 
+    - :construction: :balloon:[_Solved problem: Titanium, Steel stepped, composite bar_](./Bars/SegmentedComposite.nb)
+    - :construction: :balloon:[_Solved problem: Titanium, Steel stepped, composite bar with two forces_](./Bars/SegmentedComposite.md) 
 * [Bars with both cross-sections and areas varying their lengths](Bars/Bars6.md)
-    - :construction: [_Solved problem: Truncated cone_](./Bars/TruncatedCone.md) 
+    - :construction: :balloon: [_Solved problem: Truncated cone_](./Bars/TruncatedCone.md) 
 * Bars with body force
   - :construction: [Most general version of the constitutive law for the bar](Bars/BodyForce1.md)
   - :construction: :balloon: [Equilibrium in 1D](Bars/BodyForce2.md)
