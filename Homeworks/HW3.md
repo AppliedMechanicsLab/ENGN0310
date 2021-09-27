@@ -27,7 +27,7 @@
 
 Figure 1
 
-1. Assume we have the simple bar shown above, where section $AB$ has cross sectional area $A_{AB}$ and section $BC$ has cross sectional area $A_{BC}$. 
+1. Assume we have the simple bar shown above, where section $AB$ has cross sectional area $A_{AB}$ and section $BC$ has cross sectional area $A_{BC}$. $P_{A}=35kN$, $P_{B}=10kN$, $E_{1}=200GPa$, $E_{1}=120GPa$, $L_{1}=3m$, $L_{2}=1m$, the diameter of bar $AB$ is $25mm$, and the diameter of bar $AB$ is $75mm$.
 
     (5 pts) (i) Plot the internal force in the bar as a function of $x$, defined as the distance from the base at point $C$ shown in the figure above.
 
@@ -58,11 +58,7 @@ Figure 2
 
 Figure 3
 
-![](./HW3_4.png)
-
-Figure 4
-
-1. Assume that the bar in figure 3 above, tapered linearly with initial outer diameter $D_{0i}$ and final outer diameter $D_{0f}$, has constant thickness $t$ as shown in figure 4 above. For part 1 assume that there is no force due to gravity. Assume the bar is made of material with Young's Modulus $E$ and density $\rho$.
+1. Assume that the bar in figure 3 above, tapered linearly with initial outer diameter $D_{i}$ and final outer diameter $D_{f}$. For part 1 assume that there is no force due to gravity. Assume the bar is made of material with Young's Modulus $E$ and density $\rho$.
 
     (5 pts) (i) What is the formula for the cross-sectional area as a function of $x$, which defined as the distance from point $A$ as seen above.
 
@@ -71,9 +67,9 @@ Figure 4
 
     ![](./HW3_5.png)
 
-    Figure 5
+    Figure 4
 
-2. Now instead assume that there is force due to gravity, but the bar is replaced by a cylinder of constant diameter $D_{0i}$ that has no hole, that is it is a simple cylindrical bar of length $L$ and diameter $D_{0i}$ as seen in figure 5. The force $P$ is still applied at the end of the bar. 
+2. Now instead assume that there is force due to gravity, but the bar is replaced by a cylinder of constant diameter $D_{0i}$ that has no hole, that is it is a simple cylindrical bar of length $L$ and diameter $D_{0i}$ as seen in figure 4. The force $P$ is still applied at the end of the bar. 
 
     (5 pts) (i) What is the internal force in the bar as a function of $x$.
 
@@ -87,9 +83,9 @@ Figure 4
 
 ![](./HW3_6.png)
 
-Figure 6
+Figure 5
 
-1. Assume that a cylindrical bar has length $1m$ and diameter $25mm$, thermal expansion coefficient $10\times10^{-6}\frac{1}{°C}$, and Young’s Modulus 200GPa, shown in figure 6, at room temperature ($20°C$). Notice that there is a $1mm$ gap between the end of the bar and the wall.
+1. Assume that a cylindrical bar has length $1m$ and diameter $25mm$, thermal expansion coefficient $10\times10^{-6}\frac{1}{°C}$, and Young’s Modulus 200GPa, shown in figure 5, at room temperature ($20°C$). Notice that there is a $1mm$ gap between the end of the bar and the wall.
 
     (7.5 pts) (i) At what temperature will the gap be completely closed?
 
@@ -101,9 +97,9 @@ Figure 6
 
 ![](./HW3_7.png)
 
-Figure 7
+Figure 6
 
-1. Read the about stress concentrations at the link [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html). Notice that in the figure above there is a cylindrical hole through the width of the bar, of diameter $10mm$ (not drawn to scale), whose center is at the centerpoint of the bar (i.e. the center of the hole is $2m$ from the left face of the bar and $1m$ up from the bottom face of the bar). The dimensions of the bar are as in figure 7 above, length $4m$, height $2m$, and width $.25m$. 
+1. Read the about stress concentrations at the link [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html). Notice that in the figure above there is a cylindrical hole through the width of the bar, of diameter $10mm$ (not drawn to scale), whose center is at the centerpoint of the bar (i.e. the center of the hole is $2m$ from the left face of the bar and $1m$ up from the bottom face of the bar). The dimensions of the bar are as in figure 6 above, length $4m$, height $2m$, and width $.25m$. 
 
     (10 pts) (i) If the bar is made of a material with a yield stress of $σ_y=330MPa$, then what is the maximum allowable applied stress $σ$ that can be applied before any yielding begins to occur.
 
