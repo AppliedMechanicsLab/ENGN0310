@@ -23,7 +23,7 @@ $$
 $$
 
 
-where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\u{l}=l\uv{E}_{\rm a}$, and $\u{L}=L\uv{E}_{\rm a}$.
+where $\boldsymbol{\delta}=\boldsymbol{l}-\boldsymbol{L}$, $\u{l}=l\uv{E}\_{\rm a}$, and $\u{L}=L\uv{E}\_{\rm a}$.
 
 The force-displacement relations and the displacement field for
 * constant area 
