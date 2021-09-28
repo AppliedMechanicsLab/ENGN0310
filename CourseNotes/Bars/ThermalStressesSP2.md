@@ -27,10 +27,10 @@ $$
 
 
 The axial displacement diagram is shown below.
-![](2021-09-28-09-54-58.png)
+![](Images/2021-09-28-09-54-58.png)
 
 
-The MMA file for creating the above diagram is [here](ThermalStressesSP2.nb)
+The MMA file for creating the above diagram is [here](WFiles/ThermalStressesSP2.nb)
 
 
 

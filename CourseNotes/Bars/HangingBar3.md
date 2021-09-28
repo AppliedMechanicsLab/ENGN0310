@@ -13,7 +13,7 @@ A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its
 
 
 
-![](2021-09-26-22-43-14.png)
+![](Images/2021-09-26-22-43-14.png)
 
 
 <!-- ![](2021-09-26-21-46-42.png) -->

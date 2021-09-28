@@ -4,7 +4,7 @@
 
 #### Prelude: Two springs in series. 
 
-![](2021-09-20-19-48-57.png)
+![](Images/2021-09-20-19-48-57.png)
 
 The ends of the first spring are at $^0\\!\boldsymbol{X}$, $^1\\!\boldsymbol{X}$, and that of the second spring are at $^1\\!\boldsymbol{X}$ and $^2\\!\boldsymbol{X}$. The initial length vectors are $^1\\!\boldsymbol{X}-^0\\!\boldsymbol{X}$ and $^2\\!\boldsymbol{X}-^1\\!\boldsymbol{X}$. After deformation, the springs ends are at $^0\\!\boldsymbol{x}$, $^1\\!\boldsymbol{x}$, and $^1\\!\boldsymbol{x}$, $^2\\!\boldsymbol{x}$, respectively. The final length vectors are $^1\\!\boldsymbol{x}-^0\\!\boldsymbol{x}$, and $^2\\!\boldsymbol{x}-^1\\!\boldsymbol{x}$. 
 

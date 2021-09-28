@@ -1,7 +1,7 @@
 {% include mathjax_support %}
 {% include command %}
 
-![](2021-09-26-23-43-26.png)
+![](Images/2021-09-26-23-43-26.png)
 
 The top bar is made of steel, while the bottom bar is made of titanium.
 Consider an upward 50kN force applied at A (see Homework 2, Problem 3).

@@ -5,7 +5,7 @@
 
 
 
-![](2021-09-26-18-41-59.png)
+![](Images/2021-09-26-18-41-59.png)
 
 
 In the [previous section](./BodyForce1.md), we presented that 

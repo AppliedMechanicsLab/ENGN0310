@@ -10,7 +10,7 @@ A truncated cone is rigidly fixed to a wall on its left face. A force of $P\hat{
 **(a)** Find the elongation of the cone <br>
 **(b)** Find the displacement field in the cone.  
 
-![](2021-09-26-20-01-08.png)
+![](Images/2021-09-26-20-01-08.png)
 
 
 **Solution**
@@ -70,7 +70,7 @@ $$
 \end{align}
 $$
 
-![](2021-09-26-20-08-08.png)
+![](Images/2021-09-26-20-08-08.png)
 
 **(b)** We get the displacement field to be
 

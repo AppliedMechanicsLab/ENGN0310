@@ -13,8 +13,8 @@ In this section we are going to determine the force-deflection law for a bar wit
 
 Consider the bar show below. Its cross-section area instead of remaining constant varies along its length. The cross-section area at the material particle $X$ is $A(X)~\rm m^2$, where $A: [0,L]\to \mathbb{R}$.
 
-![](2021-09-21-18-39-48.png)
-![](2021-09-19-20-55-06.png) 
+![](Images/2021-09-21-18-39-48.png)
+![](Images/2021-09-19-20-55-06.png) 
 
 Let us partition the domain $[0,L]$ into say four equal pieces, i..e, $[^0\\!X,^1\\!X]$, $[^1\\!X,^2\\!X]$, $[^2\\!X,^3\\!X]$, and $[^3\\!X,^4\\!X]$. The cross-section areas of the four pieces are $A(^0 \\!X)$, $A(^1 \\!X)$, $A(^2 \\!X)$, $A(^3 \\!X)$. 
 

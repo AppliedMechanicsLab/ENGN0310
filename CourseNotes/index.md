@@ -5,7 +5,7 @@
 ## Structural mechanics
 
 ### <span style="color:#5faeb6; font-style:italic">Bars</span>
-* [Definition](./Definitions.md)
+
 *  <span style="color:#3f6184; font-weight:normal"> Bars with constant cross-section </span>
     * [<span style="color:#3f6184">Force-displacement law for the case of constant cross-sectional area</span>](Bars/Bars.md)
     * [<span style="color:#3f6184">Force-displacement law in vector form</span>](./Bars/VectorFormHookesLaw.md)
@@ -28,11 +28,11 @@
     -  [<span style="color:#778899">_Solved Problem: A free hanging bar with constant area and end force_</span>](Bars/HangingBar3.md)
     - :construction::construction: [_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
 * Thermal expansion and biological growth.
-    * :construction: [Constitutive law](./Bars/ThermalExpansion1.md)
-    * :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 1</span>](./Bars/ThermalExpansion1.md)
-    * :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 2</span>](./Bars/ThermalExpansion2.md)
-    * :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalExpansion3.md)
-    * :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](ThermalExpansion4.md)
+    * :construction: :construction: [Constitutive law](./Bars/ThermalExpansion1.md)
+    * :construction: :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 1</span>](./Bars/ThermalStressesSP1.md)
+    * :construction: :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 2</span>](./Bars/ThermalStressesSP2.md)
+    * :construction: :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalStressesSP3.md)
+    * :construction: :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](./Bars/ThermalStressesSP4.md)
 * Tensegrity
 *  Stress Concentrators in Bars
   - [Here](Bars7.md)
