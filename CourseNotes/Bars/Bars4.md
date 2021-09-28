@@ -1,25 +1,26 @@
 {% include mathjax_support %}
 {% include command %}
 
-# Force-displacement law for the case of variable crossectional area
+# Force-displacement law for the case of variable cross-sectional area
 
 
-In this section we are going to determine the force-deflection law for a bar with a variable cross-sectional area.
+In this section, we are going to determine the force-displacement law for a bar with a variable cross-sectional area.
 
 
 
 
 #### Variable  cross-section bar
 
-Consider the bar show below. Its cross-section area instead of remaining constant varies along its length. The cross-section area at the material particle $X$ is $A(X)~\rm m^2$, where $A: [0,L]\to \mathbb{R}$.
+Consider the bar show below. Its cross-sectional area varies along its length instead of it remaining constant. The cross-sectional area at the material particle $X$ is $A(X)~\rm m^2$, where $A: [0,L]\to \mathbb{R}$.
 
 ![](2021-09-21-18-39-48.png)
 ![](2021-09-19-20-55-06.png) 
 
-Let us partition the domain $[0,L]$ into say four equal pieces, i..e, $[^0\\!X,^1\\!X]$, $[^1\\!X,^2\\!X]$, $[^2\\!X,^3\\!X]$, and $[^3\\!X,^4\\!X]$. The cross-section areas of the four pieces are $A(^0 \\!X)$, $A(^1 \\!X)$, $A(^2 \\!X)$, $A(^3 \\!X)$. 
+Let us partition the domain $[0,L]$ into, say, four equal pieces, i..e, $[^0\\!X,^1\\!X]$, $[^1\\!X,^2\\!X]$, $[^2\\!X,^3\\!X]$, and $[^3\\!X,^4\\!X]$. The cross-sectional areas of the four pieces are $A(^0 \\!X)$, $A(^1 \\!X)$, $A(^2 \\!X)$, $A(^3 \\!X)$. 
 
  
 The original lengths of the four pieces are
+
 $$
 \begin{align}
  ^1\!\boldsymbol{L}&=^1\!\boldsymbol{X}-^0\!\boldsymbol{X},\\
@@ -28,7 +29,8 @@ $$
  ^4\!\boldsymbol{L}&=^4\!\boldsymbol{X}-^3\!\boldsymbol{X}.
 \end{align}
 $$
-Later we will be using the Einstein Summation Convention (ESC). So, this will be a good point to start introducing it. The above four equations can be written succintly as 
+
+Later, we will be using the Einstein Summation Convention (ESC). So, this will be a good point to start introducing it. The above four equations can be written succinctly as 
 
 $$
 ^l\!\boldsymbol{L}=^l\!\boldsymbol{X}-\,^{l-1}\!\boldsymbol{X},\quad l=1,2,3,4.
@@ -36,6 +38,7 @@ $$
 
 
 The current/deformed length vectors  of the four pieces are
+
 $$
 \begin{align}
  ^1\!\boldsymbol{l}&=^1\!\boldsymbol{x}-^0\!\boldsymbol{x}=(^1\!\boldsymbol{u}+^1\!\boldsymbol{X})-(^0\!\boldsymbol{u}+^0\!\boldsymbol{X}),\\
@@ -44,6 +47,7 @@ $$
  ^4\!\boldsymbol{l}&=^4\!\boldsymbol{x}-^3\!\boldsymbol{x}=(^4\!\boldsymbol{u}+^4\!\boldsymbol{X})-(^3\!\boldsymbol{u}+^3\!\boldsymbol{X}).
 \end{align}
 $$
+
 Again, in preparation for the ESC convention, the above four equations can be written as
 
 $$
@@ -54,6 +58,7 @@ $$
 $$
 
 The change in length vectors of the four pieces are
+
 $$
 \begin{align}
  ^1\!\boldsymbol{ \delta} &=^1\!\boldsymbol{l}-^1\!\boldsymbol{L}=^1\!\boldsymbol{u}-^0\!\boldsymbol{u},\\
@@ -63,7 +68,7 @@ $$
 \end{align}
 $$
 
-The above four equations can be succintly written as
+The above four equations can be succinctly written as
 
 $$
 \begin{align}
@@ -74,7 +79,7 @@ $$
 
 
 Since there are no body forces here, the axial force vector on each of the pieces is $\u{F}$. Taking the length of each of the pieces to be $\Delta X$ and
-applying the vector form of the Hook's law to each of the pieces we get 
+applying the vector form of the Hook's law to each of the pieces, we get 
 
 $$
 \begin{align}
@@ -123,7 +128,7 @@ $$
 
 
 
-Instead of making four pieces say we had made 5 pieces, then we would instead of gotten
+Instead of making four pieces, say we had made 5 pieces; then we would instead get
 
 $$
 \begin{align}
@@ -131,7 +136,8 @@ $$
 \end{align}
 $$
 
-So, on  considering $n+1$ pieces we  get
+So, on  considering $n+1$ pieces, we  get
+
 $$
 \begin{align}
 \boldsymbol{F}\left(\sum_{i=0}^{n}\frac{\Delta X}{EA (^i\!X)}\right)&=\boldsymbol{\delta},\quad \Delta X=L/(n+1).\\
@@ -139,6 +145,7 @@ $$
 $$
  
 On taking the limit $n\to \infty$ we get
+
 $$
 \begin{align}
 \lim_{n \to \infty}\boldsymbol{F}\left(\sum_{i=0}^{n}\frac{\Delta X}{EA (^i\!X)}\right)&=\boldsymbol{\delta}\\
@@ -146,7 +153,8 @@ $$
 \end{align}
 $$
 
-In summary we get the bar's stiffness to be
+In summary, we get the bar's stiffness to be
+
 $$
 \begin{align}
 \boldsymbol{F}&=
