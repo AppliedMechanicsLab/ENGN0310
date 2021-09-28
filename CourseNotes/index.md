@@ -4,18 +4,18 @@
 
 ## Structural mechanics
 
-### Bars.
+### <span style="color:#5faeb6; font-style:italic">Bars</span>
 * [Definition](./Definitions.md)
-*  Bars with constant cross-section 
-    * [Force-displacement law for the case of constant cross-sectional area](Bars/Bars.md)
-    * [Force-displacement law in vector form](./Bars/VectorFormHookesLaw.md)
+*  <span style="color:#3f6184; font-weight:normal"> Bars with constant cross-section </span>
+    * [<span style="color:#3f6184">Force-displacement law for the case of constant cross-sectional area</span>](Bars/Bars.md)
+    * [<span style="color:#3f6184">Force-displacement law in vector form</span>](./Bars/VectorFormHookesLaw.md)
     * Displacement field
         - [Definition. What is a displacement field?](Bars/Bars2.md)
         - [Explicit expression for the case of constant cross-section](Bars/Bars3.md)
 * Bars with variable cross-section 
     * [Two springs in series](./Bars/SpringsInSeries.md)
     *  :construction:  [Force-displacement law for the case of Variable cross-sectional area](Bars/Bars4.md)
-    - :construction: :construction: [Explicit expression for the case of variable cross-section](Bars/Bars5_2.md)
+    - :construction:  [Explicit expression for the case of variable cross-section](Bars/Bars5_2.md)
     -  [_Solved problem: Titanium&Steel stepped composite bar_ ](./Bars/SegmentedComposite.md)
     -  [_Solved problem: Titanium&Steel stepped composite bar with two forces_](./Bars/SegmentedComposite2.md) 
 * [Bars with both cross-sectional area and material property varying along their length](Bars/Bars6.md)
@@ -23,11 +23,13 @@
 * Bars with body force
   -  [Most general version of the constitutive law for the bar](Bars/BodyForce1.md)
   -   [Equilibrium in 1D](Bars/BodyForce2.md)
-    - :pencil: [_Solved Problem: A free hanging bar with constant area_](Bars/HangingBar1.md)
-    - :pencil: [_Solved Problem: A free hanging bar with constant area and end force_](Bars/HangingBar3.md)
-    - :construction::construction: :pencil:[_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
+    -  [<span style="color:#5faeb6; font-style:italic">Solved Problem: A free hanging bar with constant area</span>.
+](Bars/HangingBar1.md)
+    -  [<span style="color:#778899">_Solved Problem: A free hanging bar with constant area and end force_</span>](Bars/HangingBar3.md)
+    - :construction::construction: [_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
 * Thermal expansion and biological growth.
     * Thermal expansion
+* Tensegrity
 *  Stress Concentrators in Bars
   - [Here](Bars7.md)
 
@@ -39,11 +41,13 @@
 ### Stress
 ### Strain
 
-## Mathematical analysis results
+## Appendix
+
+### Mathematical analysis results
 
 *  [Proof of  $ \lim_{\epsilon\to 0}\frac{1}{\epsilon}\int_{a}^{a+\epsilon}f(\xi)\, d\xi=f(a)$](Bars/Leibnitz.md)
 
-## Notation
+### Notation
     
 * [Kronecker delta symbol](https://appliedmechanicslab.github.io/appliedmechanicslab/course_notes/ENGN1370/KroneckerDeltaSymbol.html)
 * [Einstein summation convention](https://appliedmechanicslab.github.io/appliedmechanicslab/course_notes/ENGN1370/ESC.html)
