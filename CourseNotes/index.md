@@ -33,8 +33,7 @@
     * :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalExpansion3.md)
     * :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](ThermalExpansion4.md)
 * Tensegrity
-*  Stress Concentrators in Bars
-  - [Here](Bars7.md)
+*  [Stress Concentrators in Bars](Bars7.md)
 
 ### Shafts (Torsion)
 ### Beams (Bending)
