@@ -85,7 +85,7 @@ Figure 3
 
 Figure 5
 
-1. Assume that a cylindrical bar has length $1m$ and diameter $25mm$, thermal expansion coefficient $10\times10^{-6}\frac{1}{°C}$, and Young’s Modulus 200GPa, shown in figure 5, at room temperature ($20°C$). Notice that there is a $1mm$ gap between the end of the bar and the wall.
+1. Assume that a cylindrical bar has length $1m$ and diameter $25mm$, thermal expansion coefficient $10\times10^{-6}\frac{1}{°C}$, and Young’s Modulus $200GPa$, shown in figure 5, at room temperature ($20°C$). Notice that there is a $1mm$ gap between the end of the bar and the wall.
 
     (7.5 pts) (i) At what temperature will the gap be completely closed?
 
