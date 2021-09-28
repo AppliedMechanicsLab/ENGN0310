@@ -51,14 +51,14 @@ $$
 The quantity $u(L)-u(0)$ is infact the change in length of the bar. Thus the expansion of the bar is 
 
 $$
-\delta =\alpha \Delta T L
+\delta =\alpha \Delta T L.
 $$
 
 Putting in the numbers we get 
 
 
 $$
-\delta =1.68\rm\, mm
+\delta =1.68\rm\, mm.
 $$
 
 

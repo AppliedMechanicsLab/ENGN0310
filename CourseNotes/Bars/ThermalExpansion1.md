@@ -1,10 +1,12 @@
 {% include mathjax_support %}
 {% include command %}
 
+# Thermal stresses
+
 |   |   |   |
 |---|---|---|
 |  ![](./Images/2021-09-27-22-47-17.png)  |  ![](./Images/2021-09-27-23-08-22.png) | ![](./Images/2021-09-27-23-19-48.png)|
-
+(pictures used without permission.)
 
 
 
