@@ -17,6 +17,7 @@ A bar of cross-sectional area $A$ and Young's modulus $E$ is fixed on one of its
 
 
 <!-- ![](2021-09-26-21-46-42.png) -->
+
 ### Solution
 
 We are going to solve this problem using the equation
