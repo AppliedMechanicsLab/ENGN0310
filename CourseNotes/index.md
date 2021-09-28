@@ -31,7 +31,7 @@
     * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 1</span>](./Bars/ThermalStressesSP1.md)
     * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 2</span>](./Bars/ThermalStressesSP2.md)
     * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalStressesSP3.md)
-    * :construction: :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](./Bars/ThermalStressesSP4.md)
+    * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](./Bars/ThermalStressesSP4.md)
 * Tensegrity
 *  [Stress Concentrators in Bars](Bars7.md)
 
