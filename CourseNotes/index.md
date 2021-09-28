@@ -14,8 +14,8 @@
         - [Explicit expression for the case of constant cross-section](Bars/Bars3.md)
 * Bars with variable cross-section 
     * [Two springs in series](./Bars/SpringsInSeries.md)
-    *  :construction:  [Force-displacement law for the case of Variable cross-sectional area](Bars/Bars4.md)
-    - :construction:  [Explicit expression for the case of variable cross-section](Bars/Bars5_2.md)
+    *   [Force-displacement law for the case of Variable cross-sectional area](Bars/Bars4.md)
+    -  [Explicit expression for the case of variable cross-section](Bars/Bars5_2.md)
     -  [_Solved problem: Titanium&Steel stepped composite bar_ ](./Bars/SegmentedComposite.md)
     -  [_Solved problem: Titanium&Steel stepped composite bar with two forces_](./Bars/SegmentedComposite2.md) 
 * [Bars with both cross-sectional area and material property varying along their length](Bars/Bars6.md)
