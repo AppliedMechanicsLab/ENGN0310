@@ -28,7 +28,7 @@
     -  [<span style="color:#778899">_Solved Problem: A free hanging bar with constant area and end force_</span>](Bars/HangingBar3.md)
     - :construction::construction: [_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
 * Thermal expansion and biological growth.
-    * Thermal expansion
+    * [Thermal expansion](ThermalExpansion1.md)
 * Tensegrity
 *  Stress Concentrators in Bars
   - [Here](Bars7.md)
