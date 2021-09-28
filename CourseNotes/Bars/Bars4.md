@@ -9,7 +9,7 @@ In this section, we are going to determine the force-displacement law for a bar 
 
 
 
-#### Bar with varying cross-sectional area
+#### Bars with varying cross-sectional area
 
 Consider the bar show below. Its cross-sectional area varies along its length instead of it remaining constant. The cross-sectional area at the material particle $X$ is $A(X)~\rm m^2$, where $A: [0,L]\to \mathbb{R}$.
 
