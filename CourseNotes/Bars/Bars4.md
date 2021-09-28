@@ -94,7 +94,7 @@ $$
 \frac{\Delta X}{EA (^0\!X)}+
 \frac{\Delta X}{EA (^1\!X)}+
 \frac{\Delta X}{EA (^2\!X)}+
-\frac{\Delta X}{EA (^3\!X)}\right)&=^4\!\boldsymbol{u}-^0\!\boldsymbol{u}\\
+\frac{\Delta X}{EA (^3\!X)}\right)&=^4\!\boldsymbol{u}-^0\!\boldsymbol{u}
 \label{eq:NetForce}
 \end{align}
 $$
