@@ -16,10 +16,10 @@
     * [Two springs in series](./Bars/SpringsInSeries.md)
     *   [Force-displacement law for the case of Variable cross-sectional area](Bars/Bars4.md)
     -  [Explicit expression for the case of variable cross-section](Bars/Bars5_2.md)
-    -  [_Solved problem: Titanium&Steel stepped composite bar_ ](./Bars/SegmentedComposite.md)
-    -  [_Solved problem: Titanium&Steel stepped composite bar with two forces_](./Bars/SegmentedComposite2.md) 
+    -  [<span style="color:#5faeb6; font-style:italic">Solved problem: Titanium&Steel stepped composite bar</span> ](./Bars/SegmentedComposite.md)
+    -  [ <span style="color:#5faeb6; font-style:italic"> Solved problem: Titanium&Steel stepped composite bar with two forces </span>](./Bars/SegmentedComposite2.md) 
 * [Bars with both cross-sectional area and material property varying along their length](Bars/Bars6.md)
-    -   [_Solved problem: Truncated cone_](./Bars/TruncatedCone.md) 
+    -   [<span style="color:#5faeb6; font-style:italic"> Solved problem: Truncated cone </span>](./Bars/TruncatedCone.md) 
 * Bars with body force
   -  [Most general version of the constitutive law for the bar](Bars/BodyForce1.md)
   -   [Equilibrium in 1D](Bars/BodyForce2.md)
@@ -30,7 +30,7 @@
     * :construction:  [Constitutive law](./Bars/ThermalExpansion1.md)
     * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 1</span>](./Bars/ThermalStressesSP1.md)
     * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 2</span>](./Bars/ThermalStressesSP2.md)
-    * :construction: :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalStressesSP3.md)
+    * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalStressesSP3.md)
     * :construction: :construction: [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](./Bars/ThermalStressesSP4.md)
 * Tensegrity
 *  [Stress Concentrators in Bars](Bars7.md)
