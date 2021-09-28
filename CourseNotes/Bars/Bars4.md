@@ -16,7 +16,7 @@ Consider the bar show below. Its cross-section area instead of remaining constan
 <!-- ![](2021-09-21-18-39-48.png)
 ![](2021-09-19-20-55-06.png) -->
 
-Let us partition the domain [0,L] into say four pieces, i..e, $[^0\\!X,^1\\!X]$, $[^1\\!X,^2\\!X]$, $[^2\\!X,^3\\!X]$, and $[^3\\!X,^4\\!X]$. The cross-section area of the first piece is $A(^0 \\!X)$, $A(^1 \\!X)$, $A(^2 \\!X)$, $A(^3 \\!X)$. The lengths of each of the bars is $\Delta X$.  
+Let us partition the domain $[0,L]$ into say four equal pieces, i..e, $[^0\\!X,^1\\!X]$, $[^1\\!X,^2\\!X]$, $[^2\\!X,^3\\!X]$, and $[^3\\!X,^4\\!X]$. The cross-section areas of the four pieces are $A(^0 \\!X)$, $A(^1 \\!X)$, $A(^2 \\!X)$, $A(^3 \\!X)$. 
 
  
 The original lengths of the four pieces are
@@ -68,13 +68,13 @@ The above four equations can be succintly written as
 $$
 \begin{align}
 ^l\!\boldsymbol{\delta}&=^l\!\boldsymbol{l}-^l\!\boldsymbol{L}=^l\!\boldsymbol{u}-\,^{l-1}\!\boldsymbol{u},
-\quad l=1,2,3,4
+\quad l=1,2,3,4.
 \end{align}
 $$
 
 
-Since there are no body forces here, the axial force vector on each of the pieces is $\u{F}$.
-On applying the vector form of the Hook's law to each of the pieces we get 
+Since there are no body forces here, the axial force vector on each of the pieces is $\u{F}$. Taking the length of each of the pieces to be $\Delta X$ and
+applying the vector form of the Hook's law to each of the pieces we get 
 
 $$
 \begin{align}
@@ -108,13 +108,13 @@ $$
 \end{equation}
 $$
 
-To see this note that $\boldsymbol{\delta}:=\u{l}-\u{L}$, where $\u{l}:=^{4}\\!\u{x}-\,^{0}\\!\u{x}$, $\u{L}:=^{4}\\!\u{X}-\,^{0}\\!\u{X}$. Equation $\eqref{eq:NetDeflection}$ follows by replacing $^{4}\\!\u{x}$ with $^{4}\\!\u{X}+^{4}\\!\u{u}$, and $^{0}\\!\u{x}$ with $^{0}\\!\u{X}+^{0}\!\u{u}$ in $\u{l}$, and $\u{\delta}$'s definitions. 
+To see this note that $\boldsymbol{\delta}:=\u{l}-\u{L}$, where $\u{l}:=^{4}\\!\u{x}-\,^{0}\\!\u{x}$, $\u{L}:=^{4}\\!\u{X}-\,^{0}\\!\u{X}$. Equation $\eqref{eq:NetDeflection}$ follows by replacing $^{4}\\!\u{x}$ with $^{4}\\!\u{X}+^{4}\\!\u{u}$, and $^{0}\\!\u{x}$ with $^{0}\\!\u{X}+^{0}\\!\u{u}$ in $\u{l}$, and $\u{\delta}$'s definitions. 
 
 Replacing $\u{l}-\u{L}$ in $\eqref{eq:NetForce}$ with $\u{\delta}$ we get that
 
 $$
 \begin{align}
-\boldsymbol{F}\sum_{i=0}^{3}\frac{\Delta X}{EA (^0\!X)}&=\boldsymbol{\delta}\\
+\boldsymbol{F}\sum_{i=0}^{3}\frac{\Delta X}{EA (^i\!X)}&=\boldsymbol{\delta}\\
 \end{align}
 $$
 
@@ -134,7 +134,7 @@ $$
 So, on  considering $n+1$ pieces we  get
 $$
 \begin{align}
-\boldsymbol{F}\left(\sum_{i=0}^{n}\frac{\Delta X}{EA (^i\!X)}\right)&=\boldsymbol{\delta},\quad \Delta X=L/(n+1)\\
+\boldsymbol{F}\left(\sum_{i=0}^{n}\frac{\Delta X}{EA (^i\!X)}\right)&=\boldsymbol{\delta},\quad \Delta X=L/(n+1).\\
 \end{align}
 $$
  
@@ -153,6 +153,6 @@ $$
 \left(
 \int_{0}^{L}\frac{dX}{E A(X)}
 \right)^{-1}
-\boldsymbol{\delta}
+\boldsymbol{\delta}.
 \end{align}
 $$
