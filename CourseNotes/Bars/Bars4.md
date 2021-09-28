@@ -9,7 +9,7 @@ In this section, we are going to determine the force-displacement law for a bar 
 
 
 
-#### Variable  cross-section bar
+#### Bar with varying cross-sectional area
 
 Consider the bar show below. Its cross-sectional area varies along its length instead of it remaining constant. The cross-sectional area at the material particle $X$ is $A(X)~\rm m^2$, where $A: [0,L]\to \mathbb{R}$.
 
@@ -113,13 +113,13 @@ $$
 \end{equation}
 $$
 
-To see this note that $\boldsymbol{\delta}:=\u{l}-\u{L}$, where $\u{l}:=^{4}\\!\u{x}-\,^{0}\\!\u{x}$, $\u{L}:=^{4}\\!\u{X}-\,^{0}\\!\u{X}$. Equation $\eqref{eq:NetDeflection}$ follows by replacing $^{4}\\!\u{x}$ with $^{4}\\!\u{X}+^{4}\\!\u{u}$, and $^{0}\\!\u{x}$ with $^{0}\\!\u{X}+^{0}\\!\u{u}$ in $\u{l}$, and $\u{\delta}$'s definitions. 
+To see this, note that $\boldsymbol{\delta}:=\u{l}-\u{L}$, where $\u{l}:=^{4}\\!\u{x}-\,^{0}\\!\u{x}$, $\u{L}:=^{4}\\!\u{X}-\,^{0}\\!\u{X}$. Equation $\eqref{eq:NetDeflection}$ follows by replacing $^{4}\\!\u{x}$ with $^{4}\\!\u{X}+^{4}\\!\u{u}$, and $^{0}\\!\u{x}$ with $^{0}\\!\u{X}+^{0}\\!\u{u}$ in $\u{l}$, and $\u{\delta}$'s definitions. 
 
 Replacing $\u{l}-\u{L}$ in $\eqref{eq:NetForce}$ with $\u{\delta}$ we get that
 
 $$
 \begin{align}
-\boldsymbol{F}\sum_{i=0}^{3}\frac{\Delta X}{EA (^i\!X)}&=\boldsymbol{\delta}\\
+\boldsymbol{F}\left(\sum_{i=0}^{3}\frac{\Delta X}{EA (^i\!X)}\right)&=\boldsymbol{\delta},\quad \Delta X=L/4.
 \end{align}
 $$
 
@@ -153,7 +153,7 @@ $$
 \end{align}
 $$
 
-In summary, we get the bar's stiffness to be
+In summary, we get that
 
 $$
 \begin{align}
@@ -162,5 +162,15 @@ $$
 \int_{0}^{L}\frac{dX}{E A(X)}
 \right)^{-1}
 \boldsymbol{\delta}.
+\end{align}
+$$
+
+and the bar's stiffness to be 
+
+$$
+\begin{align}
+\left(
+\int_{0}^{L}\frac{dX}{E A(X)}
+\right)^{-1}
 \end{align}
 $$
