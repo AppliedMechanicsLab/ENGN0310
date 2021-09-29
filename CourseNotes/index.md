@@ -24,7 +24,7 @@
   -  [Most general version of the constitutive law for the bar](Bars/BodyForce1.md)
   -   [Equilibrium in 1D](Bars/BodyForce2.md)
     -  [<span style="color:#5faeb6; font-style:italic">Solved Problem: A free hanging bar with constant area</span>](Bars/HangingBar1.md)
-    -  [<span style="color:#778899">_Solved Problem: A free hanging bar with constant area and end force_</span>](Bars/HangingBar3.md)
+    -  [<span style="color:#5faeb6">_Solved Problem: A free hanging bar with constant area and end force_</span>](Bars/HangingBar3.md) <!--:#778899-->
     - :construction::construction: [_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
 * Thermal expansion and biological growth.
     * :construction:  [Constitutive law](./Bars/ThermalExpansion1.md)
