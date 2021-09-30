@@ -36,6 +36,8 @@
 *  [Stress Concentrators in Bars](Bars7.md)
 
 ### Shafts (Torsion)
+    
+* [Torsion introduction](./Torsion/Torsion1.md)
 ### Beams (Bending)
 
 ## Solid Mechanics
