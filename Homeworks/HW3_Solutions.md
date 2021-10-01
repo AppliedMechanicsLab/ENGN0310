@@ -1,0 +1,108 @@
+{% include mathjax_support %}
+{% include command %}
+
+
+
+# ENGN0310: Homework 3
+## Due Friday 11:59 pm, October 1st, 2021
+
+
+
+
+> Please upload your assignment to Canvas.<br/>
+> Contact Andrew_Bagnoli@brown.edu if you have questions about the below problems.   
+
+
+
+
+#### Concepts useful for solving the HW problems
+
+ In a solid or liquid, there is a dynamic balance between the cohesive forces holding the atoms or molecules together and the increasing kinetic energy created by temperature; higher temperatures imply greater distance between atoms. Different materials have different bonding forces and therefore different expansion coefficients. The elongation due to temperature, $\delta_{T}$, is given by $\delta_{T}=\alpha L \Delta T$, where $\alpha$ is the coeficent of thermal expansion, $L$ is the original length, and $\Delta T$ is the temperature change. This elongation is not due to any force put on the bar, simply the bar itself physically expanding due to increasing temperature. Additional information on the topic can be found in Chapter 2.3 of the Textbook.
+
+ Reading on stress concentrators can be found [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html), and additional information can be found in the textbook Chapter 2.11.
+
+#### Problem 1 (15 pts). 
+
+![](./HW3_1.png)
+
+Figure 1
+
+1. Assume we have the simple bar shown above. $P_{A}=35kN$, $P_{B}=10kN$, $E_{1}=200GPa$, $E_{2}=120GPa$, $L_{1}=3m$, $L_{2}=1m$, the diameter of bar $AB$ is $25mm$, and the diameter of bar $BC$ is $75mm$.
+
+    (5 pts) (i) Plot the internal force in the bar as a function of $x$, defined as the distance from the base at point $C$ shown in the figure above.
+
+    (5 pts) (ii) Plot the internal stress in the bar as a function of $x$.
+
+    (5 pts) (iii) Plot the displacement in the bar as a function of $x$.
+
+
+<br>
+
+#### Problem 2 (20 pts). 
+
+![](./HW3_2.png)
+
+Figure 2
+
+1. Assume we have the bar given in figure 2 above. Note that the outer diameter for the section $AB$ is given by the equation $D(x)=D\_{o} + \frac{L}{2} - x$ and the outer diameter for the section $BC$ is $D_0$. Note also that there is a hole through the section BC of the bar with diameter $D_i$. Assume the Young's Modulus in both sections is $E$.
+
+    (10 pts) (i) What is the cross-sectional area in the bar as a function of $x$, defined as the distance from the base of the bar at point $A$. 
+
+    (10 pts) (ii) If a force $P$ is applied at point $B$ and another force $3P$ is applied at point $C$ then what is the net displacement in the bar at point $C$. 
+
+<br>
+
+#### Problem 3 (30 pts). 
+
+![](./HW3_3.png)
+
+Figure 3
+
+1. Assume that the bar in figure 3 above, tapered linearly with initial outer diameter $D_{i}$ and final outer diameter $D_{f}$. For part 1 assume that there is no force due to gravity. Assume the bar is made of material with Young's Modulus $E$ and density $\rho$.
+
+    (5 pts) (i) What is the formula for the cross-sectional area as a function of $x$, which defined as the distance from point $A$ as seen above.
+
+    (5 pts) (ii) What is the net displacement at point $B$ due to the force $P$?
+
+
+    ![](./HW3_5.png)
+
+    Figure 4
+
+2. Now instead assume that there is force due to gravity, but the bar is replaced by a cylinder of constant diameter $D_{i}$, that is it is a simple cylindrical bar of length $L$ and diameter $D_{i}$ as seen in figure 4. The force $P$ is still applied at the end of the bar. 
+
+    (5 pts) (i) What is the internal force in the bar as a function of $x$.
+
+    (5 pts) (ii) What is the net displacement at point $B$ due to the force $P$ and the force of gravity?
+
+3. (10 pts) Now assume there is force due to gravity and the bar has returned to its configuration in part 1, shown in figure 3. What is the net displacement at point $B$ due to the force $P$ and the force of gravity?
+
+<br>
+
+#### Problem 4 (15 pts). 
+
+![](./HW3_6.png)
+
+Figure 5
+
+1. Assume that a cylindrical bar has length $1m$ and diameter $25mm$, thermal expansion coefficient $10\times10^{-6}\frac{1}{°C}$, and Young’s Modulus $200GPa$, shown in figure 5, at room temperature ($20°C$). Notice that there is a $1mm$ gap between the end of the bar and the wall.
+
+    (7.5 pts) (i) At what temperature will the gap be completely closed?
+
+    (7.5 pts) (ii) What is the internal force in the bar when the temperature is $500°C$?
+
+<br>
+
+#### Problem 5 (20 pts). 
+
+![](./HW3_7.png)
+
+Figure 6
+
+1. Read the about stress concentrations at the link [here](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Bars7.html). Notice that in the figure above there is a cylindrical hole through the width of the bar, of diameter $10mm$ (not drawn to scale), whose center is at the centerpoint of the bar (i.e. the center of the hole is $2m$ from the left face of the bar and $1m$ up from the bottom face of the bar). The dimensions of the bar are as in figure 6 above, length $4m$, height $2m$, and width $.25m$. 
+
+    (10 pts) (i) If the bar is made of a material with a yield stress of $σ_y=330MPa$, then what is the maximum allowable applied stress $σ$ that can be applied before any yielding begins to occur.
+
+    (10 pts) (ii) If the applied stress is $σ=150MPa$, then what is the minimum diameter of the hole possible such that yielding will not occur (i.e. the maximum stress in the bar is equal to the yield stress).
+
+<br>
