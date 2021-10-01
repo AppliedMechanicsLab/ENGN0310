@@ -1,28 +1,33 @@
 {% include mathjax_support %}
 {% include command %}
 
+### Problem statement
 
-A solid aluminum a=shaft 2 m long, is loaded as shown in Fig. 5.4. The angle of twist at the right end of the bar. 
+A hollow cylinder of  outer diamter 600 mm and inner diameter 44 mm is made of steel of G=77 GPa. What is the rotation of the end of the shaft of L=0.6 m length when a torque of T=2250 N.m is applied to its end. 
 
 
+### Solution. 
+
+We begin by computing $J$, the 
 $$
-J(X)=
-\left\{
-\begin{array}{ll}
-\pi (10~\rm cm)^4/2, && 0\le X \le 120 ~\rm cm,\\
-\pi (6~\rm cm)^4/2, && 120< X \le 200 ~\rm cm,
-\end{array}
-\right.
-$$
-
-$$
-\theta(X)=\int_{0}^{L}\frac{T(X)\, dX}{G(X) J(X)}
+\begin{align}
+J
+&=\frac{\pi}{2}(r_0^4-r_i^4).\\
+&=9.04377~\times 10^{-7}~\rm m^4.
+\end{align}
 $$
 
-$$
-\theta(X)=\frac{T}{G}\int_{0}^{L}\frac{ dX}{ J(X)}
-$$
+The angle of twist  is
 
 $$
-\theta(L)=\int_{}
+\begin{align}
+\theta
+&=\frac{T L}{G J}\\
+&=0.0193862
+\end{align}
 $$
+
+In degrees the angle of twist reads $1.11075^{\circ}$.
+
+The MMA notebook for the above calculation is [here](./WFiles/SP2.nb)
+

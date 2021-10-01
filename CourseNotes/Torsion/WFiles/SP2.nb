@@ -1,0 +1,94 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2766,         86]
+NotebookOptionsPosition[      2232,         70]
+NotebookOutlinePosition[      2630,         86]
+CellTagsIndexPosition[      2587,         83]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "Notation`"}]], "Input",
+ CellChangeTimes->{{3.842023581595093*^9, 
+  3.84202358381378*^9}},ExpressionUUID->"49bd2e7c-fbfc-4b25-98d8-\
+ef011eddfe5c"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ClearAll", "[", 
+   RowBox[{"a", ",", "J", ",", "T", ",", "G", ",", "L"}], "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  SubscriptBox["r", "i"], "=", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{
+    RowBox[{"30", "/", "2"}], ",", "\"\<millimeters\>\""}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"J", "=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[Pi]", " ", 
+     SuperscriptBox["a", "4"]}], "2"], "//", "N"}]}], "\[IndentingNewLine]", 
+ RowBox[{"T", "=", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"250", ",", "\"\<Newtons meters\>\""}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"G", "=", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"77", ",", "\"\<Gigapascals\>\""}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"L", "=", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"0.4", ",", "\"\<meters\>\""}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  FractionBox[
+   RowBox[{"T", " ", "L"}], 
+   RowBox[{"G", " ", "J"}]], " "}]}], "Input",
+ CellChangeTimes->{{3.8420235778536797`*^9, 
+  3.842023579973947*^9}},ExpressionUUID->"6cf036b4-ca8b-4bc7-8892-\
+9ffc029eb8ef"],
+
+Cell[BoxData[
+ RowBox[{"NotebookSave", "[", 
+  RowBox[{
+   RowBox[{"EvaluationNotebook", "[", "]"}], ",", 
+   "\"\</Users/haneeshkesari/Downloads/temp/ENGN0310/CourseNotes/Torsion/\
+WFiles/SP2.nb\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.842023570606639*^9, 3.842023570731094*^9}},
+ CellLabel->
+  "In[355]:=",ExpressionUUID->"04373a1d-c24a-4b4b-bf89-151052dd1103"]
+},
+WindowSize->{776, 731},
+WindowMargins->{{6, Automatic}, {-517, Automatic}},
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b28befca-784a-4d96-9347-d12052b099e1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 178, 4, 30, "Input",ExpressionUUID->"49bd2e7c-fbfc-4b25-98d8-ef011eddfe5c"],
+Cell[739, 26, 1117, 32, 217, "Input",ExpressionUUID->"6cf036b4-ca8b-4bc7-8892-9ffc029eb8ef"],
+Cell[1859, 60, 369, 8, 52, "Input",ExpressionUUID->"04373a1d-c24a-4b4b-bf89-151052dd1103"]
+}
+]
+*)
+

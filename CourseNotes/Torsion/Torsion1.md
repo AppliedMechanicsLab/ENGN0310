@@ -64,7 +64,11 @@ Rectangle due it on the board.
 
 Example problem:
 
-A hollow steel shaft transmists a torque if 1200 Nm. d_0 =4 cm. Angle of twist over 2 m. 
+A hollow ste
+
+
+
+el shaft transmists a torque if 1200 Nm. d_0 =4 cm. Angle of twist over 2 m. 
 
 
 A solid aluminum saft.
