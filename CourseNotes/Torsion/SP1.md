@@ -19,7 +19,7 @@ $$
 where $a$ is the radius of the cross-section. For the current case we get that
 
 $$
-J=7.95216 10^-8~\rm m^4
+J=7.95216 10^{-8}~\rm m^4
 $$
 
 The angle of twist is give as, 

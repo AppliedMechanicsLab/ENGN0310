@@ -5,14 +5,19 @@ Force couple
 Torque
 Twisting couple
 Twisting moment
+Need to talk about traction a bit. 
 
-
-Drives and shafts or machinery.
+1. Drives and shafts or machinery.
 
 
 $$
 \u{T}= \frac{G J}{L}\u{\theta}.
 $$
+
+$$
+\u{\theta}= \frac{T}{G}\int_{0}\frac{G J}{L}\u{\theta}.
+$$
+
 
 Modulus of rigidity.
 Shear modulus of Steel is 82.74 GPa.
