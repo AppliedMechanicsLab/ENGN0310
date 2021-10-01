@@ -34,7 +34,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture7 | Sep 22, Wed | Torsion |[Link](https://www.dropbox.com/s/lwluxk2u9muexgj/engn0310-sep22_kuARC8xg_n5R7.mp4?dl=0)||
 | Lecture8 | Sep 24, Fri | Strain |[Link](https://www.dropbox.com/s/vmqt1irp2gsr5sr/ENGN0310_Sep24.mp4?dl=0)||
 | Lecture9 | Sep 27, Mon | Strain |[Link](https://www.dropbox.com/s/gyjrx3ekzsjn5p5/ENGN0310_Sep27.mp4?dl=0)||
-| Lecture10 | Sep 29, Wed | Strain |||
+| Lecture10 | Sep 29, Wed | Strain |[Link](https://www.dropbox.com/s/gyjrx3ekzsjn5p5/ENGN0310_Sep27.mp4?dl=0)||
 | Lecture11 | Oct 01, Fri | Stress |||
 | Lecture12 | Oct 04, Mon | Stress |||
 | Lecture13 | Oct 06, Wed | Stress |||
