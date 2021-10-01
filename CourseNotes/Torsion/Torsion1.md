@@ -9,6 +9,8 @@ Need to talk about traction a bit.
 
 1. Drives and shafts or machinery.
 
+$$F(X)=E(X)A(X)u'(X)$$
+$$T(X)=G(X)J(X)\theta'(X)$$ (Postulated law)
 
 $$
 \u{T}= \frac{G J}{L}\u{\theta}.
