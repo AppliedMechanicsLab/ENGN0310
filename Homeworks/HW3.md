@@ -103,6 +103,6 @@ Figure 6
 
     (10 pts) (i) If the bar is made of a material with a yield stress of $σ_y=330MPa$, then what is the maximum allowable applied stress $σ$ that can be applied before any yielding begins to occur.
 
-    (10 pts) (ii) If the applied stress is $σ=150MPa$, then what is the maximum diameter of the hole possible such that yielding will not occur (i.e. the maximum stress in the bar is equal to the yield stress).
+    (10 pts) (ii) If the applied stress is $σ=150MPa$, then what is the minimum diameter of the hole possible such that yielding will not occur (i.e. the maximum stress in the bar is equal to the yield stress).
 
 <br>
