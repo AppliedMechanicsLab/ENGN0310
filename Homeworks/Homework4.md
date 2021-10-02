@@ -105,8 +105,7 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 
     * (10pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus? 
     * (5pts)(ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
-
-</br>
+<br/>
 
 <u> Problem 5 (15 pts total) </u>
 
