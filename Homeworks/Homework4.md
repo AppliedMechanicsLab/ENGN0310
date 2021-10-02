@@ -1,5 +1,8 @@
 {% include mathjax_support %}
 {% include command %}
+.tab {
+  padding-left: 2px;
+}
 
 
 
@@ -10,12 +13,12 @@
 
 
 > Please upload your assignment to Canvas.<br/>
-> Contact Sayaka_Kochiyama@brown.edu if you have questions about the below problems.   
+> Contact Sayaka_Kochiyama@brown.edu if you have questions about the problems.   
 
 
 
 
-#### Additional concepts needed for solving the HW problems
+#### Some helpful concepts needed for solving the HW problems
 
 
 --------
@@ -62,11 +65,11 @@ Similar argument can be made about (1). It derives from the following expression
 
 $$
 \begin{equation}
-\theta(X)=\int_0^X \frac{T(Y)}{G(Y) J(Y)} dY
+\theta(X)=\int_0^X \frac{T(Y)}{G(Y) J(Y)} dY.
 \end{equation}
 $$
 
-when you take $T$, $G$, and $J$ to be constant along the shaft's length and take the integration from $0$ to $L$.  
+When you take $T$, $G$, and $J$ to be constant along the shaft's length and take the integration from $0$ to $L$, you retrieve (1).
 
 ----------
 
@@ -93,26 +96,26 @@ when you take $T$, $G$, and $J$ to be constant along the shaft's length and take
     (5 pts) (ii) Determine the angle of twist $\theta$ (in degrees) in each of the bars if one is made of steel, the other is made of titanium alloy, and the applied torque is $240~\rm{N\cdot m}$. You can take $L/J = 2.0\times10^{8}~\rm{m^{-3}}.$
 <br/>
 
-4. (15 pts) A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. If the shaft gets twisted by $\pi/6~\rm{rad}$, what is its shear modulus?
+4. (15 pts) A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. 
 
 <DL>
-<DD>(5pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus?
-<DD>(5pts) (ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
-</DL>
+<DD> (10pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus? 
+<DD> (5pts) (ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
 
 <br/>
 
+
 5. (15 pts total) A $2~\rm{m}$ long shaft with a rectangular cross-section of sides $2~\rm{cm}$ and $3~\rm{cm}$ is subjected to a force couple as shown below. 
 
-<DL>
+
 <DD>(5pts) (i) What is the torque $T$ acting on the shaft?    
 <DD>(5pts) (ii) What is the shaft's polar moment of inertia $J$?
 <DD>(5pts) (iii) If the shaft gets twisted by 30&deg;, what is its shear modulus?
-</DL>
+
 
 6. (20 pts total) Consider a smaller steel shaft AB attached to a larger steel shaft BC, and the torque acting at point A as shown. 
 
-<DL>
+
 <DD>(5pts) (i) What are the polar moment of inertia J in shaft AB and shaft BC respectively?
 <DD>(5pts) (ii) Determine the angle of twist at point B.
 <DD>(5pts) (iii) Determine the angle of twist at point A.
@@ -122,7 +125,7 @@ when you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 
 7.  (20 pts total) Now, consider a similar problem but with two torques acting at points A and B as shown. 
 
-<DL>
+
 <DD>(5pts) (i) What are torques acting in shaft AB and shaft BC respectively?
 <DD>(5pts) (ii) Determine the angle of twist at point B.
 <DD>(5pts) (iii) Determine the angle of twist at point A.
