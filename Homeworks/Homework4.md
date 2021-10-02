@@ -83,16 +83,14 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 
 
 
+ <u> Problem 1 (10 pts) </u>
 
-> <u> Problem 1 (10 pts) </u>
-
-> Consider a solid cylindrical steel shaft of length 15 cm,  whose cross-section is a circle of diameter $2~\rm{cm}$. If the angle of twist at the right face is $\pi/3~\rm{rad}$, what is the torque applied to the shaft?
-
+* Consider a solid cylindrical steel shaft of length 15 cm,  whose cross-section is a circle of diameter $2~\rm{cm}$. If the angle of twist at the right face is $\pi/3~\rm{rad}$, what is the torque applied to the shaft?
 <br/>
 
 <u> Problem 2 (10 pts) </u>
 
-Determine the angle of twist $\theta$ when the applied torque is $800~\rm{N \cdot m}$ in a $25~\rm{cm}$ long steel bar, whose cross section is a square with 3cm side.
+* Determine the angle of twist $\theta$ when the applied torque is $800~\rm{N \cdot m}$ in a $25~\rm{cm}$ long steel bar, whose cross section is a square with 3cm side.
 <br/>
 
 <u> Problem 3 (10 pts total) </u>
@@ -103,37 +101,37 @@ Determine the angle of twist $\theta$ when the applied torque is $800~\rm{N \cdo
 
 <u> Problem 4 (15 pts total) </u>
 
-A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. Test1
+* A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. Test1
 
-* (10pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus? 
-* (5pts)(ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
+    * (10pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus? 
+    * (5pts)(ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
 
 </br>
 
 <u> Problem 5 (15 pts total) </u>
 
-A $2~\rm{m}$ long shaft with a rectangular cross-section of sides $2~\rm{cm}$ and $3~\rm{cm}$ is subjected to a force couple as shown below. 
+* A $2~\rm{m}$ long shaft with a rectangular cross-section of sides $2~\rm{cm}$ and $3~\rm{cm}$ is subjected to a force couple as shown below. 
 
-(5pts) (i) What is the torque $T$ acting on the shaft?    
-(5pts) (ii) What is the shaft's polar moment of inertia $J$?
-(5pts) (iii) If the shaft gets twisted by 30&deg;, what is its shear modulus?
-
-
-6. (20 pts total) Consider a smaller steel shaft AB attached to a larger steel shaft BC, and the torque acting at point A as shown. 
+    * (5pts) (i) What is the torque $T$ acting on the shaft?    
+    * (5pts) (ii) What is the shaft's polar moment of inertia $J$?
+    * (5pts) (iii) If the shaft gets twisted by 30&deg;, what is its shear modulus?
 
 
-<DD>(5pts) (i) What are the polar moment of inertia J in shaft AB and shaft BC respectively?
-<DD>(5pts) (ii) Determine the angle of twist at point B.
-<DD>(5pts) (iii) Determine the angle of twist at point A.
-<DD>(5pts) (iv) Now, consider a case where shaft BC is made of titanium instead of steel. What is the angle of twist at point A?
+<u> Problem 6 (20 pts total) </u>
+* Consider a smaller steel shaft $AB$ attached to a larger steel shaft $BC$, and the torque acting at point $A$ as shown. 
+
+    * (5pts) (i) What are the polar moment of inertia $J$ in shaft $AB$ and shaft $BC$ respectively?
+    * (5pts) (ii) Determine the angle of twist at point $B$.
+    * (5pts) (iii) Determine the angle of twist at point $A$.
+    * (5pts) (iv) Now, consider a case where shaft $BC$ is made of titanium alloy instead of steel. What is the angle of twist at point $A$?
 
 
 
-7.  (20 pts total) Now, consider a similar problem but with two torques acting at points A and B as shown. 
+<u> Problem 7 (20 pts total) </u>
+* Now, consider a similar problem but with two torques acting at points $A$ and $B$ as shown. 
 
+    * (5pts) (i) What are torques acting in shaft $AB$ and shaft $BC$ respectively?
+    * (5pts) (ii) Determine the angle of twist at point $B$.
+    * (5pts) (iii) Determine the angle of twist at point $A$.
+    * (5pts) (iv) Now, consider a case where shaft $BC$ is made of titanium instead of steel. What is the angle of twist at point $A$?
 
-<DD>(5pts) (i) What are torques acting in shaft AB and shaft BC respectively?
-<DD>(5pts) (ii) Determine the angle of twist at point B.
-<DD>(5pts) (iii) Determine the angle of twist at point A.
-<DD>(5pts) (iv) Now, consider a case where shaft BC is made of titanium instead of steel. What is the angle of twist at point A?
-</DL>
