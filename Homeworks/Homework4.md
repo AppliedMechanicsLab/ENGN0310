@@ -101,7 +101,7 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 
 <u> Problem 4 (15 pts total) </u>
 
-* A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. Test1
+* A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. 
 
     * (10pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus? 
     * (5pts)(ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
