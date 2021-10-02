@@ -96,12 +96,13 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
     (5 pts) (ii) Determine the angle of twist $\theta$ (in degrees) in each of the bars if one is made of steel, the other is made of titanium alloy, and the applied torque is $240~\rm{N\cdot m}$. You can take $L/J = 2.0\times10^{8}~\rm{m^{-3}}.$
 <br/>
 
-4. (15 pts) A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. 
+4. (15 pts) A $30~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{mm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. Test1
 
 <DL>
 <DD> (10pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus? 
 <DD> (5pts) (ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
 </DL>
+
 <br/>
 
 
