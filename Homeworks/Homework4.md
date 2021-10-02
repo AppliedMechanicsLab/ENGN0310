@@ -84,6 +84,8 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 **Problems**
 
 
+<u> Problem 1 </u>
+
 1. (10 pts) Consider a solid cylindrical steel shaft of length 15 cm,  whose cross-section is a circle of diameter $2~\rm{cm}$. If the angle of twist at the right face is $\pi/3~\rm{rad}$, what is the torque applied to the shaft?
 
 <br/>
@@ -103,16 +105,16 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 <DD> (5pts) (ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
 </DL>
 
-<br/>
+</br>
 
 
 5. (15 pts total) A $2~\rm{m}$ long shaft with a rectangular cross-section of sides $2~\rm{cm}$ and $3~\rm{cm}$ is subjected to a force couple as shown below. 
 
-
+<DL>
 <DD>(5pts) (i) What is the torque $T$ acting on the shaft?    
 <DD>(5pts) (ii) What is the shaft's polar moment of inertia $J$?
 <DD>(5pts) (iii) If the shaft gets twisted by 30&deg;, what is its shear modulus?
-
+</DL>
 
 6. (20 pts total) Consider a smaller steel shaft AB attached to a larger steel shaft BC, and the torque acting at point A as shown. 
 
