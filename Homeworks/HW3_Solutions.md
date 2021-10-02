@@ -31,9 +31,21 @@ Figure 1
 
     (5 pts) (i) Plot the internal force in the bar as a function of $x$, defined as the distance from the base at point $C$ shown in the figure above.
 
+    (Pic here)
+
+    **Solution** Doing the balance of internal forces in bars 1 and 2 should result in internal forces of $F_{1}=-35kN$ and $F_{2}=-45kN$, and your plot should look like the figure above.
+
     (5 pts) (ii) Plot the internal stress in the bar as a function of $x$.
 
+    (Pic here)
+
+    **Solution** Dividing the forces from part (i) by their corresponding cross sectional areas gives $\sigma_{1}=\frac{-35kN}{\frac{\pi}{4}(.0125m)^2}=-71.3MPa$ and $\sigma_{2}=\frac{-45kN}{\frac{\pi}{4}(.0375m)^2}=-10.2MPa$. Which leads to the figure above.
+
     (5 pts) (iii) Plot the displacement in the bar as a function of $x$.
+
+    (Pic here)
+
+    **Solution** From the internal force in bar 2 then from the bottom, $x$ as defined in the problem $\delta_{2}(x)={\int_{0}^{x} \frac{F_{2}}{E_{2}A_{2}} \,dx}=\frac{F_{2}x}{E_{2}A_{2}}$ from $0 \le x \le L_{2}$, and then the displacement in bar 1 is $\delta_{1}(x)=\delta_{2}(L_{2}) + {\int_{L_{2}}^{x} \frac{F_{1}}{E_{1}A_{1}} \,dx}=\frac{F_{2}L_{2}}{E_{2}A_{2}}+\frac{F_{1}(x-L\_{2})}{E\_{1}A\_{1}}$ from $L\_{2} \le x \le L_{1}$. Plugging in values for the displacements and plotting should look like the plot above.
 
 
 <br>
@@ -48,7 +60,13 @@ Figure 2
 
     (10 pts) (i) What is the cross-sectional area in the bar as a function of $x$, defined as the distance from the base of the bar at point $A$. 
 
+    (pic here)
+
+    **Solution** The cross sectional area of the section of the bar $AB$ is given by $A_{AB}=\frac{\pi}{4}(D(x))^2=\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2$. Then the cross sectional area in the section of the bar $BC$ is just $A_{BC}=\frac{\pi}{4}(D\_{o}^2-D\_{i}^2)=$. Then the cross sectional area as a function of $x$ is given by $A(x)=\begin{cases}\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2 & 0 \le x \le \frac{L}{2}\\ \frac{\pi}{4}(D\_{o}^2-D\_{i}^2) & \frac{L}{2}  \le x \le L\\ \end{cases}$.
+
     (10 pts) (ii) If a force $P$ is applied at point $B$ and another force $3P$ is applied at point $C$ then what is the net displacement in the bar at point $C$. 
+
+    **Solution** The force inside of the section of the bar $AB$ is then $2P$ by making an imaginary cut in the bar and doing a force balance with the reaction forces at the base, and by the same method of imaginary cuts we find that the force inside of the $BC$ section is $3P$. Then the internal forces are given by $P(x)=\begin{cases}2P & 0 \le x \le \frac{L}{2}\\ 3+ & \frac{L}{2}  \le x \le L\\ \end{cases}$, so $\delta(x)={\int_{0}^{L} \frac{P(x)}{EA(x)} \,dx}={\int_{0}^{\frac{L}{2}} \frac{2P}{E\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2} \,dx}+{\int_{\frac{L}{2}}^{L} \frac{3P}{E\frac{\pi}{4}(D\_{o}^2-D\_{i}^2)} \,dx}=\frac{6PL}{\pi E (D\_{o}^2-D\_{i}^2)} + \frac{8PL}{\pi E (2D\_{o}^{2}+D\_{o}L)}$.
 
 <br>
 
@@ -62,7 +80,11 @@ Figure 3
 
     (5 pts) (i) What is the formula for the cross-sectional area as a function of $x$, which defined as the distance from point $A$ as seen above.
 
+    **Solution** The diameter can be written as a function of $x$ as $D(x)=D\_{i} - \frac{D\_{i}-D\_{f}}{L}x$, so the cross sectional area as a function of $x$ is $A(x)=\frac{\pi}{4}(D\_{i} - \frac{D\_{i}-D\_{f}}{L}x)^2$.
+
     (5 pts) (ii) What is the net displacement at point $B$ due to the force $P$?
+
+    **Solution** For the internal force of $P$ the diaplcement is given by $\delta={\int_{0}^{L} \frac{P}{E \frac{\pi}{4}(D\_{i} - \frac{D\_{i}-D\_{f}}{L}x)^2} \,dx} = \frac{4LP}{\pi E D\_{i}D\_{f}}$
 
 
     ![](./HW3_5.png)
@@ -73,7 +95,11 @@ Figure 3
 
     (5 pts) (i) What is the internal force in the bar as a function of $x$.
 
+    **Solution** Now to find the internal force we need to take into account the force due to gravity. At some point $x$ along the bar the force of gravity will be proportional to the ammount of mass below that point in the bar pulling down on it. So for this case we need to find the volume below the point $x$ on the bar, as the mass is $m(x)=\rho V\_{below}(x)$. The total volume is $V\_{total}={\int_{0}^{L} A(x) \,dx}=\frac{\pi}{4} L D\_{i}^2$. Then the volume above the point $x$ is $V\_{above}(x)={\int_{0}^{x} A(\xi) \,d\xi}=\frac{\pi}{4} x D\_{i}^2$, where we are using the dummy variable $\xi$ because one of the limits of integration is $x$. Then $V\_{below}(x)=V\_{total}-V\_{above}(x)=\frac{\pi}{4} (L-x) D\_{i}^2$. Then we have that $F\_{g}(x)=\rho g V\_{below}(x)=\frac{\rho g \pi}{4} (L-x) D\_{i}^2$. Then the total internal force as a function of $x$ is $P(x)=P+F\_{g}(x)=P+\frac{\rho g \pi}{4} (L-x) D\_{i}^2$.
+
     (5 pts) (ii) What is the net displacement at point $B$ due to the force $P$ and the force of gravity?
+
+    **Solution** Then the displacement in the bar is $\delta={\int_{0}^{L} \frac{P(x)}{E A} \,dx} = {\int_{0}^{L} \frac{P+\frac{\rho g \pi}{4} (L-x) D\_{i}^2}{E \frac{\pi}{4}  D\_{i}^2} \,dx}=\frac{4PL}{\pi E D\_{i}^2} + \frac{\rho g L^2}{2 E}$
 
 3. (10 pts) Now assume there is force due to gravity and the bar has returned to its configuration in part 1, shown in figure 3. What is the net displacement at point $B$ due to the force $P$ and the force of gravity?
 
