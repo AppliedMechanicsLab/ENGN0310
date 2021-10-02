@@ -101,7 +101,7 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 <DL>
 <DD> (10pts) (i) If the shaft gets twisted by 30&deg;, what is its shear modulus? 
 <DD> (5pts) (ii) Now, consider that the shaft has an inner core of $3~\rm{mm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material.
-
+</DL>
 <br/>
 
 
@@ -120,7 +120,7 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 <DD>(5pts) (ii) Determine the angle of twist at point B.
 <DD>(5pts) (iii) Determine the angle of twist at point A.
 <DD>(5pts) (iv) Now, consider a case where shaft BC is made of titanium instead of steel. What is the angle of twist at point A?
-</DL>
+
 
 
 7.  (20 pts total) Now, consider a similar problem but with two torques acting at points A and B as shown. 
