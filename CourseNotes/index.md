@@ -4,7 +4,7 @@
 
 ## Structural mechanics
 
-### <span style="color:#5faeb6; font-style:italic">Bars</span>
+### <span style="color:#5faeb6; font-style:italic">Bars </span>
 
 *  <span style="color:#3f6184; font-weight:normal"> Bars with constant cross-section </span>
     * [<span style="color:#3f6184">Force-displacement law for the case of constant cross-sectional area</span>](Bars/Bars.md)
@@ -35,7 +35,8 @@
 * Tensegrity
 *  [Stress Concentrators in Bars](Bars7.md)
 
-### Shafts (Torsion)
+### <span style="color:#5faeb6; font-style:italic">Shafts (Torsion)</span>
+
     
 * :construction: :construction: [Torsion introduction](./Torsion/Torsion1.md)
 * :construction: :construction:[<span style="color:#5faeb6; font-style:italic"> Solved Problem 1.</span>](./Torsion/SP1.md)
@@ -47,6 +48,8 @@
 
 ## Solid Mechanics
 
+### Traction
+* [Introduction](Traction/Introduction.md)
 ### Stress
 ### Strain
 
