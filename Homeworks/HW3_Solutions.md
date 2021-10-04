@@ -103,6 +103,8 @@ Figure 3
 
 3. (10 pts) Now assume there is force due to gravity and the bar has returned to its configuration in part 1, shown in figure 3. What is the net displacement at point $B$ due to the force $P$ and the force of gravity?
 
+    **Solution** Now from part 1 we know that the formula for the cross sectional area is given by $A(x)=\frac{\pi}{4}(D\_{i} - \frac{D\_{i}-D\_{f}}{L}x)^2$ and from part 2 we know that the force due to gravity is given by $F\_{g}(x)=\rho g V\_{below}(x)= \rho g (V\_{total} - V\_{above}(x))$, where $V\_{total} = {\int_{0}^{L} A(s) \,ds} = {\int_{0}^{L} \frac{\pi}{4}(D\_{i} - \frac{D\_{i}-D\_{f}}{L}s)^2 \,ds} = \frac{\pi L}{12}(D\_{f}^2 + D\_{f}D\_{i} + D\_{i}^2)$. Then the volume above some arbitrary point $x$ is given by $V\_{above}(x) = {\int_{0}^{x} A(s) \,ds} = \frac{\pi L (D\_{i} + \frac{D\_{f} - D\_{i}}{L} x)^3}{12 (D\_{f} - D\_{i})}$ Then the total body force in the bar is $P(x) = P + \frac{\pi \rho g L}{12} \left(D\_{f}^2 + D\_{f}D\_{i} + D\_{i}^2 - \frac{(D\_{i} + \frac{D\_{f} - D\_{i}}{L} x)^3}{D\_{f} - D\_{i}}\right)$. Then the displacement is given by $\delta={\int_{0}^{L} \frac{P(x)}{E A(x)} \,dx} = {\int_{0}^{L} \frac{ P + \frac{\pi \rho g L}{12} \left(D\_{f}^2 + D\_{f}D\_{i} + D\_{i}^2 - \frac{(D\_{i} + \frac{D\_{f} - D\_{i}}{L} x)^3}{D\_{f} - D\_{i}}\right)}{E \frac{\pi}{4}(D\_{i} - \frac{D\_{i}-D\_{f}}{L}x)^2} \,dx}$. To simplify this integral notice that $x$ only appears within the context of the diameter, so if a substitution is made then we have that $\delta = \gamma {\int_{D\_{i}}^{D\_{f}} \left(\frac{\alpha}{D^2} + \beta D\right) \,dD}$ for constants $\gamma = \frac{4L}{\pi E(D\_{f} - D\_{i})}$, $\beta = \frac{\pi \rho g L}{12(D\_{i} - D\_{f})}$, and $\alpha = P + \frac{\pi \rho g L}{12}\left(D\_{f}^2 + D\_{f}D\_{i} + D\_{i}^2\right)$, then the solutution is $\delta = \frac{L \left((24P(D\_{f}-D\_{i}) + \pi \rho g L(2D\_{f}^3 - D\_{f}^2D\_{i} - D\_{f}D\_{i}^2 - 2D\_{i}^3)\right)}{6 \pi E D\_{f}D\_{i}(D\_{f}-D\_{i})}$
+
 <br>
 
 #### Problem 4 (15 pts). 
@@ -115,7 +117,11 @@ Figure 5
 
     (7.5 pts) (i) At what temperature will the gap be completely closed?
 
+    **Solution** Since the displacement due to thermal expansion is give by $\delta\_{T} = L\alpha \Delta T$ then for the bar to expand by $1mm$ we have that $.001m = (1m)(10 \times 10^{-6} \frac{1}{°C})(T\_{f} - 20°C) \Rightarrow T\_{f} = 120°C$
+
     (7.5 pts) (ii) What is the internal force in the bar when the temperature is $500°C$?
+
+    **Solution** Once the bar has expanded to the point where it is touching the other wall then it has no more room to expand, and the 'displacement' due to increase in temperature past the point where it is touching the wall will instead by turned into an internal force given by the equation $P = \frac{E A (\delta\_{T} - \Delta)}{L} = \frac{(200GPa) (\pi)(.0125m)^2 \left((1m)(10 \times 10^{-6} \frac{1}{°C})(500°C - 20°C) - .001m \right)}{1m} = 373.1kN$
 
 <br>
 
@@ -129,6 +135,10 @@ Figure 6
 
     (10 pts) (i) If the bar is made of a material with a yield stress of $σ_y=330MPa$, then what is the maximum allowable applied stress $σ$ that can be applied before any yielding begins to occur.
 
+    **Solution** Since the maximum possible stress, before yielding occurs, is the yield stress then $σ_max=330MPa$ and the average stress is given by the applied stress, so $\sigma\_{avg} = \sigma$, then the maximum applied stress is given by $\sigma = \frac{330MPa}{K\_{t}}$. To find the stress concentration factor $K\_{t}$ we have to use the chart given in the reading, where from the geometry we have that $\frac{2r}{D} = .005$ we find that $K\_{t}$ is approximately $3$, so then $\sigma = 110MPa$.
+
     (10 pts) (ii) If the applied stress is $σ=150MPa$, then what is the minimum diameter of the hole possible such that yielding will not occur (i.e. the maximum stress in the bar is equal to the yield stress).
+
+     **Solution** Going in the opposite direction we have the applied stress $\sigma = 150MPa$, so we can solve for the stress concentration factor $K\_{t} = \frac{330MPa}{150MPa} = 2.2$, then using the chart we find that the value of $\frac{2r}{D}$ that corresponds to this stress concentration value is $.45$, so the diameter is $.9m$. This result may seem unintuitive, that a larger hole would have allow a higher stress than a smaller whole, and this is due to the fact that when the effect of removing material and the decreasing cross sectional area is ignored, as is the case here, the stress concentration factor decreases with increasing diameter of the whole. This is indicitive of the fact that the stress concentration factor is due to changes in the geometry of the bar, such as the presence of a hole of fillet, and not due to the removal of material/decrease in cross sectional area.
 
 <br>
