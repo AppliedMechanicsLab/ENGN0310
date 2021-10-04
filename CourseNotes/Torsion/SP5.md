@@ -1,2 +1,6 @@
 ![](Images/SP5.png)
-![](2021-09-30-22-03-38.png)
+
+
+
+The mathematica file for solving the above problem is [here](./WFiles/SP5.nb
+)

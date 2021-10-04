@@ -62,8 +62,8 @@ $$
 Evaluating the integral we get that 
 $$
 \begin{align}
-\theta(L)&=0.00215403\\
-&=0.123417^{\circ}\\
+\theta(L)&=0.0189958\\
+&=1.08838^{\circ}\\
 \end{align}
 $$
 
