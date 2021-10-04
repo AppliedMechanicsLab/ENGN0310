@@ -1,6 +1,8 @@
 {% include mathjax_support %}
 {% include command %}
 
+Beer and Johnston, Ch. 3
+
 Force couple
 Torque
 Twisting couple

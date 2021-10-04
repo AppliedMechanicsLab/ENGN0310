@@ -2,7 +2,7 @@
 {% include command %}
 
 ### Problem statement
-
+![](2021-10-03-20-12-49.png)
 A hollow cylinder of  outer diamter 600 mm and inner diameter 44 mm is made of steel of G=77 GPa. What is the rotation of the end of the shaft of L=0.6 m length when a torque of T=2250 N.m is applied to its end. 
 
 
