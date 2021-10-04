@@ -62,7 +62,7 @@ Figure 2
 
     (pic here)
 
-    **Solution** The cross sectional area of the section of the bar $AB$ is given by $A_{AB}=\frac{\pi}{4}(D(x))^2=\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2$. Then the cross sectional area in the section of the bar $BC$ is just $A_{BC}=\frac{\pi}{4}(D\_{o}^2-D\_{i}^2)=$. Then the cross sectional area as a function of $x$ is given by $A(x)=\begin{cases}\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2 & 0 \le x \le \frac{L}{2}\\ \frac{\pi}{4}(D\_{o}^2-D\_{i}^2) & \frac{L}{2}  \le x \le L\\ \end{cases}$.
+    **Solution** The cross sectional area of the section of the bar $AB$ is given by $A_{AB}=\frac{\pi}{4}(D(x))^2=\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2$. Then the cross sectional area in the section of the bar $BC$ is just $A_{BC}=\frac{\pi}{4}(D\_{o}^2-D\_{i}^2)$. Then the cross sectional area as a function of $x$ is given by $A(x)=\begin{cases}\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2 : 0 \le x \le \frac{L}{2} \\ and \frac{\pi}{4}(D\_{o}^2-D\_{i}^2) : \frac{L}{2}  \le x \le L \\ \end{cases}$.
 
     (10 pts) (ii) If a force $P$ is applied at point $B$ and another force $3P$ is applied at point $C$ then what is the net displacement in the bar at point $C$. 
 
