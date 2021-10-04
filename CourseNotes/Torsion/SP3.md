@@ -2,14 +2,14 @@
 {% include command %}
 
 
-{% include mathjax_support %}
-{% include command %}
-
 ### Problem statement 
 
 Find the twist of the cylinder shown in the figure. 
 
-![](2021-09-30-20-40-00.png)
+
+
+
+![](./Images/SP3.png)
 
 #### Solution.
 

@@ -1,8 +1,8 @@
 {% include mathjax_support %}
 {% include command %}
 
+![](Images/SP4.png)
 
-![](2021-09-30-20-40-00.png)
 
 
 We compute the twist on the right face of the shaft by using the following equation

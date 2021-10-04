@@ -2,7 +2,7 @@
 {% include command %}
 
 
-![](2021-09-30-16-26-45.png)
+![](2021-10-03-20-13-25.png)
 
 ### Problem statement 
 A solid cylinder of  diamter 30 mm is made of  steel of G=77 GPa. What is the rotation of the end of the shaft of L=0.4 m length when a torque of T=250 N.m is applied to its end. 
