@@ -66,7 +66,7 @@ Figure 2
 
     (10 pts) (ii) If a force $P$ is applied at point $B$ and another force $3P$ is applied at point $C$ then what is the net displacement in the bar at point $C$. 
 
-    **Solution** The force inside of the section of the bar $AB$ is then $2P$ by making an imaginary cut in the bar and doing a force balance with the reaction forces at the base, and by the same method of imaginary cuts we find that the force inside of the $BC$ section is $3P$. Then $\delta(x)={\int_{0}^{L} \frac{P(x)}{EA(x)} \,dx}={\int_{0}^{\frac{L}{2}} \frac{2P}{E\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2} \,dx}+{\int_{\frac{L}{2}}^{L} \frac{3P}{E\frac{\pi}{4}(D\_{o}^2-D\_{i}^2)} \,dx}=\frac{6PL}{\pi E (D\_{o}^2-D\_{i}^2)} + \frac{8PL}{\pi E (2D\_{o}^{2}+D\_{o}L)}$.
+    **Solution** The force inside of the section of the bar $AB$ is then $2P$ by making an imaginary cut in the bar and doing a force balance with the reaction forces at the base, and by the same method of imaginary cuts we find that the force inside of the $BC$ section is $3P$. Then $\delta={\int_{0}^{L} \frac{P(x)}{EA(x)} \,dx}={\int_{0}^{\frac{L}{2}} \frac{2P}{E\frac{\pi}{4}(D\_{o} + \frac{L}{2} - x)^2} \,dx}+{\int_{\frac{L}{2}}^{L} \frac{3P}{E\frac{\pi}{4}(D\_{o}^2-D\_{i}^2)} \,dx}=\frac{6PL}{\pi E (D\_{o}^2-D\_{i}^2)} + \frac{8PL}{\pi E (2D\_{o}^{2}+D\_{o}L)}$.
 
 <br>
 
