@@ -14,7 +14,8 @@
  * [Sayaka Kochiyama](https://appliedmechanicslab.github.io/Team)
  * Andrew Bagnoli 
  * [Yang Wan](https://appliedmechanicslab.github.io/Team)
- * [Benjamin Grossman-Ponemon](https://appliedmechanicslab.github.io/Team)
+ 
+ <!-- * [Benjamin Grossman-Ponemon](https://appliedmechanicslab.github.io/Team) -->
 
 #### Lecture and recitation timings
 
