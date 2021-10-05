@@ -44,6 +44,10 @@
 * :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 3.</span>](./Torsion/SP3.md)
 * :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 4.</span>](./Torsion/SP4.md)
 * :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 5.</span>](./Torsion/SP5.md)
+*  :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 6.</span>](./Torsion/SP6.md)
+*  :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 7.</span>](./Torsion/SP7.md)
+* :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 8.</span>](./Torsion/SP8.md)
+* 
 ### Beams (Bending)
 
 ## Solid Mechanics
