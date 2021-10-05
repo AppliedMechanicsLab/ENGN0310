@@ -121,7 +121,7 @@ Figure 5
 
     (7.5 pts) (ii) What is the internal force in the bar when the temperature is $500°C$?
 
-    **Solution** Once the bar has expanded to the point where it is touching the other wall then it has no more room to expand, and the 'displacement' due to increase in temperature past the point where it is touching the wall will instead by turned into an internal force given by the equation $P = \frac{E A (\delta\_{T} - \Delta)}{L} = \frac{(200GPa) (\pi)(.0125m)^2 \left((1m)(10 \times 10^{-6} \frac{1}{°C})(500°C - 20°C) - .001m \right)}{1m} = 373.1kN$
+    **Solution** Once the bar has expanded to the point where it is touching the other wall then it has no more room to expand, and the 'displacement' due to increase in temperature past the point where it is touching the wall will instead by turned into an internal force given by the equation $P = \frac{E A (\delta\_{T} - \Delta)}{L} = \frac{(200GPa) (\pi)(.0125m)^2 \left((1m)(10 \times 10^{-6} \frac{1}{°C})(500°C - 20°C) - .001m \right)}{1m} = 373.1kN$ in compression.
 
 <br>
 
