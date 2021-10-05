@@ -5,6 +5,5 @@
 * [Homework2](HW2.md)
 * [Homework2 Solution](HW2_Solutions.md)
 * [Homework3](HW3.md)
-* [Homework3  Solution](HW3_Solutions.md)
 * [Homework4](Homework4.md)
 
