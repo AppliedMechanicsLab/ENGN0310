@@ -21,7 +21,7 @@
 
 
 Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
-Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon <br/>
+Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemo..n <br/>
 
 
 
@@ -40,8 +40,8 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
    - Thursday  4:00-5:00 in BH 158
    -  Friday   2:00-5:00  in ERC 125
 
-* Benjamin Grossman-Ponemon
-   - TBD
+<!-- * Benjamin Grossman-Ponemon
+   - TBD -->
 
 * Yang Wan 
    - through appointment
