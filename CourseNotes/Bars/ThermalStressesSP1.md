@@ -5,7 +5,7 @@
 
 ### Problem statement
 
-A rod 2 m long at a temperature of $10^\circ\,\rm C$. Find the expansion of this bar when the temperature is raised to $80^\circ\,\rm C$. Take $E=1.0\times 10^5\rm MPa$ and $\alpha=12 \times 10^{-6}$. 
+Consider a rod 2 m long at $10^\circ\,\rm C$. Find the expansion of this bar when the temperature is raised to $80^\circ\,\rm C$. Take $E=1.0\times 10^5~\rm MPa$ and $\alpha=12 \times 10^{-6}$. 
 
 
 ### Solution
@@ -19,7 +19,7 @@ $$
 $$
 
 
-Recall that $\sigma_{11}(X)=F(X)/A(X)$, and in the current problem Young's modulus,  cross-sectional area, co-efficient of thermal expansion, and temperature increments are all constants. 
+Recall that $\sigma_{11}(X)=F(X)/A(X)$, and in the current problem, Young's modulus,  cross-sectional area, co-efficient of thermal expansion, and temperature increments are all constants. 
 
 $$
 \begin{equation}
@@ -28,7 +28,7 @@ F(X)=EA(u'(X)-\alpha \Delta T).
 $$
 
 
-Since there are no body forces the force along the bar's length is also a constant. 
+Since there are no body forces, the force along the bar's length is also a constant, so that the equation simplifies to
 
 $$
 \begin{equation}
@@ -37,7 +37,7 @@ F=EA(u'(X)-\alpha \Delta T).
 $$
 
 
-Furthermore, since there is no force acting at the bar's right face this constant force is in fact zero. Thus, it follows from the last equation that
+Furthermore, since there is no force acting at the bar's right face, this constant force is in fact zero. Thus, it follows from the last equation that
 
 $$
 \begin{align}
@@ -48,13 +48,13 @@ u(L)-u(0)&=\int_{0}^{X}\alpha \Delta T\, dX\\
 \end{align}
 $$
 
-The quantity $u(L)-u(0)$ is infact the change in length of the bar. Thus the expansion of the bar is 
+The quantity $u(L)-u(0)$ is in fact the change in length of the bar. Thus, the expansion of the bar is 
 
 $$
 \delta =\alpha \Delta T L.
 $$
 
-Putting in the numbers we get 
+Putting in the numbers, we get 
 
 
 $$
