@@ -27,11 +27,11 @@
     -  [<span style="color:#5faeb6">_Solved Problem: A free hanging bar with constant area and end force_</span>](Bars/HangingBar3.md) <!--:#778899-->
     - :construction::construction: [_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
 * Thermal expansion and biological growth.
-    * :construction:  [Constitutive law](./Bars/ThermalExpansion1.md)
-    * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 1</span>](./Bars/ThermalStressesSP1.md)
-    * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 2</span>](./Bars/ThermalStressesSP2.md)
-    * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalStressesSP3.md)
-    * :construction:  [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](./Bars/ThermalStressesSP4.md)
+    *  [Constitutive law](./Bars/ThermalExpansion1.md)
+    *  [<span style="color:#5faeb6; font-style:italic">Solved problem 1</span>](./Bars/ThermalStressesSP1.md)
+    *   [<span style="color:#5faeb6; font-style:italic">Solved problem 2</span>](./Bars/ThermalStressesSP2.md)
+    *   [<span style="color:#5faeb6; font-style:italic">Solved problem 3</span>](./Bars/ThermalStressesSP3.md)
+    *  [<span style="color:#5faeb6; font-style:italic">Solved problem 4</span>](./Bars/ThermalStressesSP4.md)
 * Tensegrity
 *  [Stress Concentrators in Bars](Bars7.md)
 
