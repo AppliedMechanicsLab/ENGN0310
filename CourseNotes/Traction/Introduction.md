@@ -1,3 +1,7 @@
+{% include mathjax_support %}
+{% include command %}
+
+
 # Traction
 
 ![](2021-10-02-20-23-45.png)
