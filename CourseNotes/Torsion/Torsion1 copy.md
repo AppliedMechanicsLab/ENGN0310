@@ -1,52 +1,22 @@
 {% include mathjax_support %}
 {% include command %}
 
+Beer and Johnston, Ch. 3
 
-In the previous sections, we presented the following as the more fundamental version of constitutive equation (Hooke's law) for the bar:
+Force couple
+Torque
+Twisting couple
+Twisting moment
+Need to talk about traction a bit. 
 
-$$
-F(X)=E(X)A(X)u'(X)
-$$
+1. Drives and shafts or machinery.
 
-
-In an analogous manner, we can postulate that for torsion:
-
-$$
-T(X)=G(X)J(X)\theta'(X)
-$$ 
-
-where 
-* $T(X)$ is the torque
-* $G(X)$ is the shear modulus 
-* $J(X)$ is the polar moment of inertia
-* $\theta(X)$ is the angle of twist
-at material particle $X$ in the shaft.
-
-If we take the torque, shear modulus, and polar moment of inertia to be constant throughout the shaft (so that $T(X) = T, G(X) = G$, and $J(X)=J$) and rearranging, we get that 
-
-$$
-\theta'(X) = \frac{T}{G J}
-$$
-
-Integrating the above equation along the shaft's length from $X=0$ to $X=L$, we obtain
-
-$$
-\theta(L)-\theta(0) &= \frac{T}{G J}\int_{0}^{L} dX
-&=\frac{TL}{GJ} 
-$$
-
-
-
-$$
-u(X)= \frac{G J}{L}\u{\theta}.
-$$
-
+$$F(X)=E(X)A(X)u'(X)$$
+$$T(X)=G(X)J(X)\theta'(X)$$ (Postulated law)
 
 $$
 \u{T}= \frac{G J}{L}\u{\theta}.
 $$
-
-
 
 $$
 \u{\theta}= \frac{T}{G}\int_{0}\frac{G J}{L}\u{\theta}.
