@@ -2,56 +2,89 @@
 {% include command %}
 
 
-In the previous sections, we presented the following as the more fundamental version of constitutive equation (Hooke's law) for the bar:
+In the previous sections on bars, we presented the following as the more fundamental version of constitutive equation (Hooke's law):
 
 $$
 F(X)=E(X)A(X)u'(X)
 $$
 
 
-In an analogous manner, we can postulate that for torsion:
+In an analogous manner, we can postulate that for torsion,
 
 $$
-T(X)=G(X)J(X)\theta'(X)
+T(X)=G(X)J(X)\phi'(X)
 $$ 
 
 where 
 * $T(X)$ is the torque
 * $G(X)$ is the shear modulus 
 * $J(X)$ is the polar moment of inertia
-* $\theta(X)$ is the angle of twist
-at material particle $X$ in the shaft.
+* $\phi(X)$ is the angle of twist
 
-If we take the torque, shear modulus, and polar moment of inertia to be constant throughout the shaft (so that $T(X) = T, G(X) = G$, and $J(X)=J$) and rearranging, we get that 
+at material particle $X$ in the shaft. 
+>Note: You can refer to [this page](Torsion-J.mD) for some notes on polar moment of inertia J(X) 
 
-$$
-\theta'(X) = \frac{T}{G J}
-$$
+<!-- If we take the torque, shear modulus, and polar moment of inertia to be constant throughout the shaft (so that $T(X) = T, G(X) = G$, and $J(X)=J$), we get that  -->
 
-Integrating the above equation along the shaft's length from $X=0$ to $X=L$, we obtain
+Rearranging the above equation, we can write
 
 $$
-\theta(L)-\theta(0) &= \frac{T}{G J}\int_{0}^{L} dX
-&=\frac{TL}{GJ} 
+\begin{align*}
+\phi'(X)& = \frac{T(X)}{G(X) J(X)}\\
+\Leftrightarrow \frac{d\phi(X)}{d X}&= \frac{T(X)}{G(X) J(X)}\\
+\Leftrightarrow~ d\phi(X)&= \frac{T(X)}{G(X) J(X)} dX
+\end{align*}
 $$
 
-
-
-$$
-u(X)= \frac{G J}{L}\u{\theta}.
-$$
-
+Integrating the above equation along the shaft's length from $0$ to $X$, we obtain
 
 $$
-\u{T}= \frac{G J}{L}\u{\theta}.
+\begin{align*}
+\phi(X)-\phi(0) =& \int_{0}^{X}\frac{T(Y)}{G(Y) J(Y)} dY
+% =\frac{TX}{GJ} 
+\end{align*}
 $$
 
+If we take $\phi(0)=0$, we get that the angle of twist at material particle $X$ in the shaft is
+$$
+\begin{align*}
+\phi(X)=& \int_{0}^{X}\frac{T(Y)}{G(Y) J(Y)} dY
+\end{align*}
+$$
 
+The equation can be simplified to the following when the torque, shear modulus, and polar moment of inertia is constant throughout the shaft so that $T(X) = T, G(X) = G$, and $J(X)=J$; we then get that 
 
 $$
-\u{\theta}= \frac{T}{G}\int_{0}\frac{G J}{L}\u{\theta}.
+\begin{align*}
+\phi(X)=& \frac{T}{GJ}\int_{0}^{X} dY
+\end{align*}
 $$
 
+so that in such case, the angle of twist at material particle X is simply 
+
+$$
+\begin{align*}
+\phi(X)=& \frac{TX}{GJ}
+\end{align*}
+$$
+
+Taking this integration to $X=L$ instead and denoting the angle of twist at the end face $\phi(L)$ as $\theta$, we obtain 
+
+$$
+\theta = \frac{T L}{G J}
+$$
+
+Note that we can consider a vector form of this equation like we did with bars in the previous sections. Defining $\hat{\boldsymbol{E}_{\rm a}}$ in the same that we did for bars, we can write
+
+$$
+\boldsymbol{T}= \frac{G J}{L}\boldsymbol{\theta}.
+$$
+
+where $\boldsymbol{T} = T \hat{\boldsymbol{E}_{\rm a}}$ and $\boldsymbol{\theta}=\theta \hat{\boldsymbol{E}_{\rm a}}$.
+
+
+<!-- 
+---------
 
 Modulus of rigidity.
 Shear modulus of Steel is 82.74 GPa.
@@ -110,4 +143,4 @@ A hollow ste
 el shaft transmists a torque if 1200 Nm. d_0 =4 cm. Angle of twist over 2 m. 
 
 
-A solid aluminum saft.
+A solid aluminum saft. -->
