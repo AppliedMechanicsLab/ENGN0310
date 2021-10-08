@@ -53,7 +53,11 @@
 ## Solid Mechanics
 
 ### Traction
-* [Introduction](Traction/Introduction.md)
+
+* * [Introduction](Traction/Introduction.md)
+* [Traction vectors in Bars](Traction/TractionsInBars.md)
+* [Shear tractions](Traction/ShearTraction1.md)
+
 ### Stress
 ### Strain
 
