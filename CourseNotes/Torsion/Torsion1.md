@@ -80,7 +80,7 @@ $$
 \boldsymbol{T}= \frac{G J}{L}\boldsymbol{\theta}.
 $$
 
-where $\boldsymbol{T} = T \hat{\boldsymbol{E}_{\rm a}}$ and $\boldsymbol{\theta}=\theta \hat{\boldsymbol{E}_{\rm a}}$.
+where $\boldsymbol{T} = T \hat{\boldsymbol{E}\_{\rm a}}$ and $\boldsymbol{\theta}=\theta \hat{\boldsymbol{E}\_{\rm a}}$.
 
 
 <!-- 
