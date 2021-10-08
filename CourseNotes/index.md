@@ -54,8 +54,9 @@
 
 ### Traction
 
-* * [Introduction](Traction/Introduction.md)
-* [Traction vectors in Bars](Traction/TractionsInBars.md)
+* [Introduction](Traction/Introduction.md)
+* [Matrix representation of Traction vectors](Traction/TractionsInBars.md)
+* [Normal and shear components of the traction vector](Traction/NormalShearComponents.md)
 * [Shear tractions](Traction/ShearTraction1.md)
 
 ### Stress

@@ -1,16 +1,19 @@
+# Traction vector. Normal and shear components of the traction vector.
 {% include mathjax_support %}
 {% include command %}
 
+## Traction vector.
+
 ### Axial loading
 
-The force on the right side of the bar is $\boldsymbol{F}=F_1\hat{\boldsymbol{E}}\_1$.The matrix representation of the force is 
+The force on the left side of the bar is $\boldsymbol{F}=-F_1\hat{\boldsymbol{E}}\_1$.The matrix representation of the force is 
 
 $$
 \left[
 {\boldsymbol{F}}\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_1)}=
 \left[
 \begin{array}{l}
-F_1\\
+-F_1\\
 0\\
 \end{array}
 \right]
@@ -24,13 +27,13 @@ $$
 \hat{\boldsymbol{n}}\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_2)}=
 \left[
 \begin{array}{r}
--\sin(\theta)\\
+\sin(\theta)\\
 \cos(\theta)\\
 \end{array}
 \right]
 $$
 
-The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, force force equilibrium, $-\boldsymbol{F}$. The mean/average traction vector on  $AA'(\hat{\boldsymbol{n}})$ is defined to be the force acting on it divided by its area. The area of $AA'(\hat{\boldsymbol{n}})$ is
+The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, from force  equilibrium, $-\boldsymbol{F}$. The mean/average traction vector on  $AA'(\hat{\boldsymbol{n}})$ is defined to be the force acting on it divided by its area. The area of $AA'(\hat{\boldsymbol{n}})$ is
 
 The cross-sectional area $Bl$,  where $l \sin(\theta)=H $, which means that $l=H/\sin(\theta)$, which in turn implies that 
 
@@ -41,10 +44,10 @@ $\left
 
 $$
 \left[
-\left\langle \boldsymbol{t}\right\rangle(AA'(\hat{\boldsymbol{n}})))\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_2)}
+\left\langle \boldsymbol{t}\right\rangle(AA'(\hat{\boldsymbol{n}}))\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_2)}
 =\left[
 \begin{array}{r}
--F_1 \sin(\theta)/BH \\
+F_1 \sin(\theta)/BH \\
 0
 \end{array}
 \right]
@@ -63,7 +66,7 @@ $$
 \langle \boldsymbol{t}\right\rangle(AA'(-\hat{\boldsymbol{n}}))\right]
 =\left[
 \begin{array}{r}
-F_1 \sin(\theta)/BH \\
+-F_1 \sin(\theta)/BH \\
 0
 \end{array}
 \right]
@@ -72,8 +75,9 @@ $$
 
 ### Transverse loading
 
-The force on the right side of the bar is $\boldsymbol{F}=F_2\hat{\boldsymbol{E}}\_2$.The matrix representation of the force is 
+The force on the right side of the bar is $\boldsymbol{F}=F_2\hat{\boldsymbol{E}}\_2$.The force on the left side of the bar is $-\boldsymbol{F}$.The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, from force equilibrium, $\boldsymbol{F}$.
 
+The matrix representation of $\boldsymbol{F}$ is
 $$
 \left[
 {\boldsymbol{F}}\right]=
@@ -87,7 +91,7 @@ $$
 
  
 
-The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, force force equilibrium, $-\boldsymbol{F}$. The traction vector on  $AA'(\hat{\boldsymbol{n}})$ is defined to be the force acting on it devided by its area. The area of $AA'(\hat{\boldsymbol{n}})$ is $B H/\sin(\theta)$. Therefore, the traction vector on $AA'(\hat{\boldsymbol{n}})$ (in matrix) notation is
+The traction vector on  $AA'(\hat{\boldsymbol{n}})$ is defined to be the force acting on it devided by its area. The area of $AA'(\hat{\boldsymbol{n}})$ is $B H/\sin(\theta)$. Therefore, the traction vector on $AA'(\hat{\boldsymbol{n}})$ (in matrix) notation is
 
 
 $$
@@ -97,7 +101,7 @@ $$
 =\left[
 \begin{array}{r}
 0\\
--F_2 \sin(\theta)/BH 
+F_2 \sin(\theta)/BH 
 \end{array}
 \right]
 $$
@@ -112,7 +116,7 @@ $$
 =\left[
 \begin{array}{r}
 0\\
-F_2 \sin(\theta)/BH 
+-F_2 \sin(\theta)/BH 
 \end{array}
 \right]
 $$
@@ -132,12 +136,12 @@ F_2\\
 \right]
 $$
 
-Following the same analysis as before the traction vector on the surface $AA'(-\hat{\boldsymbol{n}})$ is 
+Following the same analysis as before the traction vector on the surface $AA'(\hat{\boldsymbol{n}})$ is 
 
 $$
 \left[
 \left
-\langle \boldsymbol{t}\right\rangle(AA'(-\hat{\boldsymbol{n}}))\right]
+\langle \boldsymbol{t}\right\rangle(AA'(\hat{\boldsymbol{n}}))\right]
 =\left[
 \begin{array}{r}
 F_1\\
@@ -145,11 +149,18 @@ F_2
 \end{array}
 \right]\frac{\sin(\theta)}{BH}
 $$
+the traction vector on the surface $AA'(-\hat{\boldsymbol{n}})$ is 
+$$
+\left[
+\left
+\langle \boldsymbol{t}\right\rangle(AA'(-\hat{\boldsymbol{n}}))\right]
+=-\left[
+\begin{array}{r}
+F_1\\
+F_2  
+\end{array}
+\right]\frac{\sin(\theta)}{BH}
+$$
 
+### Examples.
 
-### Normal component of the traction vector
-
-The notation $\left[\left
-\langle \boldsymbol{t}\right\rangle(AA'(-\hat{\boldsymbol{n}}))\right]$ is very explicit, but also looks untidy. Let's give this expression an alias as $\boldsymbol{\mathsf{t}}$, and call the expression $[]$
-
-### Shear component of the traction vector 
