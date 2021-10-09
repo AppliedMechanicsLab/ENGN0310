@@ -38,9 +38,9 @@
 ### <span style="color:#5faeb6; font-style:italic">Shafts (Torsion)</span>
 
     
-* :construction: :construction: [Torsion introduction](./Torsion/Torsion1.md)
-* :construction: :construction:[<span style="color:#5faeb6; font-style:italic"> Solved Problem 1.</span>](./Torsion/SP1.md)
-* :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 2.</span>](./Torsion/SP2.md)
+*  [Torsion introduction](./Torsion/Torsion1.md)
+* [<span style="color:#5faeb6; font-style:italic"> Solved Problem 1.</span>](./Torsion/SP1.md)
+* [<span style="color:#5faeb6; font-style:italic"> Solved Problem 2.</span>](./Torsion/SP2.md)
 * :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 3.</span>](./Torsion/SP3.md)
 * :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 4.</span>](./Torsion/SP4.md)
 * :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 5.</span>](./Torsion/SP5.md)
@@ -53,7 +53,12 @@
 ## Solid Mechanics
 
 ### Traction
+
 * [Introduction](Traction/Introduction.md)
+* [Matrix representation of Traction vectors](Traction/TractionsInBars.md)
+* [Normal and shear components of the traction vector](Traction/NormalShearComponents.md)
+* [Shear tractions](Traction/ShearTraction1.md)
+
 ### Stress
 ### Strain
 
