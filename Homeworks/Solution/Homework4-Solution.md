@@ -13,8 +13,7 @@
 
 
 
-Mathematica file used to compute the solutions below can be found [here](HW4_calc.nb
-).
+**Mathematica file** used to compute the solutions below can be found [here](HW4_calc.nb).
 
 
 <u> Problem 1 (10 pts) </u>
@@ -78,15 +77,7 @@ Mathematica file used to compute the solutions below can be found [here](HW4_cal
    
     $$
     \begin{align*}
-    J &= \frac{T L}{G\theta}
-    \end{align*}
-    $$
-    
-    and 
-
-   $$
-    \begin{align*}
-    J &= \frac{\pi}{2}a^4
+    J &= \frac{T L}{G\theta}= \frac{\pi}{2}a^4
     \end{align*}
     $$
 
@@ -195,9 +186,9 @@ Mathematica file used to compute the solutions below can be found [here](HW4_cal
    $$
    \begin{align*}
    \boldsymbol{T}&=\sum \boldsymbol{r}\times \boldsymbol{F}\\
-   &=r\hat{\boldsymbol{E}}\_\rm2 \times F\hat{\boldsymbol{E}}\_\rm3 + r(-\hat{\boldsymbol{E}}\_\rm2)\times F(-\hat{\boldsymbol{E}}\_\rm3)\\
-   &=2 r\hat{\boldsymbol{E}}\_\rm2 \times F\hat{\boldsymbol{E}}\_\rm3 \\
-   &= 2 rF\hat{\boldsymbol{E}}\_\rm1 = 2 rF\hat{\boldsymbol{E}}\_\rm a
+   &=r\hat{\boldsymbol{E}}_{\rm 2} \times F\hat{\boldsymbol{E}}_{\rm 3}+ r(-\hat{\boldsymbol{E}}_{\rm 2})\times F(-\hat{\boldsymbol{E}}_{\rm 3})\\
+   &=2 r\hat{\boldsymbol{E}}_{\rm 2} \times F\hat{\boldsymbol{E}}_{\rm 3} \\
+   &= 2 rF\hat{\boldsymbol{E}}_{\rm 1} = 2 rF\hat{\boldsymbol{E}}_{\rm a}
    \end{align*}
    $$
 
@@ -227,13 +218,13 @@ Mathematica file used to compute the solutions below can be found [here](HW4_cal
     * (5pts) (iii) Determine the angle of twist at point $\rm{A}$.
     * (5pts) (iv) If the shaft $\rm{BC}$ is made of titanium alloy instead of steel, what is the angle of twist at $\rm{A}$?
 
- <br/>
+    <br/>
     <center>
      <img src="HW4_Prob6fig.png" alt="drawing" width="250"/>
     </center>
 
 
- **Solution:**
+   **Solution:**
 
    (i) Simply computing $J$ for $a = 25~\rm{mm}$ and $a=37.5~\rm{mm}$ respectively,
 
@@ -325,12 +316,12 @@ Mathematica file used to compute the solutions below can be found [here](HW4_cal
     * (5pts) (iii) Determine the angle of twist at point $\rm{A}$.
     * (5pts) (iv) If the shaft $\rm{BC}$ is made of titanium alloy instead of steel, what is the angle of twist at $\rm{A}$?
  
- <br/>
+   <br/>
     <center>
      <img src="HW4_Prob7fig.png" alt="drawing" width="250"/>
     </center>
 
- **Solution:**
+   **Solution:**
 
    (i) In shaft $\rm AB$,  $T= T_A = 6~\rm{kN \cdot m}$, and in shaft $\rm BC$, $T= T_A+T_B = 18~\rm{kN \cdot m}$ (see figure below.)
 
