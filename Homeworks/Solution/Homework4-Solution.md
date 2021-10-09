@@ -76,7 +76,7 @@
     $$
     \begin{align*}
     J &= \frac{T L}{G\theta} = \frac{\pi}{2}a^4\\
-    a &= \sqrt[\leftroot{-3}\uproot{3}4]{\frac{2 TL} {\pi G\theta}}\\
+    a &= \sqrt[\leftroot{-2}\uproot{6}4]{\frac{2 TL} {\pi G\theta}}\\
     a &= \left(\frac{2 TL} {\pi G\theta}\right)^{1/4}
     \end{align*}
     $$
