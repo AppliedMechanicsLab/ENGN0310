@@ -236,7 +236,7 @@
    \end{align*}
    $$
 
-   (ii) The torque in shaft $\rm BC$ is $T = 3~\rm{kN \cdot m} $. If this isn't intuitive, note that the same thought process that was employed in solving bar problems can also be applied here. If you isolate shaft $\rm AB$, we know from equilibrium that an opposing torque  ($-T\hat{\boldsymbol{E}}_{\rm{a}}$) must be acting at point $\rm B$. It follows then that torque $T\hat{\boldsymbol{E}}_{\rm{a}}$ is acting on shaft $\rm BC$. 
+   (ii) The torque in shaft $\rm BC$ is $T = 3~\rm{kN \cdot m} $. If this isn't intuitive, note that the same thought process that was employed in solving bar problems can also be applied here. If you isolate shaft $\rm AB$, we know from equilibrium that an opposing torque  ($-T\hat{\boldsymbol{E}}\_{\rm{a}}$) must be acting at point $\rm B$. It follows then that torque $T\hat{\boldsymbol{E}}\_{\rm{a}}$ is acting on shaft $\rm BC$. 
 
 
    <br/>
