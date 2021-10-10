@@ -1,3 +1,5 @@
+{% include mathjax_support %}
+{% include command %}
 
 
 ### Problem statement 
@@ -72,5 +74,4 @@ $$
 \end{align}
 $$
 
-The mathematica file for solving the above problem is [here](./WFiles/SP5.nb
-)
+The mathematica file for solving the above problem is [here](./WFiles/SP5.nb)
