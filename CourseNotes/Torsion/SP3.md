@@ -59,6 +59,7 @@ $$
 
 
 Putting in the numbers, we get that
+
 $$
 \begin{align}
 J(X)&=
@@ -73,6 +74,7 @@ J(X)&=
 $$
 
 Evaluating the integral, we get that 
+
 $$
 \begin{align}
 \theta(L)&=0.0189958\\
