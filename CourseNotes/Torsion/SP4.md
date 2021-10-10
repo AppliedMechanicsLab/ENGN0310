@@ -1,9 +1,16 @@
 {% include mathjax_support %}
 {% include command %}
 
-![](Images/SP4.png)
+
+
+### Problem statement 
 
 Now consider the same problem discussed in [Solved Problem 3](SP3.md) where torque $T_2=250~\rm{N\cdot m}$ was applied at the right end face, but this time with additional torque $T_1=2000~\rm{N \cdot m}$ applied at $x=0.8$.
+
+![](Images/SP4.png)
+
+
+#### Solution.
 
 We compute the twist on the right face of the shaft by using the following equation
 
