@@ -4,7 +4,15 @@
 
 ### Problem statement 
 
-Find the twist of the cylinder shown in the figure. 
+Torque $T = 250~\rm{N\cdot m}$ is applied to the steel shaft ($G = 77~\rm{GPa}$) as shown below.  Find the twist at the right end face.
+
+The dimensions shown in the figure are  
+* $L_1=0.6~\rm m$ 
+* $L_2=0.2~\rm m$ 
+* $L_3=0.4~\rm m$
+* $D_1=2r_1=44~\rm mm$ 
+* $D_2=2r_2=60~\rm mm$ 
+* $D_3=2r_3=30~\rm mm$
 
 
 
@@ -36,17 +44,21 @@ $$
 In the current case, $J$ is a piece-wise function and can be defined as
 
 $$
-\begin{dcases}
-    \frac{\pi}{2}(r_2^4-r_1^4) & 0\leq x <L_1 \\
-    \frac{\pi}{2} r_2^4 & L_1\leq x <L_1+L_2 \\
-    \frac{\pi}{2} r_3^4 & L_1+L_2\leq x < L_1+L_2+L_3 \\
-\end{dcases}
+\begin{align}
+J(X)&=
+\left\{
+\begin{array}{ll}
+\pi(r_2^4-r_1^4)/2 & 0\leq x <0.6 \\
+    \pi r_2^4/2 & 0.6\leq x <0.8 \\
+    \pi r_3^4/2 & 0.8\leq x < 1.2 \\
+\end{array}
+\right.
+\end{align}
 $$
 
 
 
-
-Putting in the numbers we get that
+Putting in the numbers, we get that
 $$
 \begin{align}
 J(X)&=
@@ -60,7 +72,7 @@ J(X)&=
 \end{align}
 $$
 
-Evaluating the integral we get that 
+Evaluating the integral, we get that 
 $$
 \begin{align}
 \theta(L)&=0.0189958\\
