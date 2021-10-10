@@ -3,7 +3,7 @@
 
 ![](Images/SP4.png)
 
-
+Now consider the same problem discussed in [Solved Problem 3](SP3.md) where torque $T_2=250~\rm{N\cdot m}$ was applied at the right end face, but this time with additional torque $T_1=2000~\rm{N \cdot m}$ applied at $x=0.8$.
 
 We compute the twist on the right face of the shaft by using the following equation
 
@@ -15,6 +15,8 @@ $$
 \int_{0}^{L}\frac{T(X)dX}{J(X)}
 \end{align}
 $$
+
+In the [previous problem](SP3.md), torque was constant along the shaft's length. However, in the current case,  $T$ is a piece-wise function and can be defined as
 
 $$
 \begin{align}
@@ -28,20 +30,8 @@ T(X)&=
 \end{align}
 $$
 
+As shown in the previous problem, $J$ is a piece-wise function: 
 
-
-$$
-\begin{align}
-J(X)&=
-\left\{
-\begin{array}{ll}
-\pi r_o^4/2, & 0\le X<0.6\\
-\pi (r_o^4-r_i^4)/2, & 0.6\le X<0.8\\
-\pi (r_f^4)/2, & 0.8\le X<1.2,\\ 
-\end{array}
-\right.
-\end{align}
-$$
 
 $$
 \begin{align}
@@ -56,8 +46,8 @@ J(X)&=
 \end{align}
 $$
 
+Evaluating the integral, we get
 
-Evaluating the integral we get
 $$
 \begin{align}
 \theta(L)&=0.0403109\\
