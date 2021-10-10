@@ -34,14 +34,13 @@ $$
 $$
 
 In the current case, $J$ is a piece-wise function and can be defined as
+
 $$
-
-    \begin{dcases}
-        \frac{\pi}{2}(r_2^4-r_1^4) & 0\leq x <L_1 \\
-        \frac{\pi}{2} r_2^4 & L_1\leq x <L_1+L_2 \\
-         \frac{\pi}{2} r_3^4 & L_1+L_2\leq x < L_1+L_2+L_3 \\
-    \end{dcases}
-
+\begin{dcases}
+    \frac{\pi}{2}(r_2^4-r_1^4) & 0\leq x <L_1 \\
+    \frac{\pi}{2} r_2^4 & L_1\leq x <L_1+L_2 \\
+    \frac{\pi}{2} r_3^4 & L_1+L_2\leq x < L_1+L_2+L_3 \\
+\end{dcases}
 $$
 
 
