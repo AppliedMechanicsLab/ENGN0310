@@ -288,12 +288,49 @@
    $$
    \begin{align*}
    \theta_{\rm A}&= \int_{0}^{L_{\rm AB}+L_{\rm BC}}\frac{T(X)}{J(X) G(X)} dx\\
-   &= \int_{0}^{L_{\rm BC}}\frac{T}{J_{\rm{BC}} G} dx +\int_{L_{\rm BC}}^{L_{\rm AB}+L_{\rm AB}}\frac{T}{J_{\rm{AB}} G} dx
+
+   \end{align*}
+   $$
+
+   with piece-wise function
+
+   $$
+   \begin{align*}
+   J(X)&=
+   \left\{
+   \begin{array}{ll}
+   J_{\rm BC}, & 0\le X< L_{\rm{BC}}\\
+   J_{\rm AB}, & L_{\rm{BC}}\le X< L_{\rm AB}+L_{\rm{BC}}\\
+   \end{array}
+   \right.
+   \end{align*}
+   $$
+
+   so that
+
+   $$
+   \begin{align*}
+   \theta_{\rm A}&=  \int_{0}^{L_{\rm BC}}\frac{T}{J_{\rm{BC}} G} dx +\int_{L_{\rm BC}}^{L_{\rm AB}+L_{\rm AB}}\frac{T}{J_{\rm{AB}} G} dx
    \end{align*}
    $$
 
 
-   (iv) Following the same steps as $\rm (ii)$&$\rm (iii)$ except that $G=44~\rm{GPa}$ in shaft $\rm BC$,
+
+   (iv) In addition to $J(X)$, we now have $G(X)$ as a piece-wise function:
+
+   $$
+   \begin{align*}
+   G(X)&=
+   \left\{
+   \begin{array}{ll}
+   G_{\rm Ti}, & 0\le X< L_{\rm{BC}}\\
+   G_{\rm Steel}, & L_{\rm{BC}}\le X< L_{\rm AB}+L_{\rm{BC}}\\
+   \end{array}
+   \right.
+   \end{align*}
+   $$
+
+   Then, 
 
    $$
    \begin{align*}
@@ -331,6 +368,20 @@
     </center>
    <br/>
 
+   Hence, $T(X)$ is a piece-wise function of the form:
+
+   $$
+   \begin{align*}
+   T(X)&=
+   \left\{
+   \begin{array}{ll}
+   18~\rm{kN\cdot m}, & 0\le X< L_{\rm{BC}}\\
+   6~\rm{kN\cdot m}, & L_{\rm{BC}}\le X< L_{\rm AB}+L_{\rm{BC}}\\
+   \end{array}
+   \right.
+   \end{align*}
+   $$
+
    (ii) Following the exact same thought process as in Problem 6 (ii),  
 
    $$
@@ -343,7 +394,7 @@
    \end{align*}
    $$ 
 
-   (iii) Following the exact same thought process as in Problem 6 (iii),
+   (iii) Following the exact same thought process as in Problem 6 (iii) except that now $T(X)$ is also a piece-wise function,
 
    $$
    \begin{align*}
@@ -356,7 +407,7 @@
    \end{align*}
    $$
 
-   (iv) Following the exact same thought process as in Problem 6 (iv),
+   (iv) Following the exact same thought process as in Problem 6 (iv) but with $T(X)$ as a piece-wise function,
    
    $$
    \begin{align*}

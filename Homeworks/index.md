@@ -7,4 +7,5 @@
 * [Homework3](HW3.md)
 * [Homework3 Solution](HW3_Solutions.md)
 * [Homework4](Homework4.md)
+* [Homework4 Solution](Solution/Homework4-Solution.md)
 
