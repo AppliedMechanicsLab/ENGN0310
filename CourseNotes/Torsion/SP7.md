@@ -78,7 +78,9 @@ k_{\rm St-cyl}&=\frac{G_{\rm St} J_{\rm St-cyl}}{L}\\
 &=94493~\rm{N\cdot m}
 \end{align*}
 $$
+
 -----
+
 Since the angle of twist $\theta$ is the same in both the aluminum tube and the steel shaft, we have that
 
 $$

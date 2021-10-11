@@ -10,12 +10,11 @@
 
 Two solid steel shafts are connected by the gears shown. Knowing that for each shaft $G=11.2 \times 10^6 ~\rm{psi}$ and with applied torque of $T_0 = 561~\rm{lb \cdot in}$, determine the corresponding angle through which end $\rm A$ of shaft $\rm AB$ rotates.
 
-</br>
 
 ### Solution.
 
 
-> The radius and length of shaft $\rm AB$ and $\rm CD$ are denoted as $a_{\rm{AB}}$, $L_{\rm AB}$, and $a_{\rm CD}$, $L_{\rm CD}$ respectively, and the radius of gears $\rm B$ and $\rm C$ as $r_{\rm B}$ and $r_{\rm C}$ respectively. 
+The radius and length of shaft $\rm AB$ and $\rm CD$ are denoted as $a_{\rm{AB}}$, $L_{\rm AB}$, and $a_{\rm CD}$, $L_{\rm CD}$ respectively, and the radius of gears $\rm B$ and $\rm C$ as $r_{\rm B}$ and $r_{\rm C}$ respectively. 
 
 
 We can first can determine the rotation $\theta_{\rm A/B}$ at $\rm A$ with respect to gear $\rm B$ (and vice versa) as
@@ -35,7 +34,7 @@ J_{\rm{AB}}=\frac{\pi}{2}(a_{\rm AB})^4
 $$
 
 
-Similarly, we can compute the rotation $\theta_{\rm C/D}$ of gear $\rm C$ with respect to $D$ given $T_{\rm CD}$ in shaft $\rm CD$ as:
+Similarly, we can compute the rotation $\theta_{\rm C/D}$ of gear $\rm C$ with respect to $D$ as:
 
 $$
 \begin{align}
@@ -52,7 +51,9 @@ J_{\rm{CD}}=\frac{\pi}{2}(a_{\rm CD})^4
 $$
 
 
-$T_{\rm CD}$ can be determined by first noticing that the force $F$ exerted onto gear $\rm B$ by gear $\rm C$ has the relation:
+and the torque $T_{\rm CD}$ in shaft $\rm CD$ is determined below.
+
+Notice that $T_0$ and the force $F$ exerted onto gear $\rm B$ by gear $\rm C$ has the relation:
 
 $$
 \begin{align}
@@ -111,5 +112,4 @@ $$
 \end{align}
 $$
 
-The mathematica file for solving the above problem is [here](./WFiles/SP6.nb
-)
+The Mathematica file for solving the above problem is [here](./WFiles/SP6.nb)
