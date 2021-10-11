@@ -47,8 +47,8 @@
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 6.</span>](./Torsion/SP6.md)
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 7.</span>](./Torsion/SP7.md)
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 8.</span>](./Torsion/SP8.md)
-* 
-### Beams (Bending)
+
+<!-- ### Beams (Bending) -->
 
 ## Solid Mechanics
 

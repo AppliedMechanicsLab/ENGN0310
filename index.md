@@ -45,9 +45,7 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemo..
 
 * Yang Wan 
    - through appointment
-  
-The room BH 751 is likely going to be changed in the future.
-
+ 
 
 
 
