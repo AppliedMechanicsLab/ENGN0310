@@ -13,7 +13,7 @@ Two solid steel shafts are connected by the gears shown. Knowing that for each s
 ### Solution.
 
 
-> The radius and length of shaft $\rm AB$ and $\rm CD$ are denoted as $r_{\rm{AB}}$, $L_{\rm AB}$, and $r_{\rm CD}$, $L_{\rm CD}$ respectively, and the radius of gears $\rm B$ and $\rm C$ as $r_{\rm B}$ and $r_{\rm C}$ respectively. 
+> The radius and length of shaft $\rm AB$ and $\rm CD$ are denoted as $a_{\rm{AB}}$, $L_{\rm AB}$, and $a_{\rm CD}$, $L_{\rm CD}$ respectively, and the radius of gears $\rm B$ and $\rm C$ as $r_{\rm B}$ and $r_{\rm C}$ respectively. 
 
 
 We can first can determine the rotation $\theta_{\rm A/B}$ at $\rm A$ with respect to gear $\rm B$ (and vice versa) as
@@ -24,11 +24,28 @@ $$
 \end{align}
 $$
 
+where
+
+$$
+\begin{align}
+J_{\rm{AB}}=\frac{\pi}{2}(a_{\rm AB})^4
+\end{align}
+$$
+
+
 Similarly, we can compute the rotation $\theta_{\rm C/D}$ of gear $\rm C$ with respect to $D$ given $T_{\rm CD}$ in shaft $\rm CD$ as:
 
 $$
 \begin{align}
 \theta_{\rm{C/D}}=\frac{T_{\rm CD} L_{\rm CD}}{G J_{\rm CD}}
+\end{align}
+$$
+
+where
+
+$$
+\begin{align}
+J_{\rm{CD}}=\frac{\pi}{2}(a_{\rm CD})^4
 \end{align}
 $$
 
