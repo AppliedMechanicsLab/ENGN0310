@@ -45,8 +45,8 @@
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 4.</span>](./Torsion/SP4.md)
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 5.</span>](./Torsion/SP5.md)
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 6.</span>](./Torsion/SP6.md)
-*  :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 7.</span>](./Torsion/SP7.md)
-* :construction: :construction: [<span style="color:#5faeb6; font-style:italic"> Solved Problem 8.</span>](./Torsion/SP8.md)
+* [<span style="color:#5faeb6; font-style:italic"> Solved Problem 7.</span>](./Torsion/SP7.md)
+* [<span style="color:#5faeb6; font-style:italic"> Solved Problem 8.</span>](./Torsion/SP8.md)
 * 
 ### Beams (Bending)
 
