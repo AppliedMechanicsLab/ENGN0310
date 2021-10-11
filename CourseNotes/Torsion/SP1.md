@@ -14,21 +14,25 @@ A solid cylinder of  diameter $30~\rm{mm}$ is made of  steel of $G=77~\rm{GPa}$.
 Let us begin by computing $J$. The cross-section of the shaft is a circular disk. Thus, 
 
 $$
+\begin{align*}
 J=\frac{\pi a^4}{2},
+\end{align*}
 $$
 where $a$ is the radius of the cross-section. For the current case, we get that
 
 $$
+\begin{align*}
 J=7.95216 10^{-8}~\rm m^4
+\end{align*}
 $$
 
 The angle of twist is given as 
 
 $$
-\begin{align}
+\begin{align*}
 \theta&=\frac{T L}{GJ} \\
        &=0.0163314
-\end{align}
+\end{align*}
 $$
 
 The angle of twist in degree reads $0.93572^{\circ}$. 

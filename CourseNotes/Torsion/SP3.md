@@ -33,18 +33,18 @@ The condition that the net moment of force should vanish on a solid that is stat
 We compute the twist on the right face of the shaft by using the following equation: 
 
 $$
-\begin{align}
+\begin{align*}
 \theta(L)
 &=
 \frac{T}{G}
 \int_{0}^{L}\frac{dX}{J(X)}
-\end{align}
+\end{align*}
 $$
 
 In the current case, $J$ is a piece-wise function and can be defined as
 
 $$
-\begin{align}
+\begin{align*}
 J(X)&=
 \left\{
 \begin{array}{ll}
@@ -53,7 +53,7 @@ J(X)&=
     \pi r_3^4/2 & 0.8\leq x < 1.2 \\
 \end{array}
 \right.
-\end{align}
+\end{align*}
 $$
 
 
@@ -61,7 +61,7 @@ $$
 Putting in the numbers, we get that
 
 $$
-\begin{align}
+\begin{align*}
 J(X)&=
 \left\{
 \begin{array}{ll}
@@ -70,16 +70,16 @@ J(X)&=
 7.95216~\times 10^{-8}, & 0.8\le X<1.2.\\ 
 \end{array}
 \right.
-\end{align}
+\end{align*}
 $$
 
 Evaluating the integral, we get that 
 
 $$
-\begin{align}
+\begin{align*}
 \theta(L)&=0.0189958\\
 &=1.08838^{\circ}\\
-\end{align}
+\end{align*}
 $$
 
 You can find the MMA file for evaluating the above integral [here](./WFiles/SP3.nb).

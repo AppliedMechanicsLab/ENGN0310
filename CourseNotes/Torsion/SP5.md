@@ -14,17 +14,17 @@ Now consider the same problem as that discussed in [Solved Problem 4](SP4.md) bu
 We compute the twist on the right face of the shaft by using the following equation
 
 $$
-\begin{align}
+\begin{align*}
 \theta(L)
 &=
 \int_{0}^{L}\frac{T(X)dX}{G(X)J(X)}
-\end{align}
+\end{align*}
 $$
 
 In the previous problems, $G$ was constant along the shaft's length. In the current case, however, it is a piece-wise function defined as
 
 $$
-\begin{align}
+\begin{align*}
 G(X)&=
 \left\{
 \begin{array}{ll}
@@ -32,7 +32,7 @@ G(X)&=
 39\times10^9, & 0.8\le X<1.2.\\
 \end{array}
 \right.
-\end{align}
+\end{align*}
 $$
 
 
@@ -40,7 +40,7 @@ $$
 We know from previous problems that $T$ and $J$ are piece-wise functions of the form
 
 $$
-\begin{align}
+\begin{align*}
 T(X)&=
 \left\{
 \begin{array}{ll}
@@ -48,11 +48,11 @@ T(X)&=
 250, & 0.8\le X<1.2.\\
 \end{array}
 \right.
-\end{align}
+\end{align*}
 $$
 
 $$
-\begin{align}
+\begin{align*}
 J(X)&=
 \left\{
 \begin{array}{ll}
@@ -61,17 +61,17 @@ J(X)&=
 7.95216~\times 10^{-8}, & 0.8\le X<1.2.\\ 
 \end{array}
 \right.
-\end{align}
+\end{align*}
 $$
 
 
 Evaluating the integral, we get
 
 $$
-\begin{align}
+\begin{align*}
 \theta(L)&=0.10063\\
 &=5.76567^{\circ}
-\end{align}
+\end{align*}
 $$
 
 The mathematica file for solving the above problem is [here](./WFiles/SP5.nb)

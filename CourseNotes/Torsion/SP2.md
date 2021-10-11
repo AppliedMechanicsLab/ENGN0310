@@ -11,11 +11,11 @@ A hollow cylinder of  outer diameter $600~\rm{mm}$ and inner diameter $44~\rm{mm
 We begin by computing $J$.
 
 $$
-\begin{align}
+\begin{align*}
 J
 &=\frac{\pi}{2}(r_0^4-r_i^4).\\
 &=9.04377~\times 10^{-7}~\rm m^4.
-\end{align}
+\end{align*}
 $$
 
 > Note that above is a direct result of taking the integration from $r_i$ to $r_o$ in the equation for polar moment in a circular cross-section:
@@ -30,11 +30,11 @@ $$
 The angle of twist  is
 
 $$
-\begin{align}
+\begin{align*}
 \theta
 &=\frac{T L}{G J}\\
 &=0.0193862
-\end{align}
+\end{align*}
 $$
 
 In degrees, the angle of twist reads $1.11075^{\circ}$.

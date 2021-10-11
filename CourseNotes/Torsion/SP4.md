@@ -15,18 +15,18 @@ Now consider the same problem discussed in [Solved Problem 3](SP3.md) where torq
 We compute the twist on the right face of the shaft by using the following equation
 
 $$
-\begin{align}
+\begin{align*}
 \theta(L)
 &=
 \frac{1}{G}
 \int_{0}^{L}\frac{T(X)dX}{J(X)}
-\end{align}
+\end{align*}
 $$
 
 In the [previous problem](SP3.md), torque was constant along the shaft's length. However, in the current case,  $T$ is a piece-wise function and can be defined as
 
 $$
-\begin{align}
+\begin{align*}
 T(X)&=
 \left\{
 \begin{array}{ll}
@@ -34,14 +34,14 @@ T(X)&=
 250, & 0.8\le X<1.2.\\
 \end{array}
 \right.
-\end{align}
+\end{align*}
 $$
 
 As shown in the previous problem, $J$ is a piece-wise function: 
 
 
 $$
-\begin{align}
+\begin{align*}
 J(X)&=
 \left\{
 \begin{array}{ll}
@@ -50,16 +50,16 @@ J(X)&=
 7.95216~\times 10^{-8}, & 0.8\le X<1.2.\\ 
 \end{array}
 \right.
-\end{align}
+\end{align*}
 $$
 
 Evaluating the integral, we get
 
 $$
-\begin{align}
+\begin{align*}
 \theta(L)&=0.0403109\\
 &=2.30964^{\circ}
-\end{align}
+\end{align*}
 $$
 
 You can find the mathematica file for evaluating the above integral [here](./WFiles/SP4.nb).
