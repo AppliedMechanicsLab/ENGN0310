@@ -1,3 +1,5 @@
+{% include mathjax_support %}
+{% include command %}
 
 ### Problem Statement
 
