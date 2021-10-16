@@ -41,7 +41,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture14 | Oct 08, Fri |  Transformation of strain/stress |[Link](https://www.dropbox.com/s/5h50l8ljoieae5b/ENGN0310_Oct8.mp4?dl=0)||
 | No lecture | Oct 11, Mon | Indigenous people's day |||
 | Lecture15 | Oct 13, Wed | Transformation of strain/stress |[Link](https://www.dropbox.com/s/cy3alv6cr6vi2jt/ENGN0310_Oct13.mp4?dl=0)||
-| Lecture16 | Oct 15, Fri | Transformation of strain/stress |||
+| Lecture16 | Oct 15, Fri | Transformation of strain/stress |[Link](https://www.dropbox.com/s/3stu44h3xt24c2r/ENGN_0310_Oct15.mp4?dl=0)||
 | Lecture17 | Oct 18, Mon |  Thin Walled Pressure Vessels |||
 | Lecture18 | Oct 20, Wed | Thin Walled Pressure Vessels |||
 | Lecture19 | Oct 22, Fri | Failure theories |||
