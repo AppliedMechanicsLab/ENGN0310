@@ -3,7 +3,7 @@
 
 
 
-# ENGN0310: Homework 1 Soltuion
+# ENGN0310: Homework 1 Solution
 
 
 

@@ -14,13 +14,14 @@
  * [Sayaka Kochiyama](https://appliedmechanicslab.github.io/Team)
  * Andrew Bagnoli 
  * [Yang Wan](https://appliedmechanicslab.github.io/Team)
- * [Benjamin Grossman-Ponemon](https://appliedmechanicslab.github.io/Team)
+ 
+ <!-- * [Benjamin Grossman-Ponemon](https://appliedmechanicslab.github.io/Team) -->
 
 #### Lecture and recitation timings
 
 
 Lectures MTW: 9-9:50 am in BH 158. Instructor: H. Kesari <br/> 
-Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon <br/>
+Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemo..n <br/>
 
 
 
@@ -39,14 +40,12 @@ Recitation: T: 12:00-12:50 in BH 158. Instructor: H. Kesari/B. Grossman-Ponemon 
    - Thursday  4:00-5:00 in BH 158
    -  Friday   2:00-5:00  in ERC 125
 
-* Benjamin Grossman-Ponemon
-   - TBD
+<!-- * Benjamin Grossman-Ponemon
+   - TBD -->
 
 * Yang Wan 
    - through appointment
-  
-The room BH 751 is likely going to be changed in the future.
-
+ 
 
 
 
@@ -113,6 +112,8 @@ Nine Homework (HW) sets will be released and graded during the course. However, 
 The midterm and final exams will be online exams (through CANVAS). You will have 48 (resp. 72) hrs over which to take the  midterm (resp. final) exam. The exams can be taken remotely. Once an exam starts you will have a fixed amount of time to complete the exam. The dates for the midterm and final exams can be found in the course calendar. Any further exam related information will be posted at the below link.
  
 *  [Exams](Exams/index.md)
+*  [Practice Midterm](Exams/PracticeMidterm.md)
+
 
 ## Labs
 

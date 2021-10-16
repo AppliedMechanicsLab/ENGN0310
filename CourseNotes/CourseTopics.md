@@ -35,12 +35,12 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture8 | Sep 24, Fri | Strain |[Link](https://www.dropbox.com/s/vmqt1irp2gsr5sr/ENGN0310_Sep24.mp4?dl=0)||
 | Lecture9 | Sep 27, Mon | Strain |[Link](https://www.dropbox.com/s/gyjrx3ekzsjn5p5/ENGN0310_Sep27.mp4?dl=0)||
 | Lecture10 | Sep 29, Wed | Strain |[Link](https://www.dropbox.com/s/gyjrx3ekzsjn5p5/ENGN0310_Sep27.mp4?dl=0)||
-| Lecture11 | Oct 01, Fri | Stress |||
-| Lecture12 | Oct 04, Mon | Stress |||
-| Lecture13 | Oct 06, Wed | Stress |||
-| Lecture14 | Oct 08, Fri |  Transformation of strain/stress |||
+| Lecture11 | Oct 01, Fri | Stress |[Link](https://www.dropbox.com/s/gyjrx3ekzsjn5p5/ENGN0310_Sep27.mp4?dl=0)||
+| Lecture12 | Oct 04, Mon | Stress |[Link](https://www.dropbox.com/s/n8ek6kkf2bwpp6c/ENGN0310_Oct4.mp4?dl=0)||
+| Lecture13 | Oct 06, Wed | Stress |[Link](https://www.dropbox.com/s/gy4rrq7mewe615x/ENGN0310_Oct6.mp4?dl=0)||
+| Lecture14 | Oct 08, Fri |  Transformation of strain/stress |[Link](https://www.dropbox.com/s/5h50l8ljoieae5b/ENGN0310_Oct8.mp4?dl=0)||
 | No lecture | Oct 11, Mon | Indigenous people's day |||
-| Lecture15 | Oct 13, Wed | Transformation of strain/stress |||
+| Lecture15 | Oct 13, Wed | Transformation of strain/stress |[Link](https://www.dropbox.com/s/cy3alv6cr6vi2jt/ENGN0310_Oct13.mp4?dl=0)||
 | Lecture16 | Oct 15, Fri | Transformation of strain/stress |||
 | Lecture17 | Oct 18, Mon |  Thin Walled Pressure Vessels |||
 | Lecture18 | Oct 20, Wed | Thin Walled Pressure Vessels |||

@@ -163,7 +163,8 @@ Please use International System of Units (SI), for example using meter and kilog
 
 4. Tabulated raw data should be included in the appendices, not in the body of the report. Additional figures not essential to the body of the report may be included in the appendices as well. Make sure to cite (refer to) every picture (appendix and body alike) in your report.
 
-5. A good resource for lab report preparation is the Mayfield Handbook of Technical and Scientific Writing (http://www.mhhe.com/mayfieldpub/tsw/home.htm).
+5. A good resource for lab report preparation is the Mayfield Handbook of Technical and Scientific Writing (https://www.mit.edu/course/21/21.guide/).
+<!--(http://www.mhhe.com/mayfieldpub/tsw/home.htm)-->
 
 6. Lab reports should be submitted electronically on Canvas in PDF format. No paper reports will be accepted.
 
