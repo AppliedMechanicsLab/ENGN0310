@@ -43,6 +43,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture15 | Oct 13, Wed | Transformation of strain/stress |||
 | Lecture16 | Oct 15, Fri | Transformation of strain/stress |||
 | Lecture17 | Oct 18, Mon |  Thin Walled Pressure Vessels |||
+| Recvitation | Oct 19, Tue |  Traction vector |[Link](https://brown.zoom.us/rec/share/H68i16GNVnWOPpi1BzziA0O4Fk54n7UCP-ms2Uid73vLLKumoO8fbdxp_wA4hafp.1oO1CrdDNp082ipu?startTime=1634659417000)||
 | Lecture18 | Oct 20, Wed | Thin Walled Pressure Vessels |||
 | Lecture19 | Oct 22, Fri | Failure theories |||
 | Lecture20 | Oct 25, Mon | Failure theories |||
