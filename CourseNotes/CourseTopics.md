@@ -44,8 +44,8 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture16 | Oct 15, Fri | Average traction vector |[Link](https://www.dropbox.com/s/3stu44h3xt24c2r/ENGN_0310_Oct15.mp4?dl=0)||
 | Lecture17 | Oct 18, Mon |  Average traction vector |[Link](https://www.dropbox.com/s/sc3nd1qxs9lgnlr/ENGN0310_Oct18.mp4?dl=0)||
 | Recvitation | Oct 19, Tue |  Traction vector |[Link](https://brown.zoom.us/rec/share/H68i16GNVnWOPpi1BzziA0O4Fk54n7UCP-ms2Uid73vLLKumoO8fbdxp_wA4hafp.1oO1CrdDNp082ipu?startTime=1634659417000)||
-| Lecture18 | Oct 20, Wed | Stress |||
-| Lecture19 | Oct 22, Fri | Stress |||
+| Lecture18 | Oct 20, Wed | Stress |[Part 1](https://www.dropbox.com/s/dc5yhn1ieqgwr4v/ENGN0310_Oct20_1.mp4?dl=0) [Part 2](https://www.dropbox.com/s/2yc7yq1q148ylnb/ENGN0310_Oct20_2.mp4?dl=0)||
+| Lecture19 | Oct 22, Fri | Stress |[Link](https://www.dropbox.com/s/5zzydgginmy1vb2/ENGN0310_Oct22.mp4?dl=0)||
 | Lecture20 | Oct 25, Mon | Stress |||
 | Lecture21 | Oct 27, Wed | Strain |||
 | Lecture22 | Oct 29, Fri | Strain |||
