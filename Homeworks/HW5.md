@@ -3,7 +3,7 @@
 
 
 
-# ENGN0310: Homework 1
+# ENGN0310: Homework 5
 ## Due Tuesday 11:59 pm, November 2nd, 2021
 
 
@@ -38,4 +38,8 @@ The shear strength of human bone is an important parameter and implants must be 
 
 
 # Problem 5: 20 pts.
+
+Consider the steel plate shown below. The ultimate tensitle strength of the steel composing this plate is 60000 psi.  The shear strength of this steel is 49200 psi. 
+
+![](./IMG_1420.JPG)
 
