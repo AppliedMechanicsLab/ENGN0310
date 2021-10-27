@@ -39,7 +39,7 @@ The shear strength of human bone is an important parameter and implants must be 
 
 # Problem 5: 20 pts.
 
-Consider the steel plate shown below. The ultimate tensitle strength of the steel composing this plate is 60000 psi.  The shear strength of this steel is 49200 psi. 
+Consider the steel plate shown below. Two steel plates are butt welded together. The ultimate tensile strength of the steel composing this plate is 60000 psi.  The shear strength of this steel is 20200 psi. The strength of the weld is 0.8 times the ultimate tensile strength. What is the maximum axial force that the plate system can support?
 
 ![](./IMG_1420.JPG)
 
