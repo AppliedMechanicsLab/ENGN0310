@@ -50,4 +50,4 @@ The displacement in the section $AB$ due to the internal force, which has intern
 
 **Solution:**
 
-The twist in the section $AB$ due to the internal torque in the section, $150kNm$, is $\theta_{AB} = {\int_{0}^{2}  \frac{150kNm}{44GPa(\frac{\pi}{2})\left( .05m e^{2 - x}\right)^4} \,dx} = 0.0868rad$. The twist in the section $BC$ due to the internal torque in the section, $100kNm$, is $\theta_{BC} = \frac{(100kNm)(1m)}{(77GPa)(\frac{\pi}{2})(.05^4 - .025^4)m^2}=2.2577rad$, so the total twist is $\theta = \theta_{AB} + \theta_{BC} = 2.3444 rad$
+The twist in the section $AB$ due to the internal torque in the section, $150kNm$, is $\theta_{AB} = {\int_{0}^{2}  \frac{150kNm}{44GPa(\frac{\pi}{32})\left( .05m e^{2 - x}\right)^4} \,dx} = 0.0868rad$. The twist in the section $BC$ due to the internal torque in the section, $100kNm$, is $\theta_{BC} = \frac{(100kNm)(1m)}{(77GPa)(\frac{\pi}{2})(.05^4 - .025^4)m^2}=2.2577rad$, so the total twist is $\theta = \theta_{AB} + \theta_{BC} = 3.6462 rad$
