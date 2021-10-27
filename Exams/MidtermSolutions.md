@@ -44,7 +44,7 @@ By definition we have that $\textbf{u}\left(\textbf{X}\right) = \left(\alpha X_1
 
 **Solution:**
 
-The displacement in the section $AB$ due to the internal force, which has internal force of $50kN$, is given by $\delta_{AB} = {\int_{0}^{2}  \frac{50kN}{120GPa(\frac{\pi}{4})\left( .05m e^{2 - x}\right)^2} \,dx} = 0.1042mm$. Then the displacement in the section $BC$ due to the internal force, which is $100kN$, is given by $\delta_{BC} = \frac{(100kN)(1m)}{(200GPa)(\frac{\pi}{4})(.05^2 - .025^2)m^2} = 0.3395mm$. Then the displacement due to the temperature change is given by $\delta _T = (60\degree C)(10^{-5} \frac{1}{\degree C})(1m) + (60\degree C)(8.4\times 10^{-6} \frac{1}{\degree C})(2m) = 1.608mm$, so the total displacement is $\delta = \delta_{AB} + \delta_{BC} + \delta _T = 2.0517mm$
+The displacement in the section $AB$ due to the internal force, which has internal force of $50kN$, is given by $\delta_{AB} = {\int_{0}^{2}  \frac{50kN}{120GPa(\frac{\pi}{4})\left( .05m e^{2 - x}\right)^2} \,dx} = 0.1042mm$. Then the displacement in the section $BC$ due to the internal force, which is $100kN$, is given by $\delta_{BC} = \frac{(100kN)(1m)}{(200GPa)(\frac{\pi}{4})(.05^2 - .025^2)m^2} = 0.3395mm$. Then the displacement due to the temperature change is given by $\delta \_{T} = (60\degree C)(10^{-5} \frac{1}{\degree C})(1m) + (60\degree C)(8.4\times 10^{-6} \frac{1}{\degree C})(2m) = 1.608mm$, so the total displacement is $\delta = \delta_{AB} + \delta_{BC} + \delta _T = 2.0517mm$
 
 #### Problem 6. 
 
