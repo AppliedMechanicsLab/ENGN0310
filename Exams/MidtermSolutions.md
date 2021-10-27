@@ -31,5 +31,18 @@ The cross sectional area as a function of $x$ is given by $A(x) = L(x)^2$, where
 
 **Solution:**
 
-By definition we have that $\textbf{u}\left(\textbf{X}\right) = \left(\alpha X_1, \beta X_2 \right) = \textbf{x}(\textbf{X}) - \textbf{X}$, so if we want to know location of points in the deformed body $\textbf{x}$ that were originally at location $\textbf{X}$ in the reference body we have $\textbf{x}(\textbf{X}) = \textbf{u}\left(\textbf{X}\right) + \textbf{X}$, so we have that $x_1 = \alpha X_1 + X_1 = (\alpha + 1)X_1$ and $x_2 = \alpha X_2 + X_2 = (\beta + 1)X_2$
+![](M3.PNG)
 
+By definition we have that $\textbf{u}\left(\textbf{X}\right) = \left(\alpha X_1, \beta X_2 \right) = \textbf{x}(\textbf{X}) - \textbf{X}$, so if we want to know location of points in the deformed body $\textbf{x}$ that were originally at location $\textbf{X}$ in the reference body we have $\textbf{x}(\textbf{X}) = \textbf{u}\left(\textbf{X}\right) + \textbf{X}$, so we have that $x_1 = \alpha X_1 + X_1 = (\alpha + 1)X_1$ and $x_2 = \alpha X_2 + X_2 = (\beta + 1)X_2$. 
+
+#### Problem 5. 
+
+**Solution:**
+
+The displacement in the section $AB$ due to the internal force, which has internal force of $50kN$, is given by $\delta_{AB} = {\int_{0}^{2}  \frac{50kN}{120GPa(\frac{\pi}{4})\left( .05m e^{2 - x}\right)^2} \,dx} = 0.1042mm$. Then the displacement in the section $BC$ due to the internal force, which is $100kN$, is given by $\delta_{BC} = \frac{(100kN)(1m)}{(200GPa)(\frac{\pi}{4})(.05^2 - .025^2)m^2} = 0.3395mm$. Then the displacement due to the temperature change is given by $\delta _T = (60\degree C)(10^{-5} \frac{1}{\degree C})(1m) + (60\degree C)(8.4\times 10^{-6} \frac{1}{\degree C})(2m) = 1.608mm$, so the total displacement is $\delta = \delta_{AB} + \delta_{BC} + \delta _T = 2.0517mm$
+
+#### Problem 6. 
+
+**Solution:**
+
+The twist in the section $AB$ due to the internal torque in the section, $150kNm$, is $\theta_{AB} = {\int_{0}^{2}  \frac{150kNm}{44GPa(\frac{\pi}{2})\left( .05m e^{2 - x}\right)^4} \,dx} = 0.0868rad$. The twist in the section $BC$ due to the internal torque in the section, $100kNm$, is $\theta_{BC} = \frac{(100kNm)(1m)}{(77GPa)(\frac{\pi}{2})(.05^4 - .025^4)m^2}=2.2577rad$, so the total twist is $\theta = \theta_{AB} + \theta_{BC} = 2.3444 rad$
