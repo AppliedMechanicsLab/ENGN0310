@@ -47,7 +47,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture18 | Oct 20, Wed | Stress |[Part 1](https://www.dropbox.com/s/dc5yhn1ieqgwr4v/ENGN0310_Oct20_1.mp4?dl=0) [Part 2](https://www.dropbox.com/s/2yc7yq1q148ylnb/ENGN0310_Oct20_2.mp4?dl=0)||
 | Lecture19 | Oct 22, Fri | Stress |[Link](https://www.dropbox.com/s/5zzydgginmy1vb2/ENGN0310_Oct22.mp4?dl=0)||
 | Lecture20 | Oct 25, Mon | Stress |||
-| Lecture21 | Oct 27, Wed | Strain |||
+| Lecture21 | Oct 27, Wed | Strain |[Link](https://www.dropbox.com/s/nq4rpuof7y01iwn/ENGN0310_Oct27.mp4?dl=0)||
 | Lecture22 | Oct 29, Fri | Strain |||
 | Lecture23 | Nov 01, Mon | Strain |||
 | Lecture24 | Nov 03, Wed | Strain |||
