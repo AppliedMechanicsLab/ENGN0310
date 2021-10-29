@@ -60,6 +60,7 @@
 * [Shear tractions](Traction/ShearTraction1.md)
 * [Pins](Traction/Pins.md)
 * [Maximum Normal and Shear Stresses in a Bar](Traction/Max.md)
+* [Solved Problems](Traction/SPTraction.md)
 
 ### Stress
 ### Strain
