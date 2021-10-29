@@ -389,7 +389,7 @@
    \theta_{\rm B}&= \int_{0}^{L_{\rm BC}}\frac{T(X)}{J(X) G(X)} dx\\
    &= \int_{0}^{L_{\rm BC}}\frac{T_A+T_B}{J_{\rm{BC}} G} dx\\
    &=\frac{(T_A+T_B)L_{\rm{BC}}}{J_{\rm{BC}} G}\\
-   &=\frac{(18 ~\rm{kN\cdot m})(2~\rm m)}{(3.11\times10^{-6} \rm m^4)(77~\rm{GPa})}\\ &= 0.0151 ~\rm{rad}\\
+   &=\frac{(18 ~\rm{kN\cdot m})(2~\rm m)}{(3.11\times10^{-6} \rm m^4)(77~\rm{GPa})}\\ &= 0.151 ~\rm{rad}\\
    &=8.62^{\circ}
    \end{align*}
    $$ 
@@ -402,7 +402,7 @@
    &= \int_{0}^{L_{\rm BC}}\frac{T_A+T_B}{J_{\rm{BC}} G} dx +\int_{L_{\rm BC}}^{L_{\rm AB}+L_{\rm AB}}\frac{T_A}{J_{\rm{AB}} G} dx\\
    &= \frac{(T_A+T_B)L_{\rm{BC}}}{J_{\rm{BC}} G}+\frac{T_A L_{\rm{AB}}}{J_{\rm{AB}} G}\\
    &=\frac{(18 ~\rm{kN\cdot m})(2~\rm m)}{(3.11\times10^{-6} \rm m^4)(77~\rm{GPa})}+\frac{(6 ~\rm{kN\cdot m})(1~\rm m)}{(6.14\times10^{-7} \rm m^4)(77~\rm{GPa})}\\
-   &= 0.0277 ~\rm{rad}\\
+   &= 0.277 ~\rm{rad}\\
    &=15.9^{\circ}
    \end{align*}
    $$
