@@ -6,14 +6,14 @@
 
 ![](SPTraction6.png)
 
-From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=\frac{P}{2}$, so the froce vector on the top surface is $\textbf{F} = \left(0,\frac{P}{2}\right)$ and the normal vector is $\bold{\hat{n}} = \left(1,0\right)$. Then we have that the traction vector is $\textbf{t} = \textbf{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{2A}\right)$. Then $\textbf{t}_n=\textbf{t}\bold{\hat{n}}= \left(0,\frac{P}{2A}\right) \cdot \left(1,0\right) = \left(0,0\right)$, so $\textbf{t}_s = \textbf{t}-\textbf{t}_n = \left(0,\frac{P}{2A}\right) - \left(0,0\right)= \left(0,\frac{P}{2A}\right) = \left(0,190.99MPa\right)$.
+From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=\frac{P}{2}$, so the froce vector on the top surface is $\textbf{F} = \left(0,\frac{P}{2}\right)$ and the normal vector is $\bold{\hat{n}} = \left(1,0\right)$. Then we have that the traction vector is $\textbf{t} = \textbf{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{2A}\right)$. Then $\textbf{t}_n=\textbf{t}\bold{\hat{n}}= \left(0,\frac{P}{2A}\right) \cdot \left(1,0\right) = \left(0,0\right)$, so $\textbf{t}_s = \textbf{t}-\textbf{t}_n = \left(0,\frac{P}{2A}\right) - \left(0,0\right)= \left(0,\frac{P}{2A}\right) = \left(0,190.99MPa\right)$, then $\lVert\textbf{t}_s \rVert = 190.99MPa$.
 
 ![](SPTraction2.png)
 
 ![](SPTraction7.png)
 
 
-From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=P$, so the froce vector on the top surface is $\textbf{F} = \left(0,P\right)$ and the normal vector is $\bold{\hat{n}} = \left(-1,0\right)$. Then we have that the traction vector is $\textbf{t} = \textbf{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{A}\right)$. Then $\textbf{t}_n=\textbf{t}\bold{\hat{n}}= \left(0,\frac{P}{A}\right) \cdot \left(-1,0\right) = \left(0,0\right)$, so $\textbf{t}_s = \textbf{t}-\textbf{t}_n = \left(0,\frac{P}{A}\right) -\left(0,0\right) = \left(0,\frac{P}{A}\right) = \left(0,95.49MPa\right)$.
+From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=P$, so the froce vector on the top surface is $\textbf{F} = \left(0,P\right)$ and the normal vector is $\bold{\hat{n}} = \left(-1,0\right)$. Then we have that the traction vector is $\textbf{t} = \textbf{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{A}\right)$. Then $\textbf{t}_n=\textbf{t}\bold{\hat{n}}= \left(0,\frac{P}{A}\right) \cdot \left(-1,0\right) = \left(0,0\right)$, so $\textbf{t}_s = \textbf{t}-\textbf{t}_n = \left(0,\frac{P}{A}\right) -\left(0,0\right) = \left(0,\frac{P}{A}\right) = \left(0,95.49MPa\right)$, then $\lVert\textbf{t}_s \rVert = 95.49MPa$
 
 ![](SPTraction3.png)
 
