@@ -6,20 +6,20 @@
 
 ![](SPTraction6.png)
 
-From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=\frac{P}{2}$, so the froce vector on the top surface is $\bold{F} = \left(0,\frac{P}{2}\right)$ and the normal vector is $\bold{\hat{n}} = \left(1,0\right)$. Then we have that the traction vector is $\bold{t} = \bold{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{2A}\right)$. Then $\bold{t}_n=\bold{t}\bold{\hat{n}}= \left(0,\frac{P}{2A}\right) \cdot \left(1,0\right) = \left(0,0\right)$, so $\bold{t}_s = \bold{t}-\bold{t}_n = \left(0,\frac{P}{2A}\right) - \left(0,0\right)= \left(0,\frac{P}{2A}\right) = \left(0,190.99MPa\right)$.
+From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=\frac{P}{2}$, so the froce vector on the top surface is $\textbf{F} = \left(0,\frac{P}{2}\right)$ and the normal vector is $\bold{\hat{n}} = \left(1,0\right)$. Then we have that the traction vector is $\textbf{t} = \textbf{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{2A}\right)$. Then $\textbf{t}_n=\textbf{t}\bold{\hat{n}}= \left(0,\frac{P}{2A}\right) \cdot \left(1,0\right) = \left(0,0\right)$, so $\textbf{t}_s = \textbf{t}-\textbf{t}_n = \left(0,\frac{P}{2A}\right) - \left(0,0\right)= \left(0,\frac{P}{2A}\right) = \left(0,190.99MPa\right)$.
 
 ![](SPTraction2.png)
 
 ![](SPTraction7.png)
 
 
-From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=P$, so the froce vector on the top surface is $\bold{F} = \left(0,P\right)$ and the normal vector is $\bold{\hat{n}} = \left(-1,0\right)$. Then we have that the traction vector is $\bold{t} = \bold{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{A}\right)$. Then $\bold{t}_n=\bold{t}\bold{\hat{n}}= \left(0,\frac{P}{A}\right) \cdot \left(-1,0\right) = \left(0,0\right)$, so $\bold{t}_s = \bold{t}-\bold{t}_n = \left(0,\frac{P}{A}\right) -\left(0,0\right) = \left(0,\frac{P}{A}\right) = \left(0,95.49MPa\right)$.
+From the force balance in the figure above we can see that the shear force, parallel to the plane, is $V=P$, so the froce vector on the top surface is $\textbf{F} = \left(0,P\right)$ and the normal vector is $\bold{\hat{n}} = \left(-1,0\right)$. Then we have that the traction vector is $\textbf{t} = \textbf{F}\frac{sin(\theta)}{A} = \left(0,\frac{P}{A}\right)$. Then $\textbf{t}_n=\textbf{t}\bold{\hat{n}}= \left(0,\frac{P}{A}\right) \cdot \left(-1,0\right) = \left(0,0\right)$, so $\textbf{t}_s = \textbf{t}-\textbf{t}_n = \left(0,\frac{P}{A}\right) -\left(0,0\right) = \left(0,\frac{P}{A}\right) = \left(0,95.49MPa\right)$.
 
 ![](SPTraction3.png)
 
 ![](SPTraction8.png)
 
-From the figure above we have that $\bold{P}_u = \left(3464.1N, -2000N \right)$ and $\bold{P}_d = \left(0, -4000N \right)$, then $\bold{P} = \bold{P}_u+\bold{P}_d = \left(3464.1N, -6000N \right)$, so in the direction of maximum shear the shear force on the axel is $ \bold{P} = \sqrt{(3464.1N)^2+(-6000N)^2} = 6928.2N$, then since the maximum allowable shear stress is $\tau_{max} = 50MPa$ we have that $A = \frac{\bold{P} 
+From the figure above we have that $\textbf{P}_u = \left(3464.1N, -2000N \right)$ and $\textbf{P}_d = \left(0, -4000N \right)$, then $\textbf{P} = \textbf{P}_u+\textbf{P}_d = \left(3464.1N, -6000N \right)$, so in the direction of maximum shear the shear force on the axel is $ \textbf{P} = \sqrt{(3464.1N)^2+(-6000N)^2} = 6928.2N$, then since the maximum allowable shear stress is $\tau_{max} = 50MPa$ we have that $A = \frac{\textbf{P} 
 }{\tau_{max}} = \frac{6928.2N}{50MPa} = 1.386\times10^{-4}m^2\Rightarrow d = .0133m$.
 
 ![](SPTraction4.png)
