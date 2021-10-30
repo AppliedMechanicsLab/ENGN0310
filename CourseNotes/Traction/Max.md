@@ -9,11 +9,11 @@ For an axially loaded bar, seen above, we want to know what the maximum normal, 
 
 For a bar with height $h$ and thickness $t$ the cross sectional area when $\theta = 0°$ is $A = th$. Notice that $t$ does not change with $\theta$, but the other dimension will, and as in the triangle in the figure above we have that $A(\theta) = tx=\frac{th}{sin(90° - \theta)} = \frac{A}{cos(\theta)}$. Then our linear system of equations simplifies to $\frac{Pcos(\theta)}{A}= \sigma cos(\theta) + \tau sin(\theta)$ and $0= \sigma sin(\theta) - \tau cos(\theta)$, which in matrix form is written as 
 
-$$\begin{pmatrix}cos(\theta) & sin(\theta)\\\ sin(\theta) & -cos(\theta)\end{pmatrix} \begin{pmatrix}\sigma \\\ \tau \end{pmatrix} =\begin{pmatrix}\frac{Pcos(\theta)}{A} \\\  0 \end{pmatrix} $$
+$$\begin{pmatrix}cos(\theta) & sin(\theta)\\ sin(\theta) & -cos(\theta)\end{pmatrix} \begin{pmatrix}\sigma \\ \tau\end{pmatrix} =\begin{pmatrix}\frac{Pcos(\theta)}{A} \\  0 \end{pmatrix} $$
 
 Then 
 
-$$ \begin{pmatrix}\sigma \\\ \tau \end{pmatrix} = \begin{pmatrix}cos(\theta) & sin(\theta)\\\ sin(\theta) & -cos(\theta)\end{pmatrix}^{-1}\begin{pmatrix}\frac{Pcos(\theta)}{A} \\\  0 \end{pmatrix} =\begin{pmatrix}cos(\theta) & sin(\theta)\\\ sin(\theta) & -cos(\theta)\end{pmatrix}\begin{pmatrix}\frac{Pcos(\theta)}{A} \\\  0 \end{pmatrix}$$
+$$ \begin{pmatrix}\sigma \\ \tau\end{pmatrix} = \begin{pmatrix}cos(\theta) & sin(\theta)\\ sin(\theta) & -cos(\theta)\end{pmatrix}^{-1}\begin{pmatrix}\frac{Pcos(\theta)}{A} \\ 0\end{pmatrix} =\begin{pmatrix}cos(\theta) & sin(\theta)\\ sin(\theta) & -cos(\theta)\end{pmatrix}\begin{pmatrix}\frac{Pcos(\theta)}{A} \\  0 \end{pmatrix}$$
 
 so $\sigma(\theta) = \frac{P }{A}cos^2(\theta)$ and $\tau(\theta) = \frac{P }{A}cos(\theta)sin(\theta)$. 
 
