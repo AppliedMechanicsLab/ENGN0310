@@ -1,4 +1,5 @@
 {% include mathjax_support %}
+{% include latex %}
 {% include command %}
 
 ![](Traction1.PNG)
