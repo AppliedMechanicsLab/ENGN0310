@@ -19,7 +19,7 @@ From the force balance in the figure above we can see that the shear force, para
 
 ![](SPTraction8.png)
 
-From the figure above we have that $\textbf{P}_u = \left(3464.1N, -2000N \right)$ and $\textbf{P}_d = \left(0, -4000N \right)$, then $\textbf{P} = \textbf{P}_u+\textbf{P}_d = \left(3464.1N, -6000N \right)$, so in the direction of maximum shear the shear force on the axel is $ \lVert\textbf{P}\rVert = \sqrt{(3464.1N)^2+(-6000N)^2} = 6928.2N$, then since the maximum allowable shear stress is $\tau_{max} = 50MPa$ we have that $A = \frac{\lVert\textbf{P}\rVert 
+From the figure above we have that $\textbf{P}\_u = \left(3464.1N, -2000N \right)$ and $\textbf{P}_d = \left(0, -4000N \right)$, then $\textbf{P} = \textbf{P}\_u+\textbf{P}\_d = \left(3464.1N, -6000N \right)$, so in the direction of maximum shear the shear force on the axel is $ \lVert\textbf{P}\rVert = \sqrt{(3464.1N)^2+(-6000N)^2} = 6928.2N$, then since the maximum allowable shear stress is $\tau\_{max} = 50MPa$ we have that $A = \frac{\lVert\textbf{P}\rVert 
 }{\tau_{max}} = \frac{6928.2N}{50MPa} = 1.386\times10^{-4}m^2\Rightarrow d = .0133m$.
 
 ![](SPTraction4.png)
