@@ -11,7 +11,7 @@ Stress/strain tensors are concepts that help us describe the stress state and de
 Now recall that in 1D-case, we only needed Young's modulus to relate stress ($\frac{F}{A}$) to strain ($\frac{\delta}{L}$). How do we relate stress tensor to strain tensor? To describe the relation between stress and strain tensors, we actually need two material properties. With this motivation, we will introduce another material property, Poisson's ratio, which is a measure of the deformation of a material in a direction perpendicular to specific loading.
 
 
-In this lab, you will be given a silicone strip with three squares drawn on it, as shown below. We will put this under uni-axial tension to 1) familiarize yourself with the concept of stress/strain tensors, and 2) see and measure the Poisson's effect in action.
+In this lab, you will be given a silicone strip with three squares drawn on it, as shown below. We will put this under uni-axial tension to 1) become familiar with the concept of stress/strain tensors, and 2) see and measure the Poisson's effect in action.
 
 <img src="SiliconeStrip.png" alt="drawing" width="250"/>
 <img src="Schematic-01.png" alt="drawing" width="220"/>
@@ -111,6 +111,7 @@ where $E$ is Young's modulus, and $\nu$ is the Poisson's ratio. You will obtain 
     * Width: $2.54~\rm mm$
     * Thickness: $3.175 \rm mm$
     * Young' Modulus: $1-5~\rm MPa$
+    * Poisson's ratio $0.48~0.495$
 3. Phone
 4. Others: vernier caliper and regular ruler.
 
@@ -169,6 +170,8 @@ Now you can solve for the value of $\nu$. You can start by looking at the stress
 $$
 \sigma_{22}=\frac{E}{1-\nu^2}(\nu \epsilon_{11}+\epsilon_{22})
 $$
+
+In general, rubber is considered a nearly incompressible material, meaning its Poisson ratio values is very close to 0.5. Is the value from your experiment close to 0.5?
 
 ### <b> Task 5A:  Complete the strain tensor </b>
 Is there any other non-zero component of the strain tensor that you have not considered yet? Compute any that you think should be non-zero using the stress-strain relation given above in the Theory section.
