@@ -100,7 +100,11 @@ $$
 $$
 \epsilon_{33}=\frac{-\nu}{E}(\sigma_{11}+\sigma_{22})
 $$
+
+
 where $E$ is Young's modulus, and $\nu$ is the Poisson's ratio. You will obtain both $E$ and $\nu$ from the experiment.
+
+<br>
 
 ## 4. Equipment and Materials
 
