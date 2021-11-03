@@ -20,7 +20,7 @@
 
 $$
 \begin{equation}
-\sigma_{\rm max,min}=\frac{\sigma_x+\sigma_y}{2} \pm \sqrt{\left(\frac{\sigma_x-\sigma_y}{2}\right)^2+\tau_{xy}^2}
+\sigma_{\rm max,min}=\frac{\sigma_{11}+\sigma_{22}}{2} \pm \sqrt{\left(\frac{\sigma_{11}-\sigma_{22}}{2}\right)^2+\tau_{12}^2}
 \end{equation}
 $$
 
@@ -28,7 +28,7 @@ $$
 
 $$
 \begin{equation}
-\tan 2\theta_p=\frac{2\tau_{xy}}{\sigma_x-\sigma_y}
+\tan 2\theta_p=\frac{2\tau_{12}}{\sigma_{11}-\sigma_{22}}
 \end{equation}
 $$
 
@@ -44,7 +44,7 @@ $$
 
 $$
 \begin{equation}
-\tau_{\rm max}=\sqrt{\left(\frac{\sigma_x-\sigma_y}{2}\right)^2+\tau_{xy}^2}
+\tau_{\rm max}=\sqrt{\left(\frac{\sigma_{11}-\sigma_{22}}{2}\right)^2+\tau_{12}^2}
 \end{equation}
 $$
 
@@ -58,7 +58,7 @@ $$
 
 $$
 \begin{equation}
-\tan 2\theta_s=-\frac{\sigma_x-\sigma_y}{2\tau_{xy}}
+\tan 2\theta_s=-\frac{\sigma_{11}-\sigma_{22}}{2\tau_{12}}
 \end{equation}
 $$
 
@@ -89,7 +89,7 @@ $$
 
  <u> Problem 2 (10 pts) </u>
 
-* For the state of plane stress shown, determine the value of $τ_{xy}$ for which the in-plane shearing stress parallel to the weld is zero.
+* For the state of plane stress shown, determine the value of $τ_{12}$ for which the in-plane shearing stress parallel to the weld is zero.
 <br/>
 
  <br/>
