@@ -86,21 +86,16 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 
  <u> Problem 2 (10 pts) </u>
 
-* Consider a solid cylindrical steel shaft of length $15~\rm{cm}$,  whose cross-section is a circle of diameter $2~\rm{cm}$. If the angle of twist at the right face is $\pi/3~\rm{rad}$, what is the torque applied to the shaft?
+* For the state of plane stress shown, determine the value of τxy for which the in-plane shearing stress parallel to the weld is zero.
 <br/>
 
 <u> Problem 3 (10 pts total) </u>
-* (5 pts) (i) What is the ratio of Shear modulus $G$ of the materials of two shafts if the shafts are of the same size and their angle of twist are in the ratio 5/3 when subjected to equal torque?
-
-* (5 pts) (ii) Consider two shafts of different diameters, one made of steel and the other made of titanium alloy. Determine the diameter of each shaft if for both shafts, the applied torque is $240~\rm{N\cdot m}$, length of the shaft is $6~\rm{m}$, and the angle of twist at the end face is $45^{\circ}.$
+* Two wooden members of $80 \times 120~\rm mm$ uniform rectangular cross section are joined by the simple glued scarf splice shown. Knowing that $\beta = 25^{o}$ and that centric loads of magnitude $P = 10 ~\rm kN$ are applied to the members as shown, determine (a) the in-plane shearing stress parallel to the splice, (b) the normal stress perpendicular to the splice.
 <br/>
 
 <u> Problem 4 (15 pts total) </u>
 
-* A $8~\rm{m}$ long shaft with a circular cross-sectional area of diameter $6~\rm{cm}$ is subjected to a torque of $T = 5~\rm{kN \cdot m}$. 
-
-    * (10pts) (i) If the shaft gets twisted by $30^{\circ}$, what is its shear modulus? 
-    * (5pts)(ii) Now, consider that the shaft has an inner core of $3~\rm{cm}$ diameter as shown below. What is the percentage of the torque carried out by this inner core? You can assume that the core is also made out of the same material, and that the inner core undergo the same angle of twist ($30^{\circ}$ at the right end).
+* The centric force P is applied to a short post as shown. Knowing that the stresses on plane a-a are σ = −15 ksi and τ = 5 ksi, determine (a) the angle β that plane a-a forms with the horizontal, (b) the maximum compressive stress in the post.
 
  <br/>
     <center>
@@ -110,11 +105,7 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 
 <u> Problem 5 (15 pts total) </u>
 
-* A $3~\rm{m}$ long shaft with a with a circular cross-sectional area of diameter $5~\rm{cm}$ is subjected to a force couple as shown below, where $F = 15~\rm{kN}$. 
-
-    * (5pts) (i) What is the torque $T$ acting on the shaft?    
-    * (5pts) (ii)  If the shaft gets twisted by $30^{\circ}$, what is its shear modulus?
-    * (5pts) (iii))  Determine the angle of twist half-way along the length of the shaft.
+* For the given state of stress, determine (a) the maximum and minimum in-plane normal stress, (b) the orientation of the planes of the maximum and minimum in-plane normal stress.
 
  <br/>
     <center>
@@ -123,30 +114,11 @@ When you take $T$, $G$, and $J$ to be constant along the shaft's length and take
 
 
 <u> Problem 6 (20 pts total) </u>
-* A smaller steel shaft $\rm{AB}$ of diameter $\rm{d_{AB}}= 50~\rm{mm}$ and length $\rm{L_{AB}}= 1~\rm{m}$ is attached to a larger steel shaft $\rm{BC}$ of diameter $\rm{d_{BC}}= 75~\rm{mm}$ and length $\rm{L_{BC}}= 2~\rm{m}$.  Consider the torque  $\boldsymbol{T}=T \hat{\boldsymbol{E}}_{\rm{a}}$, $T = 3~\rm{kN \cdot m} $ acting at $\rm{A}$ as shown. 
-
-    * (5pts) (i) What are the polar moment of inertia $J$ in shaft $\rm{AB}$ and shaft $\rm{BC}$ respectively?
-    * (5pts) (ii) Determine the angle of twist at point $\rm{B}$.
-    * (5pts) (iii) Determine the angle of twist at point $\rm{A}$.
-    * (5pts) (iv) If the shaft $\rm{BC}$ is made of titanium alloy instead of steel, what is the angle of twist at $\rm{A}$?
+* For the given state of stress, determine (a) the maximum and minimum in-plane shearing stress, (b) the orientation of the planes of the maximum and minimum in-plane shearing stress.
 
  <br/>
     <center>
      <img src="HW4_Prob6fig.png" alt="drawing" width="250"/>
     </center>
 
-
-
-<u> Problem 7 (20 pts total) </u>
-* Now, consider a similar problem but with two torques $T_A = 6~\rm{kN \cdot m}$ and $T_B =12~\rm{kN \cdot m}$ acting at $\rm{A}$ and $\rm{B}$ as shown. All other dimensions/quantities remain the same.
-
-    * (5pts) (i) What are the torques acting in shaft $\rm{AB}$ and shaft $\rm{BC}$ respectively?
-    * (5pts) (ii) Determine the angle of twist at point $\rm{B}$.
-    * (5pts) (iii) Determine the angle of twist at point $\rm{A}$.
-    * (5pts) (iv) If the shaft $\rm{BC}$ is made of titanium alloy instead of steel, what is the angle of twist at $\rm{A}$?
- 
- <br/>
-    <center>
-     <img src="HW4_Prob7fig.png" alt="drawing" width="250"/>
-    </center>
 
