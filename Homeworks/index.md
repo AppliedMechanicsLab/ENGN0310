@@ -9,4 +9,4 @@
 * [Homework4](Homework4.md)
 * [Homework4 Solution](Solution/Homework4-Solution.md)
 * [Homework5](HW5.md)
-
+* [Homework6](HW6.md)
