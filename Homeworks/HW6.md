@@ -17,12 +17,15 @@
 
 --------
 * Maximum and minimum normal stress 
+
 $$
 \begin{equation}
 \sigma_{\rm max,min}=\frac{\sigma_x+\sigma_y}{2} \pm \sqrt{\left(\frac{\sigma_x-\sigma_y}{2}\right)^2+\tau_{xy}^2}
 \end{equation}
 $$
+
 * The planes of maximum and minimum normal stress
+
 $$
 \begin{equation}
 \tan 2\theta_p=\frac{2\tau_{xy}}{\sigma_x-\sigma_y}
@@ -38,6 +41,7 @@ $$
 > Hint: At the plane of $\theta_p$, the shearing stress equals to zero.
 
 * Maximum and minimum shearing stress 
+
 $$
 \begin{equation}
 \tau_{\rm max}=\sqrt{\left(\frac{\sigma_x-\sigma_y}{2}\right)^2+\tau_{xy}^2}
@@ -51,6 +55,7 @@ $$
 $$
 
 * The planes of maximum shearing stress
+
 $$
 \begin{equation}
 \tan 2\theta_s=-\frac{\sigma_x-\sigma_y}{2\tau_{xy}}
