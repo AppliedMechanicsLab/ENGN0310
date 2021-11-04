@@ -133,7 +133,7 @@ where $E$ is Young's modulus, and $\nu$ is the Poisson's ratio. You will obtain 
     * Width: $2.54~\rm mm$
     * Thickness: $3.175 \rm mm$
     * Young' Modulus: $1-5~\rm MPa$
-    * Poisson's ratio $0.48~0.495$
+    * Poisson's ratio $0.48-0.495$
 3. Phone
 4. Others: vernier caliper and regular ruler.
 
