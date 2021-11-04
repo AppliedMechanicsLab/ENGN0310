@@ -131,9 +131,9 @@ where $E$ is Young's modulus, and $\nu$ is the Poisson's ratio. You will obtain 
 
   (b) Clamp the ends of the strip to the Instron machine.
   
-  (c) Set up the Instron machine for tensile  testing at displacement rate of $10~\rm mm/min$ (see [operation of Instron](Instron.md)). You will obtain a csv file containing the raw data (force vs displacement).
+  (c) Set up the Instron machine for tensile  testing at displacement rate of $10~\rm mm/min$ (see [operation of Instron](Instron.md)).
 
-  (d) Set up your phone by the silicone strip and take a picture of the strip before starting the tensile test. Make sure you don't move the phone until after you finish taking picture of the deformed strip in the next step.
+  (d) Using the camera provided, take a picture of the strip before starting the tensile test. Make sure you don't move the camera until after you finish taking picture of the deformed strip in the next step.
 
   (d) Start test, and take the picture of the strip at $10~\rm N$.
 
@@ -166,13 +166,19 @@ Use ImageJ to analyze the deformation, as you've done before in the previous lab
 Now you will find the material properties of the sample
 ***
 ### <b> Task 3A:  Compute Young's modulus </b>
-Take the raw csv file from the experiment and plot the stress-strain curve. Find the best fit of the plotted curve. Is the value that you found in a reasonable range?
-
-### <b> Task 4A:  Compute Poisson's ratio </b>
-Now you can solve for the value of $\nu$. You can start by looking at the stress-strain relation. In particular, it will be the easiest to look at
+Compute Young's modulus from the $\epsilon_{11}$ measurement. Remember that when we take $\sigma_{22}=0$,
 
 $$
-\sigma_{22}=\frac{E}{1-\nu^2}(\nu \epsilon_{11}+\epsilon_{22})
+\epsilon_{11}=\frac{\sigma_{11}}{E}
+$$
+
+
+
+### <b> Task 4A:  Compute Poisson's ratio </b>
+You can do this by noticing that 
+
+$$
+\epsilon_{22}=-\nu\frac{\sigma_{11}}{E}
 $$
 
 In general, rubber is considered a nearly incompressible material, meaning its Poisson ratio values is very close to 0.5. Is the value from your experiment close to 0.5?
