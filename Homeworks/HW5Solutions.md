@@ -19,6 +19,8 @@
 
 **Solution:**
 
+![](./HW6_1.png)
+
 From the free body diagram of the pin above, the shear force inside for the bar is $V = \frac{P}{2}$, so the shear stress is $\tau_{max} = \frac{P_{max}}{2A}\Rightarrow P_{max}=2A\tau_{max} = \frac{\pi}{2}(.015m)^2(60 MPa) = 21.21kN$
 
 
@@ -34,6 +36,8 @@ Reconsider the geometry given for Problem #1. As before, the maximum allowable s
 
 **Solution:**
 
+![](./HW6_2.png)
+
 From the free body diagram of the pin above, the shear force inside for the bar is $V = \frac{P}{2}$, so the shear stress is $\tau_{max} = \frac{P_{max}}{2A}$, where in this case $A = 2(\frac{\pi}{4})(.02m)$ because there are two pins,$P_{max}=2A\tau_{max} = \pi(.02m)^2(210 MPa) = 263.89kN$.
 
 # Problem 3: 10 pts.
@@ -44,12 +48,16 @@ The shear strength of human bone is an important parameter and implants must be 
 
 **Solution:**
 
+![](./HW6_3.png)
+
 From the free body diagram of the pin above, the shear force inside for the bar is $V = \frac{F}{2}$, so the shear stress is $\tau_{max} = \frac{F}{2A} = \frac{600N}{2(150mm^2)} = 2MPa$.
 
 # Problem 4: 20 pts.
 ![](./IMG_1414.JPG)
 
 **Solution:**
+
+![](./HW6_4.png)
 
 From the free body diagram above in the $x$ direction we have that $-A\sigma cos(15°) + A\tau cos(75°) = 0$ and in the $y$ direction $A\sigma sin(15°) + A\tau sin(75°) = P$, so for $P=9000lbs$ and $A = 3in^2$ our system of equations becomes $$\begin{pmatrix} -cos(15°) & cos(75°)\\ sin(15°) & sin(75°)\end{pmatrix} \begin{pmatrix}\sigma \\ \tau \end{pmatrix} = \begin{pmatrix}0 \\ 3000psi \end{pmatrix} \Rightarrow \begin{pmatrix}\sigma \\ \tau \end{pmatrix}=\begin{pmatrix}776.5psi \\ 2897.8psi \end{pmatrix}$$, so the ultimate shear strength of the glue is $\tau_{max} = 2897.8psi$.
 
