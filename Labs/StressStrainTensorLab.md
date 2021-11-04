@@ -4,11 +4,29 @@
 # Lab2: Stress-strain measuring lab
 
 ## 1. Introduction and objective
-Stress/strain tensors are concepts that help us describe the stress state and deformation  of the material, much like how in 1D-case of a bar under uniaxial tension, we were able to fully describe its state through the two values, stress ($\frac{F}{A}$) and strain($\frac{\delta}{L}$). 
+Stress/strain tensors are concepts that help us describe the stress state and deformation  of the material.
 
+<!-- , much like how in 1D-case of a bar under uniaxial tension, we were able to fully describe its state through essentially two values, stress ($\frac{F}{A})$ and mean strain ($\frac{\delta}{L}$).
 
+___
+Note that we call $\frac{\delta}{L}$ "mean strain" due to the following reason:
 
-Now recall that in 1D-case, we only needed Young's modulus to relate stress ($\frac{F}{A}$) to strain ($\frac{\delta}{L}$). How do we relate stress tensor to strain tensor? To describe the relation between stress and strain tensors, we actually need two material properties. With this motivation, we will introduce another material property, Poisson's ratio, which is a measure of the deformation of a material in a direction perpendicular to specific loading.
+You've learned in class the definition of strain, for instance on face whose outward normal is $\hat{\boldsymbol{E}}_1$ and in direction  $\hat{\boldsymbol{E}}_1$, as
+
+$$
+\epsilon_{11}=\frac{\partial u_{1}}{\partial x_{1}}
+$$
+
+If we assume that the displacement field is given by 
+
+$$
+u_{1}=
+$$
+___
+
+Now recall that in 1D-case, we only needed Young's modulus to relate $\frac{F}{A}$ to $\frac{\delta}{L}$. -->
+
+ How do we relate stress tensor to strain tensor? To describe the relation between stress and strain tensors, we need two material properties. We are already familiar with the Young's modulus $E$. We will now introduce another material property, Poisson's ratio, which is a measure of the deformation of a material in a direction perpendicular to specific loading.
 
 
 In this lab, you will be given a silicone strip with three squares drawn on it, as shown below. We will put this under uni-axial tension to 1) become familiar with the concept of stress/strain tensors, and 2) see and measure the Poisson's effect in action.
