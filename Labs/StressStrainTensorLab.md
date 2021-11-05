@@ -172,13 +172,13 @@ where $E$ is Young's modulus, and $\nu$ is the Poisson's ratio. You will obtain 
 
 ### <b> Task 1A: Compute each component of stress tensor </b>
 As discussed in Theory section, we can take $\sigma_{13}=\sigma_{23}=\sigma_{33}=0$. What are the values of the remaining components,  $\sigma_{11}, \sigma_{12}$, and $\sigma_{22}$? 
->Hint: You can take $\sigma_{22}$ to be 0. Can you give a reason why?
+>Hint: You can take $\sigma_{12}=0$ and $\sigma_{22}=0$. Can you explain why?
 
 <br>
  
 
-### <b> Task 2A: Find the values of $\epsilon_{11}$, and $\epsilon_{22}$, and $\epsilon_{12}$. </b>
-Use ImageJ to analyze the deformation, as you've done before in the previous lab. What are the values of $\epsilon_{11}$ and $\epsilon_{22}$? What value does $\epsilon_{12}$ have? 
+### <b> Task 2A: Find the values of $\epsilon_{11}$ and $\epsilon_{22}$. </b>
+Use ImageJ to analyze the deformation, as you've done before in the previous lab. What are the values of $\epsilon_{11}$ and $\epsilon_{22}$? Note that $\epsilon_{12}=0$. Explain why. 
 
 ***
 Now you will find the material properties of the sample
@@ -193,7 +193,7 @@ $$
 
 
 ### <b> Task 4A:  Compute Poisson's ratio </b>
-You can do this by noticing that 
+You can do this by noticing that when $\sigma_{22}=0$,
 
 $$
 \epsilon_{22}=-\nu\frac{\sigma_{11}}{E}
@@ -212,13 +212,13 @@ Is there any other non-zero component of the strain tensor that you have not con
 You will now compute the stress/strain tensor components for the small square.
 ***
 
-### <b> Task 1B: Find the values of $\epsilon_{11}$, and $\epsilon_{22}$, and $\epsilon_{12}$. </b>
-Use ImageJ to analyze the deformation and provide the three values.
+### <b> Task 1B: Find the values of $\epsilon_{11}$ and $\epsilon_{22}$. </b>
+Use ImageJ to analyze the deformation and find $\epsilon_{11}$, and $\epsilon_{22}$. 
 
 <br>
  
 
-### <b> Task 2B:  Compute each component of the strain tensor </b>
+### <b> Task 2B:  Compute each component of the stress tensor </b>
 The assumption $\sigma_{13}=\sigma_{23}=\sigma_{33}=0$ is still valid. What are the values of the remaining components,  $\sigma_{11}, \sigma_{12}$, and $\sigma_{22}$?
 
 > Note that $\sigma_{22}$ is a non-zero value. Write a sentence or two on why it might be more reasonable to assume a non-zero value in this case (you won't get points taken off for not getting this)
