@@ -50,7 +50,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture21 | Oct 27, Wed | Strain |[Link](https://www.dropbox.com/s/nq4rpuof7y01iwn/ENGN0310_Oct27.mp4?dl=0)||
 | Lecture22 | Oct 29, Fri | Strain |[Link](https://www.dropbox.com/s/0tpyuqb2rxs4tfr/ENGN0310_Oct29.mp4?dl=0)||
 | Lecture23 | Nov 01, Mon | Strain |[Link](https://www.dropbox.com/s/itarbi3buahqcgc/ENGN0310_Nov1.mp4?dl=0)||
-| Lecture24 | Nov 03, Wed | Strain |||
+| Lecture24 | Nov 03, Wed | Strain |[Link](https://www.dropbox.com/s/t9175fjejpx0ctf/ENGN0310_Nov3.mp4?dl=0)||
 | Lecture25 | Nov 05, Fri | Beams |||
 | Lecture26 | Nov 08, Mon | Beams|||
 | Lecture27 | Nov 10, Wed | Beams |||
