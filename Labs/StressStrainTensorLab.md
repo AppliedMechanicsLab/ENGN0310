@@ -3,6 +3,7 @@
 
 # Lab2: Stress-strain measuring lab
 
+
 ## 1. Introduction and objective
 Stress/strain tensors are concepts that help us describe the stress state and deformation  of the material.
 
@@ -60,6 +61,7 @@ Stress components are related to strain components as
 <img src="Stress-StrainTensor1.png" alt="drawing" width="500"/>
 
 This is equivalent to writing
+
 <img src="Stress-StrainTensor2.png" alt="drawing" width="380"/>
 
 
@@ -169,10 +171,11 @@ where $E$ is Young's modulus, and $\nu$ is the Poisson's ratio. You will obtain 
 <br>
 
 ## 6.1 Tasks and Analysis -Large square-
+The objective is to describe the stress/strain field of the region specified by the large square, and to find material properties of the silicone strip. In completing Task 6.1, you can assume that the stress/strain field is uniform everywhere within the large square, so that a single stress/strain tensor can be used to describe all points within the large square.
 
 ### <b> Task 1A: Compute each component of stress tensor </b>
 As discussed in Theory section, we can take $\sigma_{13}=\sigma_{23}=\sigma_{33}=0$. What are the values of the remaining components,  $\sigma_{11}, \sigma_{12}$, and $\sigma_{22}$? 
->Hint: You can take $\sigma_{12}=0$ and $\sigma_{22}=0$. Can you explain why?
+>Hint: You can take $\sigma_{12}=0$ and $\sigma_{22}=0$. Can you explain
 
 <br>
  
@@ -209,27 +212,46 @@ Is there any other non-zero component of the strain tensor that you have not con
 ## 6.2 Tasks and Analysis -Small square-
 
 ***
-You will now compute the stress/strain tensor components for the small square.
+You will now compute the stress/strain tensor components for the small square. 
+
+In the above analysis with a larger square, the assumption was that the stress/strain field was uniform within the square, so that any point on the square could be described by a single stress tensor/strain tensor.
+
+
+
+Now, we'll be more precise and notice that this assumption of stress/strain field being uniform -in particular the assumption that $\sigma_{22}=0$ everywhere on the large square-- is unlikely. We will take a smaller region within the larger square as a representative region whose stress/strain field differs from what we derived earlier from the larger square. You can assume that the stress/strain field is uniform within the smaller region (small square).
 ***
 
 ### <b> Task 1B: Find the values of $\epsilon_{11}$ and $\epsilon_{22}$. </b>
-Use ImageJ to analyze the deformation and find $\epsilon_{11}$, and $\epsilon_{22}$. 
+Use ImageJ to analyze the deformation and find $\epsilon_{11}$, and $\epsilon_{22}$. Note that you can take $\epsilon_{12}=0$. Explain why.
 
 <br>
  
 
-### <b> Task 2B:  Compute each component of the stress tensor </b>
-The assumption $\sigma_{13}=\sigma_{23}=\sigma_{33}=0$ is still valid. What are the values of the remaining components,  $\sigma_{11}, \sigma_{12}$, and $\sigma_{22}$?
+### <b> Task 2B:  Stress tensor components and $\nu$ </b>
+The assumption $\sigma_{13}=\sigma_{23}=\sigma_{33}=0$ is still valid. 
 
-> Note that $\sigma_{22}$ is a non-zero value. Write a sentence or two on why it might be more reasonable to assume a non-zero value in this case (you won't get points taken off for not getting this)
+* Note that $\sigma_{12}=0$. Explain why.
 
-> Hint: You can take the values of $E$ and $\nu$ you computed in Tasks 3A and 4A. 
+* We will now assume that $\sigma_{22}$ is a non-zero value. Write a sentence or two on why this might be reasonable assumption to take for the case of a small square (you won't get points taken off for not getting this).
+
+* Now take $E$ computed in Task 3A as the true value. With this and from the relations 
+
+$$
+\begin{align*}
+\sigma_{11}&=\frac{E}{1-\nu^2}(\epsilon_{11}+\nu\epsilon_{22})\\
+\sigma_{22}&=\frac{E}{1-\nu^2}(\nu\epsilon_{11}+\epsilon_{22})
+\end{align*}
+$$
+
+Find the values of $\sigma_{22}$ and $\nu$. How does the value of $\nu$ compare to what you found in Task 4A? If you find a significant difference, what do you think led to the difference despite that $\nu$ is supposed to be a material property, whose value is expected to remain the same everywhere on the material?
+
+
 
 ***
 Now you will find the material properties of the sample
 ***
 ### <b> Task 3B:  Rest of the strain tensor components </b>
-Are there any non-zero components that has not been considered yet? Compute the values if there is any.
+Are there any non-zero components of the strain tensor that has not been considered yet? Compute the values if there is any.
 
 
 <br>
