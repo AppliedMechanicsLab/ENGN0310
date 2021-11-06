@@ -246,10 +246,6 @@ $$
 Find the values of $\sigma_{22}$ and $\nu$. How does the value of $\nu$ compare to what you found in Task 4A? If you find a significant difference, what do you think led to the difference despite that $\nu$ is supposed to be a material property, whose value is expected to remain the same everywhere on the material?
 
 
-
-***
-Now you will find the material properties of the sample
-***
 ### <b> Task 3B:  Rest of the strain tensor components </b>
 Are there any non-zero components of the strain tensor that has not been considered yet? Compute the values if there is any.
 
