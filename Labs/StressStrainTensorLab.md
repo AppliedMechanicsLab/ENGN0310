@@ -175,7 +175,7 @@ The objective is to describe the stress/strain field of the region specified by 
 
 ### <b> Task 1A: Compute each component of stress tensor </b>
 As discussed in Theory section, we can take $\sigma_{13}=\sigma_{23}=\sigma_{33}=0$. What are the values of the remaining components,  $\sigma_{11}, \sigma_{12}$, and $\sigma_{22}$? 
->Hint: You can take $\sigma_{12}=0$ and $\sigma_{22}=0$. Can you explain
+>Hint: You can take $\sigma_{12}=0$ and $\sigma_{22}=0$. Can you explain why?
 
 <br>
  
@@ -222,15 +222,12 @@ Now, we'll be more precise and notice that this assumption of stress/strain fiel
 ***
 
 ### <b> Task 1B: Find the values of $\epsilon_{11}$ and $\epsilon_{22}$. </b>
-Use ImageJ to analyze the deformation and find $\epsilon_{11}$, and $\epsilon_{22}$. Note that you can take $\epsilon_{12}=0$. Explain why.
-
+Use ImageJ to analyze the deformation and find $\epsilon_{11}$, and $\epsilon_{22}$. Note that you can take $\epsilon_{12}=0$ since the assumption that $\sigma_{12}=0$ still holds.
 <br>
  
 
 ### <b> Task 2B:  Stress tensor components and $\nu$ </b>
 The assumption $\sigma_{13}=\sigma_{23}=\sigma_{33}=0$ is still valid. 
-
-* Note that $\sigma_{12}=0$. Explain why.
 
 * We will now assume that $\sigma_{22}$ is a non-zero value. Write a sentence or two on why this might be reasonable assumption to take for the case of a small square (you won't get points taken off for not getting this).
 
@@ -270,16 +267,13 @@ Please use International System of Units (SI), for example using meter and kilog
 
 <br>
 
-## 7. Lab report organization 
+## 8. Lab report organization 
 
 1. **Introduction**: Write a brief statement describing the purpose of the lab.
 
 2. **Methods and Materials**: Describe the experimental setup and procedural details for the experiment.
 
-3. **Results and Discussion**:
-* Following the Data analysis section in Tasks 1-4, generate plots showing your experimental results.
-* For each task, discuss the theoretical aspect that allows you to relate different measurements you obtained, for example, the relationship between force and displacement in Task 1. 
-* Discuss any possible sources of error.
+3. **Results and Discussion**: Answer all questions in the tasks and comment on the associated theoretical aspect. 
 
 4. **Conclusion**: Write a brief statement describing your conclusions and what you learned in the lab.
 
@@ -288,7 +282,7 @@ Please use International System of Units (SI), for example using meter and kilog
 
 <br>
 
-## [8. Lab calendar](https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York)
+## [9. Lab calendar](https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York)
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
