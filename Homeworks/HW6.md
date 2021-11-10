@@ -128,13 +128,16 @@ $$
      <img src="HW6_P5.png" alt="drawing" width="300"/>
     </center>
 
+----
+Problem 6 has been moved to HW7. 
 
-<u> Problem 6 (20 pts total) </u>
+
+<!-- <u> Problem 6 (20 pts total) </u>
 * For the given state of stress, determine (a) (10 pts) the maximum and minimum in-plane shearing stress, (b) (10 pts) the orientation of the planes of the maximum and minimum in-plane shearing stress.
 
  <br/>
     <center>
      <img src="HW6_P6.png" alt="drawing" width="300"/>
     </center>
-
+ -->
 
