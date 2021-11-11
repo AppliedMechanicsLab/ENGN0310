@@ -47,13 +47,13 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture18 | Oct 20, Wed | Stress |[Part 1](https://www.dropbox.com/s/dc5yhn1ieqgwr4v/ENGN0310_Oct20_1.mp4?dl=0) [Part 2](https://www.dropbox.com/s/2yc7yq1q148ylnb/ENGN0310_Oct20_2.mp4?dl=0)||
 | Lecture19 | Oct 22, Fri | Stress |[Link](https://www.dropbox.com/s/5zzydgginmy1vb2/ENGN0310_Oct22.mp4?dl=0)||
 | Lecture20 | Oct 25, Mon | Stress |||
-| Lecture21 | Oct 27, Wed | Strain |||
-| Lecture22 | Oct 29, Fri | Strain |||
-| Lecture23 | Nov 01, Mon | Strain |||
-| Lecture24 | Nov 03, Wed | Strain |||
-| Lecture25 | Nov 05, Fri | Beams |||
-| Lecture26 | Nov 08, Mon | Beams|||
-| Lecture27 | Nov 10, Wed | Beams |||
+| Lecture21 | Oct 27, Wed | Strain |[Link](https://www.dropbox.com/s/nq4rpuof7y01iwn/ENGN0310_Oct27.mp4?dl=0)||
+| Lecture22 | Oct 29, Fri | Strain |[Link](https://www.dropbox.com/s/0tpyuqb2rxs4tfr/ENGN0310_Oct29.mp4?dl=0)||
+| Lecture23 | Nov 01, Mon | Strain |[Link](https://www.dropbox.com/s/itarbi3buahqcgc/ENGN0310_Nov1.mp4?dl=0)||
+| Lecture24 | Nov 03, Wed | Strain |[Link](https://www.dropbox.com/s/t9175fjejpx0ctf/ENGN0310_Nov3.mp4?dl=0)||
+| Lecture25 | Nov 05, Fri | Beams |[Link](https://www.dropbox.com/s/4std7qht1tm8nlt/ENGN0310_Nov5.mp4?dl=0)||
+| Lecture26 | Nov 08, Mon | Beams|[Part 1](https://www.dropbox.com/s/tkwi8vafhptxrwl/ENGN0310_Nov8_1.mp4?dl=0) [Part 2](https://www.dropbox.com/s/6znij3gs96zcaem/ENGN0310_Nov8_2.mp4?dl=0)||
+| Lecture27 | Nov 10, Wed | Beams |[Link](https://www.dropbox.com/s/d9kc5a1i65l09nr/ENGN0310_Nov10.mp4?dl=0)||
 | Lecture28 | Nov 12, Fri | Shearing stresses|||
 | Lecture29 | Nov 15, Mon | Shearing stresses |||
 | Lecture30 | Nov 17, Wed | Deflection of Beams |||

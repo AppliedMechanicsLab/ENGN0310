@@ -58,6 +58,8 @@
 * [Matrix representation of Traction vectors](Traction/TractionsInBars.md)
 * [Normal and shear components of the traction vector](Traction/NormalShearComponents.md)
 * [Shear tractions](Traction/ShearTraction1.md)
+* [Maximum Normal and Shear Stresses in an Axially Loaded Bar](Traction/Max.md)
+* [Solved Problems](Traction/SPTraction.md)
 
 ### Stress
 ### Strain
