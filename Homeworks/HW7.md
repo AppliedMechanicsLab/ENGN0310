@@ -118,7 +118,7 @@ $$
 * (a) Write the stress tensor for the element given below.
 * (b) What is the unit normal vector of the shaded imaginary cut surface?
 * (c) What is the traction on this surface?
-* (d) Find the normal stress vector.
+* (d) Find the normal and the shear stress vectors.
  <br/>
     <center>
      <img src="HW7-fig2.png" alt="drawing" width="400"/>
