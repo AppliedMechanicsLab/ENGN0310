@@ -102,7 +102,7 @@ and $X$ is the coordinate of a material particle in the direction of the shaft's
 
 In the following we will derive the previous equation.
 
-Take the displacement field in a circular shaft of radius $a$ and length $L$ to be
+Take the displacement field in the  shaft  to be
 
 $$
 \begin{align}
@@ -179,7 +179,7 @@ $$
 \breve{\epsilon}_{22}(X_1,X_2,X_3)+\breve{\epsilon}_{33}(X_1,X_2,X_3)
 $$, and $\mu$ is the same as $G$, the shear modulus. In the current case we are going to take that the shear modulus is constant throughout the shaft.
 
-* (10 pts) Let's take shaft to be aligned in the $\hat{\boldsymbol{E}}_3$ direction. Consider an imaginary cut at some $X_3$. The cross-sectional surface on the left part will have  $\hat{\boldsymbol{E}}_3$ as its outward normal. What is the traction vector on the shaft's right face. That is determine 
+* (10 pts) Let's take shaft to be aligned in the $\hat{\boldsymbol{E}}_3$ direction. Consider an imaginary cut at some $X_3$. The cross-sectional surface on the left part, $\Gamma(X_3)$, will have  $\hat{\boldsymbol{E}}_3$ as its outward normal. What is the traction vector on the shaft's right face. That is determine 
 $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be seen by the presenc e of $X_1$, $X_2$, and $X_3$ the traction vector will not be constant on the cross-section. It will vary from point to point on the cross-section. Find the left hand side in the below equation by determining the right hand side in the below equation 
 
 $$
@@ -192,12 +192,13 @@ $$
 * (15 pts) Compute the torque on the cross-sectional surface discussed in the previous part as
 
 $$
-\breve{\boldsymbol{T}}(X_3)=\int_{\Gamma}\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\, d\Gamma 
+\breve{\boldsymbol{T}}(X_3)=\int_{\Gamma(X_3)}\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\, d\Gamma 
 $$
-where 
+where $\Gamma(X_3)$ is the cross-sectional surface at $X_3$. Use the definition of the polar moment of inertia, which is,
 $$
-\Gamma =\{(X_1,X_2)~|~X_1^2+X_2^2<a^2\}
+J(X_3) =\int_{\Gamma(X_3)} X_1^2+X_2^2\, d\Gamma,
 $$
+to simplify your answer.
 
 For computing the integral take $\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)$ as the cross product between $\left[\boldsymbol{X}\right]$, which is
 $$
