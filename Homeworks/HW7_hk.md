@@ -4,7 +4,7 @@
 
 
 # ENGN0310: Homework 7 (100 pts)
-## Due Wednesday 11:59 pm, November 17th, 2021
+## Due Friday 11:59 pm, November 19th, 2021
 
 
 > Please upload your assignment to Canvas.<br/>
