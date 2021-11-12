@@ -110,7 +110,7 @@ $$
 \end{align}
 $$
 
-* (5pts) What is the displacement field?  That is, what are the functions
+* **(5pts) (a)** What is the displacement field? That is, what are the functions
     $\breve{u}_1(X_1,X_2,X_3)$, $\breve{u}_2(X_1,X_2,X_3)$, and $\breve{u}_3(X_1,X_2,X_3)$? Recall that 
     
     $$
@@ -119,7 +119,8 @@ $$
     
     where $i=1,~2,~3$.
 
-* (10 pts) What is the strain field $\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3)$? Determining the strain field is equivalent to determining the components 
+* **(10 pts) (b)** What is the strain field $\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3)$?
+    Determining the strain field is equivalent to determining the components 
 
     $$
     \breve{\epsilon}\_{ij}(X_1,X_2,X_3)
@@ -170,11 +171,11 @@ $$
     $$
 
 
-* (20 pts) Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components 
+* **(20 pts) (c)** Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components 
 
-  $$
-  \breve{\sigma}\_{ij}(X_1,X_2,X_3)
-  $$
+    $$
+    \breve{\sigma}\_{ij}(X_1,X_2,X_3)
+    $$
   
    where $i$, $j=1,~2,~3$. In other words, compute the stress field by determining the nine functions $\breve{\sigma}\_{11}(X_1,X_2,X_3)$, $\breve{\sigma}\_{12}(X_1,X_2,X_3)$,....$\breve{\sigma}\_{32}(X_1,X_2,X_3)$, $\breve{\sigma}\_{33}(X_1,X_2,X_3)$. 
    
@@ -204,7 +205,7 @@ $$
 
     and $\mu$ is the same as $G$, the shear modulus. In the current case, we are going to take that the shear modulus is constant throughout the shaft.
 
-* (10 pts) Let's take shaft to be aligned in the $\hat{\boldsymbol{E}}_3$ direction. Consider an imaginary cut at some $X_3$. The cross-sectional surface on the left part, $\Gamma(X_3)$, will have  $\hat{\boldsymbol{E}}_3$ as its outward normal. What is the traction vector on $\Gamma(X_3)$? That is, determine 
+* **(10 pts) (d)** Let's take shaft to be aligned in the $\hat{\boldsymbol{E}}_3$ direction. Consider an imaginary cut at some $X_3$. The cross-sectional surface on the left part, $\Gamma(X_3)$, will have  $\hat{\boldsymbol{E}}_3$ as its outward normal. What is the traction vector on $\Gamma(X_3)$? That is, determine 
 $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be seen by the presence of $X_1$, $X_2$, and $X_3$, the traction vector will not be constant on the cross-section. It will vary from point to point on the cross-section. Find the left hand side in the below equation by determining the right hand side in the below equation 
 
     $$
@@ -214,7 +215,7 @@ $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be 
     \end{equation}
     $$  
 
-* (15 pts) Compute the torque on the cross-sectional surface discussed in the previous part as
+* **(15 pts) (e)** Compute the torque on the cross-sectional surface discussed in the previous part as
 
     $$
     \breve{\boldsymbol{T}}(X_3)=\int_{\Gamma(X_3)}\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\, d\Gamma 
@@ -248,6 +249,6 @@ $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be 
 
 Draw the Mohr circles for the stress state given in
 
-* (10 pts) Pb.1 of this HW, and
-* (10 pts) Pb.5 of HW 6
+* **(10 pts) (a)** Pb.1 of this HW, and
+* **(10 pts) (b)** Pb.5 of HW 6
 
