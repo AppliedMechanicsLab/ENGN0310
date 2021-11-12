@@ -114,7 +114,7 @@ $$
 
 * (5pts) What is the displacement field. That what are the functions $\breve{u}_1(X_1,X_2,X_3)$, $\breve{u}_2(X_1,X_2,X_3)$, and $\breve{x}_3(X_1,X_2,X_3)$. Recall that $\breve{x}_i(X_1,X_2,X_3)=\breve{x}_i(X_1,X_2,X_3)-X_i$, where $i=1,~2,~3$.
 
-* (10 pts) What is the strain field $\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3)$? Determining the strain field is equivalent to determining the components   $\breve{\epsilon}_{ij}(X_1,X_2,X_3)$, where $i$, $j=1,~2,~3$. That is, determine the nine functions  $\breve{\epsilon}_{11}(X_1,X_2,X_3)$, $\breve{\epsilon}_{12}(X_1,X_2,X_3)$,....$\breve{\epsilon}_{32}(X_1,X_2,X_3)$, $\breve{\epsilon}_{33}(X_1,X_2,X_3)$. Recall the definition of the strain components. 
+* (10 pts) What is the strain field $\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3)$? Determining the strain field is equivalent to determining the components   $\breve{\epsilon}\_{ij}(X_1,X_2,X_3)$, where $i$, $j=1,~2,~3$. That is, determine the nine functions  $\breve{\epsilon}\_{11}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{12}(X_1,X_2,X_3)$,....$\breve{\epsilon}\_{32}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{33}(X_1,X_2,X_3)$. Recall the definition of the strain components. 
 
 $$
 \begin{align}
@@ -157,7 +157,7 @@ $$
 $$
 
 
-* (20 pts) Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components   $\breve{\sigma}_{ij}(X_1,X_2,X_3)$, where $i$, $j=1,~2,~3$. That is, determine the nine functions  $\breve{\sigma}_{11}(X_1,X_2,X_3)$, $\breve{\sigma}_{12}(X_1,X_2,X_3)$,....$\breve{\sigma}_{32}(X_1,X_2,X_3)$, $\breve{\sigma}_{33}(X_1,X_2,X_3)$. Recall the definition of a linear elastic solid. The stress and strain components in a linear elastic solid are give by the Hooke's Law, which states that
+* (20 pts) Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components   $\breve{\sigma}\_{ij}(X_1,X_2,X_3)$, where $i$, $j=1,~2,~3$. That is, determine the nine functions  $\breve{\sigma}\_{11}(X_1,X_2,X_3)$, $\breve{\sigma}\_{12}(X_1,X_2,X_3)$,....$\breve{\sigma}\_{32}(X_1,X_2,X_3)$, $\breve{\sigma}\_{33}(X_1,X_2,X_3)$. Recall the definition of a linear elastic solid. The stress and strain components in a linear elastic solid are give by the Hooke's Law, which states that
 
 $$
 \begin{align}
