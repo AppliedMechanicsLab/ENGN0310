@@ -62,6 +62,8 @@
 * [Solved Problems](Traction/SPTraction.md)
 
 ### Stress
+
+*  [Traction corresponding to a stress tenor](Stress/Traction.md)
 ### Strain
 
 ## Appendix
