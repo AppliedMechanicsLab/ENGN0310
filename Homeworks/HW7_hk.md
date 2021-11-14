@@ -4,12 +4,10 @@
 
 
 # ENGN0310: Homework 7 (100 pts)
-## Due Wednesday 11:59 pm, November 17th, 2021
+## Due Friday 11:59 pm, November 19th, 2021
 
 
 > Please upload your assignment to Canvas.<br/>
-> Contact Sayaka_Kochiyama@brown.edu if you have questions about the problems.   
-
 
 
 #### Some helpful concepts needed for solving the HW problems
@@ -36,7 +34,7 @@ $$
     <center>
      <img src="HW6_S1.png" alt="drawing" width="300"/>
     </center>
-<br/>
+    <br/>
 
 > Hint: At the plane of $\theta_p$, the shearing stress equals to zero.
 
@@ -112,112 +110,145 @@ $$
 \end{align}
 $$
 
-* (5pts) What is the displacement field. That what are the functions $\breve{u}_1(X_1,X_2,X_3)$, $\breve{u}_2(X_1,X_2,X_3)$, and $\breve{x}_3(X_1,X_2,X_3)$. Recall that $\breve{x}_i(X_1,X_2,X_3)=\breve{x}_i(X_1,X_2,X_3)-X_i$, where $i=1,~2,~3$.
+* **(5pts) (a)** What is the displacement field? That is, what are the functions
+    $\breve{u}_1(X_1,X_2,X_3)$, $\breve{u}_2(X_1,X_2,X_3)$, and $\breve{u}_3(X_1,X_2,X_3)$? Recall that 
+    
+    $$
+    \breve{u}_i(X_1,X_2,X_3)=\breve{x}_i(X_1,X_2,X_3)-X_i,
+    $$
+    
+    where $i=1,~2,~3$.
 
-* (10 pts) What is the strain field $\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3)$? Determining the strain field is equivalent to determining the components   $\breve{\epsilon}\_{ij}(X_1,X_2,X_3)$, where $i$, $j=1,~2,~3$. That is, determine the nine functions  $\breve{\epsilon}\_{11}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{12}(X_1,X_2,X_3)$,....$\breve{\epsilon}\_{32}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{33}(X_1,X_2,X_3)$. Recall the definition of the strain components. 
+* **(10 pts) (b)** What is the strain field $\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3)$?
+    Determining the strain field is equivalent to determining the components 
 
-$$
-\begin{align}
-\breve{\epsilon}_{11}(X_1,X_2,X_3)&=
-\frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_1}\\
-\breve{\epsilon}_{22}(X_1,X_2,X_3)&=
-\frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_2}
-\\
-\breve{\epsilon}_{33}(X_1,X_2,X_3)&=
-\frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_3}\\
-\breve{\epsilon}_{12}(X_1,X_2,X_3)&=
-\frac{1}{2}
-\left(
-\frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_2}
-+
-\frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_1}
-\right)
-\\
-\breve{\epsilon}_{21}(X_1,X_2,X_3)&=\breve{\epsilon}_{12}(X_1,X_2,X_3)
-\\
-\breve{\epsilon}_{13}(X_1,X_2,X_3)&=
-\frac{1}{2}
-\left(
-\frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_3}
-+
-\frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_1}
-\right)
-\\
-\breve{\epsilon}_{31}(X_1,X_2,X_3)&=\breve{\epsilon}_{13}(X_1,X_2,X_3)
-\\
-\breve{\epsilon}_{23}(X_1,X_2,X_3)&=
-\frac{1}{2}
-\left(
-\frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_3}
-+
-\frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_2}
-\right)\\
-\breve{\epsilon}_{32}(X_1,X_2,X_3)&=\breve{\epsilon}_{23}(X_1,X_2,X_3)
-\end{align}
-$$
+    $$
+    \breve{\epsilon}\_{ij}(X_1,X_2,X_3)
+    $$
+ 
+    where $i$, $j=1,~2,~3$. In other words, find the strain field by  determining the nine functions  $\breve{\epsilon}\_{11}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{12}(X_1,X_2,X_3)$,....$\breve{\epsilon}\_{32}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{33}(X_1,X_2,X_3)$. 
+    
+    Recall the definition of the strain components:
+
+    $$
+    \begin{align}
+    \breve{\epsilon}_{11}(X_1,X_2,X_3)&=
+    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_1}\\
+    \breve{\epsilon}_{22}(X_1,X_2,X_3)&=
+    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_2}
+    \\
+    \breve{\epsilon}_{33}(X_1,X_2,X_3)&=
+    \frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_3}\\
+    \breve{\epsilon}_{12}(X_1,X_2,X_3)&=
+    \frac{1}{2}
+    \left(
+    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_2}
+    +
+    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_1}
+    \right)
+    \\
+    \breve{\epsilon}_{21}(X_1,X_2,X_3)&=\breve{\epsilon}_{12}(X_1,X_2,X_3)
+    \\
+    \breve{\epsilon}_{13}(X_1,X_2,X_3)&=
+    \frac{1}{2}
+    \left(
+    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_3}
+    +
+    \frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_1}
+    \right)
+    \\
+    \breve{\epsilon}_{31}(X_1,X_2,X_3)&=\breve{\epsilon}_{13}(X_1,X_2,X_3)
+    \\
+    \breve{\epsilon}_{23}(X_1,X_2,X_3)&=
+    \frac{1}{2}
+    \left(
+    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_3}
+    +
+    \frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_2}
+    \right)\\
+    \breve{\epsilon}_{32}(X_1,X_2,X_3)&=\breve{\epsilon}_{23}(X_1,X_2,X_3)
+    \end{align}
+    $$
 
 
-* (20 pts) Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components   $\breve{\sigma}\_{ij}(X_1,X_2,X_3)$, where $i$, $j=1,~2,~3$. That is, determine the nine functions  $\breve{\sigma}\_{11}(X_1,X_2,X_3)$, $\breve{\sigma}\_{12}(X_1,X_2,X_3)$,....$\breve{\sigma}\_{32}(X_1,X_2,X_3)$, $\breve{\sigma}\_{33}(X_1,X_2,X_3)$. Recall the definition of a linear elastic solid. The stress and strain components in a linear elastic solid are give by the Hooke's Law, which states that
+* **(20 pts) (c)** Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components 
 
-$$
-\begin{align}
-\breve{\sigma}_{11}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{11}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
-\breve{\sigma}_{22}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{22}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
-\breve{\sigma}_{33}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{33}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
-\breve{\sigma}_{23}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{23}(X_1,X_2,X_3)\\
-\breve{\sigma}_{13}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{13}(X_1,X_2,X_3)\\
-\breve{\sigma}_{12}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{12}(X_1,X_2,X_3)\\
-\breve{\sigma}_{32}(X_1,X_2,X_3)&=\breve{\sigma}_{23}(X_1,X_2,X_3)\\
-\breve{\sigma}_{31}(X_1,X_2,X_3)&=\breve{\sigma}_{13}(X_1,X_2,X_3)\\
-\breve{\sigma}_{21}(X_1,X_2,X_3)&=\breve{\sigma}_{12}(X_1,X_2,X_3)
-\end{align}
-$$
-where 
-$$
-\text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))=
-\breve{\epsilon}_{11}(X_1,X_2,X_3)+
-\breve{\epsilon}_{22}(X_1,X_2,X_3)+\breve{\epsilon}_{33}(X_1,X_2,X_3)
-$$, and $\mu$ is the same as $G$, the shear modulus. In the current case we are going to take that the shear modulus is constant throughout the shaft.
+    $$
+    \breve{\sigma}\_{ij}(X_1,X_2,X_3)
+    $$
+  
+   where $i$, $j=1,~2,~3$. In other words, compute the stress field by determining the nine functions $\breve{\sigma}\_{11}(X_1,X_2,X_3)$, $\breve{\sigma}\_{12}(X_1,X_2,X_3)$,....$\breve{\sigma}\_{32}(X_1,X_2,X_3)$, $\breve{\sigma}\_{33}(X_1,X_2,X_3)$. 
+   
+    Recall the definition of a linear elastic solid. The stress and strain components in a linear elastic solid are given by the Hooke's Law, which states that
 
-* (10 pts) Let's take shaft to be aligned in the $\hat{\boldsymbol{E}}_3$ direction. Consider an imaginary cut at some $X_3$. The cross-sectional surface on the left part, $\Gamma(X_3)$, will have  $\hat{\boldsymbol{E}}_3$ as its outward normal. What is the traction vector on $\Gamma(X_3)$. That is determine 
-$\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be seen by the presenc e of $X_1$, $X_2$, and $X_3$ the traction vector will not be constant on the cross-section. It will vary from point to point on the cross-section. Find the left hand side in the below equation by determining the right hand side in the below equation 
+    $$
+    \begin{align}
+    \breve{\sigma}_{11}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{11}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
+    \breve{\sigma}_{22}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{22}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
+    \breve{\sigma}_{33}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{33}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
+    \breve{\sigma}_{23}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{23}(X_1,X_2,X_3)\\
+    \breve{\sigma}_{13}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{13}(X_1,X_2,X_3)\\
+    \breve{\sigma}_{12}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{12}(X_1,X_2,X_3)\\
+    \breve{\sigma}_{32}(X_1,X_2,X_3)&=\breve{\sigma}_{23}(X_1,X_2,X_3)\\
+    \breve{\sigma}_{31}(X_1,X_2,X_3)&=\breve{\sigma}_{13}(X_1,X_2,X_3)\\
+    \breve{\sigma}_{21}(X_1,X_2,X_3)&=\breve{\sigma}_{12}(X_1,X_2,X_3)
+    \end{align}
+    $$
 
-$$
-\begin{equation}
-\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right]
-=\left[\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)\right]^{\sf T}\left[\hat{\boldsymbol{E}}_3\right]
-\end{equation}
-$$  
+    where 
 
-* (15 pts) Compute the torque on the cross-sectional surface discussed in the previous part as
+    $$
+    \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))=
+    \breve{\epsilon}_{11}(X_1,X_2,X_3)+
+    \breve{\epsilon}_{22}(X_1,X_2,X_3)+\breve{\epsilon}_{33}(X_1,X_2,X_3)
+    $$ 
 
-$$
-\breve{\boldsymbol{T}}(X_3)=\int_{\Gamma(X_3)}\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\, d\Gamma 
-$$
-where $\Gamma(X_3)$ is the cross-sectional surface at $X_3$. Use the definition of the polar moment of inertia, which is,
-$$
-J(X_3) =\int_{\Gamma(X_3)} X_1^2+X_2^2\, d\Gamma,
-$$
-to simplify your answer.
+    and $\mu$ is the same as $G$, the shear modulus. In the current case, we are going to take that the shear modulus is constant throughout the shaft.
 
-For computing the integral take $\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)$ as the cross product between $\left[\boldsymbol{X}\right]$, which is
-$$
-\begin{bmatrix}
-\boldsymbol{X}
-\end{bmatrix}=
-\begin{bmatrix} 
-X_1\\
-X_2\\
-X_3
-\end{bmatrix},
-$$
-and $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)
+* **(10 pts) (d)** Let's take shaft to be aligned in the $\hat{\boldsymbol{E}}_3$ direction. Consider an imaginary cut at some $X_3$. The cross-sectional surface on the left part, $\Gamma(X_3)$, will have  $\hat{\boldsymbol{E}}_3$ as its outward normal. What is the traction vector on $\Gamma(X_3)$? That is, determine 
+$\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be seen by the presence of $X_1$, $X_2$, and $X_3$, the traction vector will not be constant on the cross-section. It will vary from point to point on the cross-section. Find the left hand side in the below equation by determining the right hand side in the below equation 
+
+    $$
+    \begin{equation}
+    \left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right]
+    =\left[\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)\right]^{\sf T}\left[\hat{\boldsymbol{E}}_3\right]
+    \end{equation}
+    $$  
+
+* **(15 pts) (e)** Compute the torque on the cross-sectional surface discussed in the previous part as
+
+    $$
+    \breve{\boldsymbol{T}}(X_3)=\int_{\Gamma(X_3)}\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\, d\Gamma 
+    $$
+
+    where $\Gamma(X_3)$ is the cross-sectional surface at $X_3$. Use the definition of the polar moment of inertia, which is,
+
+    $$
+    J(X_3) =\int_{\Gamma(X_3)} X_1^2+X_2^2\, d\Gamma,
+    $$
+
+    to simplify your answer.
+
+    For computing the integral take $\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)$ as the cross product between $\left[\boldsymbol{X}\right]$, which is
+
+    $$
+    \begin{bmatrix}
+    \boldsymbol{X}
+    \end{bmatrix}=
+    \begin{bmatrix} 
+    X_1\\
+    X_2\\
+    X_3
+    \end{bmatrix},
+    $$
+
+    and $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)
 \right]$.
 
 <u> Problem 3 (20pts)  Mohr circle. </u>
 
 Draw the Mohr circles for the stress state given in
 
-* (10 pts)  Pb.1 of this HW, and
-* (10 pts) Pb.5 of HW 6
+* (10 pts) (a) Pb.1 of this HW, and
+* (10 pts) (b) Pb.5 of HW 6
 
