@@ -64,6 +64,8 @@
 ### Stress
 
 *  [Traction corresponding to a stress tenor](Stress/Traction.md)
+* [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
+
 ### Strain
 
 ## Appendix
