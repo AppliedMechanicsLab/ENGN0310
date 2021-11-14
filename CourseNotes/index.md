@@ -67,6 +67,10 @@
 * [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
 
 ### Strain
+* [Strain definition](Strain/Strain1.md)
+### Hooke's Law
+
+
 
 ## Appendix
 
