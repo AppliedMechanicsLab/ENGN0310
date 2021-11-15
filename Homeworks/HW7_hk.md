@@ -250,5 +250,5 @@ $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be 
 Draw the Mohr circles for the stress state given in
 
 * (10 pts) (a) Pb.1 of this HW, and
-* (10 pts) (b) Pb.5 of HW 6
+* (10 pts) (b) Pb.1 of HW6
 
