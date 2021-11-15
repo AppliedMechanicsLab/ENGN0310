@@ -43,7 +43,7 @@ $$
 
 The maximum value of $\|\tau(\phi)\|$ will be the absolute value of the maximum value of $\tau(\phi)$ and/or the absolute value of the minimum  value of $\tau(\phi)$. Therefore, we will next determine the maximum and minimum values of  $\tau(\phi)$.
 
-The  maximum and minimum value of $\tau(\cdot)$ occurs at those $\phi$ at which the derivative of $\tau(\cdot)$ vanishes. Let us define $\phi\_s$ as those $\phi$ at which the derivative of $\phi(\cdot)$ vanishes. Differentiating the function $\tau(\cdot)$, and setting it to be equal to zero at $\phi_s$ we get that 
+The  maximum and minimum value of $\tau(\cdot)$ occurs at those $\phi$ at which the derivative of $\tau(\cdot)$ vanishes. Let us define $\phi\_s$ as those $\phi$ at which the derivative of $\tau(\cdot)$ vanishes. Differentiating the function $\tau(\cdot)$, and setting it to be equal to zero at $\phi_s$ we get that 
 
 $$
 \begin{equation}
