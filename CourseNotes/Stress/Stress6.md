@@ -53,7 +53,8 @@ $$
 
 Irrespective of values of $a$ and $b$ the above equation will have four roots (see Figure below)
 
-![](2021-11-15-17-59-34.png)
+![](2021-11-15-18-25-33.png)
+<!-- ![](2021-11-15-17-59-34.png) -->
 
 
 We place those four roots into two (disjoint) sets. The first set of $\phi\_s$ are those for which
