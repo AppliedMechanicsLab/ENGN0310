@@ -68,7 +68,7 @@
 * [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
 * [Maximum normal stress](Stress/Stress4.md)
 *  [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
-* [Maximum shear stress](Stress/Stress6.md)
+* :construction: [Maximum shear stress](Stress/Stress6.md)
 * [Mohr circle](Stress/Stress7.md)
 ### Strain
 * [Strain definition](Strain/Strain1.md)
