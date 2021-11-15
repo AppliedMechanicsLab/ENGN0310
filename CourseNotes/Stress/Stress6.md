@@ -40,7 +40,7 @@ b&:=\sigma_{12}.
 \end{align}
 $$
 
-The maximum value of $|\tau(\phi)|$ will be the absolute value of the maximum value of $\tau(\phi)$ and/or the absolute value of the minimum  value of $\tau(\phi)$. Therefore, we will next determine the maximum and minimum v alues of  $\tau(\phi)$.
+The maximum value of $\|\tau(\phi)\|$ will be the absolute value of the maximum value of $\tau(\phi)$ and\/or the absolute value of the minimum  value of $\tau(\phi)$. Therefore, we will next determine the maximum and minimum values of  $\tau(\phi)$.
 
 The  maximum and minimum value of $\tau(\cdot)$ occurs at those $\phi$ at which the derivative of $\phi(\cdot)$ vanishes. Let us define $\phi\_s$ as those at which the derivative of $\phi(\cdot)$ vanishes. That, 
 
@@ -89,7 +89,7 @@ $$
 \end{align}
 $$
 
-Thus, for the first set of $\phi\_s$ the function $\tau(\cdot)$ attains a maximum value and for the second set of $\phi\_s$ the function $\tau(\cdot)$ attains a minimium value. Since the absolute value of $\tau(\cdot)$'s maximum and minimum values are equal, the maximum of $|\phi(\cdot)|$ occurs at both sets of $\phi\_s$. 
+Thus, for the first set of $\phi\_s$ the function $\tau(\cdot)$ attains a maximum value and for the second set of $\phi\_s$ the function $\tau(\cdot)$ attains a minimium value. Since the absolute value of $\tau(\cdot)$'s maximum and minimum values are equal, the maximum of $\|\phi(\cdot)\|$ occurs at both sets of $\phi\_s$. 
 
 
 Since the maximum of $|\phi(\cdot)|$ occurs at both sets, Set-I and II, one might wonder what use there is in partitioning the $\phi\_s$ into the two sets. Or, why distinguish between the two sets of $\phi\_s$. Distinguising between the two sets is not withpout its use. Since, for $\phi\_s$ belonging to the  first set $\tau(\phi)$ is positive and hence the shear component of the traction vector, $\boldsymbol{t}\_s$,  points in the direction of $\hat{\boldsymbol{m}}$ and for  $\phi\_s$ belonging to the second set $\boldsymbol{t}\_s$ points in direction $-\hat{\boldsymbol{m}}$. 
