@@ -62,7 +62,19 @@
 * [Solved Problems](Traction/SPTraction.md)
 
 ### Stress
+
+*  [Traction corresponding to a stress tenor](Stress/Traction.md)
+* [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
+* [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
+* [Maximum normal stress](Stress/Stress4.md)
+*  [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
+* :construction: [Maximum shear stress](Stress/Stress6.md)
+* [Mohr circle](Stress/Stress7.md)
 ### Strain
+* [Strain definition](Strain/Strain1.md)
+### Hooke's Law
+
+
 
 ## Appendix
 
