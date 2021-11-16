@@ -55,7 +55,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture26 | Nov 08, Mon | Beams|[Part 1](https://www.dropbox.com/s/tkwi8vafhptxrwl/ENGN0310_Nov8_1.mp4?dl=0) [Part 2](https://www.dropbox.com/s/6znij3gs96zcaem/ENGN0310_Nov8_2.mp4?dl=0)||
 | Lecture27 | Nov 10, Wed | Beams |[Link](https://www.dropbox.com/s/d9kc5a1i65l09nr/ENGN0310_Nov10.mp4?dl=0)||
 | Lecture28 | Nov 12, Fri | Shearing stresses|[Link](https://www.dropbox.com/s/8zyv3omo8p39kg0/ENGN0310_Nov12.mp4?dl=0)||
-| Lecture29 | Nov 15, Mon | Shearing stresses |||
+| Lecture29 | Nov 15, Mon | Shearing stresses |[Link](https://www.dropbox.com/s/sn3166qo5s13nov/ENGN0310_Nov15.mp4?dl=0)||
 | Lecture30 | Nov 17, Wed | Deflection of Beams |||
 | Lecture31 | Nov 19, Fri | Deflection of Beams |||
 | Lecture32 | Nov 22, Mon | Deflection of Beams |||
