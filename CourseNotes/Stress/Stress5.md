@@ -52,7 +52,7 @@ $$
 \begin{align}
 \left.\left[\boldsymbol{t}_s\right]\right|_{\text{plane stress}}&=
 \left(
--\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \theta)+\sigma_{12} \cos(2 \theta)\right) \begin{bmatrix}
+-\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \phi)+\sigma_{12} \cos(2 \phi)\right) \begin{bmatrix}
 -\sin(\phi)\\
 \cos(\phi)\\
 0
@@ -65,7 +65,7 @@ Defining
 $$
 \begin{equation}
 \tau(\phi):=\left(
--\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \theta)+\sigma_{12} \cos(2 \theta)\right)
+-\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \phi)+\sigma_{12} \cos(2 \phi)\right)
 \end{equation}
 $$
 we get that
