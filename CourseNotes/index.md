@@ -75,8 +75,12 @@
 * :construction::construction: [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
 * :construction: [Maximum shear stress](Stress/Stress6.md)
 * :construction: :construction: [Mohr circle](Stress/Stress7.md)
+
+
 ### Strain
+
 * [Strain definition](Strain/Strain1.md)
+
 ### Hooke's Law
 
 
