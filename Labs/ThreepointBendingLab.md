@@ -49,7 +49,7 @@ Brown Design Workshop
 
 #### <u>Steps: </u>
 
-(a) You will be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions denoted as $A, B, C$ of the spagetti using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 20~\rm mm$
+(a) You will be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions denoted as $A, B, C$ of the spagetti using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $5.75~\rm mm$
 
 <!--
 <u>figure of spagetti </u>
@@ -99,7 +99,7 @@ Brown Design Workshop
 
 #### <u>Steps: </u>
 
-(a) You will each be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions  denoted as $A, B, C$ of spaghetto using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 20~\rm mm$. 
+(a) You will each be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions  denoted as $A, B, C$ of spaghetto using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 5.75~\rm mm$. 
 
 
 (b) Mark multiple positions on the spagetti from point $A$ to point $C$ with uniform distance. The distance is $\frac{1}{6} L$, where $L$ is the distance from $A$ to $C$.
@@ -130,7 +130,7 @@ Brown Design Workshop
 
 (e) Take a picture of the spagetti before loading.
 
-(f) Apply displacement of $4~\rm mm$ using the fine control jog on the Instron control panel. Record the displacement reading displayed on the panel and take a picture of the deformed spagetti. 
+(f) Apply displacement of $8~\rm mm$ using the fine control jog on the Instron control panel. Record the displacement reading displayed on the panel and take a picture of the deformed spagetti. 
 
 
 <!--
@@ -140,7 +140,6 @@ Brown Design Workshop
 </center>
 -->
 
-(g) Repeat step (f) for the displacement of $8~\rm mm$.
 
 #### <u>Data analysis: </u>
   * For each displacement loading, you have two pictures of the specimen, before and after loading. You can measure the deflection of each marked position using ImageJ, which can be downloaded [here](https://imagej.nih.gov/ij/download.html). See [Detailed guidance to using ImageJ](ImageJguide.md) for how to use the software.
