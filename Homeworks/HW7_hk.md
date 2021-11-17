@@ -123,7 +123,7 @@ $$
     Determining the strain field is equivalent to determining the components 
 
     $$
-    \breve{\epsilon}\_{ij}(X_1,X_2,X_3)
+    \breve{\epsilon}_{ij}(X_1,X_2,X_3)
     $$
  
     where $i$, $j=1,~2,~3$. In other words, find the strain field by  determining the nine functions  $\breve{\epsilon}\_{11}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{12}(X_1,X_2,X_3)$,....$\breve{\epsilon}\_{32}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{33}(X_1,X_2,X_3)$. 
