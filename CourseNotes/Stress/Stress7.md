@@ -42,7 +42,7 @@ $$
 \end{align}
 $$
 
-A mathematica code to plot the Mohr's circle is [here](./WFiles/MohrsCircle.nb)
+A mathematica code to plot the Mohr's circle is [here](./WFiles/MohrCircle.nb)
 
 
 [^1]: Think of $\mathbb{T}^2$ as the two-dimensional plane $\mathbb{R}^2$. It is distinct from $\mathbb{R}^2$ in the fact that the points in it have units of $\rm N/m^2$, whereas the  points in $\mathbb{R}^2$ are non-dimensional.
