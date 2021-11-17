@@ -1,36 +1,66 @@
 
-# Lab2: Three point bending testing lab
+# Lab3: Three point bending testing lab
 
 ## 1. Introduction and objective
 In applied mechanics, bending characterize the behavior of a slender structural element, like a bar, subjected to an lateral load, that is, forces or moments having their vectors perpendicular to the  axis of the element.
 There are many classical bending theories to analyze the bending behavior of materials, such as Euler-Bernoulli bending theory, which we will cover in the class.
 
-In this lab, we will conduct a three point bending test and compare the deflection with the predicetd deflection from the theory (see schematics below).
+In this lab, we will conduct a three point bending test on spagetti and compare the deflection with the predicted deflection from the theory (see schematics below).
+Through the test, we also want to obtain the Young's modulus and flexural strength of the spagetti.
 
+ <center>
 <img src="lab2.png" alt="drawing" width="600"/>
+</center>
+
 
 ## 2. Location
 Brown Design Workshop
+<br>  
 
 ## 3. Theory
+### Deflection formula of a beam under three point bending test
+### Deflection of the middle position of a beam under three point bending test
+### Flexural strength 
 
 
-
+<br>  
 
 ## 4. Equipment and Materials
 
-1. Instron Universal Testing Systems
+1. Instron 500N 5942 testing machine
+2. Spagetti
+3. Phone
+4. Others: vernier caliper and regular ruler.
 
+    (All materials/equipments will be provided except for the phone)
 
-## 5. Experimental setup
+<br>   
 
+## 5. Experimental setup and tasks
 
-## 6. Tasks and Analysis
+### Task 1: Calculate the Young's modulus of the spagetti 
 
+#### Steps
 
-<br>
+#### Data analysis
 
-## 7. Lab report guidelines
+<br>  
+
+### Task 2: Calculate the flexural strength of the spagetti 
+
+#### Data analysis
+
+<br>  
+
+### Task 3: Compare the deflection of the spagetti under 3 point bending test with the predicted deflection from the theory
+
+#### Steps
+
+#### Data analysis
+
+<br>  
+
+## 6. Lab report guidelines
 1. The lab report should be written as a single, professional-prepared document for each student. 
 Please organize your report using the structure given on the next Section: Lab report organization. 
 Please use International System of Units (SI), for example using meter and kilogram instead of inch and pounds.
@@ -48,7 +78,7 @@ Please use International System of Units (SI), for example using meter and kilog
 
 <br>
 
-## 8. Lab report organization 
+## 7. Lab report organization 
 
 1. **Introduction**: Write a brief statement describing the purpose of the lab.
 
@@ -63,7 +93,7 @@ Please use International System of Units (SI), for example using meter and kilog
 
 <br>
 
-## [9. Lab calendar](https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York)
+## [8. Lab calendar](https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York)
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_ftk0rj4uauudpfmcmm22plq5ig%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
