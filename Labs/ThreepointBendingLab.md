@@ -18,9 +18,14 @@ Brown Design Workshop
 <br>  
 
 ## 3. Theory
-### Deflection formula of a beam under three point bending test
-### Deflection of the middle position of a beam under three point bending test
-### Flexural strength 
+### a) Deflection formula of a beam under three point bending test
+<br>  
+
+### b) Deflection of the middle position of a beam under three point bending test
+
+<br>  
+
+### c) Flexural strength 
 
 
 <br>  
@@ -40,23 +45,60 @@ Brown Design Workshop
 
 ### Task 1: Calculate the Young's modulus of the spagetti 
 
-#### Steps
+#### <u>Steps: </u>
 
-#### Data analysis
+(a) You will be given a spaghetto. Measure its diameter using the vernier caliper provided. Then mark three positions of spaghetto using marker pen. We will apply loads on these three positions. The distance between neighboring points is $ 20~\rm mm$
+
+(b) Place the spaghetto on the fixture following the marked line made in (a).
+
+(c) Set up the Instron machine for compression testing at displacement rate of $5~\rm mm/min$ and the end condition as $30 ~\rm mm $.
+
+(d) Start test until the spaghetto fails.
+
+(e) Save the raw data of displacement and loading force time series
+
+<br> 
+
+#### <u>Data analysis: </u>
+ * Plot the force vs. displacement curve.
+
+ * Choose 5 points of the curve, whose displacement is $3,4,5,6,7,8 ~\rm mm$, respectively. Then calculate and plot the Young's modulus of each point. Is the Young's modulus constant? Add a horizontal line to fit the data.
+
+ * Calculate the Young’s modulus as an average of the computed values.
 
 <br>  
 
 ### Task 2: Calculate the flexural strength of the spagetti 
 
-#### Data analysis
+
+#### <u>Data analysis: </u>
+ * From the plot of force vs. displacement of the spagetti, calculate the flexural strength.
+
 
 <br>  
 
 ### Task 3: Compare the deflection of the spagetti under 3 point bending test with the predicted deflection from the theory
 
-#### Steps
+#### <u>Steps: </u>
 
-#### Data analysis
+(a) You will each be given a spaghetto. Measure its diameter using the vernier caliper provided. Then mark three positions denoted as $A, B, C$ of spaghetto using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 20~\rm mm$. 
+
+(b) Mark multiple positions on the spagetti from point $A$ to point $C$ with uniform distance. The distance is $\frac{1}{6} L$, where L is the length of $AC$.
+
+(c) Place the spaghetto on the fixture following the marked points ($A, B, C$) made in (a).
+
+(d) Fix a camera at a certain distance from the spagetti. You can choose any camera you'd like as long as you can transfer the images to your computer. Your phone would be a good choice and we will provide a tripod to hold the camera. Next to your spagetti, place a ruler or an object of known length, and make sure that both the spagetti and your ruler or object are in focus on your camera. (You will use the image of the ruler or object later to calibrate your pixel to millimeter conversion). 
+
+(e) Take a picture of the spagetti before loading.
+
+(f) Apply displacement of $4~\rm mm$ using the fine control jog on the Instron control panel. Record the displacement reading displayed on the panel and take a picture of the deformed spagetti. 
+
+(g) Repeat step (f) for the displacement of $8~\rm mm$.
+
+#### <u>Data analysis: </u>
+  * For each displacement loading, you have two pictures of the specimen, before and after loading. You can measure the deflection of each marked position using ImageJ, which can be downloaded [here](https://imagej.nih.gov/ij/download.html). See [Detailed guidance to using ImageJ](ImageJguide.md) for how to use the software.
+
+  * Plot the deflection of each mark against its position, In the same figure, add a plot of deflection formula from the beam theory. Choose $\frac{X}{L}$ as the x-variable, where $X$ is the position of the mark and $X=0$ for the point A. 
 
 <br>  
 
@@ -84,7 +126,7 @@ Please use International System of Units (SI), for example using meter and kilog
 
 2. **Methods and Materials**: Describe the experimental setup and procedural details for the experiment.
 
-3. **Results and Discussion**: Answer all questions in the tasks and comment on the associated theoretical aspect. 
+3. **Results and Discussion**: Complete all tasks, comment on the associated theoretical aspect, and discuss any possible sources of error.
 
 4. **Conclusion**: Write a brief statement describing your conclusions and what you learned in the lab.
 
