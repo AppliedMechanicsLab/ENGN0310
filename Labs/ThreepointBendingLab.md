@@ -1,3 +1,5 @@
+{% include mathjax_support %}
+{% include command %}
 
 # Lab3: Three point bending testing lab
 
