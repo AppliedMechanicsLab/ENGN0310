@@ -21,15 +21,50 @@ Brown Design Workshop
 
 ## 3. Theory
 ### a) Deflection formula of a beam under three point bending test
+
+ <center>
+<img src="lab31.png" alt="drawing" width="600"/>
+</center>
+
+The deflection formula of the beam under three point bending:
+$$
+\begin{equation}
+y(x)=\frac{PL^3}{24EI}(-(\frac{x}{L})^4+2(\frac{x}{L})^3-\frac{x}{L}),
+\end{equation}
+$$
+where $E$ is the Young's modulus of the beam and $I$ is the moment of inertia of the area of the cross section of the beam. For a disk with radius of $r$, $I=\frac{1}{4}\pi r^4$.
 <br>  
 
-### b) Deflection of the middle position of a beam under three point bending test
+### b) Deflection of the middle position $y_C$ of a beam under three point bending test
+$$
+\begin{equation}
+y_C=y(\frac{L}{2})=-\frac{5PL^3}{384EI}.
+\end{equation}
+$$
+Hence, if $y_C$ is given, the deflection formula of the beam can be expressed as 
+$$
+\begin{equation}
+y=-\frac{16y_C}{5}((\frac{x}{L})^4-2(\frac{x}{L})^3+\frac{x}{L}).
+\end{equation}
+$$
 
 <br>  
 
 ### c) Flexural strength 
+Flexural strength is a material property, defined as the stress in a material just before it fails in a bending test. The transverse bending test is most frequently employed, in which a specimen having either a circular or rectangular cross-section is bent until fracture using a three point bending test. The flexural strength represents the maximum stress experienced within the material at its moment of failure, denoted as $\sigma_m$.
 
 
+ <center>
+<img src="lab32.png" alt="drawing" width="600"/>
+</center>
+
+The Flexural strength of a cylinder under three point bending is:
+$$
+\begin{equation}
+\sigma_m=\frac{P_{\rm m}L}{\pi r^3},
+\end{equation}
+$$
+where $r$ is the radius of the cylinder and $P_{\rm m}$ is the maximum loading force and $L$ is the length of the cylinder.
 <br>  
 
 ## 4. Equipment and Materials
@@ -49,25 +84,20 @@ Brown Design Workshop
 
 #### <u>Steps: </u>
 
-(a) You will be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions denoted as $A, B, C$ of the spagetti using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $5.75~\rm mm$
+(a) You will be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions denoted as $A, C, B$ of the spagetti using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $5.75~\rm mm$
 
-<!--
-<u>figure of spagetti </u>
+
  <center>
-<img src="lab2.png" alt="drawing" width="600"/>
+<img src="lab33.png" alt="drawing" width="600"/>
 </center>
--->
-
 
 
 (b) Place the spagetti on the fixture following the marked line made in (a).
 
-<!--
-<u>figure of spagetti on the fixture</u>
  <center>
-<img src="lab2.png" alt="drawing" width="600"/>
+<img src="lab34.png" alt="drawing" width="600"/>
 </center>
--->
+
 
 (c) Set up the Instron machine for compression testing at displacement rate of $5~\rm mm/min$ and the end condition as $30 ~\rm mm $.
 
@@ -99,32 +129,28 @@ Brown Design Workshop
 
 #### <u>Steps: </u>
 
-(a) You will each be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions  denoted as $A, B, C$ of spaghetto using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 5.75~\rm mm$. 
+(a) You will each be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions  denoted as $A, C, B$ of spaghetto using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 5.75~\rm mm$. 
 
 
-(b) Mark multiple positions on the spagetti from point $A$ to point $C$ with uniform distance. The distance is $\frac{1}{6} L$, where $L$ is the distance from $A$ to $C$.
+(b) Mark multiple positions on the spagetti from point $A$ to point $C$ with uniform distance. The distance is $\frac{1}{6} L$, where $L$ is the distance from $A$ to $B$.
 
 
-<!--
-<u>figure of spagetti with multiple marked positions</u>
  <center>
-<img src="lab2.png" alt="drawing" width="600"/>
+<img src="lab35.png" alt="drawing" width="600"/>
 </center>
--->
 
 
 
-(c) Place the spagetti on the fixture following the marked positions ($A, B, C$) made in (a).
+
+(c) Place the spagetti on the fixture following the marked positions ($A, C, B$) made in (a).
 
 (d) Fix a camera at a certain distance from the spagetti. You can choose any camera you'd like as long as you can transfer the images to your computer. Your phone would be a good choice and we will provide a tripod to hold the camera. Next to your spagetti, place a ruler or an object of known length, and make sure that both the spagetti and your ruler or object are in focus on your camera. (You will use the image of the ruler or object later to calibrate your pixel to millimeter conversion). 
 
 
-<!--
-<u>figure of spagetti before loading</u>
  <center>
-<img src="lab2.png" alt="drawing" width="600"/>
+<img src="lab36.png" alt="drawing" width="600"/>
 </center>
--->
+
 
 
 
@@ -133,18 +159,16 @@ Brown Design Workshop
 (f) Apply displacement of $8~\rm mm$ using the fine control jog on the Instron control panel. Record the displacement reading displayed on the panel and take a picture of the deformed spagetti. 
 
 
-<!--
-<u>figure of spagetti after loading</u>
  <center>
-<img src="lab2.png" alt="drawing" width="600"/>
+<img src="lab37.png" alt="drawing" width="600"/>
 </center>
--->
+
 
 
 #### <u>Data analysis: </u>
   * For each displacement loading, you have two pictures of the specimen, before and after loading. You can measure the deflection of each marked position using ImageJ, which can be downloaded [here](https://imagej.nih.gov/ij/download.html). See [Detailed guidance to using ImageJ](ImageJguide.md) for how to use the software.
 
-  * Plot the deflection of each mark against its position, In the same figure, add a plot of deflection formula from the beam theory. Choose $\frac{X}{L}$ as the x-variable, where $X$ is the position of the mark, $L$ is the distance from $A$ to $C$, and $X=0$ for the point $A$.
+  * Plot the deflection of each mark against its position, In the same figure, add a plot of deflection formula from the beam theory. Choose $\frac{X}{L}$ as the x-variable, where $X$ is the position of the mark, $L$ is the distance from $A$ to $B$, and $X=0$ for the point $A$.
 
 <br>  
 
