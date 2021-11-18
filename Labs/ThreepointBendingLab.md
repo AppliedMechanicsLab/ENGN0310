@@ -27,21 +27,26 @@ Brown Design Workshop
 </center>
 
 The deflection formula of the beam under three point bending:
+
 $$
 \begin{equation}
 y(x)=\frac{PL^3}{24EI}(-(\frac{x}{L})^4+2(\frac{x}{L})^3-\frac{x}{L}),
 \end{equation}
 $$
+
 where $E$ is the Young's modulus of the beam and $I$ is the moment of inertia of the area of the cross section of the beam. For a disk with radius of $r$, $I=\frac{1}{4}\pi r^4$.
 <br>  
 
 ### b) Deflection of the middle position $y_C$ of a beam under three point bending test
+
 $$
 \begin{equation}
 y_C=y(\frac{L}{2})=-\frac{5PL^3}{384EI}.
 \end{equation}
 $$
+
 Hence, if $y_C$ is given, the deflection formula of the beam can be expressed as 
+
 $$
 \begin{equation}
 y=-\frac{16y_C}{5}((\frac{x}{L})^4-2(\frac{x}{L})^3+\frac{x}{L}).
@@ -59,11 +64,13 @@ Flexural strength is a material property, defined as the stress in a material ju
 </center>
 
 The Flexural strength of a cylinder under three point bending is:
+
 $$
 \begin{equation}
 \sigma_m=\frac{P_{\rm m}L}{\pi r^3},
 \end{equation}
 $$
+
 where $r$ is the radius of the cylinder and $P_{\rm m}$ is the maximum loading force and $L$ is the length of the cylinder.
 <br>  
 
