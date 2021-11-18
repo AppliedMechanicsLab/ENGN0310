@@ -91,7 +91,7 @@ where $r$ is the radius of the cylinder and $P_{\rm m}$ is the maximum loading f
 
 #### <u>Steps: </u>
 
-(a) You will be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions denoted as $A, C, B$ of the spagetti using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $5.75~\rm mm$
+(a) You will be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions denoted as $A, C, B$ of the spagetti using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $5.75~\rm cm$
 
 
  <center>
@@ -136,7 +136,7 @@ where $r$ is the radius of the cylinder and $P_{\rm m}$ is the maximum loading f
 
 #### <u>Steps: </u>
 
-(a) You will each be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions  denoted as $A, C, B$ of spaghetto using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 5.75~\rm mm$. 
+(a) You will each be given the spagetti. Measure its diameter using the vernier caliper provided. Then mark three positions  denoted as $A, C, B$ of spaghetto using marker pen from left to right. We will apply loads on these three positions. The distance between neighboring points is $ 5.75~\rm cm$. 
 
 
 (b) Mark multiple positions on the spagetti from point $A$ to point $C$ with uniform distance. The distance is $\frac{1}{6} L$, where $L$ is the distance from $A$ to $B$.
