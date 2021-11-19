@@ -123,7 +123,7 @@ $$
     Determining the strain field is equivalent to determining the components 
 
     $$
-    \breve{\epsilon}\_{ij}(X_1,X_2,X_3)
+    \breve{\epsilon}_{ij}(X_1,X_2,X_3)
     $$
  
     where $i$, $j=1,~2,~3$. In other words, find the strain field by  determining the nine functions  $\breve{\epsilon}\_{11}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{12}(X_1,X_2,X_3)$,....$\breve{\epsilon}\_{32}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{33}(X_1,X_2,X_3)$. 
@@ -174,7 +174,7 @@ $$
 * **(20 pts) (c)** Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components 
 
     $$
-    \breve{\sigma}\_{ij}(X_1,X_2,X_3)
+    \breve{\sigma}_{ij}(X_1,X_2,X_3)
     $$
   
    where $i$, $j=1,~2,~3$. In other words, compute the stress field by determining the nine functions $\breve{\sigma}\_{11}(X_1,X_2,X_3)$, $\breve{\sigma}\_{12}(X_1,X_2,X_3)$,....$\breve{\sigma}\_{32}(X_1,X_2,X_3)$, $\breve{\sigma}\_{33}(X_1,X_2,X_3)$. 

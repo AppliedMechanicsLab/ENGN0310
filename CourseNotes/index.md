@@ -48,7 +48,13 @@
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 7. (with downloadable Mathematica file)</span>](./Torsion/SP7.md)
 * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 8. </span>](./Torsion/SP8.md)
 
-<!-- ### Beams (Bending) -->
+ ### <span style="color:#5faeb6; font-style:italic">Beams </span>
+
+* [Deflected shape](Beams/Beams1.md)
+    * [Solved problem: beam loaded with end moment](Beams/EndMoment.md) 
+* [Deflected shape with body forces](Beams/Beams2.md)
+* [Internal stresses](Beams/Beams3.md)
+* [Flextural strength](Beams/Beams4.md)
 
 ## Solid Mechanics
 
@@ -63,15 +69,19 @@
 
 ### Stress
 
-*  [Traction corresponding to a stress tenor](Stress/Traction.md)
-* [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
-* [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
-* [Maximum normal stress](Stress/Stress4.md)
-*  [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
+* :construction::construction: [Traction corresponding to a stress tenor](Stress/Traction.md)
+* :construction::construction: [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
+* :construction::construction: [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
+* :construction::construction: [Maximum normal stress](Stress/Stress4.md)
+* :construction::construction: [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
 * :construction: [Maximum shear stress](Stress/Stress6.md)
-* [Mohr circle](Stress/Stress7.md)
+* :construction: :construction: [Mohr circle](Stress/Stress7.md)
+
+
 ### Strain
+
 * [Strain definition](Strain/Strain1.md)
+
 ### Hooke's Law
 
 
