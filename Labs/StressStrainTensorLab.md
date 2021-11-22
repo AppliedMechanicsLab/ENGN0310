@@ -132,7 +132,7 @@ where $E$ is Young's modulus, and $\nu$ is the Poisson's ratio. You will obtain 
 2. Silicone strip
     * Length:
     $150~\rm mm$ 
-    * Width: $2.54~\rm mm$
+    * Width: $25.4~\rm mm$
     * Thickness: $3.175 \rm mm$
     * Young' Modulus: $1-5~\rm MPa$
     * Poisson's ratio $0.48-0.495$
