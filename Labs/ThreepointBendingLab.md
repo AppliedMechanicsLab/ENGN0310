@@ -29,9 +29,10 @@ Brown Design Workshop
 The deflection formula of the beam under three point bending:
 
 $$
-\begin{equation}
-y(x)=\frac{PL^3}{24EI}(-(\frac{x}{L})^4+2(\frac{x}{L})^3-\frac{x}{L}),
-\end{equation}
+\begin{align}
+y(x)&=\frac{PL^3}{48EI}\left(4(\frac{x}{L})^3-3\frac{x}{L}\right),\ \ \ \ \ \ \  0\le x\le \frac{L}{2}\\
+y(x)&=\frac{PL^3}{48EI}\left(4(\frac{L-x}{L})^3-3\frac{L-x}{L}\right),\ \ \ \ \ \ \  \frac{L}{2} < x\le L
+\end{align}
 $$
 
 where $E$ is the Young's modulus of the beam and $I$ is the moment of inertia of the area of the cross section of the beam. For a disk with radius of $r$, $I=\frac{1}{4}\pi r^4$.
@@ -41,16 +42,17 @@ where $E$ is the Young's modulus of the beam and $I$ is the moment of inertia of
 
 $$
 \begin{equation}
-y_C=y(\frac{L}{2})=-\frac{5PL^3}{384EI}.
+y_C=y(\frac{L}{2})=-\frac{PL^3}{48EI}.
 \end{equation}
 $$
 
 Hence, if $y_C$ is given, the deflection formula of the beam can be expressed as 
 
 $$
-\begin{equation}
-y=-\frac{16y_C}{5}((\frac{x}{L})^4-2(\frac{x}{L})^3+\frac{x}{L}).
-\end{equation}
+\begin{align}
+y(x)&=-y_C\left(4(\frac{x}{L})^3-3\frac{x}{L}\right),\ \ \ \ \ \ \  0\le x\le \frac{L}{2}\\
+y(x)&=-y_C\left(4(\frac{L-x}{L})^3-3\frac{L-x}{L}\right),\ \ \ \ \ \ \  \frac{L}{2} < x\le L
+\end{align}
 $$
 
 <br>  
