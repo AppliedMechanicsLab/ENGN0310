@@ -1,0 +1,196 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6162,        186]
+NotebookOptionsPosition[      5787,        172]
+NotebookOutlinePosition[      6208,        188]
+CellTagsIndexPosition[      6165,        185]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Linear", " ", "Elasticity", " ", "in", " ", "Cartesian"}], "*)"}],
+   "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    SubscriptBox["U", "barC"], "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       SubscriptBox["U", "X"], "[", 
+       RowBox[{"x", ",", "y", ",", "z"}], "]"}], ",", 
+      RowBox[{
+       SubscriptBox["U", "Y"], "[", 
+       RowBox[{"x", ",", "y", ",", "z"}], "]"}], ",", 
+      RowBox[{
+       SubscriptBox["U", "Z"], "[", 
+       RowBox[{"x", ",", "y", ",", "z"}], "]"}]}], "}"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"MatrixForm", "[", 
+    RowBox[{
+     SubscriptBox["\[Epsilon]", "barC"], "=", 
+     RowBox[{
+      FractionBox["1", "2"], 
+      RowBox[{"FullSimplify", "[", 
+       RowBox[{
+        RowBox[{"Grad", "[", 
+         RowBox[{
+          SubscriptBox["U", "barC"], ",", 
+          RowBox[{"{", 
+           RowBox[{"x", ",", "y", ",", "z"}], "}"}]}], "]"}], "+", 
+        RowBox[{"Transpose", "[", 
+         RowBox[{"Grad", "[", 
+          RowBox[{
+           SubscriptBox["U", "barC"], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "y", ",", "z"}], "}"}]}], "]"}], "]"}]}], 
+       "]"}]}]}], "]"}], "\[IndentingNewLine]", 
+   RowBox[{"MatrixForm", "[", 
+    RowBox[{
+     SubscriptBox["\[Sigma]", "barC"], "=", 
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{
+       FractionBox["e", 
+        RowBox[{"1", "+", "\[Nu]"}]], 
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["\[Epsilon]", "barC"], "+", 
+         RowBox[{
+          FractionBox["\[Nu]", 
+           RowBox[{"1", "-", 
+            RowBox[{"2", "\[Nu]"}]}]], 
+          RowBox[{"Tr", "[", 
+           SubscriptBox["\[Epsilon]", "barC"], "]"}], "*", 
+          RowBox[{"IdentityMatrix", "[", "3", "]"}]}]}], ")"}]}], "]"}]}], 
+    "]"}], "\[IndentingNewLine]", 
+   RowBox[{"MatrixForm", "[", 
+    RowBox[{
+     SubscriptBox["\[Sigma]", "barC2"], "=", 
+     RowBox[{"FullSimplify", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"2", "*", "G", "*", 
+         SubscriptBox["\[Epsilon]", "barC"]}], ")"}], "+", 
+       RowBox[{"(", 
+        RowBox[{"\[Lambda]", "*", 
+         RowBox[{"Tr", "[", 
+          SubscriptBox["\[Epsilon]", "barC"], "]"}], "*", 
+         RowBox[{"IdentityMatrix", "[", "3", "]"}]}], ")"}]}], "]"}]}], "]"}],
+    "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Epsilon]", "11"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Epsilon]", "barC"], ",", "1", ",", "1"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Epsilon]", "12"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Epsilon]", "barC"], ",", "1", ",", "2"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Epsilon]", "13"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Epsilon]", "barC"], ",", "1", ",", "3"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Epsilon]", "22"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Epsilon]", "barC"], ",", "2", ",", "2"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Epsilon]", "23"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Epsilon]", "barC"], ",", "2", ",", "3"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Epsilon]", "33"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Epsilon]", "barC"], ",", "3", ",", "3"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Sigma]", "11"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Sigma]", "barC2"], ",", "1", ",", "1"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Sigma]", "12"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Sigma]", "barC2"], ",", "1", ",", "2"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Sigma]", "13"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Sigma]", "barC2"], ",", "1", ",", "3"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Sigma]", "22"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Sigma]", "barC2"], ",", "2", ",", "2"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Sigma]", "23"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Sigma]", "barC2"], ",", "2", ",", "3"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    SubscriptBox["\[Sigma]", "33"], "=", 
+    RowBox[{"Part", "[", 
+     RowBox[{
+      SubscriptBox["\[Sigma]", "barC2"], ",", "3", ",", "3"}], 
+     "]"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.823634243008188*^9, 3.8236342525862923`*^9}, {
+  3.8236342838307247`*^9, 3.8236343070246706`*^9}, {3.8236343406773696`*^9, 
+  3.823634355822917*^9}, {3.8236343964148116`*^9, 3.823634517315673*^9}, {
+  3.8237112155545015`*^9, 3.8237112162866063`*^9}, {3.82373023041329*^9, 
+  3.8237302862641926`*^9}, {3.82378907167982*^9, 3.823789159907245*^9}, {
+  3.823789224411234*^9, 3.8237892444908905`*^9}, {3.8237894251130857`*^9, 
+  3.823789428643508*^9}},ExpressionUUID->"9040d420-3de3-4021-8ffd-\
+fd827d50de2e"]
+},
+WindowSize->{573.9, 530.1},
+WindowMargins->{{283.5, Automatic}, {15.899999999999977`, Automatic}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7c6a12f3-d90b-44b3-a146-f9f42662e900"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 5225, 150, 528, "Input",ExpressionUUID->"9040d420-3de3-4021-8ffd-fd827d50de2e"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
