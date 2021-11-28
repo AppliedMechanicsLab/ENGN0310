@@ -42,7 +42,8 @@
     
 
  ### <span style="color:#5faeb6; font-style:italic">Beams </span>
-
+* :construction::construction: [Definitions of moments on a cross-section. Definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$, and $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$](Beams/MomentsOnCrosssection.md)
+* :construction::construction: [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsOnCrosssection.md)
 * [Deflected shape](Beams/Beams1.md)
     * [Solved problem: beam loaded with end moment](Beams/EndMoment.md) 
 * [Deflected shape with body forces](Beams/Beams2.md)
