@@ -1,6 +1,12 @@
 {% include mathjax_support %}
 {% include command %}
 
+# ENGN0310: Homework 8
+## Due Saturday 11:59 pm, December 4th, 2021
+
+
+> Please upload your assignment to Canvas.<br/>
+
 
 **Problem 1 (30pts total)** 
 
