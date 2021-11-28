@@ -4,7 +4,7 @@
 
 In this section we will determine the shape of the neutral axis after deformation for the below beam problem. 
 
-![](2021-11-27-22-40-01.png)
+![](2021-11-28-13-57-48.png)
 
 The beam is simply supported at both ends. The external loading on the beam is such that each segement of the beam of length $\Delta X_1$ experiences an external force of $w_0 \Delta X_1 \hat{\boldsymbol{E}}\_1$ irrespective of where it is located.  
 
