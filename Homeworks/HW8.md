@@ -4,7 +4,7 @@
 
 **Problem 1 (30pts total)** 
 
-Consider the configuration shown below, where $M_0=500~\rm N \cdot \rm m$ $L=2 ~\rm m$, $h = 10~\rm{cm}$ and the dimension in the $\hat{\boldsymbol{E}}\_{\rm 3}$ direction is $b=5~\rm{cm}$. Use $E = 120~\rm{GPa}$.
+Consider the configuration shown below, where $M_0=500~\rm N \cdot \rm m$, $L=2 ~\rm m$, $h = 10~\rm{cm}$, and the dimension in the $\hat{\boldsymbol{E}}\_{\rm 3}$ direction is $b=5~\rm{cm}$. Use $E = 120~\rm{GPa}$.
 
 
  <br/>
