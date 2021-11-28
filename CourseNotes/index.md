@@ -37,13 +37,25 @@
 
 ### <span style="color:#5faeb6; font-style:italic">Shafts (Torsion)</span>
 
-@@include[TorsionToC.md](includes/TorsionToC.md)
+ *  [Torsion introduction](./Torsion/Torsion1.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 1. (with downloadable Mathematica file)</span>](./Torsion/SP1.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 2. (with downloadable Mathematica file)</span>](./Torsion/SP2.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 3. (with downloadable Mathematica file)</span>](./Torsion/SP3.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 4. (with downloadable Mathematica file)</span>](./Torsion/SP4.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 5. (with downloadable Mathematica file)</span>](./Torsion/SP5.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 6. (with downloadable Mathematica file)</span>](./Torsion/SP6.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 7. (with downloadable Mathematica file)</span>](./Torsion/SP7.md)
+ * [<span style="color:#5faeb6; font-style:italic"> Solved Problem 8. </span>](./Torsion/SP8.md)
+
 
     
 
- ### <span style="color:#5faeb6; font-style:italic">Beams </span>
+### <span style="color:#5faeb6; font-style:italic">Beams </span>
 * :construction::construction: [Definitions of moments on a cross-section. Definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$, and $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$](Beams/MomentsOnCrosssection.md)
 * :construction::construction: [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsOnCrosssection.md)
+* Moments along the length of the beam
+    * [Solved problem: beam loaded with end moment](Beams/EndMomentMoment.md)
+    * [Solved problem: beam loaded with end force](Beams/EndForceMoment.md)     
 * [Deflected shape](Beams/Beams1.md)
     * [Solved problem: beam loaded with end moment](Beams/EndMoment.md) 
 * [Deflected shape with body forces](Beams/Beams2.md)
