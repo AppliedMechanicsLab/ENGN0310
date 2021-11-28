@@ -1,7 +1,7 @@
 {% include mathjax_support %}
 {% include command %}
 
-![](2021-11-27-17-09-10.png)
+![](2021-11-27-21-17-59.png)
 
 Say the end has the force $f\hat{\boldsymbol{E}}_2$. The moment on the cross-section $X_1$ due to the force is  $(l-X_1)\hat{\boldsymbol{E}}_1\times f\hat{\boldsymbol{E}}_2=(l-X_1)f \hat{\boldsymbol{E}}_3$. Let us a take closer look at how we got this results. 
 

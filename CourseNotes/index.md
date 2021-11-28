@@ -52,9 +52,9 @@
 
 ### <span style="color:#5faeb6; font-style:italic">Beams </span>
 * :construction: [Definitions of moments on a cross-section. Definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$, and $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$](Beams/MomentsOnCrosssection.md)
-* :construction::construction: [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsThirdLaw.md)
+* :construction: [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsThirdLaw.md)
 * Moments along the length of the beam
-    * [Solved problem: beam loaded with end moment](Beams/EndMomentMoment.md)
+    * :construction: :construction: [Solved problem: beam loaded with end moment](Beams/EndMomentMoment.md)
     * [Solved problem: beam loaded with end force](Beams/EndForceMoment.md)     
 * [Deflected shape](Beams/Beams1.md)
     * [Solved problem: beam loaded with end moment](Beams/EndMoment.md) 
