@@ -1,6 +1,6 @@
 # Proof of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)=-\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$
 
-The definitions of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$, and $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$ are given in [this section](./MomentsOnCrosssection.md).  
+The definitions of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$, and $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$ are given in [this section](./MomentsOnCrosssection.md).  To recall,
 
 
 
