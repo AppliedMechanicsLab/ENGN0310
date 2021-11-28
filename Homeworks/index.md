@@ -12,3 +12,5 @@
 * [Homework 5 Solutions](HW5Solutions.md)
 * [Homework 6](HW6.md)
 * [Homework 7](HW7_hk.md)
+* [Homework 8](HW8.md)
+

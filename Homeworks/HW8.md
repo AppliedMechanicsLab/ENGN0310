@@ -4,17 +4,17 @@
 
 **Problem 1 (30pts total)** 
 
-Consider the configuration shown below, where $M_0=500~\rm N \cdot \rm m$, $L=2 ~\rm m$, $h = 10~\rm{cm}$, and the dimension in the $\hat{\boldsymbol{E}}\_{\rm 3}$ direction is $b=5~\rm{cm}$. Use $E = 120~\rm{GPa}$.
+Consider the configuration shown below, where $M_0=1500~\rm N \cdot \rm m$, $L=2 ~\rm m$, $h = 10~\rm{cm}$, and the dimension in the $\hat{\boldsymbol{E}}\_{\rm 3}$ direction is $b=5~\rm{cm}$. Use $E = 120~\rm{GPa}$.
 
 
  <br/>
     <center>
      <img src="HW8-fig1.png" alt="drawing" width="300"/>
-    </center>
+    </center> 
 <br>
+ 
 
-
-(a)(10pts) Find the bending moment along the length of the beam. 
+(a)(10pts) Find the bending moment  $M(X_1)$  along the length of the beam. 
 
 (b)(10pts) Find the maximum  bending stress, by which we are asking for 
 
@@ -38,7 +38,7 @@ Consider the configuration shown below, where $F_1 = 10 ~\rm N$, $F_2 = 20 ~\rm 
     </center>
 <br>
 
-(a)(10pts) Find the bending moment along the length of the beam. 
+(a)(10pts) Find the bending moment $M(X_1)$ along the length of the beam. 
 
 (b)(10pts) Find the maximum  bending stress, by which we are asking for 
 
@@ -50,7 +50,7 @@ $$
 \sigma_{11}(X_1,X_2,X_3)=-\frac{M(X_1)}{I(X_1)} X_2
 $$
 
-(c)(10pts) Find the deflection at the point $X_1=0.8~\rm{m}$.
+(c)(10pts) Find the deflection at the point $X_1=4~\rm{m}$.
 
 
 **Problem 3 (40pts total)**
@@ -63,7 +63,7 @@ Consider the simply-supported beam shown below, where $L=2~\rm m$ and the beam's
     </center>
 <br>
 
-(a)(10pts) What are the boundary conditions?
+(a)(10pts) Find the bending moment along the length of the beam in terms of $M_0$.
 
 (b)(10pts) Derive the expression for the maximum deflection in the beam given $M_0$.
 
