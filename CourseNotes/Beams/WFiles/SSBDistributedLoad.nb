@@ -1,0 +1,54 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1220,         44]
+NotebookOptionsPosition[       876,         30]
+NotebookOutlinePosition[      1270,         46]
+CellTagsIndexPosition[      1227,         43]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"<<", "Notation`"}], "\[IndentingNewLine]", 
+ RowBox[{"Symbolize", "[", 
+  TemplateBox[{
+    SubscriptBox["x_", "y_"]},
+   "NotationTemplateTag"], "]"}]}], "Input",
+ CellChangeTimes->{{3.847124136487957*^9, 
+  3.847124144726893*^9}},ExpressionUUID->"534acaac-7501-4d1b-a3bb-\
+9723a31cf359"]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 322}, {Automatic, 148}},
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"231166a9-8661-4e21-baf0-ebbd8a5b5adf"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 314, 8, 64, "Input",ExpressionUUID->"534acaac-7501-4d1b-a3bb-9723a31cf359"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
