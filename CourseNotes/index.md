@@ -60,7 +60,7 @@
     * [Solved problem: beam loaded with end force](Beams/EndForceMoment.md)     
 * [Deflected shape](Beams/Beams1.md)
     * [Solved problem: beam loaded with end moment](Beams/EndMoment.md) 
-* [Deflected shape with body forces](Beams/Beams2.md)
+* [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
 * [Internal stresses](Beams/Beams3.md)
 * [Flextural strength](Beams/Beams4.md)
 
