@@ -126,8 +126,11 @@ $$
 #### Solution of the differential equation. 
 
 Integrating both side of the governing differential equation once we get that
+
 $$
+\begin{equation}
 E I y'(X_1)=-\frac{w_0}{2}(l^2 X_1-  X_1^3/3)+C_1
+\end{equation}
 $$ 
 
 From symmetry we know that the slope of the deflected shape, i.e., the dereivative of the function $y(\cdot)$ has to vanish at $X_1=0$. From this boundary condition we get that $C_1=0$, and
