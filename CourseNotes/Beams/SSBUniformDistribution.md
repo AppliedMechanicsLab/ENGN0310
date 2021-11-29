@@ -133,7 +133,7 @@ E I y'(X_1)=-\frac{w_0}{2}(l^2 X_1-  X_1^3/3)+C_1
 \end{equation}
 $$ 
 
-From symmetry we know that the slope of the deflected shape, i.e., the dereivative of the function $y(\cdot)$ has to vanish at $X_1=0$. From this boundary condition we get that $C_1=0$, and
+From symmetry we know that the slope of the deflected shape, i.e., the derivative of the function $y(\cdot)$ has to vanish at $X_1=0$. From this boundary condition we get that $C_1=0$, and
 
 $$
 E I y'(X_1)=-\frac{w_0}{2}(l^2 X_1-  X_1^3/3).
@@ -170,5 +170,7 @@ $$
 y(X_1)=\frac{w_0}{24 E I}\left(5 l^4+  X_1^4-6 l^2 X_1^2\right)
 $$
 
+
+The mathematica file for this problem is [here](./WFiles/SSBDistributedLoad.nb)
 
 [^2]: Or to be technically more correct the material cross-section 
