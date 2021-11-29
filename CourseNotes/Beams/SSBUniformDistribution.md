@@ -57,7 +57,7 @@ $$
 
 Consider the material particle^[2] $\mathcal{P}$ whose position vector is ${}^0\! X_1\hat{\boldsymbol{E}}_1$. The moment of about the point $\mathcal{P}$ of all the forces acting on the segement of the beam shown in purple will consist of the following three parts. 
 
-$\boldsymbol{M}_1$: The moment about the point $\mathcal{P}$ due to the tractions on the surface $\Gamma({}^0\!X_1, -\hat{\boldsymbol{E}}_1)$. As per the discussion in a previous section, we denote this moment as $\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)$.
+$\boldsymbol{M}_1$: The moment about the point $\mathcal{P}$ due to the tractions on the surface $\Gamma({}^0\\!X_1, -\hat{\boldsymbol{E}}_1)$. As per the discussion in a previous section, we denote this moment as $\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)$.
 
 
 $\boldsymbol{M}_2$: The moment about the point $\mathcal{P}$ due to the reaction force at the support under the material particle $\mathcal{C}$. In the previous section we found that this reaction force is $-w_0 l \hat{\boldsymbol{E}}_2$. The moment of arm of this force about the point $\mathcal{P}$ is $(l-{}^0\! X_1)\hat{\boldsymbol{E}}_1 $. Thus, this second part equals $(l-{}^0\! X_1)\hat{\boldsymbol{E}}_1 \times \left(-w_0 l \hat{\boldsymbol{E}}_2\right)$, which simplifies to  $-w_0 l(l-{}^0\! X_1) \hat{\boldsymbol{E}}_3$. 
