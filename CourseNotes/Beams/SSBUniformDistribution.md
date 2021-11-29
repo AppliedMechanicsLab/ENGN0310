@@ -51,7 +51,7 @@ $$
 
 #### Calculation of $M(X_1)$
 <!-- ![](2021-11-28-15-10-12.png =x100) -->
-<img src="2021-11-28-15-56-16.png" alt="drawing1" width="500"/>
+<img src="2021-11-28-18-34-05.png" alt="drawing1" width="500"/>
 
 
 
@@ -63,25 +63,29 @@ $\boldsymbol{M}_1$: The moment about the point $\mathcal{P}$ due to the traction
 $\boldsymbol{M}_2$: The moment about the point $\mathcal{P}$ due to the reaction force at the support under the material particle $\mathcal{C}$. In the previous section we found that this reaction force is $-w_0 l \hat{\boldsymbol{E}}_2$. The moment of arm of this force about the point $\mathcal{P}$ is $(l-{}^0\! X_1)\hat{\boldsymbol{E}}_1 $. Thus, this second part equals $(l-{}^0\! X_1)\hat{\boldsymbol{E}}_1 \times \left(-w_0 l \hat{\boldsymbol{E}}_2\right)$, which simplifies to  $-w_0 l(l-{}^0\! X_1) \hat{\boldsymbol{E}}_3$. 
 
 
-$\boldsymbol{M}_3$: The moment about the point $\mathcal{P}$ of the surface tractions actiong on the puple segment of the beam. There are multiple ways to compute this contribution. Below we compute this contribution by introducing the variable $\xi$. For a derivation that does not involve the variable $\xi$ please see [this section](MomentDistributedForce.md). 
+<!-- Let us imagine that the blue segment is divided into non-overlapping rectangles of width $\Delta \xi$ and centered around the points $\xi_i=\Delta \xi/2, 3 \Delta \xi/2, ...(2n-1)\Delta \xi/2$ -->
 
-The variable $\xi$ is relative co-ordinate of the materials particle $X_1$. That is $\xi$ os the material particle $X_1$ is
+$\boldsymbol{M}_3$: The moment about the point $\mathcal{P}$ of the surface tractions actiong on the light blue segment of the beam.   There are multiple ways to compute this contribution. Below we compute this contribution by introducing the relative co-ordinate of the material particle  in the $\hat{\boldsymbol{E}}\_1$ direction. For a derivation that does not involve relative co-ordinates please see [this section](MomentDistributedForce.md). 
+
+We introduce the variable $\xi$ to be the relative co-ordinate of the materials particle $X_1$. That is $\xi$ os the material particle $X_1$ is
 $$
 \xi=X_1-{}^0\! X_1.
 $$
-The $\boldsymbol{M}_3$ will consist of contributions from the tractions acting on each material particle lying in the purple segment of the beam. Consider an arbitrary material particle $X_1$ lying in the purple segment of the beams. This material particle is marked using a yellow dashed line in the below figure.  
 
-<!-- ![](2021-11-28-15-04-35.png) -->
-<img src="2021-11-28-15-56-40.png" alt="drawing1" width="800"/>
-
-Let us compute the moment of all the forces acting over the infinitesimal rectangular material region centered around the materials particle $X_1$ and having a width $d X_1$, which we denote as $d\mathcal{R}$. The net force $d\boldsymbol{f}$ acting over this region is $w_0 d X_1\hat{\boldsymbol{E}}_2$. The momemnt arm of this infinitesimal force is $(X_1-{}^0\! X_1)\hat{\boldsymbol{E}}_1 $. Thus the net moment of the force acting over the region $d\mathcal{R}$ is $ d\boldsymbol{M}_3=(X_1-{}^0\! X_1)\hat{\boldsymbol{E}}_1 \times w_0 d X_1\hat{\boldsymbol{E}}_2$. This last quation simplifies to $ w_0(X_1-{}^0\! X_1) d X_1\hat{\boldsymbol{E}}_3$. From this last calculation it follows that the momemnt due to the forces acting over the entire  region is 
+Consider an arbitrary material particle $\mathcal{Q}$ with the relative co-ordinate $\xi$ lying in the light blue segment of the beam. This material particle is marked using a yellow dashed line in the below figure.  Consider an rectangle centered around $\mathcal{Q}$ of infinitesimal thickness $d\xi$. We denote this region as $d\mathcal{R}(\xi)$. The force acting over $d\mathcal{R}(\xi)$ is  $w_0d\xi \hat{\boldsymbol{E}}\_2$. The moment arm of this force about $\mathcal{P}$ is $\xi \hat{\boldsymbol{E}}_1$. Thus the moment of the force acting over $d\mathcal{R}(\xi)$ is $d\boldsymbol{M}_3=\xi  \hat{\boldsymbol{E}}\_1 \times w_0d\xi \hat{\boldsymbol{E}}\_2$. The last equation simplifies to $w_0\xi  d\xi \hat{\boldsymbol{E}}\_3$. The sum of moments due to the forces acting over the entire blue segement is therefore, 
 
 $$
 \begin{align}
-\boldsymbol{M}_3&=\int_{X_1={}^0\! X_1}^{X_1=l}w_0(X_1-{}^0\! X_1) d X_1\hat{\boldsymbol{E}}_3,\\
-&= \frac{w_0}{2}(l-{}^0\! X_1)^2 \hat{\boldsymbol{E}}_3.
+\boldsymbol{M}_3
+&=\int_{\xi=0}^{l-{}^0\!X_1}w_0\xi  d\xi \hat{\boldsymbol{E}}_3\\
+&=\frac{w_0}{2}(l-{}^0\!X_1)^2  
 \end{align}
-$$
+$$ 
+
+
+<!-- ![](2021-11-28-15-04-35.png) -->
+<img src="2021-11-28-18-55-35.png" alt="drawing1" width="800"/>
+
 
 From the balance of moment around the point $\mathcal{P}$ we have that
 $$
@@ -94,19 +98,20 @@ $$
 Taking the dot product on both sides with the $\hat{\boldsymbol{E}}_3$ vector we get that
 $$
 \begin{align}
-\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3-w_0 l(l-{}^0\! X_1) +\frac{w_0}{2}(l-{}^0\! X_1)^2 &=0
+\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3-w_0 l(l-{}^0\! X_1) +\frac{w_0}{2}(l-{}^0\! X_1)^2 &=0\\
+\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=\frac{w_0}{2}(l^2- \left({}^0\! X_1\right)^2)
 \end{align}
 $$
 
 
-Noting that $\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)=-\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)$ in the last equation we 
+In [this previous section](./MomentsThirdLaw.md) we showed that $\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)=-\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)$. Using this result in the last equation we get that
 $$
 \begin{align}
-\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=-\frac{w_0}{2}(l^2-\left({}^0\! X_1\right)^2),\\
+-\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=\frac{w_0}{2}(l^2-\left({}^0\! X_1\right)^2),\\
 M({}^0\! X_1)&=-\frac{w_0}{2}(l^2- \left({}^0\! X_1\right)^2)
 \end{align}
 $$
-where the second equation follows on noting that $\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3$ is in fact $M({}^0\! X_1)$. 
+where the second equation follows by multiplying both sides of the previous equation with negative one and then noting that $\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3$ is in fact $M({}^0\! X_1)$. 
 
 In summary we have that
 $$
@@ -155,6 +160,7 @@ E I y(X_1)&=-\frac{w_0}{2}\left(l^2 \frac{X_1^2}{2}-  \frac{X_1^4}{12}\right)+\f
 \end{align}
 $$ 
 i.e., 
+
 $$
 y(X_1)=\frac{w_0}{24 E I}\left(5 l^4+  X_1^4-6 l^2 X_1^2\right)
 $$
