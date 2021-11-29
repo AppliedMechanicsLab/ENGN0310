@@ -66,9 +66,10 @@ $\boldsymbol{M}_2$: The moment about the point $\mathcal{P}$ due to the reaction
 
 <!-- Let us imagine that the blue segment is divided into non-overlapping rectangles of width $\Delta \xi$ and centered around the points $\xi_i=\Delta \xi/2, 3 \Delta \xi/2, ...(2n-1)\Delta \xi/2$ -->
 
-$\boldsymbol{M}_3$: The moment about the point $\mathcal{P}$ of the surface tractions actiong on the light blue segment of the beam.   There are multiple ways to compute this contribution. Below we compute this contribution by introducing the relative co-ordinate of the material particle  in the $\hat{\boldsymbol{E}}\_1$ direction. For a derivation that does not involve relative co-ordinates please see [this section](MomentDistributedForce.md). 
+$\boldsymbol{M}_3$: The moment about the point $\mathcal{P}$ of the surface tractions acting on the light blue segment of the beam.   There are multiple ways to compute this contribution. Below we compute this contribution by introducing the relative co-ordinate of a material particle w.r.t $\mathcal{P}$ in the $\hat{\boldsymbol{E}}\_1$ direction. For a derivation that does not involve relative co-ordinates please see [this section](MomentDistributedForce.md). 
 
-We introduce the variable $\xi$ to be the relative co-ordinate of the materials particle $X_1$. That is, $\xi$ is the material particle $X_1$ is
+We introduce the variable $\xi$ to be the relative co-ordinate of the material particle $X_1$. That is, 
+
 $$
 \xi=X_1-{}^0\! X_1.
 $$
@@ -79,7 +80,7 @@ $$
 \begin{align}
 \boldsymbol{M}_3
 &=\int_{\xi=0}^{l-{}^0\!X_1}w_0\xi  d\xi \hat{\boldsymbol{E}}_3\\
-&=\frac{w_0}{2}(l-{}^0\!X_1)^2  
+&=\frac{w_0}{2}(l-{}^0\!X_1)^2  \hat{\boldsymbol{E}}_3
 \end{align}
 $$ 
 
@@ -105,14 +106,14 @@ $$
 $$
 
 
-In [this previous section](./MomentsThirdLaw.md) we showed that $\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)=-\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)$. Using this result in the last equation we get that
+In [this previous section](./MomentsThirdLaw.md) we showed that $\boldsymbol{M}({}^0\\! X_1,-\hat{\boldsymbol{E}}_1)=-\boldsymbol{M}({}^0\\! X_1,\hat{\boldsymbol{E}}_1)$. Using this result in the last equation we get that
 $$
 \begin{align}
 -\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=\frac{w_0}{2}(l^2-\left({}^0\! X_1\right)^2),\\
 M({}^0\! X_1)&=-\frac{w_0}{2}(l^2- \left({}^0\! X_1\right)^2)
 \end{align}
 $$
-where the second equation follows by multiplying both sides of the previous equation with negative one and then noting that $\boldsymbol{M}({}^0\! X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3$ is in fact $M({}^0\! X_1)$. 
+where the second equation follows by multiplying both sides of the previous equation with negative one and then noting that $\boldsymbol{M}({}^0\\! X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3$ is in fact $M({}^0\\! X_1)$. 
 
 In summary we have that
 $$
