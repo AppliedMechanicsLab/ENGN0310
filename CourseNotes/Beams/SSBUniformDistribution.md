@@ -57,17 +57,17 @@ $$
 
 Consider the material particle^[2] $\mathcal{P}$ whose position vector is ${}^0\! X_1\hat{\boldsymbol{E}}_1$. The moment of about the point $\mathcal{P}$ of all the forces acting on the segement of the beam shown in purple will consist of the following three parts. 
 
-$\boldsymbol{M}_1$: The moment about the point $\mathcal{P}$ due to the tractions on the surface $\Gamma({}^0\\!X_1, -\hat{\boldsymbol{E}}_1)$. As per the discussion in a previous section, we denote this moment as $\boldsymbol{M}({}^0\! X_1,-\hat{\boldsymbol{E}}_1)$.
+$\boldsymbol{M}_1$: The moment about the point $\mathcal{P}$ due to the tractions on the surface $\Gamma({}^0\\!X_1, -\hat{\boldsymbol{E}}_1)$. As per the discussion in a previous section, we denote this moment as $\boldsymbol{M}({}^0\\! X_1,-\hat{\boldsymbol{E}}_1)$.
 
 
-$\boldsymbol{M}_2$: The moment about the point $\mathcal{P}$ due to the reaction force at the support under the material particle $\mathcal{C}$. In the previous section we found that this reaction force is $-w_0 l \hat{\boldsymbol{E}}_2$. The moment of arm of this force about the point $\mathcal{P}$ is $(l-{}^0\! X_1)\hat{\boldsymbol{E}}_1 $. Thus, this second part equals $(l-{}^0\! X_1)\hat{\boldsymbol{E}}_1 \times \left(-w_0 l \hat{\boldsymbol{E}}_2\right)$, which simplifies to  $-w_0 l(l-{}^0\! X_1) \hat{\boldsymbol{E}}_3$. 
+$\boldsymbol{M}_2$: The moment about the point $\mathcal{P}$ due to the reaction force at the support under the material particle $\mathcal{C}$. In the previous section we found that this reaction force is $-w_0 l \hat{\boldsymbol{E}}_2$. The moment of arm of this force about the point $\mathcal{P}$ is $(l-{}^0\\! X_1)\hat{\boldsymbol{E}}_1 $. Thus, this second part equals $(l-{}^0\\! X_1)\hat{\boldsymbol{E}}_1 \times \left(-w_0 l \hat{\boldsymbol{E}}_2\right)$, which simplifies to  $-w_0 l(l-{}^0\\! X_1) \hat{\boldsymbol{E}}_3$. 
 
 
 <!-- Let us imagine that the blue segment is divided into non-overlapping rectangles of width $\Delta \xi$ and centered around the points $\xi_i=\Delta \xi/2, 3 \Delta \xi/2, ...(2n-1)\Delta \xi/2$ -->
 
 $\boldsymbol{M}_3$: The moment about the point $\mathcal{P}$ of the surface tractions actiong on the light blue segment of the beam.   There are multiple ways to compute this contribution. Below we compute this contribution by introducing the relative co-ordinate of the material particle  in the $\hat{\boldsymbol{E}}\_1$ direction. For a derivation that does not involve relative co-ordinates please see [this section](MomentDistributedForce.md). 
 
-We introduce the variable $\xi$ to be the relative co-ordinate of the materials particle $X_1$. That is $\xi$ os the material particle $X_1$ is
+We introduce the variable $\xi$ to be the relative co-ordinate of the materials particle $X_1$. That is, $\xi$ is the material particle $X_1$ is
 $$
 \xi=X_1-{}^0\! X_1.
 $$
