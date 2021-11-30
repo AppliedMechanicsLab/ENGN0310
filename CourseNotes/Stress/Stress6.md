@@ -3,7 +3,7 @@
 
 # Maximum shear stress
 
-In the last section we derived that
+In the last section, we derived that
 
 $$
     \begin{align}
@@ -16,7 +16,7 @@ where
 $$
     \begin{align}
     \tau(\phi)&:=\left(
-    -\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \theta)+\sigma_{12} \cos(2 \theta)\right)\\
+    -\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \phi)+\sigma_{12} \cos(2 \phi)\right)\\
     [\hat{\boldsymbol{m}}]&:=\begin{bmatrix}
     -\sin(\phi)\\
     \cos(\phi)\\
@@ -25,7 +25,7 @@ $$
     \end{align}
 $$
 
-In this section we will determine the set of $\phi$ at which the magnitude of $\boldsymbol{t}\_{s}$ reaches its maximum value. The magnitude of $\boldsymbol{t}\_{s}$ is 
+In this section, we will determine the set of $\phi$ at which the magnitude of $\boldsymbol{t}\_{s}$ reaches its maximum value. The magnitude of $\boldsymbol{t}\_{s}$ is 
 $$
     \begin{equation}
     \lVert \boldsymbol{t}_{s}\rVert=|\tau(\phi)|
@@ -41,9 +41,9 @@ $$
     \end{align}
 $$
 
-The maximum value of $\|\tau(\phi)\|$ will be the absolute value of the maximum value of $\tau(\phi)$ and/or the absolute value of the minimum  value of $\tau(\phi)$. Therefore, we will next determine the maximum and minimum values of  $\tau(\phi)$.
+The maximum value of $|\tau(\phi)|$ will be the absolute value of the maximum value of $\tau(\phi)$ and/or the absolute value of the minimum  value of $\tau(\phi)$. Therefore, we will next determine the maximum and minimum values of  $\tau(\phi)$.
 
-The  maximum and minimum value of $\tau(\cdot)$ occurs at those $\phi$ at which the derivative of $\tau(\cdot)$ vanishes. Let us define $\phi\_s$ as those $\phi$ at which the derivative of $\tau(\cdot)$ vanishes. Differentiating the function $\tau(\cdot)$, and setting it to be equal to zero at $\phi_s$ we get that 
+The  maximum and minimum values of $\tau(\cdot)$ occurs at those $\phi$ at which the derivative of $\tau(\cdot)$ vanishes. Let us define $\phi\_s$ as those $\phi$ at which the derivative of $\tau(\cdot)$ vanishes. Differentiating the function $\tau(\cdot)$, and setting it to be equal to zero at $\phi_s$, we get that 
 
 $$
 \begin{equation}
@@ -51,7 +51,7 @@ $$
 \end{equation}
 $$
 
-Irrespective of values of $a$ and $b$ the above equation will have four roots (see Figure below)
+Irrespective of values of $a$ and $b$, the above equation will have four roots (see Figure below)
 
 ![](2021-11-15-18-25-33.png)
 <!-- ![](2021-11-15-17-59-34.png) -->
@@ -96,9 +96,9 @@ $$
 \end{align}
 $$
 
-Thus, for the first set of $\phi\_s$ the function $\tau(\cdot)$ attains a maximum value and for the second set of $\phi\_s$ the function $\tau(\cdot)$ attains a minimium value. Since the absolute value of $\tau(\cdot)$'s maximum and minimum values are equal, the maximum of $\|\tau(\cdot)\|$ occurs at both sets of $\phi\_s$. 
+Thus, for the first set of $\phi\_s$, the function $\tau(\cdot)$ attains a maximum value and for the second set of $\phi\_s$, the function $\tau(\cdot)$ attains a minimum value. Since the absolute value of $\tau(\cdot)$'s maximum and minimum values are equal, the maximum of $|\tau(\cdot)|$ occurs at both sets of $\phi\_s$. 
 
 
-Since the maximum of $\|\phi(\cdot)\|$ occurs at both sets, Set-I and II, one might wonder what use there is in partitioning the $\phi\_s$ into the two sets. Or, why distinguish between the two sets of $\phi\_s$. Distinguising between the two sets is not withpout its use. Since, for $\phi\_s$ belonging to the  first set $\tau(\phi)$ is positive and hence the shear component of the traction vector, $\boldsymbol{t}\_s$,  points in the direction of $\hat{\boldsymbol{m}}$ and for  $\phi\_s$ belonging to the second set $\boldsymbol{t}\_s$ points in direction $-\hat{\boldsymbol{m}}$. 
+Since the maximum of $|\tau(\cdot)|$ occurs at both sets, Set-I and II, one might wonder what use there is in partitioning the $\phi\_s$ into the two sets. Distinguishing between the two sets is not without its use. This is because for $\phi\_s$ belonging to the  first set, $\tau(\phi)$ is positive and hence the shear component of the traction vector, $\boldsymbol{t}\_s$,  points in the direction of $\hat{\boldsymbol{m}}$, while for  $\phi\_s$ belonging to the second set, $\boldsymbol{t}\_s$ points in direction $-\hat{\boldsymbol{m}}$. 
 
 [Here](./WFiles/MaximumShearStressesDirections.nb) is a  mathematica file showing the above equations in action. 
