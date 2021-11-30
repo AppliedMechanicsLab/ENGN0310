@@ -34,7 +34,7 @@ $$
 \begin{align*}
 &-60 (A)\hat{\boldsymbol{E}}_{\rm 1} -16(\sqrt{3}A)\hat{\boldsymbol{E}}_{\rm 1}+(\boldsymbol{t_n}\cdot \hat{\boldsymbol{E}}_{\rm 1})(2A)\hat{\boldsymbol{E}}_{\rm 1} +(\boldsymbol{t_s}\cdot \hat{\boldsymbol{E}}_{\rm 1}) (2A)\hat{\boldsymbol{E}}_{\rm 1}=\boldsymbol{0}\\
 &\Leftrightarrow -60(A) \hat{\boldsymbol{E}}_{\rm 1}
--16(\sqrt{3}A)\hat{\boldsymbol{E}}_{\rm 1}+t_n\sin{60\degree} (2A) \hat{\boldsymbol{E}}_{\rm 1} -t_s \cos{60\degree}(2A)\hat{\boldsymbol{E}}_{\rm 1}=\boldsymbol{0}\\
+-16(\sqrt{3}A)\hat{\boldsymbol{E}}_{\rm 1}+t_n\sin{60^\circ} (2A) \hat{\boldsymbol{E}}_{\rm 1} -t_s \cos{60^\circ}(2A)\hat{\boldsymbol{E}}_{\rm 1}=\boldsymbol{0}\\
 &\Leftrightarrow -60-16\sqrt{3}+\sqrt{3}~t_n-t_s=0 \tag{1}
 \end{align*}
 $$
@@ -45,7 +45,7 @@ $$
 \begin{align*}
 &-48 (A)\hat{\boldsymbol{E}}_{\rm 2} +60(\sqrt{3}A)\hat{\boldsymbol{E}}_{\rm 2}+(\boldsymbol{t_n}\cdot \hat{\boldsymbol{E}}_{\rm 2})(2A)\hat{\boldsymbol{E}}_{\rm 2} +(\boldsymbol{t_s}\cdot \hat{\boldsymbol{E}}_{\rm 2}) (2A)\hat{\boldsymbol{E}}_{\rm 2}=\boldsymbol{0}\\
 &\Leftrightarrow -48(A) \hat{\boldsymbol{E}}_{\rm 2}
-+60(\sqrt{3}A)\hat{\boldsymbol{E}}_{\rm 2}-t_n\cos{60\degree} (2A) \hat{\boldsymbol{E}}_{\rm 2} -t_s \sin{60\degree}(2A)\hat{\boldsymbol{E}}_{\rm 1}=\boldsymbol{0}\\
++60(\sqrt{3}A)\hat{\boldsymbol{E}}_{\rm 2}-t_n\cos{60^\circ} (2A) \hat{\boldsymbol{E}}_{\rm 2} -t_s \sin{60^\circ}(2A)\hat{\boldsymbol{E}}_{\rm 1}=\boldsymbol{0}\\
 &\Leftrightarrow -48+60\sqrt{3}-t_n-\sqrt{3}~t_s=0
 \end{align*}
 $$
