@@ -85,4 +85,3 @@ HW 6-8 (On days when lab is due don't have a home work due)
 
 
 
-
