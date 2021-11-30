@@ -97,9 +97,9 @@ $$
 \end{align}
 $$
 
-Thus, for the first set of $\phi\_s$, the function $\tau(\cdot)$ attains a maximum value and for the second set of $\phi\_s$, the function $\tau(\cdot)$ attains a minimum value. Since the absolute value of $\tau(\cdot)$'s maximum and minimum values are equal, the maximum of $|\tau(\cdot)|$ occurs at both sets of $\phi\_s$. 
+Thus, for the first set of $\phi\_s$, the function $\tau(\cdot)$ attains a maximum value and for the second set of $\phi\_s$, the function $\tau(\cdot)$ attains a minimum value. Since the absolute value of $\tau(\cdot)$'s maximum and minimum values are equal, the maximum of $\|\tau(\cdot)\|$ occurs at both sets of $\phi\_s$. 
 
 
-Since the maximum of $|\tau(\cdot)|$ occurs at both sets, Set-I and II, one might wonder what use there is in partitioning the $\phi\_s$ into the two sets. Distinguishing between the two sets is not without its use. This is because for $\phi\_s$ belonging to the  first set, $\tau(\phi)$ is positive and hence the shear component of the traction vector, $\boldsymbol{t}\_s$,  points in the direction of $\hat{\boldsymbol{m}}$, while for  $\phi\_s$ belonging to the second set, $\boldsymbol{t}\_s$ points in direction $-\hat{\boldsymbol{m}}$. 
+Since the maximum of $\|\tau(\cdot)\|$ occurs at both sets, Set-I and II, one might wonder what use there is in partitioning the $\phi\_s$ into the two sets. Distinguishing between the two sets is not without its use. This is because for $\phi\_s$ belonging to the  first set, $\tau(\phi)$ is positive and hence the shear component of the traction vector, $\boldsymbol{t}\_s$,  points in the direction of $\hat{\boldsymbol{m}}$, while for  $\phi\_s$ belonging to the second set, $\boldsymbol{t}\_s$ points in direction $-\hat{\boldsymbol{m}}$. 
 
 [Here](./WFiles/MaximumShearStressesDirections.nb) is a  mathematica file showing the above equations in action. 
