@@ -51,7 +51,7 @@ The first main difference in this analogy, of course, is that force is a vector,
 
 
 
-Therefore, albeit that denisty is a scalar, traction Secondly mass density is defined terms of unit volume, i.e., 
+Therefore, albeit that density is a scalar, traction Secondly mass density is defined terms of unit volume, i.e., 
 
   while traction is defined in terms of unit area. 
 
