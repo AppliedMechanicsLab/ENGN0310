@@ -51,7 +51,7 @@
     
 
 ### <span style="color:#5faeb6; font-style:italic">Beams </span>
-*  [Definitions of moments on a cross-section. Definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$, and $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$](Beams/MomentsOnCrosssection.md)
+*  [Definitions of moments on a cross-section](Beams/MomentsOnCrosssection.md)
 * [Notation for cross-sections and surfaces](Beams/CrossSectiosnSurfacesDef.md)
 *  :construction: :construction: [Equality of two cross-sectional moments if the beam region between those cross-sections is free of any applied/external moments and forces](Beams/ConstancyOfMoments.md)   
 *  [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsThirdLaw.md)
