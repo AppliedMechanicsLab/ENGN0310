@@ -34,7 +34,7 @@ $$
 \boldsymbol{t}(\boldsymbol{X},-\hat{\boldsymbol{E}}_1)=-\boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}_1).
 $$
 
-Using the above equation and substituting $\boldsymbol{t}(\boldsymbol{X},-\hat{\boldsymbol{E}}_1)$ in the equation for $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$ with $-\boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}_1)$ we get that
+Using the above equation and substituting $\boldsymbol{t}(\boldsymbol{X},-\hat{\boldsymbol{E}}_1)$ in the equation for $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$ with $-\boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}_1)$, we get that
 
 $$
 \begin{align}

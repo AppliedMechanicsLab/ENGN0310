@@ -51,15 +51,15 @@
     
 
 ### <span style="color:#5faeb6; font-style:italic">Beams </span>
-* :construction: [Definitions of moments on a cross-section. Definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$, and $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$](Beams/MomentsOnCrosssection.md)
+*  [Definitions of moments on a cross-section](Beams/MomentsOnCrosssection.md)
 * [Notation for cross-sections and surfaces](Beams/CrossSectiosnSurfacesDef.md)
 *  :construction: :construction: [Equality of two cross-sectional moments if the beam region between those cross-sections is free of any applied/external moments and forces](Beams/ConstancyOfMoments.md)   
-*  :construction: [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsThirdLaw.md)
+*  [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsThirdLaw.md)
 * Moments along the length of the beam
-    * :construction: :construction: [Solved problem: beam loaded with end moment](Beams/EndMomentMoment.md)
+    * :construction:  [Cantilever loaded with end moment](Beams/EndMomentMoment.md)
     * [Solved problem: beam loaded with end force](Beams/EndForceMoment.md)     
 * [Deflected shape](Beams/Beams1.md)
-    * [Solved problem: beam loaded with end moment](Beams/EndMoment.md) 
+    * [Cantilever loaded with end moment](Beams/EndMomentShape.md) 
 * [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
 * :construction: :construction: [SSB point load](Beams/SSBPointLoad.md)
 * [Internal stresses](Beams/Beams3.md)
@@ -72,7 +72,7 @@
 * [Introduction](Traction/Introduction.md)
 * [Matrix representation of Traction vectors](Traction/TractionsInBars.md)
 * [Normal and shear components of the traction vector](Traction/NormalShearComponents.md)
-* [Shear tractions](Traction/ShearTraction1.md)
+<!-- * [Shear tractions](Traction/ShearTraction1.md) -->
 * [Maximum Normal and Shear Stresses in an Axially Loaded Bar](Traction/Max.md)
 * [Solved Problems](Traction/SPTraction.md)
 
@@ -83,7 +83,7 @@
 * :construction::construction: [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
 * :construction::construction: [Maximum normal stress](Stress/Stress4.md)
 * :construction::construction: [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
-* :construction: [Maximum shear stress](Stress/Stress6.md)
+* [Maximum shear stress](Stress/Stress6.md)
 * :construction: :construction: [Mohr circle](Stress/Stress7.md)
 
 

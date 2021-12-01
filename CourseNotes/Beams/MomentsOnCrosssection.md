@@ -6,14 +6,14 @@
 
 #### Definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$
 
-The quantity $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$ is called the moment on the surface $\Gamma(X_1,\hat{\boldsymbol{E}}_1)$. It is defined to be the moment about the centeroid of the surface $\Gamma(X_1)$ of the forces acting on the surface  $\Gamma(X_1,\hat{\boldsymbol{E}}_1)$. 
+The quantity $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$ is called the moment on the surface $\Gamma(X_1,\hat{\boldsymbol{E}}_1)$. It is defined to be the moment about the centroid of the surface $\Gamma(X_1)$ of the forces acting on the surface $\Gamma(X_1,\hat{\boldsymbol{E}}_1)$. 
 
 
 A mathematical definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$ is 
 
 $$
 \begin{align}
-\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)
+\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)
 &=
 \int_{\Gamma(X_1)}(\boldsymbol{X}-X_1\boldsymbol{E}_1)\times \boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}_1)\, d\Gamma\\
 % &=\int_{\Gamma(X_1)}(X_2\boldsymbol{E}_2+X_3\boldsymbol{E}_3)\times \boldsymbol{t}(X_1,\hat{\boldsymbol{E}}_1)\, d\Gamma
@@ -21,7 +21,7 @@ $$
 $$
 
 
-In the above equation the expression $\boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}\_1)$ denotes, as we have said before, the traction vector at the material particle $\boldsymbol{X}$ in the direction $\hat{\boldsymbol{E}}\_1$.  
+In the above equation, the expression $\boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}\_1)$ denotes, as we have said before, the traction vector at the material particle $\boldsymbol{X}$ in the direction $\hat{\boldsymbol{E}}\_1$.  
 
 #### Definition $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$
 
@@ -32,7 +32,7 @@ A mathematical definition of $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$ is
 
 $$
 \begin{align}
-\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)
+\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)
 &=
 \int_{\Gamma(X_1)}(\boldsymbol{X}-X_1\boldsymbol{E}_1)\times \boldsymbol{t}(\boldsymbol{X},-\hat{\boldsymbol{E}}_1)\, d\Gamma
 % \\
