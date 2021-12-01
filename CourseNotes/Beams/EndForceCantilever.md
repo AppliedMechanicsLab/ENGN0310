@@ -70,7 +70,3 @@ $$
 \delta = \frac{f l^3}{3E I}
 \end{align}
 $$
-
-## Simply supported beam 
-
-Let's talks 

@@ -56,10 +56,10 @@
 *  :construction: :construction: [Equality of two cross-sectional moments if the beam region between those cross-sections is free of any applied/external moments and forces](Beams/ConstancyOfMoments.md)   
 *  [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsThirdLaw.md)
 * Moments along the length of the beam
-    * :construction: :construction: [Solved problem: beam loaded with end moment](Beams/EndMomentMoment.md)
+    * :construction:  [Cantilever loaded with end moment](Beams/EndMomentMoment.md)
     * [Solved problem: beam loaded with end force](Beams/EndForceMoment.md)     
 * [Deflected shape](Beams/Beams1.md)
-    * [Solved problem: beam loaded with end moment](Beams/EndMoment.md) 
+    * [Cantilever loaded with end moment](Beams/EndMomentShape.md) 
 * [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
 * :construction: :construction: [SSB point load](Beams/SSBPointLoad.md)
 * [Internal stresses](Beams/Beams3.md)
