@@ -62,7 +62,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | No lecture | Nov 24, Wed | Thanksgiving |[Link](https://www.dropbox.com/s/yc7ai5w98mldbdu/ENGN0310_Nov24.mp4?dl=0)||
 | No lecture | Nov 26, Fri | Thanksgiving |||
 | Lecture33 | Nov 29, Mon | Deflection of Beams |[Link](https://www.dropbox.com/s/cyxmandylhb197n/ENGN0310_Nov29.mp4?dl=0)||
-| Lecture34 | Dec 01, Wed | Columns |||
+| Lecture34 | Dec 01, Wed | Columns |[Link](https://www.dropbox.com/s/3b1sqxtfyabdutk/ENGN0310_Dec1.mp4?dl=0)||
 | Lecture35 | Dec 03, Fri | Columns |||
 | Lecture36 | Dec 06, Mon | Columns|||
 | Lecture37 | Dec 08, Wed | Course Review |||
