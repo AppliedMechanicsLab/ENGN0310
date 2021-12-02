@@ -61,9 +61,9 @@ Let $\mathcal{N}$ be some material particle between the points $\mathcal{C}$ and
 
 $$
 \begin{align}
-\boldsymbol{M}({}^n\!X_1,-\hat{\boldsymbol{E}}_1)-P a\left(1-\frac{{}^n\!X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3&=\boldsymbol{0},\\
--\boldsymbol{M}({}^n\!X_1,\hat{\boldsymbol{E}}_1)&=P a\left(1-\frac{{}^n\!X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3\\
-\boldsymbol{M}({}^n\!X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=-P a\left(1-\frac{{}^n\!X_1}{(a+b)}\right)
+\boldsymbol{M}({}^n\!X_1,-\hat{\boldsymbol{E}}_1)-P a\left(1-\frac{ ^n\!X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3&=\boldsymbol{0},\\
+-\boldsymbol{M}({}^n\!X_1,\hat{\boldsymbol{E}}_1)&=P a\left(1-\frac{ ^n\!X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3\\
+\boldsymbol{M}({}^n\!X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=-P a\left(1-\frac{ ^n\!X_1}{(a+b)}\right)
 \end{align}
 $$
 from which it follows that 
