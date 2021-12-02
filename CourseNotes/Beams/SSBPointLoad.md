@@ -1,24 +1,27 @@
 {% include mathjax_support %}
 {% include command %}
 
+In this section we will solve for the bending moment along the length of a beam supported and loaded as shown in the below figure. 
 
-![](2021-12-01-19-14-45.png)
 
-The reaction force at the left support is $\boldsymbol{f}_1=-f_1\hat{\boldsymbol{E}}_2$. The reaction force at the right support is $\boldsymbol{f}_2=-f_2\hat{\boldsymbol{E}}_2$.
+![](2021-12-01-19-23-03.png)
 
-The applied force is  $\boldsymbol{P}=P\hat{\boldsymbol{E}}_2$.
+
+
+Let the reaction force at the left support be $\boldsymbol{f}_1=-f_1\hat{\
+boldsymbol{E}}_2$, and let the reaction force at the right support be $\boldsymbol{f}_2=-f_2\hat{\boldsymbol{E}}_2$. The applied force is  $\boldsymbol{P}=P\hat{\boldsymbol{E}}_2$.
 
 From balance of forces we get that 
 
 $$
 \begin{align}
-\boldsymbol{P}+\boldsymbol{f}_1+\boldsymbol{f}_2&=\boldsymbol{0}\\
-P\hat{\boldsymbol{E}}_2-f_1\hat{\boldsymbol{E}}_2-f_2\hat{\boldsymbol{E}}_2&=0\\
+\boldsymbol{P}+\boldsymbol{f}_1+\boldsymbol{f}_2&=\boldsymbol{0}\notag\\
+P\hat{\boldsymbol{E}}_2-f_1\hat{\boldsymbol{E}}_2-f_2\hat{\boldsymbol{E}}_2&=0\notag\\
 f_1+f_2&=P
 \end{align}
 $$
 
-Let us compute the moment of all the forces acting the beam about the point $B$. The moment due to $\boldsymbol{f}_2$ vanishes. The moment due to $\boldsymbol{f}_1$ is $(-(a+b)\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$, which simplifies to $f_1(a+b)\hat{\boldsymbol{E}}_3$. The moment due to $\boldsymbol{P}$ is $(-b\hat{\boldsymbol{E}}_1)\times (P\hat{\boldsymbol{E}}_2)$, which simplifies to $-Pb\hat{\boldsymbol{E}}_3$.  Since the moment of all the forces acting on the segement should be zero about any point, we have that
+Let us compute the moment of all the forces acting the beam about the point $\mathcal{B}$. The moment due to $\boldsymbol{f}_2$ vanishes. The moment due to $\boldsymbol{f}_1$ is $(-(a+b)\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$, which simplifies to $f_1(a+b)\hat{\boldsymbol{E}}_3$. The moment due to $\boldsymbol{P}$ is $(-b\hat{\boldsymbol{E}}_1)\times (P\hat{\boldsymbol{E}}_2)$, which simplifies to $-Pb\hat{\boldsymbol{E}}_3$.  Since the moment of all the forces acting on the beam should be zero about any point, we have that
 
 $$
 \begin{align}
