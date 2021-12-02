@@ -147,7 +147,7 @@ C_1&=-\frac{P a^2}{2}+B_1\\
 \end{align}
 $$
 
-Thus the deflection for is 
+Thus the beam's deflection is  
 
 $$
 \begin{align}
