@@ -153,7 +153,7 @@ Thus the beam's deflection is
 
 $$
 \begin{align}
-E I y(X_1)&=-\frac{P b X_1^3 }{6(a+b)}+\frac{P a b}{6 (a+b)}\left( 2b+a \right) X_1 ,\quad \forall X_1\in(a,b)\\
+E I y(X_1)&=-\frac{P b X_1^3 }{6(a+b)}+\frac{P a b}{6 (a+b)}\left( 2b+a \right) X_1 ,\quad \forall X_1\in(0, a)\\
 E I y(X_1)&=P a\left(\frac{X_1^3}{6(a+b)}-\frac{X_1^2}{2}\right)+\frac{P a}{6 (a+b)} \left(2(a+b)^2+a^2\right) X_1-\frac{P a^3}{6}  \quad \forall X_1\in(a,a+b)
 \end{align}
 $$
