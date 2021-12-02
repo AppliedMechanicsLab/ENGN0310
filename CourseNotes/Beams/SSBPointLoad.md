@@ -4,12 +4,11 @@
 In this section we will solve for the bending moment along the length of a beam supported and loaded as shown in the below figure. 
 
 
-![](2021-12-01-19-23-03.png)
+![](2021-12-01-19-54-02.png)
 
 
 
-Let the reaction force at the left support be $\boldsymbol{f}_1=-f_1\hat{\
-boldsymbol{E}}_2$, and let the reaction force at the right support be $\boldsymbol{f}_2=-f_2\hat{\boldsymbol{E}}_2$. The applied force is  $\boldsymbol{P}=P\hat{\boldsymbol{E}}_2$.
+Let the reaction force at the left support be $\boldsymbol{f}_1=-f_1\hat{\boldsymbol{E}}_2$, and let the reaction force at the right support be $\boldsymbol{f}_2=-f_2\hat{\boldsymbol{E}}_2$. The applied force is  $\boldsymbol{P}=P\hat{\boldsymbol{E}}_2$.
 
 From balance of forces we get that 
 
@@ -42,31 +41,29 @@ $$
 
 #### Moment along the beam
 
-Consider the segment lying between the points $\mathcal{O}$ and $\mathcal{M}$ (shown in grey in the figure). We will next compute the moment of all the foces acting on the segment about the point $\mathcal{M}$. The position vector of $\mathcal{M}$ is ${}^0X_1\hat{\boldsymbol{E}}_1$. 
-The moment of the tractions on the surface $\Gamma({}^0 X_1,\hat{\boldsymbol{E}}_1)$ about the centeroid  of the surface $\Gamma({}^0 X_1)$, which is the point $\mathcal{M}$, is, by definition, $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$. The only other force acting on the segment is the left reaction force. The momemnt of this force is $(-{}^0 X\_1\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$ which simplifies to $ P X_1  b/(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segement should be zero about any point, we have that 
+Let $\mathcal{M}$ be some material particle between the points $\mathcal{O}$ and $\mathcal{C}$, where  $\mathcal{C}$ is the material particle upon which the applied force $\boldsymbol{P}$ acts. 
+Consider the segment lying between the points $\mathcal{O}$ and $\mathcal{M}$ (shown in grey in the figure). We will next compute the moment of all the foces acting on the segment about the point $\mathcal{M}$. The position vector of $\mathcal{M}$ is ${}^m\! X_1\hat{\boldsymbol{E}}_1$.  The moment of the tractions on the surface $\Gamma({}^m\! X_1,\hat{\boldsymbol{E}}_1)$ about the centeroid  of the surface $\Gamma({}^m\! X_1)$, which is the point $\mathcal{M}$, is, by definition, $\boldsymbol{M}({}^m\!X_1,\hat{\boldsymbol{E}}_1)$. The only other force acting on the segment is the left reaction force. The moment of this force is $(-{}^m\! X\_1\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$ which simplifies to $ P X_1  b/(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segement should be zero about any point, we have that 
 
 $$
 \begin{align}
-\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)+\frac{P b}{(a+b)}X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0},
+\boldsymbol{M}({}^m\!X_1,\hat{\boldsymbol{E}}_1)+\frac{P b}{(a+b)}{}^m\! X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0},
 \end{align}
 $$
 from which it follows that 
 $$
 \begin{align}
-M(X_1)&=-\frac{P b X_1 }{(a+b)}  \quad \forall X_1\in(0,a),
+M(X_1)&=-\frac{P b X_1 }{(a+b)}  \quad \forall X_1\in(0,a).
 \end{align}
 $$
 
 
-
-Consider the segment lying between the points $Q$ and $B$. We will next compute the moment of all the foces acting on the segement about the point $Q$. The moment of the tractions on the surface $\Gamma(X_1,-\hat{\boldsymbol{E}}_1)$ about the centeroid of $\Gamma(X_1)$
-is $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$. The only other forces acting on the segement is the right reaction force. The momemnt of this force is $((a+b)-X\_1\hat{\boldsymbol{E}}_1)\times (-f\_2\hat{\boldsymbol{E}}_2)$ which simplifies to $ - P a((a+b)-X_1) /(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segement should be zero about any point, we have that 
+Let $\mathcal{N}$ be some material particle between the points $\mathcal{C}$ and $\mathcal{B}$, where the material particle $\mathcal{B}$ is on the right face of the beam. Now consider the segment lying between the points $\mathcal{N}$ and $B$. This segment is shown in orange in the figure. Let the position vector of $\mathcal{N}$ be ${}^n\! X_1\hat{\boldsymbol{E}}_1$. We will next compute the moment of all the forces acting on the segement about the point $\mathcal{N}$. The moment of the tractions on the surface $\Gamma({}^n\!X_1,-\hat{\boldsymbol{E}}_1)$ about the centeroid of $\Gamma({}^n\!)$, which is nothing but the point $\mathcal{N}$, is, by definition, $\boldsymbol{M}({}^n\!X_1,-\hat{\boldsymbol{E}}_1)$. The only other forces acting on the segement is the right reaction force. The moment of this force is $((a+b)-{}^n\!X\_1\hat{\boldsymbol{E}}_1)\times (-f\_2\hat{\boldsymbol{E}}_2)$ which simplifies to $ - P a((a+b)-{}^n\!X_1) /(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segment should be zero about any point, we have that 
 
 $$
 \begin{align}
-\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)-P a\left(1-\frac{X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3&=\boldsymbol{0},\\
--\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)&=P a\left(1-\frac{X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3\\
-\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=-P a\left(1-\frac{X_1}{(a+b)}\right)
+\boldsymbol{M}({}^n\!X_1,-\hat{\boldsymbol{E}}_1)-P a\left(1-\frac{{}^n\!X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3&=\boldsymbol{0},\\
+-\boldsymbol{M}({}^n\!X_1,\hat{\boldsymbol{E}}_1)&=P a\left(1-\frac{{}^n\!X_1}{(a+b)}\right)  \hat{\boldsymbol{E}}_3\\
+\boldsymbol{M}({}^n\!X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=-P a\left(1-\frac{{}^n\!X_1}{(a+b)}\right)
 \end{align}
 $$
 from which it follows that 
@@ -85,6 +82,8 @@ E I y'(X_1)&=P a\left(\frac{X_1^2}{2(a+b)}-X_1\right)+B_1 \quad \forall X_1\in(a
 \end{align}
 $$
 
+
+#### Setting $\lim_{X_1\to a^-}y'(X_1)=\lim_{X_1\to a^+}y'(X_1)$ we get $C_1$ in terms of $B_1$
 We know that 
 $$
 \begin{align}
@@ -105,11 +104,11 @@ E I y(X_1)&=P a\left(\frac{X_1^3}{6(a+b)}-\frac{X_1^2}{2}\right)+B_1 X_1+B_0 \qu
 \end{align}
 $$
 
-#### Setting $y(0)=0$ 
+#### Setting $y(0)=0$ we get $C_0$
 
 We have that $C_0=0$. 
 
-#### Setting $\lim_{X_1\to a^-}y(X_1)=\lim_{X_1\to a^+}y(X_1)$
+#### Setting $\lim_{X_1\to a^-}y(X_1)=\lim_{X_1\to a^+}y(X_1)$ we get $B_0$
 $$
 \begin{align}
 \lim_{X_1\to a^-}y(X_1)&=\lim_{X_1\to a^+}y(X_1)\\
@@ -123,7 +122,7 @@ B_0&=-\frac{P a^3}{6}
 \end{align}
 $$
 
-#### Setting $y(a+b)=0$
+#### Setting $y(a+b)=0$ we get $B_1$
 
 $$
 \begin{align}
@@ -135,7 +134,7 @@ B_1 (a+b)&=\frac{P a}{6} \left(2(a+b)^2+a^2\right)
 $$
 
 
-#### C_1
+#### Explicit form of $C_1$
 
 $$
 \begin{align}
