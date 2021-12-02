@@ -26,22 +26,22 @@ The bending moment $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$ is the negative 
 
 
 
-The segment of the beam lying between the material particles $\mathcal{M}$ and $\mathcal{E}$ is shown in the below figure. The material particle $\mathcal{E}$ is the centeroid of the right end face of the beam. The surface $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$ is represented by a orange vertical  line and a orange arrow. The tractions acting on $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$ are displayed using a arrays of blue arrows. They are values of the traction field $\boldsymbol{t}\left({}^0 X_1,-\hat{\boldsymbol{E}}_1\right)$ over the cross-section $\Gamma({}^0 X_1)$. 
+The material particle $\mathcal{E}$ is the centroid of the right end face of the beam. The segment of the beam lying between the material particles $\mathcal{M}$ and $\mathcal{E}$ is shown in the below figure.  The surface $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$ is represented by a orange vertical  line and a orange arrow. The tractions acting on $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$ are displayed using a arrays of blue arrows. They are values of the traction field $\boldsymbol{t}\left({}^0 X_1,-\hat{\boldsymbol{E}}_1\right)$ over the cross-section $\Gamma({}^0 X_1)$. 
 
 ![](2021-11-30-21-52-29.png)
 
 
 #### Balance of bending moment
 
-The entire beam is in equilibrium, which implies that each segment of the beam is also in equilibrium. More relevant to us the  gray segment of the beam shown in the above figure is in equilibrium. Equilibrium means that the net forces on the segment is zero, and the sum of the moments of those forces about any point is also zero. Let us use the fact that  the sum of the moments of all the forces acting on the gray segment about the point $\mathcal{M}$ are zero. 
+The entire beam is in equilibrium, which implies that each segment of the beam is also in equilibrium. What is more relevant to us is that the  gray segment of the beam shown in the above figure is in equilibrium. Equilibrium means that the net forces on the segment is zero, and the sum of the moments of those forces about any point is also zero. Let us use the fact that  the sum of the moments of all the forces acting on the gray segment about the point $\mathcal{M}$ are zero. 
 
 
 There are two sets of forces acting on the gray segment. The first set of forces act on the surface $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$, and the second set of forces act on the right face of the cantilever.
 
-The first set of forces are those due to the traction field $\boldsymbol{t}\left({}^0 X_1,-\hat{\boldsymbol{E}}_1\right)$ acting on the cross-section $\Gamma(^{0}X_1)$. By definition the moment of those forces about the point $\mathcal{M}$ is $\boldsymbol{M}\left({}^0 X_1,-\hat{\boldsymbol{E}}_1\right)$
+The first set of forces are those due to the traction field $\boldsymbol{t}\left({}^0 X_1,-\hat{\boldsymbol{E}}_1\right)$ acting on the cross-section $\Gamma(^{0}X_1)$. By definition, the moment of those forces about the point $\mathcal{M}$ is $\boldsymbol{M}\left({}^0 X_1,-\hat{\boldsymbol{E}}_1\right)$
 
-The second set of forces are the applied set of forces on the right face of the cantilever. The right face of the cantilever is represented by a dark red vertical  line and a dark red arrow. It is marked at $\Gamma(l, \hat{\boldsymbol{E}}_1)$, where $l$ is the length of the cantilever. The forces acting on the surface  $\Gamma(l, \hat{\boldsymbol{E}}_1)$ are not shown explicitly. However, we know from the problem statement that those forces give rise to the moment $M_0 \hat{\boldsymbol{E}}_1)$ about the point $\mathcal{E}$. In thise  section that is a set of force give rise to so  
-The second set of forces are the applied set of forces on the right face of the cantilever. The right face of the cantilever is represented by a dark red vertical  line and a dark red arrow. It is marked at $\Gamma(l, \hat{\boldsymbol{E}}_1)$, where $l$ is the length of the cantilever. The forces acting on the surface  $\Gamma(l, \hat{\boldsymbol{E}}_1)$ are not shown explicitly. However, we know from the problem statement that those forces give rise to the moment $M_0 \hat{\boldsymbol{E}}_1)$ about the point $\mathcal{E}$. It follows from the results of  a previous section that the moment of the forces acting on the surface  $\Gamma(l, \hat{\boldsymbol{E}}_1)$ about the point $\mathcal{M}$ is $M_0 \hat{\boldsymbol{E}}_1)$.
+<!-- The second set of forces are the applied set of forces on the right face of the cantilever. The right face of the cantilever is represented by a dark red vertical  line and a dark red arrow. It is marked at $\Gamma(l, \hat{\boldsymbol{E}}_1)$, where $l$ is the length of the cantilever. The forces acting on the surface  $\Gamma(l, \hat{\boldsymbol{E}}_1)$ are not shown explicitly. However, we know from the problem statement that those forces give rise to the moment $M_0 \hat{\boldsymbol{E}}_3$ about the point $\mathcal{E}$.In thise  section that is a set of force give rise to so    -->
+The second set of forces are the applied set of forces on the right face of the cantilever. The right face of the cantilever is represented by a dark red vertical  line and a dark red arrow. It is marked at $\Gamma(l, \hat{\boldsymbol{E}}_1)$, where $l$ is the length of the cantilever. The forces acting on the surface  $\Gamma(l, \hat{\boldsymbol{E}}_1)$ are not shown explicitly. However, we know from the problem statement that those forces give rise to the moment $M_0 \hat{\boldsymbol{E}}_3$ about the point $\mathcal{E}$. It follows from the result of  the previous sections that the moment of the forces acting on the surface  $\Gamma(l, \hat{\boldsymbol{E}}_1)$ about the point $\mathcal{M}$ is $M_0 \hat{\boldsymbol{E}}_3$.
 
 ![](2021-11-30-22-14-13.png)
 
@@ -68,4 +68,4 @@ M(X_1)
 $$
 
 
-In summary we have that the bending moment along the length of cantilever is constant, and is equal to the that applied to the cantilever's right face.
+In summary, we have that the bending moment along the length of cantilever is constant, and is equal to that applied to the cantilever's right face.
