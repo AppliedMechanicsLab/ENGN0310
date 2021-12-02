@@ -1,5 +1,9 @@
 {% include mathjax_support %}
 {% include command %}
+
+
+![](2021-12-01-19-14-45.png)
+
 The reaction force at the left support is $\boldsymbol{f}_1=-f_1\hat{\boldsymbol{E}}_2$. The reaction force at the right support is $\boldsymbol{f}_2=-f_2\hat{\boldsymbol{E}}_2$.
 
 The applied force is  $\boldsymbol{P}=P\hat{\boldsymbol{E}}_2$.
