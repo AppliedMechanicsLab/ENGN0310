@@ -26,28 +26,28 @@ Let us compute the moment of all the forces acting the beam about the point $\ma
 $$
 \begin{align}
 f_1(a+b)\hat{\boldsymbol{E}}_3
--Pb\hat{\boldsymbol{E}}_3&=0\\
+-Pb\hat{\boldsymbol{E}}_3&=0\nonumber\\
 f_1=\frac{P b}{(a+b)}
 \end{align}
 $$
 
-From the last two equations we get that 
+It follows from the last two numbered equations that 
 $$
 \begin{align}
-f_1&=\frac{P b}{(a+b)}\\
-f_2&=\frac{P a}{(a+b)}
+f_1&=\frac{P b}{(a+b)},\\
+f_2&=\frac{P a}{(a+b)}.
 \end{align}
 $$
 
 
 #### Moment along the beam
 
-Consider the segment lying between the points $A$ and $P$. We will next compute the moment of all the foces acting on the segement about the point $P$. The moment of the tractions on the surface $\Gamma(X_1,\hat{\boldsymbol{E}}_1)$ about the centeroid of $\Gamma(X_1)$
-is $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$. The only other forces acting on the segement is the left reaction force. The momemnt of this force is $(-X\_1\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$ which simplifies to $ P X_1  b/(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segement should be zero about any point, we have that 
+Consider the segment lying between the points $\mathcal{O}$ and $\mathcal{M}$ (shown in grey in the figure). We will next compute the moment of all the foces acting on the segment about the point $\mathcal{M}$. The position vector of $\mathcal{M}$ is ${}^0X_1\hat{\boldsymbol{E}}_1$. 
+The moment of the tractions on the surface $\Gamma({}^0 X_1,\hat{\boldsymbol{E}}_1)$ about the centeroid  of the surface $\Gamma({}^0 X_1)$, which is the point $\mathcal{M}$, is, by definition, $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$. The only other force acting on the segment is the left reaction force. The momemnt of this force is $(-{}^0 X\_1\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$ which simplifies to $ P X_1  b/(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segement should be zero about any point, we have that 
 
 $$
 \begin{align}
-\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)+P X_1  b/(a+b)\hat{\boldsymbol{E}}_3=\boldsymbol{0},
+\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)+\frac{P b}{(a+b)}X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0},
 \end{align}
 $$
 from which it follows that 
