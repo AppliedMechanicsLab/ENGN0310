@@ -32,7 +32,7 @@ $$
 \sigma_{11}(X_1,X_2,X_3)=-\frac{M(X_1)}{I(X_1)} X_2
 $$
 
-(c)(10pts) Find the deflection at the point $X_1=0.8~\rm{m}$.
+(c)(10pts) Find the displacement, $\delta$, at the point $X_1=0.8~\rm{m}$.
 
 **Problem 2 (30pts total)** 
 
@@ -56,7 +56,7 @@ $$
 \sigma_{11}(X_1,X_2,X_3)=-\frac{M(X_1)}{I(X_1)} X_2
 $$
 
-(c)(10pts) Find the deflection at the point $X_1=4~\rm{m}$.
+(c)(10pts) Find the displacement, $\delta$, at the point $X_1=4~\rm{m}$.
 
 
 **Problem 3 (40pts total)**
