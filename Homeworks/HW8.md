@@ -61,7 +61,7 @@ $$
 
 **Problem 3 (40pts total)**
 
-Consider the simply-supported beam shown below, where $L=2~\rm m$ and the beam's cross section is a square with $50~\rm{mm}$ side length. If the maximum permissible deflection in the beam is $5~\rm{mm}$ and the allowable bending stress is 150 MPa, find the maximum allowable $M_0$. Use $E = 200~\rm{GPa}$. You can solve this in the following steps. 
+Consider the simply-supported beam shown below, where $L=2~\rm m$ and the beam's cross section is a square with $50~\rm{mm}$ side length. If the maximum permissible displacement, $\delta$, in the beam is $5~\rm{mm}$ and the allowable bending stress is 150 MPa, find the maximum allowable $M_0$. Use $E = 200~\rm{GPa}$. You can solve this in the following steps. 
 
 <br/>
     <center>
@@ -71,7 +71,7 @@ Consider the simply-supported beam shown below, where $L=2~\rm m$ and the beam's
 
 (a)(10pts) Find the bending moment along the length of the beam in terms of $M_0$.
 
-(b)(10pts) Derive the expression for the maximum deflection in the beam given $M_0$.
+(b)(10pts) Derive the expression for the maximum displacement, $\delta$, in the beam given $M_0$.
 
 (c)(10pts) Derive the expression for the maximum bending stress in the beam given $M_0$.
 
