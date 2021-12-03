@@ -61,7 +61,7 @@
 * [Deflected shape](Beams/Beams1.md)
     * [Cantilever loaded with end moment](Beams/EndMomentShape.md) 
 * [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
-* :construction: :construction: [SSB point load](Beams/SSBPointLoad.md)
+* :construction: [SSB point load](Beams/SSBPointLoad.md)
 * [Internal stresses](Beams/Beams3.md)
 * [Flextural strength](Beams/Beams4.md)
 
