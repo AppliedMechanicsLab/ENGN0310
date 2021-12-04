@@ -57,7 +57,7 @@
 *  [Proof of $\boldsymbol{M}(X_1,\hat{E}_1)=-\boldsymbol{M}(X_1,-\hat{E}_1)$](Beams/MomentsThirdLaw.md)
 * Moments along the length of the beam
     * [Cantilever loaded with end moment](Beams/EndMomentMoment.md)
-    * [Solved problem: beam loaded with end force](Beams/EndForceMoment.md)     
+    * [Solved problem: beam loaded with end force](/CourseNotes/Beams/EndForceCantilever.md)     
 * [Deflected shape](Beams/Beams1.md)
     * [Cantilever loaded with end moment](Beams/EndMomentShape.md) 
 * [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
