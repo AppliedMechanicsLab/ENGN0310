@@ -60,8 +60,9 @@
     * [Solved problem: beam loaded with end force](/CourseNotes/Beams/EndForceCantilever.md)     
 * [Deflected shape](Beams/Beams1.md)
     * [Cantilever loaded with end moment](Beams/EndMomentShape.md) 
-* [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
-* [SSB point load](Beams/SSBPointLoad.md)
+    * [Cantilever loaded with end force](Beams/EndForceShape.md) 
+    * [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
+    * [SSB point load](Beams/SSBPointLoad.md)
 * [Internal stresses](Beams/Beams3.md)
 * [Flextural strength](Beams/Beams4.md)
 
