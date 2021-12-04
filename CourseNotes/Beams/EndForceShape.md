@@ -3,7 +3,7 @@
 
 ![](2021-11-27-21-17-59.png)
 
-We analyzed the problem sketeched in the above figure in [this section](/CourseNotes/Beams/EndForceCantilever.md) and found that the bending moment varies along the length of the beam as
+We analyzed the problem sketeched in the above figure in [this section](EndForceCantilever.md) and found that the bending moment varies along the length of the beam as
 
 $$
 \begin{equation}
