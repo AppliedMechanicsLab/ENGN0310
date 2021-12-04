@@ -43,7 +43,7 @@ $$
 E I y\left(X_1\right)= M_0 \frac{X_1^2}{2}+C_0,
 \end{align}
 $$
-where $C_0$, as of yet, is an unknown constant. We can determine $C_0$ by noting that  $\left. y\left(X_1\right)\right|\_{X_1=0}$ has to vanish, since the cantilever is anchored on its left end and therefore the left end cannot move, i.e., have non-zero displacement. By applying the condition $\left. y\left(X_1\right)\right|_{X_1=0}=0$ we get that $C_0=0$. Hence the last equation can be simplified to read
+where $C_0$, as of yet, is an unknown constant. We can determine $C_0$ by noting the value $y(0)$ has to vanish.  Since the cantilever is anchored on its left end and therefore the left end cannot move, i.e., have non-zero displacement. By applying the condition $y(0)=0$ we get that $C_0=0$. Hence the last equation can be simplified to read
 $$
 \begin{align}
 E I y\left(X_1\right)= M_0 \frac{X_1^2}{2}.
