@@ -3,7 +3,7 @@
 
 ![](2021-11-27-21-17-59.png)
 
-Consider the above shown cantilever of length $l$. We apply the force $\boldsymbol{f}=f\hat{\boldsymbol{E}}_2$, where $f$ is a positive number, to its end. The moment on the cross-section at $^0\\! X_1$ due to the force is  $(l-^0\\! X_1)f \hat{\boldsymbol{E}}_3$. Let us a take closer look at how to derive this result. 
+Consider the above shown cantilever of length $l$. We apply the force $\boldsymbol{f}=f\hat{\boldsymbol{E}}_2$, where $f$ is a positive number, to its end. The moment on the cross-section at $^0\\! X_1$ due to the force is  $(l- ^0\\! X_1)f \hat{\boldsymbol{E}}_3$. Let us a take closer look at how to derive this result. 
 
 
 ![](2021-12-04-18-58-25.png)
@@ -18,14 +18,14 @@ There are two sets of forces acting on the segment. The forces dues to the inter
 
 $$
 \begin{align}
-\boldsymbol{M}(^0 X_1, -\hat{\boldsymbol{E}}_1)+(l-^0\! X_1) \hat{\boldsymbol{E}}_3&=\boldsymbol{0}.
+\boldsymbol{M}(^0 X_1, -\hat{\boldsymbol{E}}_1)+(l-^0\! X_1)f \hat{\boldsymbol{E}}_3&=\boldsymbol{0}.
 \end{align}
 $$
 Using Newton's  third law we showed in [this section](./MomentsThirdLaw.md) that  $\boldsymbol{M}(^0 X_1, -\hat{\boldsymbol{E}}\_1)=-\boldsymbol{M}(^0 X_1, \hat{\boldsymbol{E}}\_1)$. So, in terms of $\boldsymbol{M}(^0 X_1, \hat{\boldsymbol{E}}\_1)$ the last displayed equation reads 
 
 $$
 \begin{align}
--\boldsymbol{M}(^0 X_1, \hat{\boldsymbol{E}}_1)+(l-^0\! X_1) \hat{\boldsymbol{E}}_3&=\boldsymbol{0}.
+-\boldsymbol{M}(^0 X_1, \hat{\boldsymbol{E}}_1)+(l-^0\! X_1)f \hat{\boldsymbol{E}}_3&=\boldsymbol{0}.
 \end{align}
 $$
 
@@ -33,7 +33,7 @@ Taking the dot product on both sides of the above equation with $\hat{\boldsymbo
 
 $$
 \begin{align}
-\boldsymbol{M}(^0\! X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=(l-^0 \!X_1).
+\boldsymbol{M}(^0\! X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=(l-^0 \!X_1)f.
 \end{align}
 $$
 
