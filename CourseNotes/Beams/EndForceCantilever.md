@@ -3,7 +3,7 @@
 
 ![](2021-11-27-21-17-59.png)
 
-Consider the above shown cantilever of length $l$. We apply the force $\boldsymbol{f}=f\hat{\boldsymbol{E}}_2$, where $f$ is a positive number, to its end. The moment on the cross-section at $^0\! X_1$ due to the force is  $(l-^0\! X_1)f \hat{\boldsymbol{E}}_3$. Let us a take closer look at how to derive this result. 
+Consider the above shown cantilever of length $l$. We apply the force $\boldsymbol{f}=f\hat{\boldsymbol{E}}_2$, where $f$ is a positive number, to its end. The moment on the cross-section at $^0\\! X_1$ due to the force is  $(l-^0\! X_1)f \hat{\boldsymbol{E}}_3$. Let us a take closer look at how to derive this result. 
 
 
 ![](2021-12-04-18-58-25.png)
