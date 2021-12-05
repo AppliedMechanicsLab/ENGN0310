@@ -63,8 +63,7 @@
     * [Cantilever loaded with end force](Beams/EndForceShape.md) 
     * [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
     * [SSB point load](Beams/SSBPointLoad.md)
-<!-- * [Internal stresses](Beams/Beams3.md)
-* [Flextural strength](Beams/Beams4.md) -->
+
 
 ## Solid Mechanics
 
