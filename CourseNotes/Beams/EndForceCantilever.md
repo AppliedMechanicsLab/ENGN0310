@@ -38,6 +38,7 @@ $$
 $$
 
 Recalling that $M(X_1)$ is defined to $\boldsymbol{M}(^0 \\!X_1, \hat{\boldsymbol{E}})\cdot \hat{\boldsymbol{E}}_3$ it follows from the last equation that
+
 $$
 \begin{equation}
 M(X_1)=(l-X_1)f.
