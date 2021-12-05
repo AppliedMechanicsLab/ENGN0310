@@ -4,7 +4,7 @@
 # ENGN0310: Homework 9 (100 pts)
 ## Due Saturday 11:59 pm, December 11th, 2021
 
- ### Problem 1
+### Problem 1
 <!-- ![](2021-12-04-21-45-25.png) -->
 
 Consider the geometry shown where $a=3~\rm{m}$ and $b=2~\rm{m}$. If the yield stress of the material is $180~\rm{MPa}$, what is the maximum force $P$ that can be applied without exceeding the yield stress? Take $E=200~\rm{GPa}$ and assume that the beam has a $1~\rm{cm}\times1~\rm{cm}$ square cross-sectional area.
