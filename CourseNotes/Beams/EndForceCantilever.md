@@ -25,7 +25,7 @@ Using Newton's  third law we showed in [this section](./MomentsThirdLaw.md) that
 
 $$
 \begin{align}
--\boldsymbol{M}(^0 X_1, \hat{\boldsymbol{E}}\_1)+(l-^0\! X_1) \hat{\boldsymbol{E}}_3&=\boldsymbol{0}.
+-\boldsymbol{M}(^0 X_1, \hat{\boldsymbol{E}}_1)+(l-^0\! X_1) \hat{\boldsymbol{E}}_3&=\boldsymbol{0}.
 \end{align}
 $$
 
