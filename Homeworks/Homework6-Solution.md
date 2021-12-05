@@ -406,7 +406,7 @@ $$
 Plugging in 
 
 $$
-\tan{2\theta_p}=\frac{2\tau_{12}}{\sigma_{11}-\sigma{22}}=\frac{b}{a}
+\tan{2\theta_p}=\frac{2\tau_{12}}{\sigma_{11}-\sigma_{22}}=\frac{b}{a}
 $$
 
 we get 
