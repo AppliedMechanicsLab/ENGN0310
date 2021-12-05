@@ -75,4 +75,4 @@ Geometries from 7.11 and 7.19 on pages 108-109
      <img src="HW9-fig4b.png" alt="drawing" width="600"/>
     </center>
 <br/> 
-![](2021-12-04-22-16-01.png)
+<!-- ![](2021-12-04-22-16-01.png) -->
