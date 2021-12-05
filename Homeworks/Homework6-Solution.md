@@ -313,7 +313,7 @@ Plugging in $\sigma=-15~\rm{MPa}$ and $\tau=5~\rm{MPa}$ and solving for $t, \bet
 $$
 \begin{align*}
 t&=5\sqrt{10}~\rm{MPa}=15.8..~\rm{MPa}\\
-\beta&=0.321..~\rm{rad}=18.4..\degree
+\beta&=0.321..~\rm{rad}=18.4..^\circ
 \end{align*}
 $$
 
@@ -363,7 +363,7 @@ $$
 or 
 
 $$
-\theta_p=76.7\degree, 166.7\degree, 256.7\degree, 346.7\degree
+\theta_p=76.7^\circ, 166.7^\circ, 256.7^\circ, 346.7^\circ
 $$
 
 It is also sufficient if you just solved for $\theta_p$ in $0 \leq \theta_p <\pi$.
@@ -425,7 +425,7 @@ $$
 Hence, by solving for $\theta_p$ that satisfies both ($\star$) and ($\star \star$), we find that the normal stress is maximum at 
 
 $$
-\theta_p=1.34~\rm{rad}~(=76.7\degree )
+\theta_p=1.34~\rm{rad}~(=76.7^\circ )
 $$
 
 Similarly, the normal stress is minimum when ($\star$) and ($\star \star \star$) below are satisfied
@@ -439,5 +439,5 @@ $$
 which is when
 
 $$
-\theta_p=2.91~\rm{rad}~(=166.7\degree )
+\theta_p=2.91~\rm{rad}~(=166.7^\circ )
 $$
