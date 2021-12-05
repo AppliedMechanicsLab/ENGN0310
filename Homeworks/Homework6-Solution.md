@@ -6,10 +6,6 @@
 # ENGN0310: Homework 6 Solution
 
 
-
-**Mathematica file** used to compute the solutions below can be found [here](HW4_calc.nb).
-
-
 <u> Problem 1 (10 pts) </u>
 
 For the given state of stress, determine the normal and shearing stresses exerted on the oblique face of the shaded triangular element shown. Use a method of analysis based on the equilibrium of that element.
