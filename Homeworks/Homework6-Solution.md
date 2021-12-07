@@ -372,7 +372,7 @@ $$
 \sigma(\theta)=\frac{\sigma_{11}+\sigma_{22}}{2} +\frac{\sigma_{11}-\sigma_{22}}{2} \cos{(2\theta)}+\tau_{12}\sin{(2\theta)}
 $$
 
-Note that (*) above is obtained by taking 
+Note that ($\star$) above is obtained by taking 
 
 $$
 \sigma'(\theta)=-\frac{\sigma_{11}-\sigma_{22}}{2} \sin{(2\theta)}+\tau_{12}\cos{(2\theta)}=0

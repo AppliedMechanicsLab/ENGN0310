@@ -23,7 +23,7 @@ For the given state of stress, determine (a) (10 pts) the maximum and minimum in
     </center>
 
 
-**Solution** 
+**Solution (a)** 
 
 The minimum in-plane shearing stress is $\tau_{\rm min}=0$. Plugging in $\sigma_{11}=-40~\rm{MPa}$, $\sigma_{22}=-60~\rm{MPa}$, and $\tau_{12}=25~\rm{MPa}$ to the equation given for the maximum in-plane shearing stress,
 
@@ -33,184 +33,208 @@ $$
 \end{equation}
 $$
 
-The orientation of the planes of the maximum and minimum in-plane shearing stress is given by solving for $\theta_s$ in $0 \leq \theta_s <2\pi$ (or just $0 \leq \theta_s <\pi$ is also sufficient) that satisfies
+**Solution (b)** 
+
+The orientation of the planes of the minimum in-plane shearing stress is at $\theta_p$. From HW6, Pb5 solution, this is at 
+
+$$
+\theta_p=1.34~\rm{rad}, 2.91~\rm{rad}, 4.48~\rm{rad}, 6.05~\rm{rad}
+$$
+
+or 
+
+$$
+\theta_p=76.7^\circ, 166.7^\circ, 256.7^\circ, 346.7^\circ
+$$
+
+The orientation of the planes of the maximum in-plane shearing stress is given by solving for $\theta_s$ in $0 \leq \theta_s <2\pi$ (or just $0 \leq \theta_s <\pi$ is also sufficient) that satisfies
 
 $$ 
 \tan 2\theta_s=-\frac{\sigma_{11}-\sigma_{22}}{2\tau_{12}}
 $$
 
-we find 
+which gives
+
+$$
+\theta_s=0.554~\rm{rad}, 2.12~\rm{rad}, 3.70~\rm{rad}, 5.27~\rm{rad}
+$$
+
+or 
+
+$$
+\theta_s=31.7^\circ, 121.7^\circ, 211.7^\circ, 301.7^\circ
+$$
 
 
+
+
+
+***Optional***
+
+Refer to [this note](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Stress/Stress6.html) to figure out which angle corresponds to positive shear/negative shear. 
+<br/>
+<br/> 
 
 
 
 <u> Problem 2 (60 pts) </u> 
 
-We studied the problem of torsion earlier in the semester. In solving torsion problems we used the equation
+***Solution (a)***
 
 $$
-\begin{equation}
-\label{eq:TorsionCE}
-T(X)=G(X)J(X)\phi'(X)
-\end{equation}
+\begin{align*}
+\breve{u}_1(X_1,X_2,X_3)&=\breve{x}_1(X_1,X_2,X_3)-X_1\\
+&=X_1-X_2\phi(X_3)-X_1=-X_2\phi(X_3) \\\\
+\breve{u}_2(X_1,X_2,X_3)&=\breve{x}_2(X_1,X_2,X_3)-X_2\\
+&=X_2+X_1\phi(X_3)-X_2=X_1\phi(X_3)\\\\
+\breve{u}_3(X_1,X_2,X_3)&=\breve{x}_3(X_1,X_2,X_3)-X_3\\
+&=X_3-X_3=0
+\end{align*}
 $$
 
-where 
-* $T(X)$ is the torque,
-* $G(X)$ is the shear modulus, 
-* $J(X)$ is the polar moment of inertia,
-* $\phi(X)$ is the angle of twist,
-
-and $X$ is the coordinate of a material particle in the direction of the shaft's length. 
-
-In the following we will derive the previous equation.
-
-Take the displacement field in the  shaft  to be
+***Solution (b)***
 
 $$
-\begin{align}
-\breve{x}_1(X_1,X_2,X_3)&= X_1-X_2\phi(X_3) \\
-\breve{x}_2(X_1,X_2,X_3)&=X_2+X_1\phi(X_3)\\
-\breve{x}_3(X_1,X_2,X_3)&=X_3
-\end{align}
+\begin{align*}
+\breve{\epsilon}_{11}(X_1,X_2,X_3)&=
+    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_1}=\frac{\partial( -X_2\phi(X_3))}{\partial X_1}=0\\
+\breve{\epsilon}_{22}(X_1,X_2,X_3)&=
+    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_2}=\frac{\partial(X_1\phi(X_3))}{\partial X_2}=0\\
+\breve{\epsilon}_{33}(X_1,X_2,X_3)&=
+    \frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_3}=\frac{\partial(0)}{\partial X_3}=0\\
+\breve{\epsilon}_{12}(X_1,X_2,X_3)&=\frac{1}{2}\left(
+    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_2}+\frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_1}\right)\\
+    &=\frac{1}{2}\left(\frac{\partial( -X_2\phi(X_3))}{\partial X_2}+\frac{\partial(X_1\phi(X_3))}{\partial X_1}\right)=\frac{1}{2}(-\phi(X_3)+\phi(X_3))=0\\
+\breve{\epsilon}_{21}(X_1,X_2,X_3)&=\breve{\epsilon}_{12}(X_1,X_2,X_3)=0\\
+\breve{\epsilon}_{13}(X_1,X_2,X_3)&=\frac{1}{2}\left(
+    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_3}+\frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_1}\right)\\
+    &=\frac{1}{2}\left(\frac{\partial( -X_2\phi(X_3))}{\partial X_3}+\frac{\partial(0)}{\partial X_1}\right)=-\frac{1}{2}X_2\phi'(X_3)\\
+\breve{\epsilon}_{31}(X_1,X_2,X_3)&=\breve{\epsilon}_{13}(X_1,X_2,X_3)=-\frac{1}{2}X_2\phi'(X_3)\\
+\breve{\epsilon}_{23}(X_1,X_2,X_3)&=\frac{1}{2}\left(
+    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_3}+\frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_2}\right)\\
+    &=\frac{1}{2}\left(\frac{\partial(X_1\phi(X_3))}{\partial X_3}+\frac{\partial(0)}{\partial X_2}\right)=\frac{1}{2}X_1\phi'(X_3)\\
+\breve{\epsilon}_{32}(X_1,X_2,X_3)&=\breve{\epsilon}_{23}(X_1,X_2,X_3)=\frac{1}{2}X_1\phi'(X_3)\\
+\end{align*}
 $$
 
-* **(5pts) (a)** What is the displacement field? That is, what are the functions
-    $\breve{u}_1(X_1,X_2,X_3)$, $\breve{u}_2(X_1,X_2,X_3)$, and $\breve{u}_3(X_1,X_2,X_3)$? Recall that 
-    
-    $$
-    \breve{u}_i(X_1,X_2,X_3)=\breve{x}_i(X_1,X_2,X_3)-X_i,
-    $$
-    
-    where $i=1,~2,~3$.
+where
 
-* **(10 pts) (b)** What is the strain field $\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3)$?
-    Determining the strain field is equivalent to determining the components 
+$$
+\phi'(X_3)=\frac{\partial \phi(X_3)}{\partial X_3}
+$$
 
-    $$
-    \breve{\epsilon}_{ij}(X_1,X_2,X_3)
-    $$
+***Solution (c)***
+
+Taking the results from part (b),
+$$
+\begin{align*}
+\text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))&=
+\breve{\epsilon}_{11}(X_1,X_2,X_3)+
+\breve{\epsilon}_{22}(X_1,X_2,X_3)+\breve{\epsilon}_{33}(X_1,X_2,X_3)=0\\
+\end{align*}
+$$ 
+
+So that
+
+$$
+\begin{align*}
+\breve{\sigma}_{11}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{11}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))=0\\
+\breve{\sigma}_{22}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{22}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))=0\\
+\breve{\sigma}_{33}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{33}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))=0\\
+\breve{\sigma}_{23}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{23}(X_1,X_2,X_3)=2\mu\left(\frac{1}{2}X_1\phi'(X_3)\right)=\mu X_1\phi'(X_3)\\
+\breve{\sigma}_{13}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{13}(X_1,X_2,X_3)=2\mu\left(-\frac{1}{2}X_2\phi'(X_3)\right)=-\mu X_2 \phi'(X_3)\\
+\breve{\sigma}_{12}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{12}(X_1,X_2,X_3)=0\\
+\breve{\sigma}_{32}(X_1,X_2,X_3)&=\breve{\sigma}_{23}(X_1,X_2,X_3)=\mu X_1\phi'(X_3)\\
+\breve{\sigma}_{31}(X_1,X_2,X_3)&=\breve{\sigma}_{13}(X_1,X_2,X_3)=-\mu X_2 \phi'(X_3)\\
+\breve{\sigma}_{21}(X_1,X_2,X_3)&=\breve{\sigma}_{12}(X_1,X_2,X_3)=0
+\end{align*}
+$$
+
+***Solution (d)***
+
+$$
+\begin{align*}
+\left[\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)\right]&=
+\begin{bmatrix}
+\breve{\sigma}_{11}(X_1,X_2,X_3)&\breve{\sigma}_{12}(X_1,X_2,X_3)&\breve{\sigma}_{13}(X_1,X_2,X_3)\\
+\breve{\sigma}_{22}(X_1,X_2,X_3)&\breve{\sigma}_{21}(X_1,X_2,X_3)&\breve{\sigma}_{23}(X_1,X_2,X_3)\\
+\breve{\sigma}_{31}(X_1,X_2,X_3)&\breve{\sigma}_{32}(X_1,X_2,X_3)&\breve{\sigma}_{1
+33}(X_1,X_2,X_3)\\
+\end{bmatrix}\\&=
+\begin{bmatrix}
+0&0&-\mu X_2 \phi'(X_3)\\
+0&0&\mu X_1\phi'(X_3)\\
+-\mu X_2 \phi'(X_3)&\mu X_1\phi'(X_3)&0
+\end{bmatrix}=\left[\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)\right]^{\sf T}
+\end{align*}
+$$  
+
+It follows then that
+
+$$
+\begin{align*}
+\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right]
+&=\left[\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)\right]^{\sf T}\left[\hat{\boldsymbol{E}}_3\right]\\
+&=
+\begin{bmatrix}
+0&0&-\mu X_2 \phi'(X_3)\\
+0&0&\mu X_1\phi'(X_3)\\
+-\mu X_2 \phi'(X_3)&\mu X_1\phi'(X_3)&0
+\end{bmatrix}
+\begin{bmatrix}
+0\\
+0\\
+1
+\end{bmatrix}=
+\begin{bmatrix}
+-\mu X_2 \phi'(X_3)\\
+\mu X_1\phi'(X_3)\\
+0
+\end{bmatrix}
+\end{align*}
+$$  
+
+***Solution (e)***
+
+$$
+\begin{align*}
+\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)
+&=(X_1\hat{\boldsymbol{E}}_1+X_2\hat{\boldsymbol{E}}_2+X_3\hat{\boldsymbol{E}}_3) \times (-\mu X_2 \phi'(X_3)\hat{\boldsymbol{E}}_1+\mu X_1\phi'(X_3)\hat{\boldsymbol{E}}_2+0\hat{\boldsymbol{E}}_3)\\
+&=-\mu X_1 X_2 \phi'(X_3) (\hat{\boldsymbol{E}}_1 \times \hat{\boldsymbol{E}}_1)+\mu X_1^2 \phi'(X_3) (\hat{\boldsymbol{E}}_1 \times \hat{\boldsymbol{E}}_2)+ 0 (\hat{\boldsymbol{E}}_1 \times \hat{\boldsymbol{E}}_3)\\
+&\hspace{4mm}-\mu X_2^2\phi'(X_3)(\hat{\boldsymbol{E}}_2 \times \hat{\boldsymbol{E}}_1)+\mu X_1 X_2 \phi'(X_3) (\hat{\boldsymbol{E}}_2 \times \hat{\boldsymbol{E}}_2) + 0 (\hat{\boldsymbol{E}}_2 \times \hat{\boldsymbol{E}}_3)\\
+&\hspace{4mm}-\mu X_2 X_3 \phi'(X_3) (\hat{\boldsymbol{E}}_3 \times \hat{\boldsymbol{E}}_1) + \mu X_1 X_3 \phi'(X_3) (\hat{\boldsymbol{E}}_3 \times \hat{\boldsymbol{E}}_2) + 0(\hat{\boldsymbol{E}}_3 \times \hat{\boldsymbol{E}}_3)\\
+&=-\mu X_1 X_2 \phi'(X_3) \boldsymbol{0} +\mu X_1^2 \phi'(X_3)\hat{\boldsymbol{E}}_3\\
+&\hspace{4mm}-\mu X_2^2\phi'(X_3)(-\hat{\boldsymbol{E}}_3)+\mu X_1 X_2 \phi'(X_3)\boldsymbol{0}\\
+&\hspace{4mm}-\mu X_2 X_3 \phi'(X_3)\hat{\boldsymbol{E}}_2+\mu X_1 X_3 \phi'(X_3) (-\hat{\boldsymbol{E}}_1)\\
+&=-\mu X_1 X_3 \phi'(X_3) \hat{\boldsymbol{E}}_1 -\mu X_2 X_3 \phi'(X_3) \hat{\boldsymbol{E}}_2 + \mu (X_1^2+X_2^2)\phi'(X_3)\hat{\boldsymbol{E}}_3
+\end{align*}
+$$
+
+Noting that integral over surface $\Gamma(X_3)$ is essentially integral over $X_1$ and $X_2$,
+
+$$
+\begin{align*}
+\breve{\boldsymbol{T}}(X_3
+)&=\int_{\Gamma(X_3)}\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\, d\Gamma \\
+&=\int_{\Gamma(X_3)}( -\mu X_1 X_3 \phi'(X_3) \hat{\boldsymbol{E}}_1 -\mu X_2 X_3 \phi'(X_3) \hat{\boldsymbol{E}}_2 + \mu (X_1^2+X_2^2)\phi'(X_3)\hat{\boldsymbol{E}}_3)\, d\Gamma \\
+&=-\mu X_3  \phi'(X_3) \int_{\Gamma(X_3)} X_1\, d\Gamma \hat{\boldsymbol{E}}_1-\mu X_3  \phi'(X_3) \int_{\Gamma(X_3)} X_2\, d\Gamma \hat{\boldsymbol{E}}_1 +\mu\phi'(X_3) \int_{\Gamma(X_3)} X_1^2+X_2^2\, d\Gamma \hat{\boldsymbol{E}}_3\\
+&=-\mu X_3  \phi'(X_3) \int_{\Gamma(X_3)} X_1\, d\Gamma \hat{\boldsymbol{E}}_1-\mu X_3  \phi'(X_3) \int_{\Gamma(X_3)} X_2\, d\Gamma \hat{\boldsymbol{E}}_2 + \mu \phi'(X_3) J(X_3)\hat{\boldsymbol{E}}_3
+\end{align*}
+$$
+
+In component form,
+
+$$
+\begin{align*}
+[\breve{\boldsymbol{T}}(X_3
+)]=\begin{bmatrix}-\mu X_3  \phi'(X_3) \int_{\Gamma(X_3)} X_1\, d\Gamma \\
+-\mu X_3  \phi'(X_3) \int_{\Gamma(X_3)} X_2\, d\Gamma \\
+ \mu \phi'(X_3) J(X_3)
+\end{bmatrix}
+\end{align*}
+$$  
+
  
-    where $i$, $j=1,~2,~3$. In other words, find the strain field by  determining the nine functions  $\breve{\epsilon}\_{11}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{12}(X_1,X_2,X_3)$,....$\breve{\epsilon}\_{32}(X_1,X_2,X_3)$, $\breve{\epsilon}\_{33}(X_1,X_2,X_3)$. 
-    
-    Recall the definition of the strain components:
-
-    $$
-    \begin{align}
-    \breve{\epsilon}_{11}(X_1,X_2,X_3)&=
-    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_1}\\
-    \breve{\epsilon}_{22}(X_1,X_2,X_3)&=
-    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_2}
-    \\
-    \breve{\epsilon}_{33}(X_1,X_2,X_3)&=
-    \frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_3}\\
-    \breve{\epsilon}_{12}(X_1,X_2,X_3)&=
-    \frac{1}{2}
-    \left(
-    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_2}
-    +
-    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_1}
-    \right)
-    \\
-    \breve{\epsilon}_{21}(X_1,X_2,X_3)&=\breve{\epsilon}_{12}(X_1,X_2,X_3)
-    \\
-    \breve{\epsilon}_{13}(X_1,X_2,X_3)&=
-    \frac{1}{2}
-    \left(
-    \frac{\partial \breve{u}_1(X_1,X_2,X_3)}{\partial X_3}
-    +
-    \frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_1}
-    \right)
-    \\
-    \breve{\epsilon}_{31}(X_1,X_2,X_3)&=\breve{\epsilon}_{13}(X_1,X_2,X_3)
-    \\
-    \breve{\epsilon}_{23}(X_1,X_2,X_3)&=
-    \frac{1}{2}
-    \left(
-    \frac{\partial \breve{u}_2(X_1,X_2,X_3)}{\partial X_3}
-    +
-    \frac{\partial \breve{u}_3(X_1,X_2,X_3)}{\partial X_2}
-    \right)\\
-    \breve{\epsilon}_{32}(X_1,X_2,X_3)&=\breve{\epsilon}_{23}(X_1,X_2,X_3)
-    \end{align}
-    $$
-
-
-* **(20 pts) (c)** Let us assume that the shaft is composed of a linear elastic solid. What is the stress field $\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)$? Determining the stress field is equivalent to determining the components 
-
-    $$
-    \breve{\sigma}_{ij}(X_1,X_2,X_3)
-    $$
-  
-   where $i$, $j=1,~2,~3$. In other words, compute the stress field by determining the nine functions $\breve{\sigma}\_{11}(X_1,X_2,X_3)$, $\breve{\sigma}\_{12}(X_1,X_2,X_3)$,....$\breve{\sigma}\_{32}(X_1,X_2,X_3)$, $\breve{\sigma}\_{33}(X_1,X_2,X_3)$. 
-   
-    Recall the definition of a linear elastic solid. The stress and strain components in a linear elastic solid are given by the Hooke's Law, which states that
-
-    $$
-    \begin{align}
-    \breve{\sigma}_{11}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{11}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
-    \breve{\sigma}_{22}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{22}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
-    \breve{\sigma}_{33}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{33}(X_1,X_2,X_3)+\lambda \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))\\
-    \breve{\sigma}_{23}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{23}(X_1,X_2,X_3)\\
-    \breve{\sigma}_{13}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{13}(X_1,X_2,X_3)\\
-    \breve{\sigma}_{12}(X_1,X_2,X_3)&=2\mu \breve{\epsilon}_{12}(X_1,X_2,X_3)\\
-    \breve{\sigma}_{32}(X_1,X_2,X_3)&=\breve{\sigma}_{23}(X_1,X_2,X_3)\\
-    \breve{\sigma}_{31}(X_1,X_2,X_3)&=\breve{\sigma}_{13}(X_1,X_2,X_3)\\
-    \breve{\sigma}_{21}(X_1,X_2,X_3)&=\breve{\sigma}_{12}(X_1,X_2,X_3)
-    \end{align}
-    $$
-
-    where 
-
-    $$
-    \text{Tr}(\breve{\boldsymbol{\epsilon}}(X_1,X_2,X_3))=
-    \breve{\epsilon}_{11}(X_1,X_2,X_3)+
-    \breve{\epsilon}_{22}(X_1,X_2,X_3)+\breve{\epsilon}_{33}(X_1,X_2,X_3)
-    $$ 
-
-    and $\mu$ is the same as $G$, the shear modulus. In the current case, we are going to take that the shear modulus is constant throughout the shaft.
-
-* **(10 pts) (d)** Let's take shaft to be aligned in the $\hat{\boldsymbol{E}}_3$ direction. Consider an imaginary cut at some $X_3$. The cross-sectional surface on the left part, $\Gamma(X_3)$, will have  $\hat{\boldsymbol{E}}_3$ as its outward normal. What is the traction vector on $\Gamma(X_3)$? That is, determine 
-$\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)^{T}\hat{\boldsymbol{E}}_3$. As can be seen by the presence of $X_1$, $X_2$, and $X_3$, the traction vector will not be constant on the cross-section. It will vary from point to point on the cross-section. Find the left hand side in the below equation by determining the right hand side in the below equation 
-
-    $$
-    \begin{equation}
-    \left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right]
-    =\left[\breve{\boldsymbol{\sigma}}(X_1,X_2,X_3)\right]^{\sf T}\left[\hat{\boldsymbol{E}}_3\right]
-    \end{equation}
-    $$  
-
-* **(15 pts) (e)** Compute the torque on the cross-sectional surface discussed in the previous part as
-
-    $$
-    \breve{\boldsymbol{T}}(X_3)=\int_{\Gamma(X_3)}\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\, d\Gamma 
-    $$
-
-    where $\Gamma(X_3)$ is the cross-sectional surface at $X_3$. Use the definition of the polar moment of inertia, which is,
-
-    $$
-    J(X_3) =\int_{\Gamma(X_3)} X_1^2+X_2^2\, d\Gamma,
-    $$
-
-    to simplify your answer.
-
-    For computing the integral take $\boldsymbol{X}\times \breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)$ as the cross product between $\left[\boldsymbol{X}\right]$, which is
-
-    $$
-    \begin{bmatrix}
-    \boldsymbol{X}
-    \end{bmatrix}=
-    \begin{bmatrix} 
-    X_1\\
-    X_2\\
-    X_3
-    \end{bmatrix},
-    $$
-
-    and $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)
-\right]$.
-
 <u> Problem 3 (20pts)  Mohr circle. </u>
 
 Draw the Mohr circles for the stress state given in
@@ -218,3 +242,81 @@ Draw the Mohr circles for the stress state given in
 * (10 pts) (a) Pb.1 of this HW, and
 * (10 pts) (b) Pb.1 of HW6
 
+***Solution***
+
+From the [lecture](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Stress/Stress7.html), we know that the Mohr's circle is given by
+
+$$
+(\sigma(\phi)-c^2)+\tau(\phi)^2=r^2
+$$
+
+where 
+
+$$
+\begin{align*}
+\sigma(\phi)&=c+a\cos{(2\phi)}+b\sin{(2\phi)}\\
+\tau(\phi)&=-a\sin{(2\phi)}+b\cos{(2\phi)}\\
+a&:=\frac{\sigma_{11}-\sigma_{22}}{2}\\
+b&:=\sigma_{12}\\
+c&:=\frac{\sigma_{11}+\sigma_{22}}{2}
+\end{align*}
+$$
+
+and $r=\sqrt{a^2+b^2}$. 
+
+***Solution (a)***
+
+Plugging in $\sigma_{11}=-40$,  $\sigma_{12}=25$,  $\sigma_{22}=60$ (units omitted for ease of read), 
+
+$$
+\begin{align*}
+c=10\\
+r=25\sqrt{5}
+\end{align*}
+$$
+
+we get that the circle is centered around (10, 0) and has a radius of $25\sqrt{5}$.
+
+Note that 
+* $\phi=0$ corresponds to $(\sigma, \tau)=(-40, 25)$ and 
+* $\phi=\pi/2$ corresponds to $(\sigma, \tau)=(60,-25)$
+
+where the positive value of $\sigma(\phi)$ is in the direction of $\hat{\boldsymbol{n}}$ and the positive value of $\tau(\phi)$ is in the direction of $\hat{\boldsymbol{m}}$ (see figure below, you can also refer to [this lecture note](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Stress/Stress5.html).)
+
+<br/>
+    <center>
+     <img src="HW7-Solution-fig.png" alt="drawing" width="500"/>
+    </center>
+
+The Mohr's circle should look something like this. 
+
+<br/>
+    <center>
+     <img src="HW7-Pb3a-solfig.png" alt="drawing" width="500"/>
+    </center>
+
+Notice that the angles at which maximum/minimum normal stress is attained corresponds to the solutions from the last problem of HW6, while the those at which maximum/minimum shear stress is attained corresponds to the angles that we obtained as the orientation of maximum in-plane shear stress. (*Note: Here, we are calling -$\tau_{max}$ as the minimum shear stress, while in Problem 1 we called those corresponding to the maximum absolute values of $\tau$ as the orientation of maximum in-plane shear stress)
+
+***Solution (b)***
+
+Similarly, plugging in $\sigma_{11}=16$,  $\sigma_{12}=-60$,  $\sigma_{22}=-48$ (units omitted for ease of read), 
+
+$$
+\begin{align*}
+c=-16\\
+r=68
+\end{align*} 
+$$
+
+we get that the circle is centered around (-16, 0) and has a radius of $68$.
+
+
+The Mohr's circle should look something like this. 
+Note that 
+* $\phi=0$ corresponds to $(\sigma, \tau)=(16, -60)$ and 
+* $\phi=\pi/2$ corresponds to $(\sigma, \tau)=(-48,60)$
+
+<br/>
+    <center>
+     <img src="HW7-Pb3b-solfig.png" alt="drawing" width="500"/>
+    </center>
