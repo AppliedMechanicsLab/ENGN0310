@@ -32,7 +32,7 @@ $$
 \sigma_{11}(X_1,X_2,X_3)=-\frac{M(X_1)}{I(X_1)} X_2
 $$
 
-(c)(10pts) Find the displacement, $\delta$, at the point $X_1=0.8~\rm{m}$.
+(c)(10pts) Find the displacement at the point $X_1=0.8~\rm{m}$.
 
 **Problem 2 (30pts total)** 
 
@@ -56,7 +56,7 @@ $$
 \sigma_{11}(X_1,X_2,X_3)=-\frac{M(X_1)}{I(X_1)} X_2
 $$
 
-(c)(10pts) Find the displacement, $\delta$, at the point $X_1=4~\rm{m}$.
+(c)(10pts) Find the displacement at the point $X_1=4~\rm{m}$.
 
 
 **Problem 3 (40pts total)**
@@ -71,7 +71,7 @@ Consider the simply-supported beam shown below, where $L=2~\rm m$ and the beam's
 
 (a)(10pts) Find the bending moment along the length of the beam in terms of $M_0$.
 
-(b)(10pts) Derive the expression for the maximum displacement, $\delta$, in the beam given $M_0$.
+(b)(10pts) Derive the expression for the maximum displacement in the beam given $M_0$.
 
 (c)(10pts) Derive the expression for the maximum bending stress in the beam given $M_0$.
 

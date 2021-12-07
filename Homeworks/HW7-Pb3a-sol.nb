@@ -1,0 +1,677 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     24661,        669]
+NotebookOptionsPosition[     23718,        646]
+NotebookOutlinePosition[     24165,        663]
+CellTagsIndexPosition[     24122,        660]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", 
+  RowBox[{
+  "ArrowsFromAngles", ",", "plane", ",", "lbs", ",", "plt1", ",", "plt2"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"plane", "=", 
+   RowBox[{"RegionProduct", "[", 
+    RowBox[{
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", "0", "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"-", "0.1"}], "}"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"-", "1"}], "}"}], ",", 
+        RowBox[{"{", "1", "}"}]}], "}"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"ArrowsFromAngles", "[", 
+    RowBox[{"\[Theta]_List", ",", 
+     RowBox[{"color_", ":", "Black"}], ",", 
+     RowBox[{"\[Alpha]_", ":", "1"}]}], "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", "R", "}"}], ",", 
+     RowBox[{
+      RowBox[{"R", "=", 
+       RowBox[{"RotationMatrix", "/@", "\[Theta]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Graphics", "[", 
+          RowBox[{"{", 
+           RowBox[{"color", ",", 
+            RowBox[{"Arrow", "[", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"0", ",", "0"}], "}"}], ",", 
+               RowBox[{"\[Alpha]", " ", 
+                RowBox[{"#", ".", 
+                 RowBox[{"{", 
+                  RowBox[{"1", ",", "0"}], "}"}]}]}]}], "}"}], "]"}]}], "}"}],
+           "]"}], " ", "&"}], "/@", "R"}], ")"}]}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"lbs", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"#", ",", 
+       RowBox[{"Text", "[", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"#", "-", 
+           RowBox[{"2", "\[Pi]"}]}], ")"}], " ", 
+         FractionBox["180", "\[Pi]"]}], "]"}]}], "}"}], "&"}], "/@", 
+    RowBox[{"Range", "[", 
+     RowBox[{"0", ",", 
+      RowBox[{"2", "\[Pi]"}], ",", 
+      RowBox[{"\[Pi]", "/", "10"}]}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"plt1", "=", 
+   RowBox[{"PolarPlot", "[", 
+    RowBox[{"0.5", ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}], ",", 
+     RowBox[{"PolarAxes", "\[Rule]", "Automatic"}], ",", 
+     RowBox[{"PolarTicks", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Degrees\>\"", ",", "Automatic"}], "}"}]}], ",", 
+     RowBox[{"PlotStyle", "\[Rule]", "White"}], ",", 
+     RowBox[{"PolarGridLines", "\[Rule]", "Automatic"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"plt2", "=", 
+    RowBox[{"PolarPlot", "[", 
+     RowBox[{"1", ",", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", "0", ",", 
+        RowBox[{"2", "Pi"}]}], "}"}], ",", 
+      RowBox[{"PolarAxes", "\[Rule]", "True"}], ",", 
+      RowBox[{"PolarGridLines", "\[Rule]", "None"}], ",", 
+      RowBox[{"PolarTicks", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"lbs", ",", "None"}], "}"}]}], ",", 
+      RowBox[{"PlotStyle", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"Dashed", ",", "Thin", ",", "White"}], "}"}]}]}], "]"}]}], 
+   ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"ClearAll", "[", 
+  RowBox[{
+  "Compute\[Sigma]Tensor", ",", "Computeabc", ",", "Compute\[Tau]", ",", 
+   "Compute\[Sigma]\[Tau]MaxMin"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Compute\[Sigma]Tensor", "[", 
+   RowBox[{"\[Sigma]11_", ",", "\[Sigma]22_", ",", "\[Sigma]12_"}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\[Sigma]11", ",", " ", "\[Sigma]12", ",", " ", "0"}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\[Sigma]12", ",", " ", "\[Sigma]22", ",", " ", "0"}], "}"}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0", ",", " ", "0"}], "}"}]}], "}"}]}], 
+   "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Computeabc", "[", "\[Sigma]Tensor_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\[Sigma]12", "=", 
+       RowBox[{"\[Sigma]Tensor", "[", 
+        RowBox[{"[", 
+         RowBox[{"1", ",", "2"}], "]"}], "]"}]}], ",", 
+      RowBox[{"\[Sigma]11", "=", 
+       RowBox[{"\[Sigma]Tensor", "[", 
+        RowBox[{"[", 
+         RowBox[{"1", ",", "1"}], "]"}], "]"}]}], ",", 
+      RowBox[{"\[Sigma]22", "=", 
+       RowBox[{"\[Sigma]Tensor", "[", 
+        RowBox[{"[", 
+         RowBox[{"2", ",", "2"}], "]"}], "]"}]}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[Sigma]11", "-", "\[Sigma]22"}], "2"], ",", "\[Sigma]12", 
+      ",", 
+      FractionBox[
+       RowBox[{"\[Sigma]11", "+", "\[Sigma]22"}], "2"]}], "}"}]}], 
+   "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Compute\[Tau]", "[", "\[Sigma]Tensor_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"a", ",", "b", ",", "c"}], "}"}], "=", 
+       RowBox[{"Computeabc", "[", "\[Sigma]Tensor", "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "a"}], "  ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"2", "#"}], "]"}]}], " ", "+", 
+         RowBox[{"b", " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"2", " ", "#"}], "]"}]}]}], ")"}], "&"}]}]}], 
+    "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Compute\[Sigma]", "[", "\[Sigma]Tensor_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"a", ",", "b", ",", "c"}], "}"}], "=", 
+       RowBox[{"Computeabc", "[", "\[Sigma]Tensor", "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"c", "+", 
+         RowBox[{"a", "  ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"2", "#"}], "]"}]}], " ", "+", 
+         RowBox[{"b", " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{"2", " ", "#"}], "]"}]}]}], ")"}], "&"}]}]}], 
+    "\[IndentingNewLine]", "]"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Compute\[Sigma]\[Tau]MaxMin", "[", "\[Sigma]Tensor_", "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\[Sigma]max", ",", "\[Sigma]min", ",", "\[Tau]max", ",", "a", ",", "b",
+        ",", "c"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"a", ",", "b", ",", "c"}], "}"}], "=", 
+       RowBox[{"Computeabc", "[", "\[Sigma]Tensor", "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"\[Tau]max", "=", 
+       RowBox[{"Sqrt", "[", 
+        RowBox[{
+         SuperscriptBox["a", "2"], "+", 
+         SuperscriptBox["b", "2"]}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"\[Sigma]max", "=", 
+       RowBox[{
+        RowBox[{"c", "+", "\[Tau]max"}], "//", "N"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"\[Sigma]min", "=", 
+       RowBox[{
+        RowBox[{"c", "-", "\[Tau]max"}], "//", "N"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"\[Sigma]max", ",", "\[Sigma]min", ",", "\[Tau]max"}], 
+       "}"}]}]}], "\[IndentingNewLine]", "]"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.846092215299823*^9, 3.846092229417486*^9}, {
+  3.846092510000957*^9, 3.846092512125667*^9}},
+ CellLabel->
+  "In[555]:=",ExpressionUUID->"01add99b-7be2-458b-8ef4-9f9539d8fa01"],
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", 
+  RowBox[{
+  "a", ",", "b", ",", "\[Sigma]max", ",", "\[Sigma]min", ",", "\[Tau]", ",", 
+   "\[Sigma]11", ",", "\[Sigma]12", ",", "\[Sigma]22"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Sigma]11", "=", 
+   RowBox[{"-", "40"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Sigma]22", "=", "60"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Sigma]12", "=", "25"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Sigma]Tensor", "=", 
+    RowBox[{"Compute\[Sigma]Tensor", "[", 
+     RowBox[{"\[Sigma]11", ",", "\[Sigma]22", ",", "\[Sigma]12"}], "]"}]}], 
+   ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], "=", 
+   RowBox[{"Computeabc", "[", "\[Sigma]Tensor", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Tau]", "=", 
+   RowBox[{"Compute\[Tau]", "[", "\[Sigma]Tensor", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Sigma]", "=", 
+   RowBox[{"Compute\[Sigma]", "[", "\[Sigma]Tensor", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\[Sigma]max", ",", "\[Sigma]min", ",", "\[Tau]max"}], "}"}], 
+    "=", 
+    RowBox[{"Compute\[Sigma]\[Tau]MaxMin", "[", "\[Sigma]Tensor", "]"}]}], 
+   ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.8460921534370737`*^9, 3.846092156911044*^9}, {
+   3.8460921873553057`*^9, 3.846092203785757*^9}, {3.846092527739492*^9, 
+   3.846092529822461*^9}, {3.846094119031568*^9, 3.846094126620796*^9}, {
+   3.84609421441504*^9, 3.8460942145450172`*^9}, 3.8460942451880913`*^9, {
+   3.8460944143740273`*^9, 3.846094426735187*^9}, {3.8478217435934343`*^9, 
+   3.847821751140707*^9}, {3.847824962109826*^9, 
+   3.847824962524136*^9}},ExpressionUUID->"0f4fac7a-6008-4380-afdf-\
+0ba66072a222"],
+
+Cell["Mohr' s Circle", "Text",
+ CellChangeTimes->{{3.846092559343639*^9, 
+  3.846092572847274*^9}},ExpressionUUID->"66c38a68-a4c5-43c1-b84f-\
+dbc900565c7a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"r", "=", 
+  RowBox[{"\[Sqrt]", 
+   RowBox[{"(", 
+    RowBox[{
+     SuperscriptBox["a", "2"], "+", 
+     SuperscriptBox["b", "2"]}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Epsilon]", "=", 
+   RowBox[{"0.05", " ", "r"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Show", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"ParametricPlot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\[Sigma]", "[", "\[Phi]", "]"}], ",", 
+         RowBox[{"\[Tau]", "[", "\[Phi]", "]"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\[Phi]", ",", "0", ",", 
+         RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+       RowBox[{"AxesLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<\[Sigma]\>\"", ",", "\"\<\[Tau]\>\""}], "}"}]}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"Dashed", ",", "Black"}], "}"}]}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"RGBColor", "[", 
+         RowBox[{"0.21", ",", "0.5", ",", "0.5"}], "]"}], ",", 
+        RowBox[{"Opacity", "[", "0.5", "]"}], ",", 
+        RowBox[{"Thickness", "[", "0.02", "]"}], ",", 
+        RowBox[{"Circle", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"c", ",", "0"}], "}"}], ",", "r"}], "]"}]}], "}"}], "]"}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Blue", ",", 
+        RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"c", ",", "0"}], "}"}], "]"}]}], "}"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"\[Phi]", " ", 
+         FractionBox["180", "\[Pi]"]}], ",", 
+        RowBox[{"\[Sigma]max", 
+         RowBox[{"{", 
+          RowBox[{"0.8", ",", "0.8"}], "}"}]}]}], "]"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "@", 
+      RowBox[{"Text", "[", 
+       RowBox[{"\"\<Maximum \[Sigma]\>\"", ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"c", ",", "0"}], "}"}], "+", 
+         RowBox[{"{", 
+          RowBox[{"r", ",", "0"}], "}"}], "+", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"5", "\[Epsilon]"}], ",", "0"}], "}"}]}]}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "@", 
+      RowBox[{"Text", "[", 
+       RowBox[{"\"\<Minimum \[Sigma]\>\"", ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"c", ",", "0"}], "}"}], "-", 
+         RowBox[{"{", 
+          RowBox[{"r", ",", "0"}], "}"}], "-", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"7", "\[Epsilon]"}], ",", "0"}], "}"}]}]}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Red", ",", 
+        RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"c", ",", "0"}], "}"}], "-", 
+          RowBox[{"{", 
+           RowBox[{"r", ",", "0"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "@", 
+      RowBox[{"Text", "[", 
+       RowBox[{"\"\<Maximum \[Tau]\>\"", ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"c", ",", "0"}], "}"}], "+", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "r"}], "}"}], "+", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", 
+           RowBox[{"2", "\[Epsilon]"}]}], "}"}]}]}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Red", ",", 
+        RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"c", ",", "0"}], "}"}], "+", 
+          RowBox[{"{", 
+           RowBox[{"0", ",", "r"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "@", 
+      RowBox[{"Text", "[", 
+       RowBox[{"\"\<Minimum \[Tau]\>\"", ",", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"c", ",", "0"}], "}"}], "-", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "r"}], "}"}], "-", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", 
+           RowBox[{"2", "\[Epsilon]"}]}], "}"}]}]}], "]"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Red", ",", 
+        RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"c", ",", "0"}], "}"}], "-", 
+          RowBox[{"{", 
+           RowBox[{"0", ",", "r"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Red", ",", 
+        RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"c", ",", "0"}], "}"}], "+", 
+          RowBox[{"{", 
+           RowBox[{"r", ",", "0"}], "}"}]}], "]"}]}], "}"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Blue", ",", 
+        RowBox[{"PointSize", "[", "0.02", "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"\[Sigma]", "[", "0", "]"}], ",", 
+           RowBox[{"\[Tau]", "[", "0", "]"}]}], "}"}], "]"}]}], "}"}], "]"}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"Text", "[", 
+       RowBox[{"\"\<\[Phi]=0\>\"", ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"\[Sigma]", "[", "0", "]"}], "+", 
+           RowBox[{"2", "\[Epsilon]"}]}], ",", 
+          RowBox[{
+           RowBox[{"\[Tau]", "[", "0", "]"}], "+", 
+           RowBox[{"2", "\[Epsilon]"}]}]}], "}"}]}], "]"}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{"Red", ",", 
+        RowBox[{"Arrow", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"c", ",", "0"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"\[Sigma]", "[", "\[Phi]", "]"}], ",", 
+             RowBox[{"\[Tau]", "[", "\[Phi]", "]"}]}], "}"}]}], "}"}], 
+         "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"PlotRange", "->", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"\[Sigma]min", "-", 
+           RowBox[{"0.5", "r"}]}], ",", 
+          RowBox[{"\[Sigma]max", "+", 
+           RowBox[{"0.5", "r"}]}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"-", "1.5"}], "r"}], ",", 
+          RowBox[{"1.5", "r"}]}], "}"}]}], "}"}]}]}], "\[IndentingNewLine]", 
+    "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Phi]", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{
+  3.846092578393155*^9, {3.846092626192317*^9, 3.846092743000115*^9}, {
+   3.846092781209495*^9, 3.846092818531493*^9}, {3.846093489305955*^9, 
+   3.8460939091337347`*^9}, {3.8460939467765093`*^9, 3.846094067507223*^9}, {
+   3.846094264738439*^9, 3.84609440737678*^9}},
+ CellLabel->
+  "In[576]:=",ExpressionUUID->"4c56071d-c904-4171-b4cd-8c832efafd96"],
+
+Cell[BoxData[
+ RowBox[{"25", " ", 
+  SqrtBox["5"]}]], "Output",
+ CellChangeTimes->{
+  3.846092581718438*^9, {3.846092656103253*^9, 3.8460926806547728`*^9}, {
+   3.8460927141140137`*^9, 3.846092743421701*^9}, {3.8460928028688993`*^9, 
+   3.846092818897605*^9}, {3.8460935226577377`*^9, 3.846093587868219*^9}, {
+   3.846093647796599*^9, 3.846093830291884*^9}, {3.846093874798202*^9, 
+   3.846093909844458*^9}, {3.8460939474586143`*^9, 3.846094067868059*^9}, 
+   3.8460942024566927`*^9, 3.8460942501144543`*^9, {3.8460942876052723`*^9, 
+   3.846094306810628*^9}, {3.8460943385513372`*^9, 3.84609436446946*^9}, {
+   3.846094401817223*^9, 3.846094430211953*^9}, 3.847821759097571*^9},
+ CellLabel->
+  "Out[576]=",ExpressionUUID->"06a10ae5-ef14-4499-9764-f097bd024745"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`\[Phi]$$ = 0., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`\[Phi]$$], 0, 2 Pi}}, Typeset`size$$ = {
+    360., {180., 184.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`\[Phi]$$ = 0}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Show[
+        ParametricPlot[{
+          $CellContext`\[Sigma][$CellContext`\[Phi]$$], 
+          $CellContext`\[Tau][$CellContext`\[Phi]$$]}, {$CellContext`\[Phi]$$,
+           0, 2 Pi}, AxesLabel -> {"\[Sigma]", "\[Tau]"}, 
+         PlotStyle -> {Dashed, Black}], 
+        Graphics[{
+          RGBColor[0.21, 0.5, 0.5], 
+          Opacity[0.5], 
+          Thickness[0.02], 
+          Circle[{$CellContext`c, 0}, $CellContext`r]}], 
+        Graphics[{Blue, 
+          PointSize[0.02], 
+          Point[{$CellContext`c, 0}]}], 
+        Graphics[
+         Text[$CellContext`\[Phi]$$ (180/Pi), $CellContext`\[Sigma]max {0.8, 
+           0.8}]], 
+        Graphics[
+         Text[
+         "Maximum \[Sigma]", {$CellContext`c, 0} + {$CellContext`r, 0} + {
+           5 $CellContext`\[Epsilon], 0}]], 
+        Graphics[
+         Text[
+         "Minimum \[Sigma]", {$CellContext`c, 0} - {$CellContext`r, 0} - {
+          7 $CellContext`\[Epsilon], 0}]], 
+        Graphics[{Red, 
+          PointSize[0.02], 
+          Point[{$CellContext`c, 0} - {$CellContext`r, 0}]}], 
+        Graphics[
+         Text[
+         "Maximum \[Tau]", {$CellContext`c, 0} + {0, $CellContext`r} + {
+           0, 2 $CellContext`\[Epsilon]}]], 
+        Graphics[{Red, 
+          PointSize[0.02], 
+          Point[{$CellContext`c, 0} + {0, $CellContext`r}]}], 
+        Graphics[
+         Text[
+         "Minimum \[Tau]", {$CellContext`c, 0} - {0, $CellContext`r} - {
+          0, 2 $CellContext`\[Epsilon]}]], 
+        Graphics[{Red, 
+          PointSize[0.02], 
+          Point[{$CellContext`c, 0} - {0, $CellContext`r}]}], 
+        Graphics[{Red, 
+          PointSize[0.02], 
+          Point[{$CellContext`c, 0} + {$CellContext`r, 0}]}], 
+        Graphics[{Blue, 
+          PointSize[0.02], 
+          Point[{
+            $CellContext`\[Sigma][0], 
+            $CellContext`\[Tau][0]}]}], 
+        Graphics[
+         Text[
+         "\[Phi]=0", {$CellContext`\[Sigma][0] + 
+           2 $CellContext`\[Epsilon], $CellContext`\[Tau][0] + 
+           2 $CellContext`\[Epsilon]}]], 
+        Graphics[{Red, 
+          Arrow[{{$CellContext`c, 0}, {
+             $CellContext`\[Sigma][$CellContext`\[Phi]$$], 
+             $CellContext`\[Tau][$CellContext`\[Phi]$$]}}]}], 
+        PlotRange -> {{$CellContext`\[Sigma]min - 
+           0.5 $CellContext`r, $CellContext`\[Sigma]max + 
+           0.5 $CellContext`r}, {(-1.5) $CellContext`r, 1.5 $CellContext`r}}],
+       "Specifications" :> {{$CellContext`\[Phi]$$, 0, 2 Pi}}, 
+      "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{405., {225., 231.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.846092581718438*^9, {3.846092656103253*^9, 3.8460926806547728`*^9}, {
+   3.8460927141140137`*^9, 3.846092743421701*^9}, {3.8460928028688993`*^9, 
+   3.846092818897605*^9}, {3.8460935226577377`*^9, 3.846093587868219*^9}, {
+   3.846093647796599*^9, 3.846093830291884*^9}, {3.846093874798202*^9, 
+   3.846093909844458*^9}, {3.8460939474586143`*^9, 3.846094067868059*^9}, 
+   3.8460942024566927`*^9, 3.8460942501144543`*^9, {3.8460942876052723`*^9, 
+   3.846094306810628*^9}, {3.8460943385513372`*^9, 3.84609436446946*^9}, {
+   3.846094401817223*^9, 3.846094430211953*^9}, 3.847821759121928*^9},
+ CellLabel->
+  "Out[578]=",ExpressionUUID->"def1a440-f668-4162-a911-9c85cddae67f"]
+}, Open  ]]
+},
+WindowSize->{1104, 1186},
+WindowMargins->{{Automatic, 273}, {Automatic, 49}},
+TaggingRules->Association["TryRealOnly" -> False],
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d76325ca-04d1-4d8d-86a2-31b3a5682cf5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 8183, 233, 943, "Input",ExpressionUUID->"01add99b-7be2-458b-8ef4-9f9539d8fa01",
+ InitializationCell->True],
+Cell[8744, 255, 1978, 50, 283, "Input",ExpressionUUID->"0f4fac7a-6008-4380-afdf-0ba66072a222"],
+Cell[10725, 307, 156, 3, 35, "Text",ExpressionUUID->"66c38a68-a4c5-43c1-b84f-dbc900565c7a"],
+Cell[CellGroupData[{
+Cell[10906, 314, 7479, 210, 443, "Input",ExpressionUUID->"4c56071d-c904-4171-b4cd-8c832efafd96"],
+Cell[18388, 526, 762, 13, 35, "Output",ExpressionUUID->"06a10ae5-ef14-4499-9764-f097bd024745"],
+Cell[19153, 541, 4549, 102, 475, "Output",ExpressionUUID->"def1a440-f668-4162-a911-9c85cddae67f"]
+}, Open  ]]
+}
+]
+*)
+

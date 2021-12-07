@@ -3,7 +3,7 @@
 
 # End moment loaded cantilever
 
-<img src="2021-11-16-21-53-46.png" alt="drawing1" width="1000"/>
+<img src="2021-12-04-16-05-48.png" alt="drawing1" width="1000"/>
 
 
 A bar is anchored on the left end and loaded on the right with a moment $M_0 \hat{\boldsymbol{E}}_3$, where $M_0$ is a positive real number. (A bar anchored on one of its end is called a cantilever.) In this section we will find the variation of the bending moment along the legth of the beam, and then deflected shape of the cantilever's neutral axis. 
