@@ -36,7 +36,7 @@ Obtain $E A u_1'(X_1)=F(X_1)$
 For the given geometry what is the maximum load that can be applied with out the tensile stress exceeding the critical value
 
 (a) Simple circular or rectagular
-(b) Channel U shaped section, something no -trival. Given the loaction of the centroid and the bending moment of inertia. 
+(b) Channel U shaped section, something non-trival. Given the loaction of the centroid and the bending moment of inertia. 
 
 # Pb 6 
 For the given geometry what is the maximum load that can be applied with out the deflection at a certain point exceeding a given value. 
