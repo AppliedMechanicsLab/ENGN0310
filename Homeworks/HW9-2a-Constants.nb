@@ -1,0 +1,188 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5214,        178]
+NotebookOptionsPosition[      4607,        158]
+NotebookOutlinePosition[      5002,        174]
+CellTagsIndexPosition[      4959,        171]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Problem 2(a): Solving for C1-C4", "Subsection",
+ CellChangeTimes->{{3.847967202097067*^9, 
+  3.8479672167708178`*^9}},ExpressionUUID->"b422102b-e6b9-4b85-98dd-\
+0001b22e4d90"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ClearAll", "[", 
+   RowBox[{"y", ",", "y1", ",", "y2", ",", "a", ",", "b", ",", "F"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"y1", "[", "x_", "]"}], "=", 
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"\[CapitalEpsilon]", " ", "\[CapitalIota]"}]], 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        FractionBox[
+         RowBox[{"F", " ", "b"}], 
+         RowBox[{"6", " ", 
+          RowBox[{"(", 
+           RowBox[{"a", "+", "b"}], ")"}]}]]}], 
+       SuperscriptBox["x", "3"]}], "+", 
+      RowBox[{
+       SubscriptBox["C", "1"], "x"}], "+", 
+      SubscriptBox["C", "3"]}], ")"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"y2", "[", "x_", "]"}], "=", 
+    RowBox[{
+     FractionBox["1", 
+      RowBox[{"\[CapitalEpsilon]", " ", "\[CapitalIota]"}]], 
+     RowBox[{"(", 
+      RowBox[{
+       FractionBox[
+        RowBox[{"a", " ", "F", " ", 
+         SuperscriptBox["x", "3"]}], 
+        RowBox[{"6", " ", 
+         RowBox[{"(", 
+          RowBox[{"a", "+", " ", "b"}], ")"}]}]], "-", 
+       FractionBox[
+        RowBox[{"a", " ", "F", " ", 
+         SuperscriptBox["x", "2"]}], "2"], "+", 
+       RowBox[{
+        SubscriptBox["C", "2"], "x"}], "+", 
+       SubscriptBox["C", "4"]}], ")"}]}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"eq1", "=", 
+   RowBox[{
+    RowBox[{"y1", "[", "0", "]"}], "\[Equal]", "0"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"eq2", "=", 
+   RowBox[{
+    RowBox[{"y2", "[", 
+     RowBox[{"a", "+", "b"}], "]"}], "\[Equal]", "0"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"eq3", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"y1", "'"}], "[", "a", "]"}], "\[Equal]", 
+    RowBox[{
+     RowBox[{"y2", "'"}], "[", "a", "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"eq4", "=", 
+    RowBox[{
+     RowBox[{"y1", "[", "a", "]"}], "\[Equal]", 
+     RowBox[{"y2", "[", "a", "]"}]}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"eq1", "&&", "eq2", "&&", "eq3", "&&", "eq4"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      SubscriptBox["C", "1"], ",", 
+      SubscriptBox["C", "2"], ",", 
+      SubscriptBox["C", "3"], ",", 
+      SubscriptBox["C", "4"]}], "}"}]}], "]"}], "//", 
+  "FullSimplify"}]}], "Input",
+ CellChangeTimes->{{3.847967226387712*^9, 3.847967230754847*^9}},
+ CellLabel->
+  "In[1496]:=",ExpressionUUID->"dc1dd5f4-88eb-489f-82d0-38a147fe8881"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["C", "1"], "\[Rule]", 
+     FractionBox[
+      RowBox[{"a", " ", "b", " ", 
+       RowBox[{"(", 
+        RowBox[{"a", "+", 
+         RowBox[{"2", " ", "b"}]}], ")"}], " ", "F"}], 
+      RowBox[{"6", " ", 
+       RowBox[{"(", 
+        RowBox[{"a", "+", "b"}], ")"}]}]]}], ",", 
+    RowBox[{
+     SubscriptBox["C", "2"], "\[Rule]", 
+     FractionBox[
+      RowBox[{"a", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"3", " ", 
+          SuperscriptBox["a", "2"]}], "+", 
+         RowBox[{"4", " ", "a", " ", "b"}], "+", 
+         RowBox[{"2", " ", 
+          SuperscriptBox["b", "2"]}]}], ")"}], " ", "F"}], 
+      RowBox[{"6", " ", 
+       RowBox[{"(", 
+        RowBox[{"a", "+", "b"}], ")"}]}]]}], ",", 
+    RowBox[{
+     SubscriptBox["C", "3"], "\[Rule]", "0"}], ",", 
+    RowBox[{
+     SubscriptBox["C", "4"], "\[Rule]", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["a", "3"], " ", "F"}], "6"]}]}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.847967236416861*^9},
+ CellLabel->
+  "Out[1503]=",ExpressionUUID->"01764287-06ca-410e-9afd-fb07636a788d"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{324, Automatic}, {Automatic, 183}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"59d7a3a7-ff3f-4b77-a26b-d4632c68dbaa"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 181, 3, 54, "Subsection",ExpressionUUID->"b422102b-e6b9-4b85-98dd-0001b22e4d90"],
+Cell[CellGroupData[{
+Cell[786, 29, 2598, 84, 268, "Input",ExpressionUUID->"dc1dd5f4-88eb-489f-82d0-38a147fe8881"],
+Cell[3387, 115, 1192, 39, 104, "Output",ExpressionUUID->"01764287-06ca-410e-9afd-fb07636a788d"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

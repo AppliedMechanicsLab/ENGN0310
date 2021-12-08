@@ -44,7 +44,7 @@ $$
 
 Consider an arbitrary segment of the beam as shown in gray, where the left end face of the segment has an outward normal of $-\hat{\boldsymbol{E}}_1$ and is at position $X_1$. By definition, the moment of the tractions on this left end face about its centroid $\mathcal{P}$ is $\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)$.
 
-Since the moment of all the forces acting on the segment should be zero about any point, taking the sum of moment about $\mathcal{P}$,
+Since the moment of all the forces acting on the segment should be zero about any point, taking the moment of all forces about $\mathcal{P}$,
 
 $$
 \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3=\boldsymbol{0}
@@ -59,11 +59,11 @@ $$
 \end{align*}
 $$
 
-Further noting that by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=M(X_1)\hat{\boldsymbol{E}}_3$, we get
+Further noting that by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3 =M(X_1)$, we get
 
 $$
 \begin{align*}
-M(X_1)\hat{\boldsymbol{E}}_3&=M_0\hat{\boldsymbol{E}}_3\\
+\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=M_0\hat{\boldsymbol{E}}_3\cdot \hat{\boldsymbol{E}}_3\\
 M(X_1)&=M_0
 \end{align*} 
 $$
@@ -194,7 +194,7 @@ $$
 \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=F_1(L/3-X_1)\hat{\boldsymbol{E}}_3-F_2(L-X_1)\hat{\boldsymbol{E}}_3
 $$
 
-$\hspace{12mm}$  whereby definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=M(X_1) \hat{\boldsymbol{E}}_3$ and it follows that
+$\hspace{12mm}$  whereby definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$ and it follows from taking dot product with $\hat{\boldsymbol{E}}_3$ on both sides that
 
 $$
 \begin{align*}
@@ -232,7 +232,7 @@ You can also take segments as shown below. You will still end up with the same e
 
 <br/>
     <center>
-     <img src="HW8-sol-fig2-ver2.png" alt="drawing" width="550"/>
+     <img src="HW8-sol-fig2-ver2.png" alt="drawing" width="600"/>
     </center>
 <br> 
 
@@ -495,7 +495,7 @@ $$
 \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
 $$
 
-Remembering that $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=M(X_1)\hat{\boldsymbol{E}}_3$, 
+Remembering that $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, 
 
 $$
 M(X_1)=-R_AX_1=-\frac{M_0}{L}X_1
