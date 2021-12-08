@@ -15,7 +15,7 @@ Consider the geometry shown where $a=3~\rm{m}$ and $b=2~\rm{m}$ ($L=5~\rm{m}$). 
     </center> 
 <br/>
 
-(a)(5pts) Find $M(X_1, \hat{\boldsymbol{E}_1})$ along the length of the beam in terms of $F$ and the reactions $R_A, R_B, M_0$ where $\boldsymbol{R_A}=-R_A\hat{\boldsymbol{E}_2}$, $\boldsymbol{R_B}=-R_B\hat{\boldsymbol{E}_2}$, and $\boldsymbol{M_0}=M_0\hat{\boldsymbol{E}_3}$.
+(a)(5pts) Find $M(X_1)$ along the length of the beam in terms of $F$ and the reactions $R_A, R_B, M_0$ where $\boldsymbol{R_A}=-R_A\hat{\boldsymbol{E}_2}$, $\boldsymbol{R_B}=-R_B\hat{\boldsymbol{E}_2}$, and $\boldsymbol{M_0}=M_0\hat{\boldsymbol{E}_3}$.
 
 (b)(10pts) Using 4 boundary conditions, solve the governing differential equation to find $y(X_1)$ (in terms of all or some of $E, I, F, R_A, R_B, M_0$).
 
