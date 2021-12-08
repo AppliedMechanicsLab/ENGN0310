@@ -2,3 +2,4 @@
 * [Practice Midterm Solutions](PMSolutions.md)
 * [Midterm](ENGN_0310_Midterm.pdf)
 * [Midterm Solutions](MidtermSolutions.md)
+* [Practice Final](PracticeFinal.md)
