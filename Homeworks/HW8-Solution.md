@@ -178,6 +178,7 @@ You can take either of the approaches below to arrive at this solution.
 <br> 
 
 * $(\rm i)~0\leq X_1 \leq L/3$
+
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((L/3-X_1)\hat{\boldsymbol{E}}_1\times F_1\hat{\boldsymbol{E}}_2)+((L-X_1)\hat{\boldsymbol{E}}_1 \times (-F_2\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
@@ -274,6 +275,7 @@ $$
  
 
 * $(\rm i)~0\leq X_1 \leq L/3$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+\boldsymbol{M_0}+((0-X_1)(\hat{\boldsymbol{E}}_1) \times \boldsymbol{R_A})=\boldsymbol{0}
     $$
@@ -388,6 +390,7 @@ We then have from the first two B.C.s
 $$
 y'(0)=C_1=0
 $$
+
 $$
 y(0)=C_3=0
 $$
@@ -483,7 +486,6 @@ $$
 $$
 
 Hence,
-
 $$
 R_A=-R_B=\frac{M_0}{L}
 $$
@@ -563,6 +565,7 @@ The maximum deflection takes place when
 $$
 y'(X_1)=0 
 $$
+
 $$
 -\frac{M_0L^2}{6E I}\left(\frac{3X_1^2}{L^3}-\frac{1}{L}\right)=0
 $$
@@ -575,7 +578,7 @@ The expression for maximum deflection is then
 
 $$
 \begin{align*}
-y_{max}=y\left(\frac{L}{\sqrt{3}}\right)&=-\frac{M_0L^2}{6E I}\left(\frac{1}{3\sqrt{3}}-\frac{1}{\sqrt{3}}\right)=\frac{M_0}{234375\sqrt{3}}~~(=2.46\times10^{-6}M_0)~\rm {m}
+y_{max}=y\left(\frac{L}{\sqrt{3}}\right)&=-\frac{M_0L^2}{6E I}\left(\frac{1}{3\sqrt{3}}-\frac{1}{\sqrt{3}}\right)\\&=\frac{M_0}{234375\sqrt{3}}~~(=2.46\times10^{-6}M_0)~\rm {m}
 \end{align*} 
 $$
 
