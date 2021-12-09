@@ -1,7 +1,13 @@
 {% include mathjax_support %}
 {% include command %}
 
+
+# End force loaded cantilever
+
+
 ![](2021-11-27-21-17-59.png)
+
+
 
 Consider the above shown cantilever of length $l$. We apply the force $\boldsymbol{f}=f\hat{\boldsymbol{E}}_2$, where $f$ is a positive number, to its end. The moment on the cross-section at $^0\\! X_1$ due to the force is  $(l- ^0\\! X_1)f \hat{\boldsymbol{E}}_3$. Let us a take closer look at how to derive this result. 
 
@@ -9,12 +15,12 @@ Consider the above shown cantilever of length $l$. We apply the force $\boldsymb
 ![](2021-12-04-18-58-25.png)
 
 
-Consider the segment of the beam lying to the right of the cross-section at $^0 X_1$. This segment of the beam is shown in grey in the above figure. We denote the cross-section at $^0 X_1$ as $\Gamma(^0 X_1)$. The centroid of $\Gamma(^0 X_1)$ is $\mathcal{M}$. The position vector of $\mathcal{M}$ is, of course, $^0 X_1\hat{\boldsymbol{E}}_1$. We determine how the bending moment varies along the length of beam by considering the equilibrium of the grey segment. Since the grey segment is in equilibrium we have that the moment of all the forces acting on the segment about any point will be zero. Speciifically, we use the statement that  the   moment of all the forces acting on the segment about the point $\mathcal{M}$ is zero. 
+Consider the segment of the beam lying to the right of the cross-section at $^0 X_1$. This segment of the beam is shown in grey in the above figure. We denote the cross-section at $^0 X_1$ as $\Gamma(^0 X_1)$. The centroid of $\Gamma(^0 X_1)$ is $\mathcal{M}$. The position vector of $\mathcal{M}$ is, of course, $^0 X_1\hat{\boldsymbol{E}}_1$. We determine how the bending moment varies along the length of beam by considering the equilibrium of the grey segment. Since the grey segment is in equilibrium we have that the moment of all the forces acting on the segment about any point will be zero. Speciifically, we use the statement that the moment of all the forces acting on the segment about the point $\mathcal{M}$ is zero. 
 
 
 ![](2021-12-04-20-15-34.png)
 
-There are two sets of forces acting on the segment. The forces dues to the internal tractions on the surface $\Gamma(^0 X_1,-\hat{\boldsymbol{E}})$ and the force acting on the segment at the cantilever end point $\mathcal{E}$. The moment of the forces due to the tractions on the surface $\Gamma(^0 X_1,-\hat{\boldsymbol{E}})$ about the centroid of $\Gamma(^0 X_1)$ is by definition  the moment $\boldsymbol{M}(^0 X_1, -\hat{\boldsymbol{E}})$. The centroid of $\Gamma(^0 X_1)$ is, of course, $\mathcal{M}$. Therefore, the moment of the forces due to the tractions on the surface $\Gamma(^0 X_1,-\hat{\boldsymbol{E}}_1)$ about $\mathcal{M}$ is  $\boldsymbol{M}(^0 X_1, -\hat{\boldsymbol{E}}_1)$. The moment due to the force $\boldsymbol{f}$ about $\mathcal{M}$ is  $(l-^0\\! X_1)\hat{\boldsymbol{E}}\_1\times f\hat{\boldsymbol{E}}\_2$. This expression simplifies to $(l-^0\\! X_1) \hat{\boldsymbol{E}}\_3$. In summary, the sum of the moments due to all the  forces acting on the grey segment about the point $\mathcal{M}$ is 
+There are two sets of forces acting on the segment. The forces dues to the internal tractions on the surface $\Gamma(^0 X_1,-\hat{\boldsymbol{E}})$ and the force acting on the segment at the cantilever end point $\mathcal{E}$. The moment of the forces due to the tractions on the surface $\Gamma(^0 X_1,-\hat{\boldsymbol{E}})$ about the centroid of $\Gamma(^0 X_1)$ is by definition  the moment $\boldsymbol{M}(^0 X_1, -\hat{\boldsymbol{E}})$. The centroid of $\Gamma(^0 X_1)$ is, of course, $\mathcal{M}$. Therefore, the moment of the forces due to the tractions on the surface $\Gamma(^0 X_1,-\hat{\boldsymbol{E}}_1)$ about $\mathcal{M}$ is  $\boldsymbol{M}(^0 X_1, -\hat{\boldsymbol{E}}_1)$. The moment due to the force $\boldsymbol{f}$ about $\mathcal{M}$ is  $(l-^0\\! X_1)\hat{\boldsymbol{E}}\_1\times f\hat{\boldsymbol{E}}\_2$. This expression simplifies to $(l-^0\\! X_1) \hat{\boldsymbol{E}}\_3$. In summary, the sum of the moments due to all the forces acting on the grey segment about the point $\mathcal{M}$ is 
 
 $$
 \begin{align}
