@@ -45,7 +45,7 @@ M(X_1)=
 -R_B(5-X_1)~(\rm{N}\cdot \rm{m})  & 3\leq X_1 \leq 5\\
 \end{cases}
 $$
-
+ 
 <u>(Approach 3)</u>
 
 $$
@@ -77,8 +77,8 @@ $$
 \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
 $$
 
-$\hspace{12mm}$ Remembering that by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=M(X_1)\hat{\boldsymbol{E}}_3$, we get
-
+$\hspace{12mm}$ Remembering that  $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
+ 
 $$
 M(X_1)=-M_0-R_A X_1
 $$
@@ -126,7 +126,7 @@ $$
 -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+F_1(a-X_1)\hat{\boldsymbol{E}}_3-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
 $$
 
-$\hspace{12mm}$ Since by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=M(X_1)\hat{\boldsymbol{E}}_3$, we get
+$\hspace{12mm}$ Since by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
 
 $$
 \begin{align*}
@@ -177,7 +177,7 @@ $$
 \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
 $$
 
-$\hspace{12mm}$ Remembering that by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=M(X_1)\hat{\boldsymbol{E}}_3$, we get
+$\hspace{12mm}$ Remembering that  $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
 
 $$
 M(X_1)=-M_0-R_A X_1
@@ -544,7 +544,7 @@ We have the following B.C.s
 * $(\rm iii)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y'(X_1)=\lim_{X_1\to a^+}y'(X_1)$
 * $(\rm iv)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y(X_1)=\lim_{X_1\to a^+}y(X_1)$
 
-Applying $(\rm i)-(\rm iv)$, (you can easily do this with [MMA code](HW9-2a-Constants.nb)
+Applying $(\rm i)-(\rm iv)$, (you can easily do this with [MMA code](HW9-2a-Constants.nb))
 
 $$
 C_1=\frac{ab(a+2b)}{6(a+b)}F,~~
@@ -759,7 +759,7 @@ In summary, the maximum allowable $b$ is $0.625~\rm{m}$, and the maximum deflect
 
 <br/>
     <center>
-     <img src="HW9-sol-fig3-1.png" alt="drawing" width="400"/>
+     <img src="HW9-sol-fig3-1.png" alt="drawing" width="300"/>
     </center>
 <br/>
 
@@ -788,11 +788,13 @@ $$
 M_0-R_B(a+b)=0
 $$
 
-So that we have
+so that we have
 
 $$
 R_A=-\frac{M_0}{a+b}, ~~R_B=\frac{M_0}{a+b}
 $$
+
+<u>Shear force diagram </u>
 
 Now consider the segment shown below in gray. The force acting on the right face of the gray segment (applied by the rest of the beam to its right) is denoted as $\boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)$. 
 
@@ -807,6 +809,277 @@ From force balance on the gray segment, we have
 $$
 \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)-R_A \hat{\boldsymbol{E}}_2=\boldsymbol{0}
 $$
+
+$$
+\boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)=R_A \hat{\boldsymbol{E}}_2
+$$
+
+Recall that by definition, $\boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_2=V(X_1)$. Taking dot product with $\hat{\boldsymbol{E}}_2$ on both sides, we get
+
+$$
+V(X_1)=R_A=-\frac{M_0}{a+b}=-300~\rm{N}
+$$ 
+
+Since this analysis stays true for all $X_1$ along the length of the beam, $V(X_1)$ is constant and the shear force diagram should like
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3-4.png" alt="drawing" width="400"/>
+    </center>
+<br/>
+
+
+<u>Moment diagram </u>
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3-3.png" alt="drawing" width="700"/>
+    </center> 
+<br/>
+
+* $(\rm i)~0\leq X_1 \leq a~~~(0\leq X_1 \leq 3)$
+
+    Consider the gray segment shown in the left side of the figure above. As we have seen multiple times at this point, we can take the moment of all forces about $\mathcal{P}$ and write
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1 \times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+
+    Noting that $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot\hat{\boldsymbol{E}}_3=M(X_1)$,
+    
+    $$
+    M(X_1)=-R_AX_1=\frac{M_0}{a+b}X_1=300X_1
+    $$
+
+* $(\rm ii)~a\leq X_1 \leq a+b~~~(3\leq X_1 \leq 5)$
+
+    Consider the gray segment shown in the right side of the figure above. We can take the moment of all forces about $\mathcal{P}$ and write
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+    $$
+    M(X_1)=-M_0-R_AX_1=-1500+300X_1
+    $$
+
+The bending moment diagram should look like 
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3-5.png" alt="drawing" width="400"/>
+    </center> 
+<br/>
+
+***Solution(b)*** 
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3b.png" alt="drawing" width="400"/>
+    </center> 
+<br/>
+
+From force balance,
+
+$$
+F\hat{\boldsymbol{E}}_2+2F\hat{\boldsymbol{E}}_2+F\hat{\boldsymbol{E}}_2-R_A\hat{\boldsymbol{E}}_2-R_B\hat{\boldsymbol{E}}_2=\boldsymbol{0}
+$$
+
+$$
+4F-R_A-R_B=0
+$$
+
+Taking the moment of all forces about the midpoint of the beam,
+
+$$
+\left(-\frac{L}{2}\hat{\boldsymbol{E}}_1\times F\hat{\boldsymbol{E}}_2\right)+\left(-\frac{3L}{10}\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2)\right)+\left(\frac{3L}{10}\hat{\boldsymbol{E}}_1\times(-R_B\hat{\boldsymbol{E}}_2)\right)+\left(\frac{L}{2}\hat{\boldsymbol{E}}_1\times F\hat{\boldsymbol{E}}_2\right)=\boldsymbol{0}
+$$
+
+$$
+-\frac{L}{2}F \hat{\boldsymbol{E}}_3+\frac{3L}{10}R_A \hat{\boldsymbol{E}}_3-\frac{3L}{10}R_B \hat{\boldsymbol{E}}_3-\frac{L}{2}F\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+$$
+
+$$
+R_A-R_B=0
+$$
+
+We can then solve for reaction forces and obtain
+
+$$
+R_A=R_B=2F=24~\rm{kN}
+$$
+
+<u>Shear force diagram </u>
+
+Now consider the segment shown below in gray. The force acting on the right face of the gray segment (applied by the rest of the beam to its right) is denoted as $\boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)$.  
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3b-1.png" alt="drawing" width="600"/>
+    </center> 
+<br/>
+
+* $(\rm i)~0\leq X_1 \leq L/5~~~(0\leq X_1 \leq 1)$
+ 
+    From force balance on the gray segment, we have
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)+F \hat{\boldsymbol{E}}_2=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)=-F\hat{\boldsymbol{E}}_2
+    $$
+
+    Recall that by definition, $\boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_2=V(X_1)$. Taking dot product with $\hat{\boldsymbol{E}}_2$ on both sides, we get
+
+    $$
+    V(X_1)=-F=-12~\rm{kN}
+    $$ 
+
+* $(\rm ii)~L/5\leq X_1 \leq L/2~~~(1\leq X_1 \leq 5/2)$
+ 
+    From force balance on the gray segment, we have
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)+F \hat{\boldsymbol{E}}_2-R_A\hat{\boldsymbol{E}}_2=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)=-F\hat{\boldsymbol{E}}_2+R_A\hat{\boldsymbol{E}}_2
+    $$
+
+    $$
+    V(X_1)=-F+R_A=12~\rm{kN}
+    $$ 
+
+* $(\rm iii)~L/2\leq X_1 \leq 4L/5~~~(5/2\leq X_1 \leq 4)$
+ 
+    From force balance on the gray segment, we have
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)+F \hat{\boldsymbol{E}}_2-R_A\hat{\boldsymbol{E}}_2+2F \hat{\boldsymbol{E}}_2=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)=-3F\hat{\boldsymbol{E}}_2+R_A\hat{\boldsymbol{E}}_2
+    $$
+
+    $$
+    V(X_1)=-3F+R_A=-12~\rm{kN}
+    $$ 
+
+* $(\rm iv)~4L/5\leq X_1 \leq L~~~(4\leq X_1 \leq 5)$
+ 
+    From force balance on the gray segment, we have
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)+F \hat{\boldsymbol{E}}_2-R_A\hat{\boldsymbol{E}}_2+2F \hat{\boldsymbol{E}}_2-R_B\hat{\boldsymbol{E}}_2=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)=-3F\hat{\boldsymbol{E}}_2+R_A\hat{\boldsymbol{E}}_2+R_B\hat{\boldsymbol{E}}_2
+    $$
+
+    $$
+    V(X_1)=-3F+R_A+R_B=12~\rm{kN}
+    $$ 
+
+Hence, the shear force diagram should look like
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3b-3.png" alt="drawing" width="400"/>
+    </center> 
+<br/>
+
+<u>Moment diagram </u>
+
+Consider the gray segments shown for each section of the beam.
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3b-2.png" alt="drawing" width="600"/>
+    </center> 
+<br/>
+
+* $(\rm i)~0\leq X_1 \leq L/5~~~(0\leq X_1 \leq 1)$
+ 
+    Taking moment of all forces about $\mathcal{P}$, we have
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1 \times F \hat{\boldsymbol{E}}_2)=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+
+    Recall that  $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3=M(X_1)$ and taking dot product with $\hat{\boldsymbol{E}}_3$, we get
+
+    $$
+    M(X_1)=FX_1=12X_1 ~~(\rm{kN}\cdot \rm{m})
+    $$  
+
+* $(\rm ii)~L/5\leq X_1 \leq L/2~~~(1\leq X_1 \leq 5/2)$
+ 
+    Taking moment of all forces about $\mathcal{P}$, we have
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1 \times F \hat{\boldsymbol{E}}_2)+((\dfrac{L}{5}-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+    $$
+    M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)=-12X_1+24 ~~(\rm{kN}\cdot \rm{m})
+    $$  
+
+
+* $(\rm iii)~L/2\leq X_1 \leq 4L/5~~~(5/2\leq X_1 \leq 4)$
+
+    Taking moment of all forces about $\mathcal{P}$, we have
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1 \times F \hat{\boldsymbol{E}}_2)+((\dfrac{L}{5}-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))+((\dfrac{L}{2}-X_1)\hat{\boldsymbol{E}}_1 \times 2F \hat{\boldsymbol{E}}_2)=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3+F(L-2X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+    $$
+    M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)-F(L-2X_1)=12X_1-36 ~~(\rm{kN}\cdot \rm{m})
+    $$  
+
+* $(\rm iv)~4L/5\leq X_1 \leq L~~~(4\leq X_1 \leq 5)$
+
+    Taking moment of all forces about $\mathcal{P}$, we have
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1 \times F \hat{\boldsymbol{E}}_2)+((\dfrac{L}{5}-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))+((\dfrac{L}{2}-X_1)\hat{\boldsymbol{E}}_1 \times 2F \hat{\boldsymbol{E}}_2)+((\dfrac{4L}{5}-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3+F(L-2X_1)\hat{\boldsymbol{E}}_3-R_B(\frac{4L}{5}-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+    $$
+    M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)-F(L-2X_1)+R_B(\frac{4L}{5}-X_1)=-12X_1+60 ~~(\rm{kN}\cdot \rm{m})
+    $$  
+
+The moment diagram should look like
+
+<br/>
+    <center>
+     <img src="HW9-sol-fig3b-4.png" alt="drawing" width="400"/>
+    </center> 
+<br/>
 
 <!-- 
 
