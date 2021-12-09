@@ -178,53 +178,59 @@ You can take either of the approaches below to arrive at this solution.
 <br> 
 
 * $(\rm i)~0\leq X_1 \leq L/3$
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((L/3-X_1)\hat{\boldsymbol{E}}_1\times F_1\hat{\boldsymbol{E}}_2)+((L-X_1)\hat{\boldsymbol{E}}_1 \times (-F_2\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+F_1(L/3-X_1)\hat{\boldsymbol{E}}_3-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((L/3-X_1)\hat{\boldsymbol{E}}_1\times F_1\hat{\boldsymbol{E}}_2)+((L-X_1)\hat{\boldsymbol{E}}_1 \times (-F_2\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ Since $M(X_1,-\hat{\boldsymbol{E}}_1)=-M(X_1,\hat{\boldsymbol{E}}_1)$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+F_1(L/3-X_1)\hat{\boldsymbol{E}}_3-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
+    $$
 
-$$
--\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+F_1(L/3-X_1)\hat{\boldsymbol{E}}_3-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=F_1(L/3-X_1)\hat{\boldsymbol{E}}_3-F_2(L-X_1)\hat{\boldsymbol{E}}_3
-$$
+    Since $M(X_1,-\hat{\boldsymbol{E}}_1)=-M(X_1,\hat{\boldsymbol{E}}_1)$
 
-$\hspace{12mm}$  whereby definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$ and it follows from taking dot product with $\hat{\boldsymbol{E}}_3$ on both sides that
+    $$
+    -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+F_1(L/3-X_1)\hat{\boldsymbol{E}}_3-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
+    $$
 
-$$
-\begin{align*}
-M(X_1)&=F_1(L/3-X_1)-F_2(L-X_1)\\
-&=10X_1-100~(\rm{N}\cdot \rm{m})
-\end{align*}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=F_1(L/3-X_1)\hat{\boldsymbol{E}}_3-F_2(L-X_1)\hat{\boldsymbol{E}}_3
+    $$
+
+    whereby definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$ and it follows from taking dot product with $\hat{\boldsymbol{E}}_3$ on both sides that
+
+    $$
+    \begin{align*}
+    M(X_1)&=F_1(L/3-X_1)-F_2(L-X_1)\\
+    &=10X_1-100~(\rm{N}\cdot \rm{m})
+    \end{align*}
+    $$
 
 * $(\rm ii)~L/3\leq X_1 \leq L$
 
-$\hspace{12mm}$ Similarly,
+    Similarly,
 
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((L-X_1)\hat{\boldsymbol{E}}_1 \times (-F_2\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
-$$
-$$
--\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=-F_2(L-X_1)\hat{\boldsymbol{E}}_3 
-$$
-$$
-\begin{align*}
-M(X_1)&=-F_2(L-X_1)\\
-&=20X_1-120 ~(\rm{N}\cdot \rm{m})
-\end{align*}
-$$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((L-X_1)\hat{\boldsymbol{E}}_1 \times (-F_2\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
+    $$
+
+    $$
+    -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-F_2(L-X_1)\hat{\boldsymbol{E}}_3 =\boldsymbol{0}
+    $$
+
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=-F_2(L-X_1)\hat{\boldsymbol{E}}_3 
+    $$
+
+    $$
+    \begin{align*}
+    M(X_1)&=-F_2(L-X_1)\\
+    &=20X_1-120 ~(\rm{N}\cdot \rm{m})
+    \end{align*}
+    $$
 
 <u>(Approach 2):</u>
 
@@ -243,6 +249,7 @@ Taking sum of moments about the origin,
 $$
 \boldsymbol{M_0}+(L/3\hat{\boldsymbol{E}}_1\times F_1\hat{\boldsymbol{E}}_2)+(L\hat{\boldsymbol{E}}_1\times(- F_2\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
 $$
+
 $$
 \boldsymbol{M_0}+F_1(L/3)\hat{\boldsymbol{E}}_3-F_2 L\hat{\boldsymbol{E}}_3=\boldsymbol{0}
 $$
@@ -267,41 +274,42 @@ $$
  
 
 * $(\rm i)~0\leq X_1 \leq L/3$
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+\boldsymbol{M_0}+((0-X_1)(\hat{\boldsymbol{E}}_1) \times \boldsymbol{R_A})=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+(-X_1\hat{\boldsymbol{E}}_1 \times (-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+\boldsymbol{M_0}+((0-X_1)(\hat{\boldsymbol{E}}_1) \times \boldsymbol{R_A})=\boldsymbol{0}
+    $$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+(-X_1\hat{\boldsymbol{E}}_1 \times (-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ It then follows that
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$$
-\begin{align*}
-M(X_1)&=-M_0-R_A X_1\\
-&=(F_1(L/3)-F_2 L)-(F_1-F_2)X_1=F_1(L/3-X_1)-F_2(L-X_1)
-\end{align*}
-$$
+    It then follows that
+
+    $$
+    \begin{align*}
+    M(X_1)&=-M_0-R_A X_1\\
+    &=(F_1(L/3)-F_2 L)-(F_1-F_2)X_1=F_1(L/3-X_1)-F_2(L-X_1)
+    \end{align*}
+    $$
 
 * $(\rm ii)~L/3\leq X_1 \leq L$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+\boldsymbol{M_0}+((0-X_1)\hat{\boldsymbol{E}}_1 \times \boldsymbol{R_A})+((L/3-X_1)\hat{\boldsymbol{E}}_1 \times F_1\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+\boldsymbol{M_0}+((0-X_1)\hat{\boldsymbol{E}}_1 \times \boldsymbol{R_A})+((L/3-X_1)\hat{\boldsymbol{E}}_1 \times F_1\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
+    $$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3+F_1(L/3-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3+F_1(L/3-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12}mm$ and it follows that
+    and it follows that
 
-$$
-M(X_1)=-M_0-R_A X_1-F_1(L/3-X_1)=-F_2(L-X_1)
-$$
+    $$
+    M(X_1)=-M_0-R_A X_1-F_1(L/3-X_1)=-F_2(L-X_1)
+    $$
 
 
 <u>(Approach 3):</u>
@@ -601,6 +609,7 @@ $\hspace{4mm}$ This requires
 $$
 y_{max}\leq 5\times 10^{-3}~\rm{m}
 $$
+
 $$
 \frac{M_0}{234375\sqrt{3}}\leq 5\times 10^{-3}
 $$
