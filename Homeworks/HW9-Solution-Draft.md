@@ -69,37 +69,37 @@ Consider segments as shown above. Since the moment of all the forces acting on t
 
 * $(\rm i)~0\leq X_1 \leq a~~~(0\leq X_1 \leq 3)$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ Remembering that  $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
- 
-$$
-M(X_1)=-M_0-R_A X_1
-$$
+    Remembering that  $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
+    
+    $$
+    M(X_1)=-M_0-R_A X_1
+    $$
 
 * $(\rm ii)~a\leq X_1 \leq a+b~~~(3\leq X_1 \leq 5)$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3+F(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
+    $$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3+F(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ It follows then that
+    It follows then that
 
-$$
-\begin{align*}
-M(X_1)&=-M_0-R_A X_1-F(a-X_1)\\
-&=-M_0-(R_A-F)X_1-3F
-\end{align*}
-$$
+    $$
+    \begin{align*}
+    M(X_1)&=-M_0-R_A X_1-F(a-X_1)\\
+    &=-M_0-(R_A-F)X_1-3F
+    \end{align*}
+    $$
 
 <u>(Approach 2-demonstration)</u>
 
@@ -113,49 +113,49 @@ Consider segments as shown above. Since the moment of all the forces acting on t
 
 * $(\rm i)~0\leq X_1 \leq a~~~(0\leq X_1 \leq 3)$
 
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a-X_1)\hat{\boldsymbol{E}}_1 \times F_1 \hat{\boldsymbol{E}}_2)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times(-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a-X_1)\hat{\boldsymbol{E}}_1 \times F_1 \hat{\boldsymbol{E}}_2)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times(-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
 
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+F_1(a-X_1)\hat{\boldsymbol{E}}_3-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+F_1(a-X_1)\hat{\boldsymbol{E}}_3-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ Recalling that $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)$
-$$
--\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+F_1(a-X_1)\hat{\boldsymbol{E}}_3-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    Recalling that $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)$
+    $$
+    -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+F_1(a-X_1)\hat{\boldsymbol{E}}_3-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ Since by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
+    Since by definition, $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
 
-$$
-\begin{align*}
-M(X_1)&=F_1(a-X_1)-R_B(a+b-X_1)\\
-&=F(3-X_1)-R_B(5-X_1)\\
-&=(R_B-F)X_1+3F-5R_B
-\end{align*}
-$$
+    $$
+    \begin{align*}
+    M(X_1)&=F_1(a-X_1)-R_B(a+b-X_1)\\
+    &=F(3-X_1)-R_B(5-X_1)\\
+    &=(R_B-F)X_1+3F-5R_B
+    \end{align*}
+    $$
 
 * $(\rm ii)~a\leq X_1 \leq a+b~~~(3\leq X_1 \leq 5)$
 
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
-$$
--\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+    $$
+    -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ It follows then that
+    It follows then that
 
-$$
-\begin{align*}
-M(X_1)&=-R_B(a+b-X_1)\\
-&=-R_B(5-X_1)
-\end{align*}
-$$
+    $$
+    \begin{align*}
+    M(X_1)&=-R_B(a+b-X_1)\\
+    &=-R_B(5-X_1)
+    \end{align*}
+    $$
 
 <u>(Approach 3-demonstration)</u>
 
@@ -169,40 +169,40 @@ Consider segments as shown above. Since the moment of all the forces acting on t
 
 * $(\rm i)~0\leq X_1 \leq a~~~(0\leq X_1 \leq 3)$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ Remembering that  $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
+    Remembering that  $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3=M(X_1)$, we get
 
-$$
-M(X_1)=-M_0-R_A X_1
-$$
+    $$
+    M(X_1)=-M_0-R_A X_1
+    $$
 
 * $(\rm ii)~a\leq X_1 \leq a+b~~~(3\leq X_1 \leq 5)$
 
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
-$$
--\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+    $$
+    \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
+    $$
+    -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$\hspace{12mm}$ It follows then that
+    It follows then that
 
-$$
-\begin{align*}
-M(X_1)&=-R_B(a+b-X_1)\\
-&=-R_B(5-X_1)
-\end{align*}
-$$
+    $$
+    \begin{align*}
+    M(X_1)&=-R_B(a+b-X_1)\\
+    &=-R_B(5-X_1)
+    \end{align*}
+    $$
 
 ***Solution (b)***
 
@@ -480,29 +480,29 @@ We now study the moment $M(X_1)$ along the length.
 
 * $(\rm i)~0\leq X_1 \leq a~~~(0\leq X_1 \leq 1)$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
+    $$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$$
-M(X_1)=-R_AX_1=-\frac{bF}{a+b}X_1
-$$
+    $$
+    M(X_1)=-R_AX_1=-\frac{bF}{a+b}X_1
+    $$
 
 * $(\rm ii)~a\leq X_1 \leq a+b~~~(1\leq X_1 \leq 1+b)$
 
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F_2\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
-$$
-$$
-\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3+F_2(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
-$$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F_2\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
+    $$
+    $$
+    \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3+F_2(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
+    $$
 
-$$
-M(X_1)=-R_AX_1-F(a-X_1)=-\frac{bF}{a+b}X_1-F(a-X_1)=\frac{aF}{a+b}X_1-aF
-$$
+    $$
+    M(X_1)=-R_AX_1-F(a-X_1)=-\frac{bF}{a+b}X_1-F(a-X_1)=\frac{aF}{a+b}X_1-aF
+    $$
 
 Hence, 
 
