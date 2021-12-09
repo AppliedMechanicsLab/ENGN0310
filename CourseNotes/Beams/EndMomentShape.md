@@ -6,7 +6,7 @@
 <img src="2021-12-04-16-05-48.png" alt="drawing1" width="1000"/>
 
 
-In this [previous section](EndMomentMoment.md) we found that for the above sketeched problem the moment along the beam's length is a constant. That is 
+In this [previous section](EndMomentMoment.md) we found that for the above sketched problem the moment along the beam's length is a constant. That is 
 
 $$
 \begin{align}
@@ -24,7 +24,7 @@ E I y''\left(X_1\right)= M(X_1)
 $$
 for the function $y(\cdot)$.
 
-Integrating both sides of the differential equation once we we get that
+Integrating both sides of the differential equation once we get that
 $$
 \begin{align}
 E I y'\left(X_1\right)= M_0 X_1+C_1, 
