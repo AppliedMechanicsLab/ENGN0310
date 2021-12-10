@@ -65,13 +65,13 @@ $$
 the normal stress is 
 
 $$
-t_n=\boldsymbol{t}\cdot\hat{\boldsymbol{n}}=30\sqrt{3}=51.9...~\rm{MPa}
+\sigma =\boldsymbol{t}\cdot\hat{\boldsymbol{n}}=30\sqrt{3}=51.9...~\rm{MPa}
 $$
 
 and 
 
 $$
-\boldsymbol{t_n}=t_n\hat{\boldsymbol{n}}=45\hat{\boldsymbol{E}}_{\rm 1}-15\sqrt{3}\hat{\boldsymbol{E}}_{\rm 2}
+\boldsymbol{t_n}=\sigma~\hat{\boldsymbol{n}}=45\hat{\boldsymbol{E}}_{\rm 1}-15\sqrt{3}\hat{\boldsymbol{E}}_{\rm 2}
 $$
 
 The shearing component of the traction vector on the oblique surface is then
@@ -83,7 +83,7 @@ $$
 Hence, the magnitude of shear stress is
 
 $$
-t_s=\lVert \boldsymbol{t_s}\lVert =2.28...~\rm{MPa}
+\tau=\lVert \boldsymbol{t_s}\lVert =2.28...~\rm{MPa}
 $$
 
 More precisely speaking, recall that the definition of shear stress was $\tau(\phi)$ where
@@ -330,7 +330,7 @@ $$
 Hence, the magnitude of the normal stress is
 
 $$
-t_n=\boldsymbol{t}\cdot \hat{\boldsymbol{n}}=440\sin{\beta}=186 ~\rm{kPa}
+\sigma=\boldsymbol{t}\cdot \hat{\boldsymbol{n}}=440\sin{\beta}=186 ~\rm{kPa}
 
 $$
  
@@ -338,7 +338,7 @@ and the normal component of the traction vector is
 
 $$
 \begin{align*}
-\boldsymbol{t_n}=t_n\hat{\boldsymbol{n}}&=186~\rm{kPa}\sin{\beta}\hat{\boldsymbol{E}}_1+186~\rm{kPa}\cos{\beta}\hat{\boldsymbol{E}}_2\\
+\boldsymbol{t_n}=\sigma~\hat{\boldsymbol{n}}&=186~\rm{kPa}\sin{\beta}\hat{\boldsymbol{E}}_1+186~\rm{kPa}\cos{\beta}\hat{\boldsymbol{E}}_2\\
 &=78.6\rm{kPa}\hat{\boldsymbol{E}}_1+168\rm{kPa}\hat{\boldsymbol{E}}_2
 \end{align*}
 $$
@@ -355,7 +355,7 @@ $$
 and its magnitude is
 
 $$
-t_s=\sqrt{361.4^2+168^2}~\rm{kPa}=398~\rm{kPa}
+\tau=\sqrt{361.4^2+168^2}~\rm{kPa}=398~\rm{kPa}
 $$
 
 More precisely speaking, recall that the definition of shear stress is $\tau(\phi)$ in
