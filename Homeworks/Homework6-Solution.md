@@ -95,19 +95,19 @@ $$
 where $\hat{\boldsymbol{m}}$ is defined uniquely for each surface as
 
 $$
-\hat{\boldsymbol{m}}=\hat{\boldsymbol{n}}\times\hat{\boldsymbol{E}}_3
+\hat{\boldsymbol{m}}=\hat{\boldsymbol{E}}_3\times\hat{\boldsymbol{n}}
 $$
 
 Following this definition, we get that
 
 $$
-\hat{\boldsymbol{m}}=-1/2\hat{\boldsymbol{E_1}}-\sqrt{3}/2\hat{\boldsymbol{E_2}}
+\hat{\boldsymbol{m}}=1/2\hat{\boldsymbol{E_1}}+\sqrt{3}/2\hat{\boldsymbol{E_2}}
 $$
 
 Then, taking the dot product,
 
 $$
-\tau(\phi)=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=2.28...~\rm{MPa}
+\tau(\phi)=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=-2.28...~\rm{MPa}
 $$
 
 <u>Different perspective (1)</u>
@@ -294,6 +294,10 @@ $$
 
 You can consider either plane of $\phi=165^\circ$ or $\phi=-15^\circ$ in solving the problem. However, you would also get the right answer if you used $\phi=75^\circ$ or $\phi=-165^\circ$, just because planes of minimum shear stress are at every $90^\circ$.
 
+<br/>
+<br/>
+
+
 
 <u> Problem 3 (10 pts total) </u>
 
@@ -310,7 +314,7 @@ Two wooden members of $80 \times 120~\rm mm$ uniform rectangular cross section a
 
 <br/>
     <center>
-     <img src="HW6-Solution-fig4.png" alt="drawing" width="400"/>
+     <img src="HW6-Solution-fig4.png" alt="drawing" width="800"/>
     </center>
 <br/>
 
@@ -330,7 +334,7 @@ $$
 Hence, the magnitude of the normal stress is
 
 $$
-\sigma=\boldsymbol{t}\cdot \hat{\boldsymbol{n}}=440\sin{\beta}=186 ~\rm{kPa}
+\sigma=\boldsymbol{t}\cdot \hat{\boldsymbol{n}}=440\sin{\beta}=186 ~\rm{kPa} 
 
 $$
  
@@ -367,24 +371,68 @@ $$
 where $\hat{\boldsymbol{m}}$ is defined uniquely for each surface as
 
 $$
-\hat{\boldsymbol{m}}=\hat{\boldsymbol{n}}\times\hat{\boldsymbol{E}}_3
+\hat{\boldsymbol{m}}=\hat{\boldsymbol{E}}_3\times\hat{\boldsymbol{n}}
 $$
 
 Following this definition, we get that
 
 $$
-\hat{\boldsymbol{m}}=\cos{\beta}\hat{\boldsymbol{E}}_1-\sin{\beta}\hat{\boldsymbol{E}}_2
+\hat{\boldsymbol{m}}=-\cos{\beta}\hat{\boldsymbol{E}}_1+\sin{\beta}\hat{\boldsymbol{E}}_2
 $$
 
 Then, taking the dot product,
 
 $$
-\tau(\phi)=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=398~\rm{kPa}
+\tau(\phi)=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=-398~\rm{kPa}
 $$
 
 
-</br>
-</br>
+<u>Different perspective </u>
+
+<br/>
+    <center>
+     <img src="HW6-Solution-fig4-2-01.png" alt="drawing" width="700"/>
+    </center>
+<br/> 
+
+You can also start by finding the stress tensor components first. It is apparent that $\sigma_{12}=0$ and $\sigma_{22}=0$. 
+We have for $\sigma_{11}$
+
+$$
+\sigma_{11}=\frac{P}{A}=\frac{10~\rm{kN}}{(120~\rm{mm})(80~\rm{mm})}=1.041...~\rm{MPa}
+$$
+
+where $A$ is the cross-sectional area of the member perpendicular to $\hat{\boldsymbol{E}}_1$.
+You can then utilize the equations
+
+$$
+\begin{align*}
+\sigma(\phi)&=\frac{\sigma_{11}+\sigma_{22}}{2}+\frac{\sigma_{11}-\sigma_{22}}{2}\cos{(2\phi)}+\sigma_{12}\sin{(2\phi)}\\
+\tau(\phi)&=-\frac{\sigma_{11}-\sigma_{22}}{2}\sin{(2\phi)}+\sigma_{12}\cos{(2\phi)}\\
+\end{align*}
+$$
+
+which in this case reduces to
+
+$$
+\begin{align*}
+\sigma(\phi)&=\frac{\sigma_{11}}{2}(1+\cos{(2\phi)})\\
+\tau(\phi)&=-\frac{\sigma_{11}}{2}\sin{(2\phi)}\\
+\end{align*}
+$$
+
+Choosing $\phi=90^\circ-\beta=65^\circ$,
+
+$$
+\sigma(65^\circ)=186~\rm{kPa}
+$$
+
+$$
+\tau(=65^\circ)=-398~\rm{kPa}
+$$
+
+<br/>
+<br/>
 
 <u> Problem 4 (10 pts total) </u>
 
@@ -424,8 +472,11 @@ $$
 we can write that
 
 $$
-\sigma=\boldsymbol{t}\cdot\hat{\boldsymbol{n}}=-t\cos{\beta}\\
-\tau=\boldsymbol{t}\cdot\hat{\boldsymbol{m}}=t\sin{\beta}
+\sigma=\boldsymbol{t}\cdot\hat{\boldsymbol{n}}=-t\cos{\beta} \tag{$\star$}
+$$
+
+$$
+\tau=\boldsymbol{t}\cdot\hat{\boldsymbol{m}}=t\sin{\beta} \tag{$\star\star$}
 $$
 
 Plugging in $\sigma=-15~\rm{MPa}$ and $\tau=5~\rm{MPa}$ and solving for $t, \beta$, 
@@ -437,9 +488,126 @@ t&=5\sqrt{10}~\rm{MPa}=15.8..~\rm{MPa}\\
 \end{align*}
 $$
 
-The maximum compressive stress is simply $t=15.8~\rm{MPa}$.
+We then get that 
+
+$$
+P=tA
+$$
+
+The compression is maximum on a cross section perpendicular to $\hat{\boldsymbol{E}}_2$, whose area is $A\cos{\beta}$
+
+$$
+\frac{P}{A\cos{\beta}}=\frac{t}{\cos{\beta}}=16.7~\rm{MPa}
+$$
 
 
+<u>Different perspective (1) </u>
+
+Take $\hat{\boldsymbol{n}}$ and $\hat{\boldsymbol{m}}$ as shown. Note that this follows the notation introduced in class, where $\hat{\boldsymbol{m}}=\hat{\boldsymbol{E}}_3 \times \hat{\boldsymbol{n}}$, where as the orientation of $\hat{\boldsymbol{m}}$ given originally in the problem <u>does not</u>.
+
+<br/>
+    <center>
+     <img src="HW6-Solution-fig5-ver2.png" alt="drawing" width="200"/> 
+    </center>
+<br/>
+
+Maximum compression is $\sigma_{22}$. We can say that $\sigma_{11}=\sigma_{12}=0$ so that
+
+
+$$
+\begin{align*}
+\sigma(\phi)&=\frac{\sigma_{11}+\sigma_{22}}{2}+\frac{\sigma_{11}-\sigma_{22}}{2}\cos{(2\phi)}+\sigma_{12}\sin{(2\phi)}\\
+\tau(\phi)&=-\frac{\sigma_{11}-\sigma_{22}}{2}\sin{(2\phi)}+\sigma_{12}\cos{(2\phi)}\\
+\end{align*}
+$$
+
+reduces to
+
+$$
+\begin{align*}
+\sigma(\phi)&=\frac{\sigma_{22}}{2}(1+\cos{(2\phi)})\\
+\tau(\phi)&=\frac{\sigma_{22}}{2}\sin{(2\phi)}\\
+\end{align*}
+$$
+
+Solving the following system of equations for $\sigma_{22}$ and $\beta$ (note that you have to take $=\tau=-5~\rm{MPa}$ here to stay consistent with the how $\hat{\boldsymbol{m}}$ is oriented),
+
+$$
+\begin{cases}
+\sigma(\dfrac{\pi}{2}-\beta)=\dfrac{\sigma_{22}}{2}\left(1+\cos{(2(\dfrac{\pi}{2}-\beta))}\right)=-15~\rm{MPa}\\\\
+\tau(\dfrac{\pi}{2}-\beta)=\dfrac{\sigma_{22}}{2}\sin{(2(\dfrac{\pi}{2}-\beta))}=~\rm{-5MPa}\\
+\end{cases}
+$$
+
+we get 
+
+$$
+\beta=18.4..^\circ
+$$ 
+
+$$
+\sigma_{22}=-16.7~\rm{MPa}
+$$
+
+<u>Different perspective (2) </u>
+
+<br/>
+    <center>
+     <img src="HW6-Solution-fig5-ver2.png" alt="drawing" width="200"/> 
+    </center>
+<br/>
+
+Or you can start by constructing a stress tensor as
+
+$$
+[\boldsymbol{\sigma}]=
+\begin{bmatrix}
+0 & 0\\
+0 & \sigma_{22} \\
+\end{bmatrix}
+$$
+
+With
+
+$$
+[\hat{\boldsymbol{n}}]=
+\begin{bmatrix}
+\cos{(\dfrac{\pi}{2}-\beta)}\\\\
+\sin{(\dfrac{\pi}{2}-\beta)}
+\end{bmatrix},~~~
+
+[\hat{\boldsymbol{m}}]=
+\begin{bmatrix}
+-\sin{(\dfrac{\pi}{2}-\beta)}\\\\
+\cos{(\dfrac{\pi}{2}-\beta)}
+\end{bmatrix} \\
+$$
+
+you get that the traction is
+
+$$
+[\boldsymbol{t}(\hat{\boldsymbol{n}})]=[\boldsymbol{\sigma}][\hat{\boldsymbol{n}}]=\begin{bmatrix}0\\\sigma_{22}\sin{(\dfrac{\pi}{2}-\beta)}\end{bmatrix}
+$$
+
+
+It follows then that
+
+$$
+\begin{cases}
+\sigma=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{n}}=\sigma_{22} \sin^2{(\dfrac{\pi}{2}-\beta)}=-15~\rm{MPa}\\\\
+\tau=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{m}}=\sigma_{22}  \sin{(\dfrac{\pi}{2}-\beta)}\cos{(\dfrac{\pi}{2}-\beta)}=-5~\rm{MPa}
+\end{cases}
+$$
+
+and you can solve for $\beta, \sigma_{22}$ as
+
+$$
+\beta=18.4..^\circ
+$$ 
+
+$$
+\sigma_{22}=-16.7~\rm{MPa}
+$$
 
 <br/>
 
