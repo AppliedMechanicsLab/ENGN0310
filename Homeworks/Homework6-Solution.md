@@ -86,7 +86,7 @@ $$
 t_s=\lVert \boldsymbol{t_s}\lVert =2.28...~\rm{MPa}
 $$
 
-More precisely speaking, remember that the definition of shear stress was $\tau(\phi)$ where
+More precisely speaking, recall that the definition of shear stress was $\tau(\phi)$ where
 
 $$
 \boldsymbol{t_s}=\tau(\phi)\hat{\boldsymbol{m}},
@@ -107,7 +107,7 @@ $$
 Then, taking the dot product,
 
 $$
-t_s=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=2.28...~\rm{MPa}
+\tau(\phi)=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=2.28...~\rm{MPa}
 $$
 
 <u>Different perspective (1)</u>
@@ -175,15 +175,18 @@ $$
 and get
 
 $$
-\sigma(150^\circ)=\sigma(30^\circ)= 51.96..~\rm{MPa}
+\sigma(150^\circ)=\sigma(-30^\circ)= 51.96..~\rm{MPa}
 $$
 
 $$
-\tau(150^\circ)=\tau(30^\circ)= -2.28..~\rm{MPa}
+\tau(150^\circ)=\tau(-30^\circ)= -2.28..~\rm{MPa}
 $$
 
 
 The sign is important. If you took $\phi=30^\circ$, for example, you would have arrived at a different value.
+
+<br/>
+<br/>
 
 
 <u> Problem 2 (10 pts) </u>
@@ -196,6 +199,7 @@ For the state of plane stress shown, determine the value of $τ_{12}$ for which 
      <img src="HW6_P2.png" alt="drawing" width="300"/>
     </center>
 <br/>
+
 
 
 **Solution:**
@@ -265,6 +269,31 @@ $$
 \tau_{12}=\frac{5(1-\sqrt{3})}{3-\sqrt{3}}=-\frac{5(1+\sqrt{3})}{3+\sqrt{3}}=-2.88..~\rm{MPa}
 $$
 
+<u>Different perspective </u>
+
+You can directly solve for $\tau_{12}(=\sigma_{12})$ taking the equation for shear stress
+
+$$
+\begin{align*}
+\tau(\phi)&=-\frac{\sigma_{11}-\sigma_{22}}{2}\sin{(2\phi)}+\sigma_{12}\cos{(2\phi)}\\
+\end{align*}
+$$
+
+and setting it to $0$.
+
+$$
+\tau(\phi)=0
+$$
+
+
+ <br/>
+    <center>
+     <img src="HW6-Solution-fig3-2.png" alt="drawing" width="500"/>
+    </center>
+<br/>
+
+You can consider either plane of $\phi=165^\circ$ or $\phi=-15^\circ$ in solving the problem. However, you would also get the right answer if you used $\phi=75^\circ$ or $\phi=-165^\circ$, just because planes of minimum shear stress are at every $90^\circ$.
+
 
 <u> Problem 3 (10 pts total) </u>
 
@@ -281,7 +310,7 @@ Two wooden members of $80 \times 120~\rm mm$ uniform rectangular cross section a
 
 <br/>
     <center>
-     <img src="HW6-Solution-fig4.png" alt="drawing" width="300"/>
+     <img src="HW6-Solution-fig4.png" alt="drawing" width="400"/>
     </center>
 <br/>
 
@@ -304,7 +333,7 @@ $$
 t_n=\boldsymbol{t}\cdot \hat{\boldsymbol{n}}=440\sin{\beta}=186 ~\rm{kPa}
 
 $$
-
+ 
 and the normal component of the traction vector is
 
 $$
@@ -319,7 +348,7 @@ Then, the shear component of the traction vector
 $$
 \begin{align*}
 \boldsymbol{t_s}=\boldsymbol{t}-\boldsymbol{t_n}
-&=361.4\rm{kPa}\hat{\boldsymbol{E}}_1-168\rm{kPa}\hat{\boldsymbol{E}}_2
+&=361.4\rm{kPa}\hat{\boldsymbol{E}}_1-168\rm{kPa}\hat{\boldsymbol{E}}_2 
 \end{align*}
 $$
 
@@ -328,6 +357,34 @@ and its magnitude is
 $$
 t_s=\sqrt{361.4^2+168^2}~\rm{kPa}=398~\rm{kPa}
 $$
+
+More precisely speaking, recall that the definition of shear stress is $\tau(\phi)$ in
+
+$$
+\boldsymbol{t_s}=\tau(\phi)\hat{\boldsymbol{m}},
+$$
+
+where $\hat{\boldsymbol{m}}$ is defined uniquely for each surface as
+
+$$
+\hat{\boldsymbol{m}}=\hat{\boldsymbol{n}}\times\hat{\boldsymbol{E}}_3
+$$
+
+Following this definition, we get that
+
+$$
+\hat{\boldsymbol{m}}=\cos{\beta}\hat{\boldsymbol{E}}_1-\sin{\beta}\hat{\boldsymbol{E}}_2
+$$
+
+Then, taking the dot product,
+
+$$
+\tau(\phi)=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=398~\rm{kPa}
+$$
+
+
+</br>
+</br>
 
 <u> Problem 4 (10 pts total) </u>
 
@@ -343,7 +400,7 @@ The centric force $\boldsymbol{\sf P}$ is applied to a short post as shown. Know
 
 <br/>
     <center>
-     <img src="HW6-Solution-fig5.png" alt="drawing" width="400"/>
+     <img src="HW6-Solution-fig5.png" alt="drawing" width="600"/>
     </center>
 <br/>
 
@@ -381,6 +438,8 @@ t&=5\sqrt{10}~\rm{MPa}=15.8..~\rm{MPa}\\
 $$
 
 The maximum compressive stress is simply $t=15.8~\rm{MPa}$.
+
+
 
 <br/>
 
@@ -460,7 +519,7 @@ $$
 \Leftrightarrow \frac{\sigma_{11}-\sigma_{22}}{2} \cos{(2\theta_{p_{max}})}+\tau_{12}\sin{(2\theta_{p_{max}})}= \sqrt{\left(\frac{\sigma_{11}-\sigma_{22}}{2}\right)^2+\tau_{12}^2}\\
 $$
 
-Letting $a = \frac{\sigma_{11}-\sigma_{22}}{2}$ and $b=\tau_{12}$,
+Letting $a = \dfrac{\sigma_{11}-\sigma_{22}}{2}$ and $b=\tau_{12}$,
 
 $$
 a\cos{(2\theta_{p_{max}})}+b\sin{(2\theta_{p_{max}})}=\sqrt{a^2+b^2}
