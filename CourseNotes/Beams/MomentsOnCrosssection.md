@@ -15,7 +15,7 @@ $$
 \begin{align}
 \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)
 &=
-\int_{\Gamma(X_1)}(\boldsymbol{X}-X_1\boldsymbol{E}_1)\times \boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}_1)\, d\Gamma\\
+\int_{\Gamma(X_1)}(\boldsymbol{X}-X_1\hat{\boldsymbol{E}}_1)\times \boldsymbol{t}(\boldsymbol{X},\hat{\boldsymbol{E}}_1)\, d\Gamma\\
 % &=\int_{\Gamma(X_1)}(X_2\boldsymbol{E}_2+X_3\boldsymbol{E}_3)\times \boldsymbol{t}(X_1,\hat{\boldsymbol{E}}_1)\, d\Gamma
 \end{align}
 $$
