@@ -387,7 +387,7 @@ $$
 $$
 
 
-<u>Different perspective </u>
+<u>Different perspective (1)</u>
 
 <br/>
     <center>
@@ -428,8 +428,62 @@ $$
 $$
 
 $$
-\tau(=65^\circ)=-398~\rm{kPa}
+\tau(65^\circ)=-398~\rm{kPa}
 $$
+
+<u>Different perspective (2)</u>
+
+Or you can start by constructing a stress tensor as
+
+$$
+[\boldsymbol{\sigma}]=
+\begin{bmatrix}
+\sigma_{11} & 0\\
+0 & 0 \\
+\end{bmatrix}
+$$
+
+With
+
+$$
+[\hat{\boldsymbol{n}}]=
+\begin{bmatrix}
+\cos{(90^\circ-\beta)}\\\\
+\sin{(90^\circ-\beta)}
+\end{bmatrix}
+=
+\begin{bmatrix}\sin{\beta}\\\\
+\cos{\beta} 
+\end{bmatrix},~~~
+
+[\hat{\boldsymbol{m}}]=
+\begin{bmatrix}
+-\sin{(90^\circ-\beta)}\\\\
+\cos{(90^\circ-\beta)}
+\end{bmatrix} 
+=
+\begin{bmatrix}
+-\cos{\beta}\\\\
+\sin{\beta} 
+\end{bmatrix}\\
+$$
+
+you get that the traction is
+
+$$
+[\boldsymbol{t}(\hat{\boldsymbol{n}})]=[\boldsymbol{\sigma}][\hat{\boldsymbol{n}}]=\begin{bmatrix}\sigma_{11}\sin{\beta}\\0\end{bmatrix}
+$$
+
+
+It follows then that
+
+$$
+\begin{cases}
+\sigma=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{n}}=\sigma_{11} \sin^2{\beta}=186~\rm{kPa}\\\\
+\tau=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{m}}=-\sigma_{11}  \sin{\beta}\cos{\beta}=-398~\rm{kPa}
+\end{cases}
+$$
+
 
 <br/>
 <br/>
