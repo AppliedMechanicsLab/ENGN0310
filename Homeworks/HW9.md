@@ -48,6 +48,14 @@ Consider the simply supported beam shown below. If $F=20~\rm{kN}$ and the maximu
 
 ### Problem 3 (20pts total)
 
+In solving this problem, remember that shear force is defined as
+
+$$
+V(X_1)=\boldsymbol{F}(X_1, \hat{\boldsymbol{E}}_1)\cdot\hat{\boldsymbol{E}}_2
+$$
+
+In other words,shear force is the $\hat{\boldsymbol{E}}_2$ component of the force acting on the right face of an imaginary cut at $X_1$. Since we have $\hat{\boldsymbol{E}}_2$ pointing downward, downward force on the right face of an imaginary cut indicates positive shear. Note that the sign convention for moment and/or shear might be different from what you see in textbooks. 
+
 (a) (10pts) Prepare the shear force diagram and bending moment diagram for the configuration below, where $a=3~\rm{m}$, $b=2~\rm{m}$, and $\boldsymbol{M_0}=1500~\rm{N\cdot m} \hat{\boldsymbol{E}_3}$. 
  
 <br/>

@@ -25,7 +25,7 @@ For the given state of stress, determine the normal and shearing stresses exerte
      <img src="HW6-Solution-fig2.png" alt="drawing" width="300"/>
     </center> 
 <br/>
-
+ 
 
 Let $S_1$, $S_2$, and $S_3$ denote the surface of the triangular element as shown. Denoting the surface area of $S_1$ as $A$, we know that $S_2$ and $S_3$ have the surface area of $\sqrt{3}A$ and $2A$ respectively.
 
@@ -80,11 +80,40 @@ $$
 \boldsymbol{t_s}=\boldsymbol{t}-\boldsymbol{t_n}=(-15+8\sqrt{3})\hat{\boldsymbol{E}}_{\rm 1}+(24-15\sqrt{3})\hat{\boldsymbol{E}}_{\rm 2}
 $$
 
-Hence, the shear stress is
+Hence, the magnitude of shear stress is
 
 $$
 t_s=\lVert \boldsymbol{t_s}\lVert =2.28...~\rm{MPa}
 $$
+
+More precisely speaking, remember that the definition of shear stress was $\tau(\phi)$ where
+
+$$
+\boldsymbol{t_s}=\tau(\phi)\hat{\boldsymbol{m}},
+$$
+
+where $\hat{\boldsymbol{m}}$ is defined uniquely for each surface as
+
+$$
+\hat{\boldsymbol{m}}=\hat{\boldsymbol{n}}\times\hat{\boldsymbol{E}}_3
+$$
+
+Following this definition, we get that
+
+$$
+\hat{\boldsymbol{m}}=-1/2\hat{\boldsymbol{E_1}}-\sqrt{3}/2\hat{\boldsymbol{E_2}}
+$$
+
+Then, taking the dot product,
+
+$$
+t_s=\boldsymbol{t_s}\cdot\hat{\boldsymbol{m}}=2.28...~\rm{MPa}
+$$
+
+<u>Different perspective (1)</u>
+
+
+
 
 Alternatively, you may take
 
@@ -117,6 +146,44 @@ $$
 
 from which $\boldsymbol{t_n}$ and $\boldsymbol{t_s}$ can be found in the same manner as shown above.
 
+<u>Different perspective (2)</u>
+
+Or, you can directly compute the values using
+
+$$
+\begin{align*}
+\sigma(\phi)&=c+a\cos{(2\phi)}+b\sin{(2\phi)}\\
+\tau(\phi)&=-a\sin{(2\phi)}+b\cos{(2\phi)}\\
+a&:=\frac{\sigma_{11}-\sigma_{22}}{2}\\
+b&:=\sigma_{12}\\
+c&:=\frac{\sigma_{11}+\sigma_{22}}{2}
+\end{align*}
+$$
+
+<br/>
+    <center>
+     <img src="HW6-Solution-fig2-2.png" alt="drawing" width="500"/>
+    </center> 
+<br/>
+
+Note how angle $\phi$ is taken. You can either take
+
+$$
+\phi=150^\circ \text{~~or~~~} \phi=-30^\circ
+$$
+
+and get
+
+$$
+\sigma(150^\circ)=\sigma(30^\circ)= 51.96..~\rm{MPa}
+$$
+
+$$
+\tau(150^\circ)=\tau(30^\circ)= -2.28..~\rm{MPa}
+$$
+
+
+The sign is important. If you took $\phi=30^\circ$, for example, you would have arrived at a different value.
 
 
 <u> Problem 2 (10 pts) </u>

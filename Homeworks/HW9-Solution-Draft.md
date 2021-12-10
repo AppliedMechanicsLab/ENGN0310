@@ -122,6 +122,7 @@ Consider segments as shown above. Since the moment of all the forces acting on t
     $$
 
     Recalling that $\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)=-\boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)$
+    
     $$
     -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+F_1(a-X_1)\hat{\boldsymbol{E}}_3-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
