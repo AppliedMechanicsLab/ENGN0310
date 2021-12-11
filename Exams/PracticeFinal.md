@@ -19,7 +19,7 @@
 
 Figure 1
 
-The bar in the figure above is made of a material with an ultimate tensile strength of $220MPa$ and an ultimate shear strength of $100MPa$, where the cross-sectional area is $A = 100mm^2$. If the ultimate strength of the weld is $.8$ of that of the base material, for both shear and normal stress, then what is the maximum allowable applied force $P$ and how will the bar fail? The angle of the weld is $\theta = 65\degree$.
+The bar in the figure above is made of a material with an ultimate tensile strength of $220MPa$ and an ultimate shear strength of $100MPa$, where the cross-sectional area is $A = 100mm^2$. If the ultimate strength of the weld is $.8$ of that of the base material, for both shear and normal stress, then what is the maximum allowable applied force $P$ and how will the bar fail? The angle of the weld is $\theta = 65 \degree$.
 
 #### Problem 2. 
 
