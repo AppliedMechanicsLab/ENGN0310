@@ -25,7 +25,7 @@ For the given state of stress, determine (a) (10 pts) the maximum and minimum in
 
 **Solution (a)** 
 
-The minimum in-plane shearing stress is $\tau_{\rm min}=0$. Plugging in $\sigma_{11}=-40~\rm{MPa}$, $\sigma_{22}=-60~\rm{MPa}$, and $\tau_{12}=25~\rm{MPa}$ to the equation given for the maximum in-plane shearing stress,
+The minimum in-plane shearing stress is $\tau_{\rm min}=0$. Plugging in $\sigma_{11}=-40~\rm{MPa}$, $\sigma_{22}=60~\rm{MPa}$, and $\tau_{12}=25~\rm{MPa}$ to the equation given for the maximum in-plane shearing stress,
 
 $$
 \begin{equation}
