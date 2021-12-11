@@ -448,22 +448,22 @@ With
 $$
 [\hat{\boldsymbol{n}}]=
 \begin{bmatrix}
-\cos{(90^\circ-\beta)}\\\\
+\cos{(90^\circ-\beta)}\\
 \sin{(90^\circ-\beta)}
 \end{bmatrix}
 =
-\begin{bmatrix}\sin{\beta}\\\\
+\begin{bmatrix}\sin{\beta}\\
 \cos{\beta} 
 \end{bmatrix},~~~
 
 [\hat{\boldsymbol{m}}]=
 \begin{bmatrix}
--\sin{(90^\circ-\beta)}\\\\
+-\sin{(90^\circ-\beta)}\\
 \cos{(90^\circ-\beta)}
 \end{bmatrix} 
 =
 \begin{bmatrix}
--\cos{\beta}\\\\
+-\cos{\beta}\\
 \sin{\beta} 
 \end{bmatrix}\\
 $$
@@ -626,21 +626,29 @@ With
 $$
 [\hat{\boldsymbol{n}}]=
 \begin{bmatrix}
-\cos{(\dfrac{\pi}{2}-\beta)}\\\\
+\cos{(\dfrac{\pi}{2}-\beta)}\\
 \sin{(\dfrac{\pi}{2}-\beta)}
+\end{bmatrix}=
+\begin{bmatrix}
+\sin{\beta}\\
+\cos{\beta}
 \end{bmatrix},~~~
 
 [\hat{\boldsymbol{m}}]=
 \begin{bmatrix}
--\sin{(\dfrac{\pi}{2}-\beta)}\\\\
+-\sin{(\dfrac{\pi}{2}-\beta)}\\
 \cos{(\dfrac{\pi}{2}-\beta)}
+\end{bmatrix}=
+\begin{bmatrix}
+-\cos{\beta}\\
+\sin{\beta}
 \end{bmatrix} \\
 $$
 
 you get that the traction is
 
 $$
-[\boldsymbol{t}(\hat{\boldsymbol{n}})]=[\boldsymbol{\sigma}][\hat{\boldsymbol{n}}]=\begin{bmatrix}0\\\sigma_{22}\sin{(\dfrac{\pi}{2}-\beta)}\end{bmatrix}
+[\boldsymbol{t}(\hat{\boldsymbol{n}})]=[\boldsymbol{\sigma}][\hat{\boldsymbol{n}}]=\begin{bmatrix}0\\\sigma_{22}\cos{\beta}\end{bmatrix}
 $$
 
 
@@ -648,8 +656,8 @@ It follows then that
 
 $$
 \begin{cases}
-\sigma=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{n}}=\sigma_{22} \sin^2{(\dfrac{\pi}{2}-\beta)}=-15~\rm{MPa}\\\\
-\tau=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{m}}=\sigma_{22}  \sin{(\dfrac{\pi}{2}-\beta)}\cos{(\dfrac{\pi}{2}-\beta)}=-5~\rm{MPa}
+\sigma=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{n}}=\sigma_{22} \cos^2{\beta}=-15~\rm{MPa}\\\\
+\tau=\boldsymbol{t}(\hat{\boldsymbol{n}})\cdot \hat{\boldsymbol{m}}=\sigma_{22}  \sin{\beta}\cos{\beta}=-5~\rm{MPa}
 \end{cases}
 $$
 
@@ -744,7 +752,7 @@ $$
 Letting $a = \dfrac{\sigma_{11}-\sigma_{22}}{2}$ and $b=\tau_{12}$,
 
 $$
-a\cos{(2\theta_{p_{max}})}+b\sin{(2\theta_{p_{max}})}=\sqrt{a^2+b^2}
+a\cos{(2\theta_{p_{max}})}+b\sin{(2\theta_{p_{max}})}=\sqrt{a^2+b^2} 
 $$
 
 $$
