@@ -28,8 +28,11 @@ The bar in the figure above is made of a material with an ultimate tensile stren
 Figure 2
 
 (a) Given the loading in figure 2 what is the stress tensor. 
+
 (b) For this given stress tensor what is the maximum and minimum values of the scalar part of normal component of the traction vector, and what are the corresponding angles. 
+
 (c) For this given stress tensor what is the maximum and minimum values of the scalar part of shear component of the traction vector, and what are the corresponding angles. 
+
 (d)  For this given stress tensor draw the Mohr Circle.
 
 
