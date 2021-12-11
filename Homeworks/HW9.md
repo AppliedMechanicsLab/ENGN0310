@@ -7,6 +7,8 @@
 ### Problem 1 (30pts total)
 <!-- ![](2021-12-04-21-45-25.png) -->
 
+<b>It should be doable by hand, but you can refer to the MMA code provided below for Problem 2 to help with the algebra. Just make sure you write out thought process so we know you understand. </b>
+
 Consider the geometry shown where $a=3~\rm{m}$ and $b=2~\rm{m}$ ($L=5~\rm{m}$). If the yield stress of the material is $180~\rm{MPa}$, what is the maximum force $F$ that can be applied without exceeding the yield stress? Assume that the beam has a $1~\rm{cm}\times1~\rm{cm}$ square cross-sectional area. You can approach this problem in the following step.
 
 <br/>
@@ -27,7 +29,10 @@ Consider the geometry shown where $a=3~\rm{m}$ and $b=2~\rm{m}$ ($L=5~\rm{m}$). 
 <!-- 
 ome new geometry: a design problems. What is the maximum force your can apply with out exceeding yield stress.  -->
 
-### Problem 2 (30pts total)
+### Problem 2 (30pts total) 
+
+<b>2a) and 2b) should be doable by hand, but you can refer to this [MMA code](HW9-Prob2-maxDeflection.nb) to get the algebra part over with.</b>
+
 Consider the simply supported beam shown below. If $F=20~\rm{kN}$ and the maximum allowable deflection of the beam is $2~\rm{mm}$, find the maximum $b$. Take $a=1~\rm{m}$, $E=200~\rm{GPa}$, and assume that the beam has a rectangular cross-sectional area where $h=100~\rm{mm}$ and its dimension in the $\hat{\boldsymbol{E}_3}$ direction is $50~\rm{mm}$.
 
 <br/>
