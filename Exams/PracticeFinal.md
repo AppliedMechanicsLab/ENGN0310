@@ -245,13 +245,13 @@ and setting $\nu=0$.
 
 Figure 3
 
-(a) For the problem in figure 3 prepare the shear and bending moment diagrams.
+(a) For the problem in figure 3 prepare the shear (Not on Final) and bending moment diagrams. 
 
 ![](PF3.PNG)
 
 Figure 4
 
-(b) For the problem in figure 4 prepare the shear and bending moment diagrams.
+(b) For the problem in figure 4 prepare the shear (Not on Final) and bending moment diagrams.
 
 #### Problem 5. 
 
