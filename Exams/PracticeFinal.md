@@ -285,6 +285,6 @@ b) Find the maximum displacement of the bar in figure 8.
 
 Figure 9
 
-c) Find the maximum displacement of the bar in figure 9. Note that $M_1$, $M_2$, $R_1$, and $R_2$ are reaction forces and $M$ is an applied moment. 
+c) Find the maximum displacement of the bar in figure 9. Note that $M_1$, $M_2$, and $R_1$ are reaction forces and $M$ is an applied moment. 
 
 
