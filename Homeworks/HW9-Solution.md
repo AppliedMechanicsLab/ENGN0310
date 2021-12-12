@@ -546,7 +546,7 @@ We have the following B.C.s
 * $(\rm iii)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y'(X_1)=\lim_{X_1\to a^+}y'(X_1)$
 * $(\rm iv)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y(X_1)=\lim_{X_1\to a^+}y(X_1)$
 
-Applying $(\rm i)-(\rm iv)$,
+Applying $(\rm i)-(\rm iv)$, (you can use the MMA code, but if you want to do it by hand, it's straight from  [this lecture note](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Beams/SSBPointLoad.html)),
 
 $$
 C_1=\frac{ab(a+2b)}{6(a+b)}F,~~
@@ -772,6 +772,7 @@ From force balance,
 $$
 -R_A\hat{\boldsymbol{E}}_2-R_B\hat{\boldsymbol{E}}_2 =\boldsymbol{0}
 $$
+
 $$
 -R_A-R_B=0
 $$
