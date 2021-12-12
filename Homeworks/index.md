@@ -17,4 +17,4 @@
 * [Homework 8](HW8.md)
 * [Homework 8 Solutions](HW8-Solution.md)
 * [Homework 9](HW9.md)
-
+* [Homework 9 Solutions](HW9-Solution.md)
