@@ -1,4 +1,4 @@
-{% include mathjax_support %}
+X{% include mathjax_support %}
 {% include command %}
 
 
