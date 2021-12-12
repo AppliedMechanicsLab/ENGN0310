@@ -2,9 +2,10 @@ X{% include mathjax_support %}
 {% include command %}
 
 # ENGN0310: Homework 9 (100 pts)
-## Due Saturday 11:59 pm, December 11th, 2021
 
-### Problem 1 (30pts total)   ***[Solution MMA code](HW9-Problem1-Solution.nb)***
+
+
+### Problem 1 (30pts total)   ***[Solution MMA code](HW9-Problem1-Solution.nb)*** 
 
 Consider the geometry shown where $a=3~\rm{m}$ and $b=2~\rm{m}$ ($L=5~\rm{m}$). If the yield stress of the material is $180~\rm{MPa}$, what is the maximum force $F$ that can be applied without exceeding the yield stress? Assume that the beam has a $1~\rm{cm}\times1~\rm{cm}$ square cross-sectional area. You can approach this problem in the following step.
 
@@ -406,25 +407,25 @@ $$
 Hence, the maximum bending stress is
 
 $$
-\sigma_{11}(X_1,X_2,X_3)|_{X_1=3, X_2=h/2}=-\frac{(-108F)}{125I} \left(\frac{h}{2}\right)=5.18 \times 10^6F~\rm{MPa}\hspace{10mm} (tensile~stress)\\
+\sigma_{11}(X_1,X_2,X_3)|_{X_1=3, X_2=h/2}=-\frac{(-108F)}{125I} \left(\frac{h}{2}\right)=5.18F~\rm{MPa}\hspace{10mm} (tensile~stress)\\
 $$
 
 $$
-\sigma_{11}(X_1,X_2,X_3)|_{X_1=3, X_2=-h/2}=-\frac{(-108F)}{125I} \left(-\frac{h}{2}\right)=-5.18 \times 10^6F~\rm{MPa} \hspace{10mm} (compressive~stress)\\
+\sigma_{11}(X_1,X_2,X_3)|_{X_1=3, X_2=-h/2}=-\frac{(-108F)}{125I} \left(-\frac{h}{2}\right)=-5.18 F~\rm{MPa} \hspace{10mm} (compressive~stress)\\
 $$
 
 
 In order to not exceed the yield stress of $180~\rm{MPa}$, it requires 
 
 $$
-5.18 \times 10^6F \leq 180 
+5.18 F \leq 180 
 $$
 
 $$
 F \leq 34.7~(\rm{N})
 $$
 
-### Problem 2 (30pts total) ***[Solution MMA code](HW9-Prob2-Solution.nb)***
+### Problem 2 (30pts total) ***[Solution MMA code](HW9-Prob2-Solution.nb)***  
 
 Consider the simply supported beam shown below. If $F=20~\rm{kN}$ and the maximum allowable deflection of the beam is $2~\rm{mm}$, find the maximum $b$. Take $a=1~\rm{m}$, $E=200~\rm{GPa}$, and assume that the beam has a rectangular cross-sectional area where $h=100~\rm{mm}$ and its dimension in the $\hat{\boldsymbol{E}_3}$ direction is $50~\rm{mm}$.
 
