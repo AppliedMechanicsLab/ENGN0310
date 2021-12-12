@@ -88,6 +88,7 @@ Consider segments as shown above. Since the moment of all the forces acting on t
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3+F(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -142,9 +143,11 @@ Consider segments as shown above. Since the moment of all the forces acting on t
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -189,9 +192,11 @@ Consider segments as shown above. Since the moment of all the forces acting on t
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -485,6 +490,7 @@ We now study the moment $M(X_1)$ along the length.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -498,6 +504,7 @@ We now study the moment $M(X_1)$ along the length.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F_2\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3+F_2(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -865,9 +872,11 @@ Since this analysis stays true for all $X_1$ along the length of the beam, $V(X_
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     M(X_1)=-M_0-R_AX_1=-1500+300X_1
     $$
@@ -1041,6 +1050,7 @@ Consider the gray segments shown for each section of the beam.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)=-12X_1+24 ~~(\rm{kN}\cdot \rm{m})
     $$  
@@ -1057,6 +1067,7 @@ Consider the gray segments shown for each section of the beam.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3+F(L-2X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)-F(L-2X_1)=12X_1-36 ~~(\rm{kN}\cdot \rm{m})
     $$  
@@ -1072,6 +1083,7 @@ Consider the gray segments shown for each section of the beam.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3+F(L-2X_1)\hat{\boldsymbol{E}}_3-R_B(\frac{4L}{5}-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+    
     $$
     M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)-F(L-2X_1)+R_B(\frac{4L}{5}-X_1)=-12X_1+60 ~~(\rm{kN}\cdot \rm{m})
     $$  
