@@ -1112,6 +1112,32 @@ Geometries from 7.11 and 7.19 on pages 108-109
 
 
 
+***Solution (a)***
+
+(ii) is the statically indeterminate structure.
+
+<br/>
+    <center>
+     <img src="HW9-fig4a-sol.png" alt="drawing" width="600"/>
+    </center>
+<br/>
+
+A structure is statically indeterminate if the force and moment equilibrium conditions alone cannot determine the unknown reactions.
+
+Notice that (i) has two unknown reactions, while (ii) has three. 
+
+Since we can write two equilibrium conditions (one for balance of force and the other for balance of moment), the reaction forces in (i) can be determined. However, we cannot say the same for (ii).
+
+***Solution (b)***
+
+<br/>
+    <center>
+     <img src="HW9-fig4b-sol.png" alt="drawing" width="600"/>
+    </center>
+<br/>
+
+Similarly, since there are three unknowns in (i) when we only have two equilibrium conditions, ( is the statically indeterminate structure.
+
 
 ***Appendix***
 
