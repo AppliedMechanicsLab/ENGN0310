@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     30955,        929]
-NotebookOptionsPosition[     26883,        848]
-NotebookOutlinePosition[     27310,        865]
-CellTagsIndexPosition[     27267,        862]
+NotebookDataLength[     30990,        929]
+NotebookOptionsPosition[     26918,        848]
+NotebookOutlinePosition[     27345,        865]
+CellTagsIndexPosition[     27302,        862]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -811,11 +811,11 @@ Cell[BoxData[{
      RowBox[{"b", ">", "0"}]}], ",", "b"}], "]"}], "//", "N", 
   RowBox[{"(*", 
    RowBox[{
-    RowBox[{"Does", " ", "not", " ", "satisfy", " ", "0"}], "<", "b", "<", 
-    "1"}], "*)"}]}]}], "Input",
+    RowBox[{"Does", " ", "not", " ", "satisfy", " ", "b"}], ">", "1"}], 
+   "*)"}]}]}], "Input",
  CellChangeTimes->{{3.848274695343751*^9, 3.848274725862111*^9}, {
-  3.848274756958695*^9, 
-  3.848274785688547*^9}},ExpressionUUID->"3c821ee4-8b6f-481e-8224-\
+  3.848274756958695*^9, 3.848274785688547*^9}, {3.848276922559236*^9, 
+  3.848276926664562*^9}},ExpressionUUID->"3c821ee4-8b6f-481e-8224-\
 50faa403c4f2"],
 
 Cell[BoxData[
@@ -923,14 +923,14 @@ Cell[23927, 747, 154, 3, 59, "Input",ExpressionUUID->"de7de24a-cf03-4220-9ba8-a9
 Cell[CellGroupData[{
 Cell[24118, 755, 264, 6, 89, "Subsubsection",ExpressionUUID->"848400c9-c902-4fc4-bfb2-7a2a54a02558"],
 Cell[CellGroupData[{
-Cell[24407, 765, 1630, 53, 204, "Input",ExpressionUUID->"3c821ee4-8b6f-481e-8224-50faa403c4f2"],
-Cell[26040, 820, 295, 7, 89, "Output",ExpressionUUID->"132111e2-1b73-4476-86d9-87b645bc1b46"],
-Cell[26338, 829, 296, 7, 89, "Output",ExpressionUUID->"99957ccd-c84e-4a45-a499-ba79526efebb"]
+Cell[24407, 765, 1665, 53, 204, "Input",ExpressionUUID->"3c821ee4-8b6f-481e-8224-50faa403c4f2"],
+Cell[26075, 820, 295, 7, 89, "Output",ExpressionUUID->"132111e2-1b73-4476-86d9-87b645bc1b46"],
+Cell[26373, 829, 296, 7, 89, "Output",ExpressionUUID->"99957ccd-c84e-4a45-a499-ba79526efebb"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
-Cell[26685, 842, 194, 4, 134, "Section",ExpressionUUID->"c30a082c-b288-4f68-a78b-d8fabffed817"]
+Cell[26720, 842, 194, 4, 134, "Section",ExpressionUUID->"c30a082c-b288-4f68-a78b-d8fabffed817"]
 }
 ]
 *)
