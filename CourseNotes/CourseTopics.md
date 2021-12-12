@@ -65,7 +65,7 @@ HW 6-8 (On days when lab is due don't have a home work due)
 | Lecture34 | Dec 01, Wed | Columns |[Link](https://www.dropbox.com/s/3b1sqxtfyabdutk/ENGN0310_Dec1.mp4?dl=0)||
 | Lecture35 | Dec 03, Fri | Columns |[Link](https://www.dropbox.com/s/meo1dy8s12j5mo6/ENGN0310_Dec3.mp4?dl=0)||
 | Lecture36 | Dec 06, Mon | Columns|[Link](https://www.dropbox.com/s/ft7i88385hef9om/ENGN0310_Dec6.mp4?dl=0)||
-| Lecture37 | Dec 08, Wed | Course Review |||
+| Lecture37 | Dec 08, Wed | Course Review |[Link](https://www.dropbox.com/s/gqkoq028yiw2osc/ENGN0310_Dec8.mp4?dl=0)||
 | Lecture38 | Dec 10, Fri | Course Review|||
 
 
