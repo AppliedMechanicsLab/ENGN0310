@@ -4,7 +4,7 @@ X{% include mathjax_support %}
 # ENGN0310: Homework 9 (100 pts)
 ## Due Saturday 11:59 pm, December 11th, 2021
 
-### Problem 1 (30pts total)
+### Problem 1 (30pts total)   ***[Solution MMA code](HW9-Problem1-Solution.nb)***
 
 Consider the geometry shown where $a=3~\rm{m}$ and $b=2~\rm{m}$ ($L=5~\rm{m}$). If the yield stress of the material is $180~\rm{MPa}$, what is the maximum force $F$ that can be applied without exceeding the yield stress? Assume that the beam has a $1~\rm{cm}\times1~\rm{cm}$ square cross-sectional area. You can approach this problem in the following step.
 
@@ -88,6 +88,7 @@ Consider segments as shown above. Since the moment of all the forces acting on t
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times (-R_A \hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_A X_1\hat{\boldsymbol{E}}_3+F(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -142,9 +143,11 @@ Consider segments as shown above. Since the moment of all the forces acting on t
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -189,9 +192,11 @@ Consider segments as shown above. Since the moment of all the forces acting on t
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)+((a+b-X_1)\hat{\boldsymbol{E}}_1 \times (-R_B \hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, -\hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     -\boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-R_B(a+b-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -419,7 +424,8 @@ $$
 F \leq 34.7~(\rm{N})
 $$
 
-### Problem 2 (30pts total)
+### Problem 2 (30pts total) ***[Solution MMA code](HW9-Prob2-Solution.nb)***
+
 Consider the simply supported beam shown below. If $F=20~\rm{kN}$ and the maximum allowable deflection of the beam is $2~\rm{mm}$, find the maximum $b$. Take $a=1~\rm{m}$, $E=200~\rm{GPa}$, and assume that the beam has a rectangular cross-sectional area where $h=100~\rm{mm}$ and its dimension in the $\hat{\boldsymbol{E}_3}$ direction is $50~\rm{mm}$.
 
 <br/>
@@ -484,6 +490,7 @@ We now study the moment $M(X_1)$ along the length.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -497,6 +504,7 @@ We now study the moment $M(X_1)$ along the length.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+((0-X_1)\hat{\boldsymbol{E}}_1\times(-R_A\hat{\boldsymbol{E}}_2))+((a-X_1)\hat{\boldsymbol{E}}_1 \times F_2\hat{\boldsymbol{E}}_2)=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+R_AX_1\hat{\boldsymbol{E}}_3+F_2(a-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
@@ -545,7 +553,7 @@ We have the following B.C.s
 * $(\rm iii)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y'(X_1)=\lim_{X_1\to a^+}y'(X_1)$
 * $(\rm iv)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y(X_1)=\lim_{X_1\to a^+}y(X_1)$
 
-Applying $(\rm i)-(\rm iv)$, (you can easily do this with [MMA code](HW9-2a-Constants.nb))
+Applying $(\rm i)-(\rm iv)$, (you can use the MMA code, but if you want to do it by hand, it's straight from  [this lecture note](https://appliedmechanicslab.github.io/ENGN0310/CourseNotes/Beams/SSBPointLoad.html)),
 
 $$
 C_1=\frac{ab(a+2b)}{6(a+b)}F,~~
@@ -771,6 +779,7 @@ From force balance,
 $$
 -R_A\hat{\boldsymbol{E}}_2-R_B\hat{\boldsymbol{E}}_2 =\boldsymbol{0}
 $$
+
 $$
 -R_A-R_B=0
 $$
@@ -863,9 +872,11 @@ Since this analysis stays true for all $X_1$ along the length of the beam, $V(X_
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+((0-X_1)\hat{\boldsymbol{E}}_1 \times(-R_A\hat{\boldsymbol{E}}_2))=\boldsymbol{0}
     $$
+
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)+M_0\hat{\boldsymbol{E}}_3+R_AX_1\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     M(X_1)=-M_0-R_AX_1=-1500+300X_1
     $$
@@ -1039,6 +1050,7 @@ Consider the gray segments shown for each section of the beam.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)=-12X_1+24 ~~(\rm{kN}\cdot \rm{m})
     $$  
@@ -1055,6 +1067,7 @@ Consider the gray segments shown for each section of the beam.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3+F(L-2X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+
     $$
     M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)-F(L-2X_1)=12X_1-36 ~~(\rm{kN}\cdot \rm{m})
     $$  
@@ -1070,6 +1083,7 @@ Consider the gray segments shown for each section of the beam.
     $$
     \boldsymbol{M}(X_1, \hat{\boldsymbol{E}}_1)-FX_1\hat{\boldsymbol{E}}_3-R_A(\frac{L}{5}-X_1)\hat{\boldsymbol{E}}_3+F(L-2X_1)\hat{\boldsymbol{E}}_3-R_B(\frac{4L}{5}-X_1)\hat{\boldsymbol{E}}_3=\boldsymbol{0}
     $$
+    
     $$
     M(X_1)=FX_1+R_A(\frac{L}{5}-X_1)-F(L-2X_1)+R_B(\frac{4L}{5}-X_1)=-12X_1+60 ~~(\rm{kN}\cdot \rm{m})
     $$  
@@ -1110,6 +1124,32 @@ Geometries from 7.11 and 7.19 on pages 108-109
 <!-- ![](2021-12-04-22-16-01.png) -->
 
 
+
+***Solution (a)***
+
+(ii) is the statically indeterminate structure.
+
+<br/>
+    <center>
+     <img src="HW9-fig4a-sol.png" alt="drawing" width="600"/>
+    </center>
+<br/>
+
+A structure is statically indeterminate if the force and moment equilibrium conditions alone cannot determine the unknown reactions.
+
+Notice that (i) has two unknown reactions, while (ii) has three. 
+
+Since we can write two equilibrium conditions (one for balance of force and the other for balance of moment), the reaction forces in (i) can be determined. However, we cannot say the same for (ii).
+
+***Solution (b)***
+
+<br/>
+    <center>
+     <img src="HW9-fig4b-sol.png" alt="drawing" width="600"/>
+    </center>
+<br/>
+
+Similarly, since there are three unknowns in (i) when we only have two equilibrium conditions, ( is the statically indeterminate structure.
 
 
 ***Appendix***
