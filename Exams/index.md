@@ -3,3 +3,4 @@
 * [Midterm](ENGN_0310_Midterm.pdf)
 * [Midterm Solutions](MidtermSolutions.md)
 * [Practice Final](PracticeFinal.md)
+* [Practice Final Solutions](PracticeFinalSolutions.md)
