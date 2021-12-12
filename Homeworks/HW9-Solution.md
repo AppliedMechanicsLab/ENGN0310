@@ -4,7 +4,7 @@ X{% include mathjax_support %}
 # ENGN0310: Homework 9 (100 pts)
 ## Due Saturday 11:59 pm, December 11th, 2021
 
-### Problem 1 (30pts total)
+### Problem 1 (30pts total)   ***[Solution MMA code](HW9-Problem1-Solution.nb)***
 
 Consider the geometry shown where $a=3~\rm{m}$ and $b=2~\rm{m}$ ($L=5~\rm{m}$). If the yield stress of the material is $180~\rm{MPa}$, what is the maximum force $F$ that can be applied without exceeding the yield stress? Assume that the beam has a $1~\rm{cm}\times1~\rm{cm}$ square cross-sectional area. You can approach this problem in the following step.
 
@@ -419,7 +419,8 @@ $$
 F \leq 34.7~(\rm{N})
 $$
 
-### Problem 2 (30pts total)
+### Problem 2 (30pts total) ***[Solution MMA code](HW9-Prob2-Solution.nb)***
+
 Consider the simply supported beam shown below. If $F=20~\rm{kN}$ and the maximum allowable deflection of the beam is $2~\rm{mm}$, find the maximum $b$. Take $a=1~\rm{m}$, $E=200~\rm{GPa}$, and assume that the beam has a rectangular cross-sectional area where $h=100~\rm{mm}$ and its dimension in the $\hat{\boldsymbol{E}_3}$ direction is $50~\rm{mm}$.
 
 <br/>
@@ -545,7 +546,7 @@ We have the following B.C.s
 * $(\rm iii)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y'(X_1)=\lim_{X_1\to a^+}y'(X_1)$
 * $(\rm iv)$ $\hspace{1mm}$ $\lim_{X_1\to a^-}y(X_1)=\lim_{X_1\to a^+}y(X_1)$
 
-Applying $(\rm i)-(\rm iv)$, (you can easily do this with [MMA code](HW9-2a-Constants.nb))
+Applying $(\rm i)-(\rm iv)$,
 
 $$
 C_1=\frac{ab(a+2b)}{6(a+b)}F,~~
