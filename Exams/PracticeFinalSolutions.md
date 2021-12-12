@@ -258,15 +258,15 @@ and setting $\nu=0$.
 
 **Solution:**
 
-* **(a)** $\breve{u}_i(X_1,X_2,X_3) = (-X_2y'(X_1),y(X_1),0)$
+* **(a)** $$\breve{u}_i(X_1,X_2,X_3) = (-X_2y'(X_1),y(X_1),0)$$
 
-* **(b)** $\breve{\epsilon}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} -X_2y''(X_1) & 0 & 0\\ 0 & 0 & 0 \\ 0 & 0 & 0\end{pmatrix}$
+* **(b)** $$\breve{\epsilon}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} -X_2y''(X_1) & 0 & 0\\ 0 & 0 & 0 \\ 0 & 0 & 0\end{pmatrix}$$
 
-* **(c)** $\breve{\sigma}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) & 0 & 0\\ 0 & -X_2\lambda y''(X_1) & 0 \\ 0 & 0 & -X_2\lambda y''(X_1)\end{pmatrix}$
+* **(c)** $$\breve{\sigma}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) & 0 & 0\\ 0 & -X_2\lambda y''(X_1) & 0 \\ 0 & 0 & -X_2\lambda y''(X_1)\end{pmatrix}$$
 
-* **(d)** $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) \\ 0 \\ 0 \end{pmatrix}$
+* **(d)** $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) \\ 0 \\ 0 \end{pmatrix}$$
 
-* **(e)** $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} 0 \\ -(2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2X_3\, d\Gamma \\ (2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2^2 d\Gamma \end{pmatrix} \Rightarrow \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3 = M(X_3) = EIy''(X_1)$
+* **(e)** $$\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} 0 \\ -(2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2X_3\, d\Gamma \\ (2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2^2 d\Gamma \end{pmatrix} \Rightarrow \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3 = M(X_3) = EIy''(X_1)$$
 
 
 #### Problem 4. 
@@ -297,21 +297,21 @@ Figure 4
 
 ![](PFS3.PNG)
 
-$V(X_1)=
+$$V(X_1)=
 \begin{cases}
 450 & ~ X_1 \leq 3m\\
 450 - 300 (-3 + X_1)  & ~3m\leq X_1 \leq 6m\\
 1800 - 300 (-3 + X_1)  & ~6m\leq X_1
-\end{cases}$
+\end{cases}$$
 
 ![](PFS4.PNG)
 
-$M(X_1)=
+$$M(X_1)=
 \begin{cases}
 -450X_1 & ~ X_1 \leq 3m\\
 150 (63 - 18 X_1 + X_1^2)  & ~3m\leq X_1 \leq 6m\\
 150 (9 - 9 X_1 + X_1^2)  & ~6m\leq X_1
-\end{cases}$
+\end{cases}$$
 
 #### Problem 5. 
 
@@ -355,11 +355,13 @@ b) Find the maximum displacement of the bar in figure 8.
 
 **Solution:**
 
-$y(X_1) = \begin{cases}
+$$y(X_1) = \begin{cases}
 -\frac{L^2 P X_1}{12}  & ~ X_1 \leq L\\
 -\frac{P}{12}  (2 L - X_1) (L^2 - 2 L X_1 + 2 X_1^2)  & ~L\leq X_1 \leq 2L\\
 \frac{P}{12}  (2 L - X_1) (15 L^2 - 14 L X_1 + 2 X_1^2)  & ~2L\leq X_1
-\end{cases}$ and $y_{max} = \frac{3 L^3 P}{4}$.
+\end{cases}$$
+
+and $y_{max} = \frac{3 L^3 P}{4}$.
 
 ![](PF8.PNG)
 
@@ -369,10 +371,12 @@ c) Find the maximum displacement of the bar in figure 9. Note that $M_1$, $M_2$,
 
 **Solution:**
 
-$R_1 = \frac{6 a b M}{(a + b)^3}$, $M_1 = \frac{(2 a - b) b M}{(a + b)^2}$ , and $ M_2 = \frac{a (2 b - a) M}{(a + b)^2}$ using the directions in figure 9 but keeping the standard sign convention for this class where $\hat{\boldsymbol{E}}_3$ is into the page. Then $y(X_1) = \begin{cases}
+$R_1 = \frac{6 a b M}{(a + b)^3}$, $M_1 = \frac{(2 a - b) b M}{(a + b)^2}$ , and $ M_2 = \frac{a (2 b - a) M}{(a + b)^2}$ using the directions in figure 9 but keeping the standard sign convention for this class where $\hat{\boldsymbol{E}}_3$ is into the page. Then 
+
+$$y(X_1) = \begin{cases}
 -\frac{b M X_1^2 (-2 a^2 - a b + b^2 + 2 a X_1)}{2 (a + b)^3}  & ~ X_1 \leq a\\
 \frac{a M (a + b - X_1)^2 \left(a (a + b) - 2 b X_1\right)}{2 (a + b)^3}  & ~a\leq X_1
-\end{cases}$
+\end{cases}$$
 
 Then $y_{max} = \frac{(2 a - b)^3 b M}{54 a^2}$ when $(2 - \sqrt{3})a\leq b \leq (2 + \sqrt{3})a$ and otherwise $y_{max} = \frac{a (a - 2 b)^3 M}{54 a^2}$.
 
