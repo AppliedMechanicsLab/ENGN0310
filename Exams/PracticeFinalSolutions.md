@@ -275,7 +275,7 @@ and setting $\nu=0$.
 
 Figure 3
 
-(a) For the problem in figure 3 prepare the shear and bending moment diagrams.
+(a) For the problem in figure 3 prepare the shear (Not on Final) and bending moment diagrams.
 
 **Solution:**
 
@@ -291,7 +291,7 @@ $M(X_1) = -5600X_1 - 317.5X_1^3$
 
 Figure 4
 
-(b) For the problem in figure 4 prepare the shear and bending moment diagrams.
+(b) For the problem in figure 4 prepare the shear (Not on Final) and bending moment diagrams.
 
 **Solution:**
 
