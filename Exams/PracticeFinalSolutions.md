@@ -21,6 +21,10 @@ Figure 1
 
 The bar in the figure above is made of a material with an ultimate tensile strength of $220MPa$ and an ultimate shear strength of $100MPa$, where the cross-sectional area is $A = 100mm^2$. If the ultimate strength of the weld is $.8$ of that of the base material, for both shear and normal stress, then what is the maximum allowable applied force $P$ and how will the bar fail? The angle of the weld is $\theta = 65^{o}$.
 
+**Solution:**
+
+There are four possible equations for the maximum force, shear failure in the bar $P_{shear,b} = 2A\tau_{max} = 20kN$, axial failure in the bar $P_{axial,b} = A \sigma_{max} = 22kN$, shear failure in the weld $P_{shear,w} = \frac{.8A\tau_{max}}{sin(\theta)cos(\theta)} = 20.89kN $, and axial failure in the weld, $P_{axial,w} = \frac{.8A\sigma_{max}}{sin(\theta)^2} = 21.43kN$. So the maximum value of $P$ is $20kN$ and failure will occur in shear in the bar.
+
 #### Problem 2. 
 
 ![](PF1.PNG)
@@ -29,12 +33,27 @@ Figure 2
 
 (a) Given the loading in figure 2 what is the stress tensor. 
 
+**Solution:**
+
+$$\boldsymbol{\sigma} = \begin{pmatrix} -50MPa & -62.5MPa\\ -62.5MPa & -75MPa\end{pmatrix}$$
+
 (b) For this given stress tensor what is the maximum and minimum values of the scalar part of normal component of the traction vector, and what are the corresponding angles. 
+
+**Solution:**
+
+The scalar part of the normal component of the traction vector is $\sigma(\theta) = \sigma_{11}cos(\theta)^2 + \sigma_{22}sin(\theta)^2 + \sigma_{12}sin(2\theta)$. The maximum is $\sigma(\theta = 2.455rads) = 1.238MPa$ and the minimum is $\sigma(\theta = 0.884rads) = -126.24MPa$.
 
 (c) For this given stress tensor what is the maximum and minimum values of the scalar part of shear component of the traction vector, and what are the corresponding angles. 
 
+**Solution:**
+
+The scalar part of the normal component of the traction vector is $\tau(\theta) = -\frac{\sigma_{11} - \sigma_{22}}{2}sin(2\theta) + \sigma_{12}cos(2\theta)$. The maximum is $\tau(\theta = 1.669rads) = 63.738MPa$ and the minimum is $\tau(\theta = 0.098rads) = -63.738MPa$.
+
 (d)  For this given stress tensor draw the Mohr Circle.
 
+**Solution:**
+
+The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{22}}{2}\right)^2 + \sigma_{12}^2} = 3=63.738MPa$ and the center is $(C,0) = \left(\frac{\sigma_{11} + \sigma_{22}}{2} , 0\right) = \left(-62.5MPa , 0\right)$.
 
 #### Problem 3.
 
@@ -237,6 +256,17 @@ $$
 $$
 and setting $\nu=0$.
 
+**Solution:**
+
+* **(a)** $\breve{u}_i(X_1,X_2,X_3) = (-X_2y'(X_1),y(X_1),0)$
+
+* **(b)** $\breve{\epsilon}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} -X_2y''(X_1) & 0 & 0\\ 0 & 0 & 0 \\ 0 & 0 & 0\end{pmatrix}$
+
+* **(c)** $\breve{\sigma}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) & 0 & 0\\ 0 & -X_2\lambda y''(X_1) & 0 \\ 0 & 0 & -X_2\lambda y''(X_1)\end{pmatrix}$
+
+* **(d)** $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) \\ 0 \\ 0 \end{pmatrix}$
+
+* **(e)** $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} 0 \\ -(2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2X_3\, d\Gamma \\ (2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2^2 d\Gamma \end{pmatrix} \Rightarrow \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3 = M(X_3) = EIy''(X_1)$
 
 
 #### Problem 4. 
@@ -247,11 +277,41 @@ Figure 3
 
 (a) For the problem in figure 3 prepare the shear and bending moment diagrams.
 
+**Solution:**
+
+![](PFS1.PNG)
+
+$V(X_1) = 5600 - 952.4X_1^2$
+
+![](PFS2.PNG)
+
+$M(X_1) = -5600X_1 - 317.5X_1^3$
+
 ![](PF3.PNG)
 
 Figure 4
 
 (b) For the problem in figure 4 prepare the shear and bending moment diagrams.
+
+**Solution:**
+
+![](PFS3.PNG)
+
+$V(X_1)=
+\begin{cases}
+450 & ~ X_1 \leq 3m\\
+450 - 300 (-3 + X_1)  & ~3m\leq X_1 \leq 6m\\
+1800 - 300 (-3 + X_1)  & ~6m\leq X_1
+\end{cases}$
+
+![](PFS4.PNG)
+
+$M(X_1)=
+\begin{cases}
+-450X_1 & ~ X_1 \leq 3m\\
+150 (63 - 18 X_1 + X_1^2)  & ~3m\leq X_1 \leq 6m\\
+150 (9 - 9 X_1 + X_1^2)  & ~6m\leq X_1
+\end{cases}$
 
 #### Problem 5. 
 
@@ -261,11 +321,19 @@ Figure 5
 
 a) If the beam in figure 5 is made of a material with an ultimate normal strength $250MPa$ and has a rectangular cross section with a width of $30mm$ and height $20mm$, then what is the maximum allowable value of $P$?
 
+**Solution:**
+
+$P_{max} = \max{\frac{-\sigma_{max}I}{(6 - X_1)X_2}} = 55.6N$ at $(X_1,X_2) = (0,-\frac{h}{2})$
+
 ![](PF5.PNG)
 
 Figure 6
 
 b) If the beam in figure 5 is made of a material with an ultimate normal strength $250MPa$ and has a cross section given in figure 6, where $H = 50mm$, $h = 40mm$, $a = 10mm$, and $b = 50mm$, then what is the maximum allowable value of $P$? Note: For an I beam like figure 6 $I = \frac{ah^3}{12} + \frac{b\left(H^3 - h^3\right)}{12}$. and the centroid is at the origin. 
+
+**Solution:**
+
+$P_{max} = \max{\frac{-\sigma_{max}I}{(6 - X_1)X_2}} = 512.5N$ at $(X_1,X_2) = (0,-\frac{H}{2})$.
 
 #### Problem 6. 
 
@@ -275,16 +343,37 @@ Figure 7
 
 a) Find the maximum displacement of the bar in figure 7. 
 
+**Solution:**
+
+$y(X_1) = \frac{wX_1^2}{24RI}(6L^2 - 4LX_1 +X_1^2)$ and $y_{max} = \frac{wL^4}{8EI}$.
+
 ![](PF7.PNG)
 
 Figure 8
 
 b) Find the maximum displacement of the bar in figure 8.
 
+**Solution:**
+
+$y(X_1) = \begin{cases}
+-\frac{L^2 P X_1}{12}  & ~ X_1 \leq L\\
+-\frac{P}{12}  (2 L - X_1) (L^2 - 2 L X_1 + 2 X_1^2)  & ~L\leq X_1 \leq 2L\\
+\frac{P}{12}  (2 L - X_1) (15 L^2 - 14 L X_1 + 2 X_1^2)  & ~2L\leq X_1
+\end{cases}$ and $y_{max} = \frac{3 L^3 P}{4}$.
+
 ![](PF8.PNG)
 
 Figure 9
 
 c) Find the maximum displacement of the bar in figure 9. Note that $M_1$, $M_2$, and $R_1$ are reaction forces and $M$ is an applied moment. 
+
+**Solution:**
+
+$R_1 = \frac{6 a b M}{(a + b)^3}$, $M_1 = \frac{(2 a - b) b M}{(a + b)^2}$ , and $ M_2 = \frac{a (2 b - a) M}{(a + b)^2}$ using the directions in figure 9 but keeping the standard sign convention for this class where $\hat{\boldsymbol{E}}_3$ is into the page. Then $y(X_1) = \begin{cases}
+-\frac{b M X_1^2 (-2 a^2 - a b + b^2 + 2 a X_1)}{2 (a + b)^3}  & ~ X_1 \leq a\\
+\frac{a M (a + b - X_1)^2 \left(a (a + b) - 2 b X_1\right)}{2 (a + b)^3}  & ~a\leq X_1
+\end{cases}$
+
+Then $y_{max} = \frac{(2 a - b)^3 b M}{54 a^2}$ when $(2 - \sqrt{3})a\leq b \leq (2 + \sqrt{3})a$ and otherwise $y_{max} = \frac{a (a - 2 b)^3 M}{54 a^2}$.
 
 
