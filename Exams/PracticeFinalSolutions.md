@@ -266,7 +266,7 @@ and setting $\nu=0$.
 
 * **(d)** $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) \\ 0 \\ 0 \end{pmatrix}$$
 
-* **(e)** $$\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} 0 \\ -(2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2X_3\, d\Gamma \\ (2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2^2 d\Gamma \end{pmatrix} \Rightarrow \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3 = M(X_3) = EIy''(X_1)$$
+* **(e)** $$\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} 0 \\ -(2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2X_3\, d\Gamma \\ (2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2^2 d\Gamma \end{pmatrix} \Rightarrow \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3 = M(X_1) = EIy''(X_1)$$
 
 
 #### Problem 4. 
