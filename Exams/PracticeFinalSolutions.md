@@ -1,4 +1,4 @@
-X{% include mathjax_support %}
+{% include mathjax_support %}
 {% include command %}
 
 
@@ -266,7 +266,7 @@ and setting $\nu=0$.
 
 * **(d)** $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \begin{pmatrix} -X_2(2\mu + \lambda)y''(X_1) \\ 0 \\ 0 \end{pmatrix}$$
 
-* **(e)** $$\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} 0 \\ -(2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2X_3\, d\Gamma \\ (2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2^2 d\Gamma \end{pmatrix} \Rightarrow \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3 = M(X_3) = EIy''(X_1)$$
+* **(e)** $$\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} 0 \\ -(2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2X_3\, d\Gamma \\ (2\mu + \lambda)y''(X_1)\int_{\Gamma(X_1)} X_2^2 d\Gamma \end{pmatrix} \Rightarrow \boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_3 = M(X_1) = EIy''(X_1)$$
 
 
 #### Problem 4. 
@@ -275,7 +275,7 @@ and setting $\nu=0$.
 
 Figure 3
 
-(a) For the problem in figure 3 prepare the shear and bending moment diagrams.
+(a) For the problem in figure 3 prepare the shear (Not on Final) and bending moment diagrams.
 
 **Solution:**
 
@@ -285,13 +285,13 @@ $V(X_1) = 5600 - 952.4X_1^2$
 
 ![](PFS2.PNG)
 
-$M(X_1) = -5600X_1 - 317.5X_1^3$
+$M(X_1) = -5600X_1 + 317.5X_1^3$
 
 ![](PF3.PNG)
 
 Figure 4
 
-(b) For the problem in figure 4 prepare the shear and bending moment diagrams.
+(b) For the problem in figure 4 prepare the shear (Not on Final) and bending moment diagrams.
 
 **Solution:**
 
@@ -309,8 +309,9 @@ $$V(X_1)=
 $$M(X_1)=
 \begin{cases}
 -450X_1 & ~ X_1 \leq 3m\\
-150 (63 - 18 X_1 + X_1^2)  & ~3m\leq X_1 \leq 6m\\
-150 (9 - 9 X_1 + X_1^2)  & ~6m\leq X_1
+150 (9 - 9 X_1 + X_1^2)
+ & ~3m\leq X_1 \leq 6m\\
+150 (63 - 18 X_1 + X_1^2)   & ~6m\leq X_1
 \end{cases}$$
 
 #### Problem 5. 
