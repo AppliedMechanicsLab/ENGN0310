@@ -22,9 +22,9 @@ $$
 
 The bending moment $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$ is the negative of the bending moment  $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$. The bending moment $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1)$ is the moment of the tractions acting on the surface $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$ about the centroid  of the cross-section $\Gamma({}^0 X_1)$. The cross-section $\Gamma({}^0 X_1)$ is marked using a multi (orange and red) colored line in the below figure. The centroid of the cross-section $\Gamma({}^0 X_1)$ is marked as $\mathcal{M}$ in that same figure.
 
-![](2021-11-30-21-53-05.png)
+<!-- ![](2021-11-30-21-53-05.png) -->
 
-
+![](2021-11-30-21-53-05-ver2.png)
 
 The material particle $\mathcal{E}$ is the centroid of the right end face of the beam. The segment of the beam lying between the material particles $\mathcal{M}$ and $\mathcal{E}$ is shown in the below figure.  The surface $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$ is represented by a orange vertical  line and a orange arrow. The tractions acting on $\Gamma({}^0 X_1, -\hat{\boldsymbol{E}}_1)$ are displayed using a arrays of blue arrows. They are values of the traction field $\boldsymbol{t}\left({}^0 X_1,-\hat{\boldsymbol{E}}_1\right)$ over the cross-section $\Gamma({}^0 X_1)$. 
 
