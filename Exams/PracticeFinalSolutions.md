@@ -53,7 +53,7 @@ The scalar part of the normal component of the traction vector is $\tau(\theta) 
 
 **Solution:**
 
-The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{22}}{2}\right)^2 + \sigma_{12}^2} = 3=63.738MPa$ and the center is $(C,0) = \left(\frac{\sigma_{11} + \sigma_{22}}{2} , 0\right) = \left(-62.5MPa , 0\right)$.
+The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{22}}{2}\right)^2 + \sigma_{12}^2} =63.738MPa$ and the center is $(C,0) = \left(\frac{\sigma_{11} + \sigma_{22}}{2} , 0\right) = \left(-62.5MPa , 0\right)$.
 
 #### Problem 3.
 
