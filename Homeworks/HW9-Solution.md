@@ -386,7 +386,7 @@ $$
 where $I$ is constant through the length of the beam. It is apparent from the equation that $\sigma_{11}$ will be maximum at $X_2=\pm h/2$ for fixed $X_1$.
 
 
-We now want to know at which $X_1$ $M(X_1)$ takes the maximum value. In terms of F, we have that
+We now want to know at which $X_1$ $M(X_1)$ takes the maximum magnitude. In terms of F, we have that
 
 $$
 M(X_1)=\frac{F}{125}
@@ -398,7 +398,7 @@ $$
 
 
 
-Plotting $M(X_1)/F$, we see that it takes maximum value at $X_1=3$ as
+Plotting $M(X_1)/F$, we see that it takes maximum magnitude at $X_1=3$ as
 
 $$
 M(3)=-\frac{108}{125}F~(\rm{N \cdot m})
