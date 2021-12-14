@@ -6,7 +6,7 @@
 <img src="2021-12-04-16-05-48.png" alt="drawing1" width="1000"/>
 
 
-In this [previous section](EndMomentMoment.md) we found that for the above sketched problem the moment along the beam's length is a constant. That is 
+In this [previous section](EndMomentMoment.md), we found that for the above sketched problem, the moment along the beam's length is a constant. That is 
 
 $$
 \begin{align}
@@ -15,7 +15,7 @@ M(X_1)
 \end{align}
 $$
 
-In this section we will determine the shape of the deformed beam by solving the
+In this section, we will determine the shape of the deformed beam by solving the
 differential equation 
 $$
 \begin{align}

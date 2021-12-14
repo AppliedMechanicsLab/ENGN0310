@@ -11,7 +11,7 @@ M(X_1)=(l-X_1)f
 \end{equation}
 $$
 
-In this section we solve the constitutive equation for beams, which is the differential equation 
+In this section, we solve the constitutive equation for beams, which is the differential equation 
 $$
 \begin{equation}
 E I y''(x)=M(x),
@@ -29,7 +29,8 @@ y'(X_1)&=\frac{f}{E I}\left(lX_1-\frac{X_1^2}{2}\right)+C_1,\\
 y(X_1)&=\frac{f}{E I}\left(l\frac{X_1^2}{2}-\frac{X_1^3}{6}\right)+C_1 X_1+C_0,\\
 \end{align}
 $$
-where $C_1$, $C_0$ are, as of yet, unknown real constants. We next determine the constants $C_1,~ C_0$ by using the fact that $y(0)=0$ and $y'(0)=0$. From the last displayed equation we get that $y(0)=C_0$. This equation together with the condition that  $y(0)=0$ implies that $C_0=0$. From the second to last displayed equation we get that $y'(0)=C_1$. This equation together with the condition that $y'(0)=0$ implies that $C_1=0$. Substituting the constants with their values, which we just determined, in the last displayed equation we get that 
+where $C_1$, $C_0$ are, as of yet, unknown real constants. We next determine the constants $C_1,~ C_0$ by using the fact that $y(0)=0$ and $y'(0)=0$. From the last displayed equation, we get that $y(0)=C_0$. This equation together with the condition that  $y(0)=0$ implies that $C_0=0$. From the second to last displayed equation, we get that $y'(0)=C_1$. This equation together with the condition that $y'(0)=0$ implies that $C_1=0$. Substituting the constants with their values, which we just determined, in the last displayed equation we get that 
+
 $$
 \begin{align}
 y\left(X_1\right)&=\frac{f}{E I}\left(l\frac{X_1^2}{2}-\frac{X_1^3}{6}\right).\\
@@ -40,7 +41,7 @@ Let's find the end deflection of the cantilever.
 
 $$
 \begin{align}
-y(0)&=\frac{f}{E I}\left(\frac{l^3}{2}-\frac{l^3}{6}\right)\\
+y(l)&=\frac{f}{E I}\left(\frac{l^3}{2}-\frac{l^3}{6}\right)\\
 &=\frac{f}{E I}\left(\frac{l^3}{3}\right)\\
 \end{align}
 $$

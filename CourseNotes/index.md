@@ -59,8 +59,8 @@
     * [Cantilever loaded with end moment](Beams/EndMomentMoment.md)
     * [Cantilever loaded with end force](Beams/EndForceCantilever.md)     
 * [Deflected shape](Beams/Beams1.md)
-    * :construction: [Cantilever loaded with end moment](Beams/EndMomentShape.md) 
-    * :construction: [Cantilever loaded with end force](Beams/EndForceShape.md) 
+    *  [Cantilever loaded with end moment](Beams/EndMomentShape.md) 
+    * [Cantilever loaded with end force](Beams/EndForceShape.md) 
     * [Deflected shape with body forces](Beams/SSBUniformDistribution.md)
     * [SSB point load](Beams/SSBPointLoad.md)
 
