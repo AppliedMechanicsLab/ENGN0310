@@ -187,7 +187,7 @@ $$
 \end{align*}
 $$
 
-where $P$ is the traction applying on $\hat{\boldsymbol{e}}_1$ direction and $A$ is the corresponding area. As there is no shear traction and normal traction applied on $\hat{\boldsymbol{e}}_2$ direction, $\sigma_{12}=\sigma_{22}=0$.
+where $P$ is the traction applying on $\boldsymbol{e}_1$ direction and $A$ is the corresponding area. As there is no shear traction and normal traction applied on $\boldsymbol{e}_2$ direction, $\sigma_{12}=\sigma_{22}=0$.
 
 <br>
  
