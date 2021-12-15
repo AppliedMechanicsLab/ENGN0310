@@ -186,6 +186,7 @@ $$
 \sigma_{22}&=0,\\
 \end{align*}
 $$
+
 where $P$ is the traction applying on $\hat{\boldsymbol{e}}_1$ direction and $A$ is the corresponding area. As there is no shear traction and normal traction applied on $\hat{\boldsymbol{e}}_2$ direction, $\sigma_{12}=\sigma_{22}=0$.
 
 <br>
@@ -195,11 +196,13 @@ where $P$ is the traction applying on $\hat{\boldsymbol{e}}_1$ direction and $A$
 Use ImageJ to analyze the deformation, as you've done before in the previous lab. What are the values of $\epsilon_{11}$ and $\epsilon_{22}$? Note that $\epsilon_{12}=0$. Explain why. 
 
 >Solution
+
 $$
 \begin{align*}
 \epsilon_{12}=\frac{1+\nu}{E}\sigma_{12}.
 \end{align*}
 $$
+
 As $\sigma_{12}=0$, then $\epsilon_{12}=0$.
 
 
@@ -228,6 +231,7 @@ In general, rubber is considered a nearly incompressible material, meaning its P
 Is there any other non-zero component of the strain tensor that you have not considered yet? Compute any that you think should be non-zero using the stress-strain relation given above in the Theory section.
 
 >Solution
+
 $$
 \begin{bmatrix}
 \epsilon_{11} \\
@@ -236,6 +240,7 @@ $$
 \end{bmatrix}
 
 =
+
 \frac{1}{E}
 \begin{bmatrix}
 1 & -\nu & 0 \\
@@ -295,6 +300,7 @@ Find the values of $\sigma_{22}$ and $\nu$. How does the value of $\nu$ compare 
 Are there any non-zero components of the strain tensor that has not been considered yet? Compute the values if there is any.
 
 >Solution
+
 $$
 \epsilon_{33}=\frac{-\nu}{E}(\sigma_{11}+\sigma_{22})
 $$
