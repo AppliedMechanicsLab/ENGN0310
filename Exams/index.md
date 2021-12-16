@@ -4,3 +4,5 @@
 * [Midterm Solutions](MidtermSolutions.md)
 * [Practice Final](PracticeFinal.md)
 * [Practice Final Solutions](PracticeFinalSolutions.md)
+* [Final](ENGN_0310_FinalExam.pdf)
+* [Final Solutions](FinalSolutions.md)
