@@ -18,11 +18,11 @@ $$\boldsymbol{\sigma} = \begin{pmatrix} 175~\rm MPa & 50 ~\rm MPa\\ 50~\rm MPa &
 
 (b)
 
-The scalar part of the normal component of the traction vector is $\sigma(\theta) = \sigma_{11}cos(\theta)^2 + \sigma_{22}sin(\theta)^2 + \sigma_{12}sin(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $100 \cos{2 \theta} - 530 \cos{\theta}\sin{\theta} = 0$, which will occur at $\theta = \{ -1.390~\rm rads,.180 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. PLugging these values back into the equation we find that the maximum is $\sigma(\theta = .180 ~\rm rads) = 184.12~\rm MPa$ and the minimum is $\sigma(\theta = -1.390~\rm rads) = -99.12~\rm MPa$. Note that $.180 ~\rm rads = 10.34^{o}$ and  $-1.390~\rm rads =-79.66^{o}$.
+The scalar part of the normal component of the traction vector is $\sigma(\theta) = \sigma_{11}cos(\theta)^2 + \sigma_{22}sin(\theta)^2 + \sigma_{12}sin(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $100 \cos{2 \theta} - 530 \cos{\theta}\sin{\theta} = 0$, which will occur at $\theta = \{ -1.390~\rm rads,.180 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. Plugging these values back into the equation we find that the maximum is $\sigma(\theta = .180 ~\rm rads) = 184.12~\rm MPa$ and the minimum is $\sigma(\theta = -1.390~\rm rads) = -99.12~\rm MPa$. Note that $.180 ~\rm rads = 10.34^{o}$ and  $-1.390~\rm rads =-79.66^{o}$.
 
 (c) 
 
-The scalar part of the normal component of the traction vector is $\tau(\theta) = -\frac{\sigma_{11} - \sigma_{22}}{2}sin(2\theta) + \sigma_{12}cos(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $-265 \cos{2 \theta} - 100 \sin{2\theta} = 0$, which will occur at $\theta = \{-0.604~\rm rads, .966 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. PLugging these values back into the equation we find that the maximum is $\tau(\theta = .966~\rm rads) = -141.62 ~\rm MPa$ and the minimum is $\tau(\theta = -0.604~\rm rads) = 141.62~\rm MPa$. Note that $.966 ~\rm rads = 55.34^{o}$ and  $-0.604~\rm rads =-34.66^{o}$.
+The scalar part of the normal component of the traction vector is $\tau(\theta) = -\frac{\sigma_{11} - \sigma_{22}}{2}sin(2\theta) + \sigma_{12}cos(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $-265 \cos{2 \theta} - 100 \sin{2\theta} = 0$, which will occur at $\theta = \{-0.604~\rm rads, .966 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. Plugging these values back into the equation we find that is $\tau(\theta = .966~\rm rads) = -141.62 ~\rm MPa$ and $\tau(\theta = -0.604~\rm rads) = 141.62~\rm MPa$ is $\tau(\theta = -0.604~\rm rads) = 141.62~\rm MPa$, so both of these values will be maximums of $|\tau(\theta)|$. By definition the value of $|\tau(\theta)|$ is $0$ when $\sigma(\theta)$ is maximized, so $|\tau(\theta = 0.180)| = 0$.  Note that $.966 ~\rm rads = 55.34^{o}$ and  $-0.604~\rm rads =-34.66^{o}$.
 
 (d) 
 
@@ -32,7 +32,7 @@ The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{
 
 **Solution:**
 
-(1) From the defintion we have that
+(1) From the definition we have that
 
  $$\breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})$$
 
@@ -63,7 +63,7 @@ $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \bre
 
  $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} \frac{A(X_1) \mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
 
-(7)  Using the defintions given for $\mu $ and $\lambda$ we have that $\frac{\mu  (2 \mu  + 3 \lambda) }{\mu + \lambda} = E$, so
+(7)  Using the definitions given for $\mu $ and $\lambda$ we have that $\frac{\mu  (2 \mu  + 3 \lambda) }{\mu + \lambda} = E$, so
 
 $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_1 = F(X_1) = A(X_1) E(X_1) u'(X_1)$$
 
@@ -85,7 +85,7 @@ $$M(X_1)({\rm kNm}) = \begin{cases}
 
 ![](FS2.PNG)
 
-(b) The maximum value of $M(X_1)$ from $0 ~{\rm m}$ to $4.5 ~{\rm m}$ is $17kNm$ at $0 ~{\rm m}$. Since its positve the value of $X_2$ that will maximize the stress is clearly $\frac{h}{2}$. $I = \frac{h^4}{12}$ for this cross section. $\sigma_{max} = \frac{M_{max}\frac{h}{2}}{I} = \frac{(17~\rm kNm)(.0125~\rm m)}{3.255 \times 10^{-8} ~\rm m^4} = 6528 ~\rm MPa$.
+(b) The maximum value of $M(X_1)$ from $0 ~{\rm m}$ to $4.5 ~{\rm m}$ is $17kNm$ at $0 ~{\rm m}$. Since its positive the value of $X_2$ that will maximize the stress is clearly $\frac{h}{2}$. $I = \frac{h^4}{12}$ for this cross section. $\sigma_{max} = \frac{M_{max}\frac{h}{2}}{I} = \frac{(17~\rm kNm)(.0125~\rm m)}{3.255 \times 10^{-8} ~\rm m^4} = 6528 ~\rm MPa$.
 
 
 #### Problem 5. 
@@ -116,7 +116,7 @@ c_{22} + c_{21} X_1 - \frac{X_1^2 (9 L M + F L X_1 - M X_1)}{18 L} &  L \leq X_1
 c_{32} + c_{31} X_1 + \frac{X_1^2 (2 F L + M) (-9 L + X_1)}{18 L} & 2L \leq X_1
 \end{cases}$$
 
-Then applying the six boundary conditions, $y_1(0) = 0$, $y_3(3L) = 0$, $y_1(L) = y_2(L)$, $y_1'(L) = y_2'(L)$, $y_3(2L) = y_3(2L)$, and $y_2'(2L) = y_3'(2L)$ then solving for the costants we get that 
+Then applying the six boundary conditions, $y_1(0) = 0$, $y_3(3L) = 0$, $y_1(L) = y_2(L)$, $y_1'(L) = y_2'(L)$, $y_3(2L) = y_3(2L)$, and $y_2'(2L) = y_3'(2L)$ then solving for the constants we get that 
 $c_{11} = \frac{1}{18} (8 F L^2 + 3 L M)$,$ c_{12} = 0$ , $ c_{21} = \frac{1}{18} (8 F L^2 + 21 L M)$ , $c_{22} = -\frac{(L^2 M)}{2}$ , $c_{31} = \frac{1}{18} (44 F L^2 + 21 L M)$ , and $c_{32} = \frac{1}{6} (-8 F L^3 - 3 L^2 M)$. Then plugging in the values for the constants into the displacement equation we get that 
 
 
@@ -134,7 +134,7 @@ $$EIy(X_1) = \begin{cases}
 
 **Solution:**
 
-Assuming that $A$ is the left hand side and the reaction forces/moments are pointing in the positive direction then the force and moment balances give us the equations $R_A + R_B + F = 0$ and $M_A + M_B + aF + (a + b)R_B = 0$. Since this bar is statically indeterminant we need to solve for the displacement and apply the extra two boundary conditions in order to get the final two equations necesary to solve for the reaction forces/moments. Doing an imaginary cut for $X_1 \in (0 , a)$ and removing the right side and doing a moment balance around the cut face we get that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) - X_1 R_A\hat{\boldsymbol{E}}_3 + M_A\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1 R_A - M_A$. Doing an imaginary cut for $X_1 \in (a , a + b)$ and removing the right side and doing a moment balance around the cut face we get that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) - X_1 R_A\hat{\boldsymbol{E}}_3 + M_A\hat{\boldsymbol{E}}_3 - (X_1 - a) F\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1 R_A + (X_1 - a) F - M_A$. 
+Assuming that $A$ is the left hand side and the reaction forces/moments are pointing in the positive direction then the force and moment balances give us the equations $R_A + R_B + F = 0$ and $M_A + M_B + aF + (a + b)R_B = 0$. Since this bar is statically indeterminant we need to solve for the displacement and apply the extra two boundary conditions in order to get the final two equations necessary to solve for the reaction forces/moments. Doing an imaginary cut for $X_1 \in (0 , a)$ and removing the right side and doing a moment balance around the cut face we get that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) - X_1 R_A\hat{\boldsymbol{E}}_3 + M_A\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1 R_A - M_A$. Doing an imaginary cut for $X_1 \in (a , a + b)$ and removing the right side and doing a moment balance around the cut face we get that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) - X_1 R_A\hat{\boldsymbol{E}}_3 + M_A\hat{\boldsymbol{E}}_3 - (X_1 - a) F\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1 R_A + (X_1 - a) F - M_A$. 
 
 $$M(X_1) = \begin{cases}
 X_1 R_A - M_A  &  X_1 \leq a\\
@@ -163,7 +163,7 @@ $$EIy(X_1) = \begin{cases}
 
 \end{cases}$$
 
-Then to get our other two equations to find the reaction forces/moments we apply our final two boundary conditions, $y_2(a + b) = 0$ and $y_2'(a + b) = 0$ to get that $b^3 F - 3 a^2 M_A - 3 b (2 a + b) M_A + (a + b)^3 R_A = 0$ and $b^2 F - 2 a M_A - 2 b M_A + (a + b)^2 R_A = 0$. Then using these two equations and our force and moment balance equaitons, $R_A + R_B + F = 0$ and $M_A + M_B + aF + (a + b)R_B = 0$, we find that $R_A = -\frac{3 a b^2 F + b^3 F}{(a + b)^3}$,  $R_B = -\frac{a^3 F + 3 a^2 b F}{(a + b)^3}$, $ M_A = -\frac{a b^2 F}{(a + b)^2)}$ and, $ M_B = \frac{a^2 b F}{(a + b)^2}$. Plugging these reaction force/moment values into our equation for the moment we get that 
+Then to get our other two equations to find the reaction forces/moments we apply our final two boundary conditions, $y_2(a + b) = 0$ and $y_2'(a + b) = 0$ to get that $b^3 F - 3 a^2 M_A - 3 b (2 a + b) M_A + (a + b)^3 R_A = 0$ and $b^2 F - 2 a M_A - 2 b M_A + (a + b)^2 R_A = 0$. Then using these two equations and our force and moment balance equations, $R_A + R_B + F = 0$ and $M_A + M_B + aF + (a + b)R_B = 0$, we find that $R_A = -\frac{3 a b^2 F + b^3 F}{(a + b)^3}$,  $R_B = -\frac{a^3 F + 3 a^2 b F}{(a + b)^3}$, $ M_A = -\frac{a b^2 F}{(a + b)^2)}$ and, $ M_B = \frac{a^2 b F}{(a + b)^2}$. Plugging these reaction force/moment values into our equation for the moment we get that 
 
 $$M(X_1) = \begin{cases}
 \frac{b^2 F (a (a + b) - (3 a + b) X_1)}{(a + b)^3}  &  X_1 \leq  \rm a\\
