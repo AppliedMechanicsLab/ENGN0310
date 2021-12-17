@@ -35,7 +35,7 @@ The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{
 (1) (1 pt) From the definition we have that
 
 $$
-\breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})
+\breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X_{1}, (\lambda_{2} - 1)X_{2}, (\lambda_{3} - 1)X_{3})
 $$
 
 (2) (3.5 pts) Using the definition for writing the values of the strain tensor in terms of the displacement vector we get that 
