@@ -22,7 +22,7 @@ The scalar part of the normal component of the traction vector is $\sigma(\theta
 
 (c) 
 
-The scalar part of the normal component of the traction vector is $\tau(\theta) = -\frac{\sigma_{11} - \sigma_{22}}{2}sin(2\theta) + \sigma_{12}cos(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $-265 \cos{2 \theta} - 100 \sin{2\theta} = 0$, which will occur at $\theta = \{-0.604~\rm rads, .966 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. PLugging these values back into the equation we find that the maximum is $\tau(\theta = .966~\rm rads) = -141.62 ~\rm MPa$ and the minimum is $\tau(\theta = -0.604~\rm rads) = 141.62~\rm MPa$. Note that $.966 ~\rm rads = 55.34^{o}$ and  $-0.604~\rm rads =-34.66^{o}$.
+The scalar part of the normal component of the traction vector is $\tau(\theta) = -\frac{\sigma_{11} - \sigma_{22}}{2}sin(2\theta) + \sigma_{12}cos(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $-265 \cos{2 \theta} - 100 \sin{2\theta} = 0$, which will occur at $\theta = \{-0.604~\rm rads, .966 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. Plugging these values back into the equation we find that the minimum is $\tau(\theta = .966~\rm rads) = -141.62 ~\rm MPa$ and the maximum is $\tau(\theta = -0.604~\rm rads) = 141.62~\rm MPa$. Note that $.966 ~\rm rads = 55.34^{o}$ and  $-0.604~\rm rads =-34.66^{o}$.
 
 (d) 
 
@@ -32,9 +32,11 @@ The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{
 
 **Solution:**
 
-(1) From the defintion we have that
+(1) From the definition we have that
 
- $$\breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})$$
+$$
+\breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})
+$$
 
 (2) Using the definition for writing the values of the strain tensor in terms of the displacement vector we get that 
 
