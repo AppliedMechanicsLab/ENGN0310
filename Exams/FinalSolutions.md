@@ -69,7 +69,6 @@ $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_1 = F(X_
 
 #### Problem 4. 
 
-![](FS1.PNG)
 
 **Solution:**
 
