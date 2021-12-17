@@ -114,7 +114,8 @@ c_{22} + c_{21} X_1 - \frac{X_1^2 (9 L M + F L X_1 - M X_1)}{18 L} &  L \leq X_1
 c_{32} + c_{31} X_1 + \frac{X_1^2 (2 F L + M) (-9 L + X_1)}{18 L} & 2L \leq X_1
 \end{cases}$$
 
-Then applying the six boundary conditions, $y_1(0) = 0$, $y_3(3L) = 0$, $y_1(L) = y_2(L)$, $y_1'(L) = y_2'(L)$, $y_3(2L) = y_3(2L)$, and $y_2'(2L) = y_3'(2L)$. 
+Then applying the six boundary conditions, $y_1(0) = 0$, $y_3(3L) = 0$, $y_1(L) = y_2(L)$, $y_1'(L) = y_2'(L)$, $y_3(2L) = y_3(2L)$, and $y_2'(2L) = y_3'(2L)$ then solving for the costants we get that 
+$c_{11} = \frac{1}{18} (8 F L^2 + 3 L M)$,$ c_{12} = 0$ , $ c_{21} = \frac{1}{18} (8 F L^2 + 21 L M)$ , $c_{22} = -\frac{(L^2 M)}{2}$ , $c_{31} = \frac{1}{18} (44 F L^2 + 21 L M)$ , and $c_{32} = \frac{1}{6} (-8 F L^3 - 3 L^2 M)$. Then plugging in the values for the constants into the displacement equation we get that 
 
 
 $$EIy(X_1) = \begin{cases}
@@ -131,8 +132,36 @@ $$EIy(X_1) = \begin{cases}
 
 **Solution:**
 
-$R_A = -\frac{3 a b^2 F + b^3 F}{(a + b)^3}$,  $R_B = -\frac{a^3 F + 3 a^2 b F}{(a + b)^3}$, $ M_A = -\frac{a b^2 F}{(a + b)^2)}$ and, $ M_B = \frac{a^2 b F}{(a + b)^2}$.
+Assuming that $A$ is the left hand side and the reaction forces/moments are pointing in the positive direction then the force and moment balances give us the equations $R_A + R_B + F = 0$ and $M_A + M_B + aF + (a + b)R_B = 0$. Since this bar is statically indeterminant we need to solve for the displacement and apply the extra two boundary conditions in order to get the final two equations necesary to solve for the reaction forces/moments. Doing an imaginary cut for $X_1 \in (0 , a)$ and removing the right side and doing a moment balance around the cut face we get that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) - X_1 R_A\hat{\boldsymbol{E}}_3 + M_A\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1 R_A - M_A$. Doing an imaginary cut for $X_1 \in (a , a + b)$ and removing the right side and doing a moment balance around the cut face we get that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) - X_1 R_A\hat{\boldsymbol{E}}_3 + M_A\hat{\boldsymbol{E}}_3 - (X_1 - a) F\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1 R_A + (X_1 - a) F - M_A$. 
 
+$$M(X_1) = \begin{cases}
+X_1 R_A - M_A  &  X_1 \leq a\\
+
+X_1 R_A + (X_1 - a) F - M_A & a \leq X_1 \\
+
+\end{cases}$$
+
+
+Integrating twice we get that 
+
+$$EIy(X_1) = \begin{cases}
+c_{12} + c_{11} X_1 + \frac{1}{6} X_1^2 (-3 M_A + R_A X_1)  &  X_1 \leq a\\
+
+c_{22} + c_{21} X_1 +\frac{1}{6} X_1^2(-3 (a F + M_A) + (F + R_A) X_1) & a \leq X_1 \\
+
+\end{cases}$$
+
+Applying the first four boundary conditions, $y_1(0) = 0$, $y_1'(0) = 0$, $y_1(a) = y_2(a)$, and $y_1'(a) = y_2'(a)$ then solving for the constants we find that $c_{11} = 0$ ,$ c_{12} = 0$ , $c_{21} = \frac{a^2 F}{2}$, and $c_{22} = -\frac{a^3 F}{6}$. So then 
+
+
+$$EIy(X_1) = \begin{cases}
+\frac{1}{6} X_1^2 (-3 M_A + R_A X_1)  &  X_1 \leq a\\
+
+\frac{1}{6} (-a^3 F + 3 a^2 F X_1 + X_1^2 (-3 (a F + M_A) + (F + R_A) X_1)) & a \leq X_1 \\
+
+\end{cases}$$
+
+Then to get our other two equations to find the reaction forces/moments we apply our final two boundary conditions, $y_2(a + b) = 0$ and $y_2'(a + b) = 0$ to get that $b^3 F - 3 a^2 M_A - 3 b (2 a + b) M_A + (a + b)^3 R_A = 0$ and $b^2 F - 2 a M_A - 2 b M_A + (a + b)^2 R_A = 0$. Then using these two equations and our force and moment balance equaitons, $R_A + R_B + F = 0$ and $M_A + M_B + aF + (a + b)R_B = 0$, we find that $R_A = -\frac{3 a b^2 F + b^3 F}{(a + b)^3}$,  $R_B = -\frac{a^3 F + 3 a^2 b F}{(a + b)^3}$, $ M_A = -\frac{a b^2 F}{(a + b)^2)}$ and, $ M_B = \frac{a^2 b F}{(a + b)^2}$. Plugging these reaction force/moment values into our equation for the moment we get that 
 
 $$M(X_1) = \begin{cases}
 \frac{b^2 F (a (a + b) - (3 a + b) X_1)}{(a + b)^3}  &  X_1 \leq  \rm a\\
@@ -140,6 +169,8 @@ $$M(X_1) = \begin{cases}
 -\frac{a^2 F (a^2 + 3 a b + 2 b^2 - (a + 3 b) X_1)}{(a + b)^3} & \rm{a} \leq X_1 \\
 
 \end{cases}$$
+
+Plugging these reaction force/moment values into our equation for the displacement we get that
 
 $$EIy(X_1) = \begin{cases}
 \frac{b^2 F X_1^2 (3 a (a + b) - (3 a + b) X_1)}{6 (a + b)^3}  &  X_1 \leq  \rm a\\
