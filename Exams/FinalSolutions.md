@@ -44,20 +44,26 @@ $$\breve{\sigma}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} 2\mu(\lambda_{1} - 1) + \la
 
 4. Since we have that the traction vectors both the top and bottom faces are $0$, then we have that $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right] = \boldsymbol{0}$ and $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \boldsymbol{0}$, so 
 
-$$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right] = \begin{pmatrix} 0 \\ 2 \mu (-1 + \lambda_2) + \lambda (-3 + \lambda_1 + \lambda_2 + \lambda_3) \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+$$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right]  = \breve{\sigma} \cdot \hat{\boldsymbol{E}}_2 = \begin{pmatrix} 0 \\ 2 \mu (-1 + \lambda_2) + \lambda (-3 + \lambda_1 + \lambda_2 + \lambda_3) \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
 
 and 
 
-$$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \begin{pmatrix} 0 \\ 0 \\ 2 \mu (-1 + \lambda_3) + \lambda (-3 + \lambda_1 + \lambda_2 + \lambda_3) \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+$$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \breve{\sigma} \cdot \hat{\boldsymbol{E}}_3  = \begin{pmatrix} 0 \\ 0 \\ 2 \mu (-1 + \lambda_3) + \lambda (-3 + \lambda_1 + \lambda_2 + \lambda_3) \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
 
 These equations should lead to the result that $\lambda_{2} - 1 = \lambda_{3} - 1 = \frac{\lambda - \lambda \lambda_ 1}{2 (\mu + \lambda)}$
 
 
-5. $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \begin{pmatrix} \frac{\mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
+5. Then replacing $\lambda_{2} - 1$ and $\lambda_{3} - 1$ we have that 
 
-6.  $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} \frac{A\mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
+$$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \breve{\sigma} \cdot \hat{\boldsymbol{E}}_1 = \begin{pmatrix} \frac{\mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
 
-7. $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_1 = F(X_1) = A(X_1) E(X_1) u'(X_1)$$
+6. Since the integral $\int_{\Gamma(X_1)} \, d\Gamma = A(X_1)$, then we have that 
+
+ $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} \frac{A(X_1) \mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
+
+7. Using the defintions given for $\mu $ and $\lambda$ we have that $\frac{\mu  (2 \mu  + 3 \lambda) }{\mu + \lambda} = E$, so
+
+$$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_1 = F(X_1) = A(X_1) E(X_1) u'(X_1)$$
 
 
 
@@ -68,7 +74,7 @@ These equations should lead to the result that $\lambda_{2} - 1 = \lambda_{3} - 
 **Solution:**
 
 
-(a)
+(a) Solving for the reaction force and moment, both taken to be in the postive directions, we find that $R + 10{\rm kN} + 2{\rm m}(1{\rm \frac{kN}{m}}) = 0 \Rightarrow R = -12~{\rm kN}$ and that $M + 10{\rm kN}(1{\rm m}) + 2{\rm m}(1{\rm \frac{kN}{m}})(3.5{\rm m}) = 0 \Rightarrow M = -17~\rm kNm$. Then the moment in the first section of the bar, from 
 
 $$M(X_1) = \begin{cases}
 17 - 12X_1  & ~ X_1 \leq 1 ~\rm m\\
