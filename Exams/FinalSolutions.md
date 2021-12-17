@@ -32,17 +32,17 @@ The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{
 
 **Solution:**
 
-1. From the defintion we have that $\breve{u}_i(X_1,X_2,X_3) = \breve{x}_i(X_1,X_2,X_3)-X_i \Rightarrow \breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})$
+(1) From the defintion we have that $\breve{u}_i(X_1,X_2,X_3) = \breve{x}_i(X_1,X_2,X_3)-X_i \Rightarrow \breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})$
 
-2. Using the definition for writing the values of the strain tensor in terms of the displacement vector we get that 
+(2) Using the definition for writing the values of the strain tensor in terms of the displacement vector we get that 
 
 $$\breve{\epsilon}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} \lambda_{1} - 1 & 0 & 0\\ 0 & \lambda_{2} - 1 & 0 \\ 0 & 0 & \lambda_{3} - 1\end{pmatrix}$$
 
-3. Using the definition for writing the values of the stress tensor in terms of the strain tensor we get that 
+(3) Using the definition for writing the values of the stress tensor in terms of the strain tensor we get that 
 
 $$\breve{\sigma}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} 2\mu(\lambda_{1} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3) & 0 & 0\\ 0 & 2\mu(\lambda_{2} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3) & 0 \\ 0 & 0 & 2\mu(\lambda_{3} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3)\end{pmatrix}$$
 
-4. Since we have that the traction vectors both the top and bottom faces are $0$, then we have that $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right] = \boldsymbol{0}$ and $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \boldsymbol{0}$, so 
+(4) Since we have that the traction vectors both the top and bottom faces are $0$, then we have that $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right] = \boldsymbol{0}$ and $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \boldsymbol{0}$, so 
 
 $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right]  = \breve{\sigma} \cdot \hat{\boldsymbol{E}}_2 = \begin{pmatrix} 0 \\ 2 \mu (-1 + \lambda_2) + \lambda (-3 + \lambda_1 + \lambda_2 + \lambda_3) \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
 
@@ -53,15 +53,15 @@ $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \bre
 These equations should lead to the result that $\lambda_{2} - 1 = \lambda_{3} - 1 = \frac{\lambda - \lambda \lambda_ 1}{2 (\mu + \lambda)}$
 
 
-5. Then replacing $\lambda_{2} - 1$ and $\lambda_{3} - 1$ we have that 
+(5) Then replacing $\lambda_{2} - 1$ and $\lambda_{3} - 1$ we have that 
 
 $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \breve{\sigma} \cdot \hat{\boldsymbol{E}}_1 = \begin{pmatrix} \frac{\mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
 
-6. Since the integral $\int_{\Gamma(X_1)} \, d\Gamma = A(X_1)$, then we have that 
+(6) Since the integral $\int_{\Gamma(X_1)} \, d\Gamma = A(X_1)$, then we have that 
 
  $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) = \begin{pmatrix} \frac{A(X_1) \mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
 
-7. Using the defintions given for $\mu $ and $\lambda$ we have that $\frac{\mu  (2 \mu  + 3 \lambda) }{\mu + \lambda} = E$, so
+(7)  Using the defintions given for $\mu $ and $\lambda$ we have that $\frac{\mu  (2 \mu  + 3 \lambda) }{\mu + \lambda} = E$, so
 
 $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_1 = F(X_1) = A(X_1) E(X_1) u'(X_1)$$
 
