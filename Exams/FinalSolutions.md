@@ -5,7 +5,7 @@
 
 **Solution:**
 
-By rotating the bar by $30^{o}$ we can get isolate the normal stress in the $\hat{\boldsymbol{E}}_1$ direction and the shear stress in the $\hat{\boldsymbol{E}}_2$, so then $\sigma_{max}A = P_{max} \sin{30^{o}}\Rightarrow P_{max} = \frac{(40~\rm MPa)(.0019 ~\rm m^2)}{\sin{30^{o}}} = 152~\rm kN$ and $\tau_{max}A = P_{max} \cos{30^{o}}\Rightarrow P_{max} = \frac{(15~\rm MPa)(.0019~\rm m^2)}{\cos{30^{o}}} = 32.9~\rm kN$. So the maximum value of $P$ is $32.9~\rm kN$ and failure in the weld will occur in shear. 
+By rotating the bar by $30^{o}$ we can get isolate the normal stress in the $\hat{\boldsymbol{E}}_1$  direction and the shear stress in the $\hat{\boldsymbol{E}}_2$, so then $\sigma_{max}A = P_{max} \sin{30^{o}}\Rightarrow P_{max} = \frac{(40~\rm MPa)(.0019 ~\rm m^2)}{\sin{30^{o}}} = 152~\rm kN$ and $\tau_{max}A = P_{max} \cos{30^{o}}\Rightarrow P_{max} = \frac{(15~\rm MPa)(.0019~\rm m^2)}{\cos{30^{o}}} = 32.9~\rm kN$. So the maximum value of $P$ is $32.9~\rm kN$ and failure in the weld will occur in shear. 
 
 #### Problem 2. 
 
