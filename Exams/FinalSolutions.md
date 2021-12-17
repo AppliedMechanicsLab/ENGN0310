@@ -12,23 +12,19 @@ By rotating the bar by $30^{o}$ we can get isolate the normal stress in the $\ha
 
 **Solution:**
 
+(a)
+
 $$\boldsymbol{\sigma} = \begin{pmatrix} 175~\rm MPa & 50 ~\rm MPa\\ 50~\rm MPa & -90~\rm MPa\end{pmatrix}$$
 
-(b) For this given stress tensor what is the maximum and minimum values of the scalar part of normal component of the traction vector, and what are the corresponding angles. 
+(b)
 
-**Solution:**
+The scalar part of the normal component of the traction vector is $\sigma(\theta) = \sigma_{11}cos(\theta)^2 + \sigma_{22}sin(\theta)^2 + \sigma_{12}sin(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $100 \cos{2 \theta} - 530 \cos{\theta}\sin{\theta} = 0$, which will occur at $\theta = \{ -1.390~\rm rads,.180 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. PLugging these values back into the equation we find that the maximum is $\sigma(\theta = .180 ~\rm rads) = 184.12~\rm MPa$ and the minimum is $\sigma(\theta = -1.390~\rm rads) = -99.12~\rm MPa$. Note that $.180 ~\rm rads = 10.34^{o}$ and  $-1.390~\rm rads =-79.66^{o}$.
 
-The scalar part of the normal component of the traction vector is $\sigma(\theta) = \sigma_{11}cos(\theta)^2 + \sigma_{22}sin(\theta)^2 + \sigma_{12}sin(2\theta)$. The maximum is $\sigma(\theta = .180 ~\rm rads) = 184.12~\rm MPa$ and the minimum is $\sigma(\theta = 1.751~\rm rads) = -99.12~\rm MPa$.
+(c) 
 
-(c) For this given stress tensor what is the maximum and minimum values of the scalar part of shear component of the traction vector, and what are the corresponding angles. 
+The scalar part of the normal component of the traction vector is $\tau(\theta) = -\frac{\sigma_{11} - \sigma_{22}}{2}sin(2\theta) + \sigma_{12}cos(2\theta)$. In order to determine where this function is maximized we need to set the derivative with respect to $\theta$ to $0$, so $-265 \cos{2 \theta} - 100 \sin{2\theta} = 0$, which will occur at $\theta = \{-0.604~\rm rads, .966 ~\rm rads \}$ on the range from $\theta \in [-\frac{\pi}{2},\frac{\pi}{2}]$. PLugging these values back into the equation we find that the maximum is $\tau(\theta = .966~\rm rads) = 141.62 ~\rm MPa$ and the minimum is $\tau(\theta = -0.604~\rm rads) = -141.62~\rm MPa$. Note that $.966 ~\rm rads = 55.34^{o}$ and  $-0.604~\rm rads =-34.66^{o}$.
 
-**Solution:**
-
-The scalar part of the normal component of the traction vector is $\tau(\theta) = -\frac{\sigma_{11} - \sigma_{22}}{2}sin(2\theta) + \sigma_{12}cos(2\theta)$. The maximum is $\tau(\theta = .966~\rm rads) = 141.62 ~\rm MPa$ and the minimum is $\tau(\theta = 2.536~\rm rads) = -141.62~\rm MPa$.
-
-(d)  For this given stress tensor draw the Mohr Circle.
-
-**Solution:**
+(d) 
 
 The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{22}}{2}\right)^2 + \sigma_{12}^2} =141.62 ~\rm MPa$ and the center is $(C,0) = \left(\frac{\sigma_{11} + \sigma_{22}}{2} , 0\right) = \left(42.5~\rm MPa , 0\right)$.
 
@@ -36,13 +32,25 @@ The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{
 
 **Solution:**
 
-1. $$\breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X_{1}, (\lambda_{2} - 1)X_{2}, (\lambda_{3} - 1)X_{3})$$
+1. From the defintion we have that $\breve{u}_i(X_1,X_2,X_3) = \breve{x}_i(X_1,X_2,X_3)-X_i \Rightarrow \breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X_{1}, (\lambda_{2} - 1)X_{2}, (\lambda_{3} - 1)X_{3})$
 
-2.  $$\breve{\epsilon}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} \lambda_{1} - 1 & 0 & 0\\ 0 & \lambda_{2} - 1 & 0 \\ 0 & 0 & \lambda_{3} - 1\end{pmatrix}$$
+2. Using the definition for writing the values of the strain tensor in terms of the displacement vector we get that 
 
-3. $$\breve{\sigma}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} 2\mu(\lambda_{1} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3) & 0 & 0\\ 0 & 2\mu(\lambda_{2} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3) & 0 \\ 0 & 0 & 2\mu(\lambda_{3} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3)\end{pmatrix}$$
+$$\breve{\epsilon}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} \lambda_{1} - 1 & 0 & 0\\ 0 & \lambda_{2} - 1 & 0 \\ 0 & 0 & \lambda_{3} - 1\end{pmatrix}$$
 
-4. $$\lambda_{2} = \lambda_{3} = \frac{-2\mu -3\lambda +\lambda \lambda_1}{2(\mu + \lambda)}$$
+3. Using the definition for writing the values of the stress tensor in terms of the strain tensor we get that 
+
+$$\breve{\sigma}_{ij}(X_1,X_2,X_3) = \begin{pmatrix} 2\mu(\lambda_{1} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3) & 0 & 0\\ 0 & 2\mu(\lambda_{2} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3) & 0 \\ 0 & 0 & 2\mu(\lambda_{3} - 1) + \lambda(\lambda_{1} + \lambda_{2} + \lambda_{3} - 3)\end{pmatrix}$$
+
+4. Since we have that the traction vectors both the top and bottom faces are $0$, then we have that $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right] = \boldsymbol{0}$ and $\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \boldsymbol{0}$, so 
+
+$$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_2)\right] = \begin{pmatrix} 0 \\ 2 \mu (-1 + \lambda_2) + \lambda (-3 + \lambda_1 + \lambda_2 + \lambda_3) \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+
+and 
+
+$$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_3)\right] = \begin{pmatrix} 0 \\ 0 \\ 2 \mu (-1 + \lambda_3) + \lambda (-3 + \lambda_1 + \lambda_2 + \lambda_3) \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}$$
+
+These equations should lead to the result that $\lambda_{2} - 1 = \lambda_{3} - 1 = \frac{\lambda - \lambda \lambda_ 1}{2 (\mu + \lambda)}$
 
 
 5. $$\left[\breve{\boldsymbol{t}}(X_1,X_2,X_3;\hat{\boldsymbol{E}}_1)\right] = \begin{pmatrix} \frac{\mu  (2 \mu  + 3 \lambda) (-1 + \lambda_1)}{\mu + \lambda} \\ 0 \\ 0 \end{pmatrix}$$
