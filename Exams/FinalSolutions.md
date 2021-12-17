@@ -93,23 +93,39 @@ $$M(X_1)({\rm kNm}) = \begin{cases}
 **Solution:**
 
 
-(a) $R_A = \frac{M - FL}{3L}$ and $R_B = \frac{-2FL - M}{3L}$
+(a) Assuming that the reaction forces are all pointing in the positive directions, and $A$ is taken to be the pin on the left hand side, then $R_A + R_B + F = 0$ and $3LR_B + 2LF + M = 0$ leads to $R_A = \frac{M - FL}{3L}$ and $R_B = \frac{-2FL - M}{3L}$.
 
-(b)
+(b) Taking the first imaginary cut in the range $x\in(0,L)$ and removing the right side then we have that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) - X_1 R_A\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1\left( \frac{M - FL}{3L}\right) $. Taking the second imaginary cut in the range $x\in(L,2L)$ and removing the right side then we have that $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) + M\hat{\boldsymbol{E}}_3 - X_1 R_A\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = X_1\left( \frac{M - FL}{3L}\right) - M$. Taking the third imaginary cut in the range $x\in(2L,3L)$ and removing the left side then we have that $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1) +(3L -  X_1) R_B\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) =(3L - X_1)\left( \frac{-2FL - M}{3L} \right)$.
+
+
+
 $$M(X_1) = \begin{cases}
-X_1\left( \frac{M - FL}{3L}\right)  &  X_1 \leq  ~\rm L\\
-X_1\left( \frac{M - FL}{3L}\right) - M & \rm L \leq X_1 \leq 2 \rm L\\
-(3L - X_1)\left( \frac{-2FL - M}{3L} \right)  & 2 \rm L \leq X_1
+X_1\left( \frac{M - FL}{3L}\right)  &  X_1 \leq  L\\
+X_1\left( \frac{M - FL}{3L}\right) - M &  L \leq X_1 \leq 2  L\\
+(3L - X_1)\left( \frac{-2FL - M}{3L} \right)  & 2  L \leq X_1
 \end{cases}$$
 
-(c) 
+(c) Integrating the moment equation twice we get that  
+
 $$EIy(X_1) = \begin{cases}
-\frac{X_1}{18L}(8 F L^3 + 3 L^2 M - F L X_1^2 + M X_1^2)  &  X_1 \leq  ~\rm L\\
+c_{12} + c_{11} X_1 + \frac{(-F L + M) X_1^3}{18 L}  &  X_1 \leq  L\\
 
-\frac{1}{18L} (21 L^2 M X_1 + M X_1^3 - LX_1^2 (9 M + F X_1) + L^3 (-9 M + 8 F X_1)) & \rm L \leq X_1 \leq 2 \rm L\\
+c_{22} + c_{21} X_1 - \frac{X_1^2 (9 L M + F L X_1 - M X_1)}{18 L} &  L \leq X_1 \leq 2  L\\
 
--\frac{1}{18L} (3 L - X_1) (L^2 (8 F L + 3 M) - 6 L (2 F L + M) X_1 + (2 F L + M) X_1^2)  & 2 \rm L \leq X_1
+c_{32} + c_{31} X_1 + \frac{X_1^2 (2 F L + M) (-9 L + X_1)}{18 L} & 2L \leq X_1
 \end{cases}$$
+
+Then applying the six boundary conditions, $y_1(0) = 0$, $y_3(3L) = 0$, $y_1(L) = y_2(L)$, $y_1'(L) = y_2'(L)$, $y_3(2L) = y_3(2L)$, and $y_2'(2L) = y_3'(2L)$. 
+
+
+$$EIy(X_1) = \begin{cases}
+\frac{X_1}{18L}(8 F L^3 + 3 L^2 M - F L X_1^2 + M X_1^2)  &  X_1 \leq   L\\
+
+\frac{1}{18L} (21 L^2 M X_1 + M X_1^3 - LX_1^2 (9 M + F X_1) + L^3 (-9 M + 8 F X_1)) &  L \leq X_1 \leq 2  L\\
+
+-\frac{1}{18L} (3 L - X_1) (L^2 (8 F L + 3 M) - 6 L (2 F L + M) X_1 + (2 F L + M) X_1^2)  & 2  L \leq X_1
+\end{cases}$$
+
 
 #### Problem 6. 
 
