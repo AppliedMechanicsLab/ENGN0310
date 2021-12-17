@@ -32,7 +32,7 @@ The radius of the Mohr's Circle is $R = \sqrt{\left(\frac{\sigma_{11} - \sigma_{
 
 **Solution:**
 
-(1) From the defintion we have that $\breve{u}_i(X_1,X_2,X_3) = \breve{x}_i(X_1,X_2,X_3)-X_i \Rightarrow \breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})$
+(1) From the defintion we have that $\breve{u}_i(X_1,X_2,X_3) = \breve{x}_i(X_1,X_2,X_3)-X_i$, so $\breve{u}_i(X_1,X_2,X_3) = ((\lambda_{1} - 1)X\_{1}, (\lambda_{2} - 1)X\_{2}, (\lambda_{3} - 1)X\_{3})$
 
 (2) Using the definition for writing the values of the strain tensor in terms of the displacement vector we get that 
 
