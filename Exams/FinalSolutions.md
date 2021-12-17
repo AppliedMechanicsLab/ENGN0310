@@ -74,17 +74,17 @@ $$\boldsymbol{F}(X_1,\hat{\boldsymbol{E}}_1) \cdot \hat{\boldsymbol{E}}_1 = F(X_
 **Solution:**
 
 
-(a) Solving for the reaction force and moment, both taken to be in the postive directions, we find that $R + 10{\rm kN} + 2{\rm m}(1{\rm \frac{kN}{m}}) = 0 \Rightarrow R = -12~{\rm kN}$ and that $M + 10{\rm kN}(1{\rm m}) + 2{\rm m}(1{\rm \frac{kN}{m}})(3.5{\rm m}) = 0 \Rightarrow M = -17~\rm kNm$. Then the moment in the first section of the bar, from 
+(a) Solving for the reaction force and moment, both taken to be in the postive directions, we find that $R + 10~{\rm kN} + 2~{\rm m}(1~{\rm \frac{kN}{m}}) = 0 \Rightarrow R = -12~{\rm kN}$ and that $M + 10~{\rm kN}(1~{\rm m}) + 2~{\rm m}(1~{\rm \frac{kN}{m}})(3.5~{\rm m}) = 0 \Rightarrow M = -17~\rm kNm$. Then the moment in the first section of the bar, from $0 ~{\rm m}$ to $1~{\rm m}$, is given by $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) + M \hat{\boldsymbol{E}}_3 - RX_1\hat{\boldsymbol{E}}_1 = \boldsymbol{0} \Rightarrow M(X_1) = (17 - 12X_1){\rm kNm}$. The moment in the second section of the bar, from $1 ~{\rm m}$ to $2.5 ~{\rm m}$, is given by $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1) + M \hat{\boldsymbol{E}}_3 - RX_1\hat{\boldsymbol{E}}_1 - 10~{\rm kN}(X_1 - 1~{\rm m})\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = (7 - 2X_1){\rm kNm}$. The moment in the third section of the bar, from $2.5 ~{\rm m}$ to $4.5~ {\rm m}$, is given by $\boldsymbol{M}(X_1,-\hat{\boldsymbol{E}}_1) + \frac{(4.5~{\rm m} - X_1)}{2}(4.5~{\rm m} - X_1)\hat{\boldsymbol{E}}_3 = \boldsymbol{0} \Rightarrow M(X_1) = \frac{1}{2}  (4.5~ {\rm m} - X_1)^2{\rm kNm}$.
 
-$$M(X_1) = \begin{cases}
+$$M(X_1)({\rm kNm}) = \begin{cases}
 17 - 12X_1  & ~ X_1 \leq 1 ~\rm m\\
-7 - 2 X_1  & 1 ~\rm m\leq X_1 \leq 2.5 ~\rm m\\
-\frac{1}{2}  (4.5 - X_1)^2  & 2.5 ~\rm m \leq X_1
+7 - 2 X_1  & 1 ~{\rm m}\leq X_1 \leq 2.5 ~\rm m\\
+\frac{1}{2}  (4.5~ {\rm m} - X_1)^2  & 2.5 ~{\rm m} \leq X_1
 \end{cases}$$
 
 ![](FS2.PNG)
 
-(b) $\sigma_{max} = \frac{M_{max}\frac{h}{2}}{I} = \frac{(17~\rm kNm)(.0125~\rm m)}{3.255 \times 10^{-8} ~\rm m^4} = 6528.0 ~\rm MPa$.
+(b) The maximum value of $M(X_1)$ from $0 ~{\rm m}$ to $4.5 ~{\rm m}$ is $17kNm$ at $0 ~{\rm m}$. Since its positve the value of $X_2$ that will maximize the stress is clearly $\frac{h}{2}$. $I = \frac{h^4}{12}$ for this cross section. $\sigma_{max} = \frac{M_{max}\frac{h}{2}}{I} = \frac{(17~\rm kNm)(.0125~\rm m)}{3.255 \times 10^{-8} ~\rm m^4} = 6528 ~\rm MPa$.
 
 
 #### Problem 5. 
