@@ -21,7 +21,7 @@ u(X)&=\frac{1}{E}\int_{Y=0}^{Y=X}\frac{F(Y)}{A(Y)}\, dY.
 \end{align}
 $$
 
- From force equilibrium, it follows that in the case when there are no body forces, the axial force is constant along the bar's length and is equal to the force acting on the bar's right face. Say the force on the bar's right face ($\Gamma^{\mathscr{h}}$) is $F\uv{E}\_{\rm a}$; then from the last equation, we get 
+From force equilibrium, it follows that in the case when there are no body forces, the axial force is constant along the bar's length and is equal to the force acting on the bar's right face. Say the force on the bar's right face ($\Gamma^{\mathscr{h}}$) is $F\uv{E}\_{\rm a}$; then from the last equation, we get 
 
 
 $$

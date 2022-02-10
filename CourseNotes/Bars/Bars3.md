@@ -27,7 +27,7 @@ u(X):=\boldsymbol{u}(X\hat{\boldsymbol{E}}_{\rm a})⋅ \hat{\boldsymbol{E}}_{\rm
 \end{equation}
 $$
 
-The scalar displacement field can be used as follows. Say the material particle $\boldsymbol{X}$ can be expressed as $\boldsymbol{X}=X \hat{\boldsymbol{E}}\_{\rm a}$. Then, its  displacement can be computed as $u(X) \hat{\boldsymbol{E}}_{\rm a}$. 
+The scalar displacement field can be used as follows. Say the material particle $\boldsymbol{X}$ can be expressed as $\boldsymbol{X}=X \hat{\boldsymbol{E}}\_{\rm a}$. Then, its  displacement vector can be computed as $u(X) \hat{\boldsymbol{E}}_{\rm a}$. 
 
 ![](Images/2021-09-21-16-29-16.png)
 

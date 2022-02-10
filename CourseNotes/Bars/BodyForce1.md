@@ -3,7 +3,7 @@
 
 # A more fundamental Hooke's Law
 
-We started by presenting the following equation as the constitutive law (force deflection relation) for the bar in this [section](./Bars.md): 
+We started by presenting the following equation as the constitutive law (force-displacement relation) for the bar in this [section](./Bars.md): 
 
 $$
 \begin{equation}
@@ -31,7 +31,7 @@ The force-displacement relations and the displacement field for
     * [displacement field (constant area)](./Bars3.md)
 * variable area 
     * [force-displacement (variable area)](./Bars4.md) 
-    * [displacement field (variable area)](./Bars5.md)
+    * [displacement field (variable area)](./Bars5_2.md)
 * [variable area and property bars](./Bars6.md) 
 
 were derived using the above equations. However, so far, the force inside the bar has always remained constant. 

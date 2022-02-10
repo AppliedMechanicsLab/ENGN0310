@@ -23,7 +23,7 @@ We are going to solve this problem using the equation
 
 $$
 \begin{align}
-u(X)&=\int_{Y=0}^{X}\frac{F(Y)\, dY}{E(Y)A(Y)},\\
+u(X)&=\int_{Y=0}^{X}\frac{F(Y)}{E(Y)A(Y)}\, dY,\\
 \end{align}
 $$
 
@@ -61,7 +61,7 @@ $$
 
 is the body force acting on the matter in the  slice $[X, X+\Delta X]$. 
 
-
+Now consider the gravity acting on this slice.
 The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$, so the mass of slice is $\rho A \Delta X$ and the force due to gravity on this slice  is $\rho A \Delta X g$. 
 
 This force can be written as
@@ -81,7 +81,6 @@ $$
 b(X)=\rho A g.
 \end{align}
 $$
-
 
 Substituting $b(X)$ from the last equation into $\eqref{eq:BX}$, we get that
 

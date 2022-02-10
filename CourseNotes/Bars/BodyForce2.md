@@ -18,7 +18,7 @@ $$
 $$
 
 
-The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElasticity1D}$. In that regards, $\eqref{eq:LinearElasticity1D}$ is a more fundamental law. Equation $\eqref{eq:LinearElasticity1D}$ itself derives from the constitutive equation of the the  linear theory of elasticity. 
+The equation $F =E A \delta/L$ can be shown to derive from $\eqref{eq:LinearElasticity1D}$. In that regards, $\eqref{eq:LinearElasticity1D}$ is a more fundamental law. Equation $\eqref{eq:LinearElasticity1D}$ itself derives from the constitutive equation of the linear theory of elasticity. 
 
 
 
@@ -40,7 +40,7 @@ Applying force equilibrium on the slice, we get that
 
 
 $$
-F(X+\Delta X)\uv{E}_{\rm a}-F(X)\uv{E}_{\rm a}+\int_{Y=X}^{X+\Delta X}b(Y) \uv{E}_{\rm a}\, dY=\u{0}
+F(X+\Delta X)\uv{E}_{\rm a}-F(X)\uv{E}_{\rm a}+\int_{Y=X}^{X+\Delta X}b(Y) \, dY \uv{E}_{\rm a}=\u{0}
 $$
 
 Dividing the equation with the length of the slice $\Delta X$, we get
@@ -55,7 +55,7 @@ $$
 On taking the limit $\Delta X$ going to zero, the term 
 
 $$
-(F(X+\Delta X)-F(X))/\Delta X
+\frac{F(X+\Delta X)-F(X)}{\Delta X}
 $$ 
 
 converges to $F'(X)$, and the term  
@@ -111,6 +111,6 @@ Integrating the last equation, we get
 
 $$
 \begin{align}
-u(X)=\int_{Y=0}^{X}\frac{F(Y)\, dY}{E(Y)A(Y)}
+u(X)=\int_{Y=0}^{X}\frac{F(Y)}{E(Y)A(Y)}\, dY
 \end{align}
 $$

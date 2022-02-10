@@ -3,9 +3,9 @@
 
 #  Material properties and cross-sectional area varying along the length
 
-#### Force displacement relationship
+#### Force-displacement relationship
 
-Previously we derived [the Force displacement relationship](./Bars/Bars4.md) when the cross-section area of the bar is varying along its length. In that case we got that
+Previously, we derived [the force-displacement relationship](./Bars4.md) when the cross-section area of the bar is varying along its length. In that case, we got that
 
 $$
 \begin{align}
@@ -18,7 +18,7 @@ $$
 \end{align}
 $$
 
-In the case that the Young's modulus also varies along the length we get that  
+In the case that the Young's modulus also varies along the length, we get that  
 
 $$
 \begin{align}
@@ -30,12 +30,12 @@ $$
 \end{align}
 $$
 
-We will not be deriving the above equation. However, the steps on the derivation/proof for the above equation are almost the same as the one we used for deriving $\eqref{eq:HookesLaw}$ in section [Force-displacement law for the case of variable crossectional area](./Bars/Bars4.md).  
+We will not be deriving the above equation. However, the steps on the derivation/proof for the above equation are almost the same as the one we used for deriving $\eqref{eq:HookesLaw}$ in section [Force-displacement law for the case of variable cross-sectional area](./Bars4.md).  
 
 
 #### Displacement field
 
-Previously we derived [the displacement field](./Bars/Bars4.md) when the cross-section area of the bar is varying along its length. In that case we got that
+Previously we derived [the displacement field](./Bars5_2.md) when the cross-section area of the bar is varying along its length. In that case, we got that
 
 
 $$
@@ -45,7 +45,7 @@ u(X)=F\int_{0}^{X} \frac{\, d\, Y}{E A(Y)}
 \label{eq:OldDispField}
 $$
 
-In the case that the Young's modulus also varies along the length we get that  
+In the case that the Young's modulus also varies along the length, we get that  
 
 
 $$
@@ -56,4 +56,4 @@ u(X)=F\int_{0}^{X} \frac{\, d\, Y}{E(Y) A(Y)}
 $$
 
 
-We will not be discussing the derivation of $\eqref{eq:NewDispField}$. However, the steps in deriving $\eqref{eq:NewDispField}$ are almost exactly the same as those used in deriving $\eqref{eq:OldDispField}$, see section [Displacement field inside a bar of variable cross-section](./Bars/Bars5.md)
+We will not be discussing the derivation of $\eqref{eq:NewDispField}$. However, the steps in deriving $\eqref{eq:NewDispField}$ are almost exactly the same as those used in deriving $\eqref{eq:OldDispField}$, see section [Explicit expression for the case of variable cross-section](./Bars5_2.md)

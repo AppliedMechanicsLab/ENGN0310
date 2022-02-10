@@ -15,7 +15,8 @@
 * Bars with variable cross-section 
     * [Two springs in series](./Bars/SpringsInSeries.md)
     *   [Force-displacement law for the case of Variable cross-sectional area](Bars/Bars4.md)
-    -  [Explicit expression for the case of variable cross-section](Bars/Bars5_2.md)
+    * Displacement field
+        -  [Explicit expression for the case of variable cross-section](Bars/Bars5_2.md)
     -  [<span style="color:#5faeb6; font-style:italic">Solved problem: Titanium&Steel stepped composite bar (with downloadable Mathematica file)</span> ](./Bars/SegmentedComposite.md)
     -  [ <span style="color:#5faeb6; font-style:italic"> Solved problem: Titanium&Steel stepped composite bar with two forces (with downloadable Mathematica file) </span>](./Bars/SegmentedComposite2.md) 
 * [Bars with both cross-sectional area and material property varying along their length](Bars/Bars6.md)
@@ -25,7 +26,7 @@
   -   [Equilibrium in 1D](Bars/BodyForce2.md)
     -  [<span style="color:#5faeb6; font-style:italic">Solved Problem: A free hanging bar with constant area</span>](Bars/HangingBar1.md)
     -  [<span style="color:#5faeb6">_Solved Problem: A free hanging bar with constant area and end force_</span>](Bars/HangingBar3.md) <!--:#778899-->
-    - :construction::construction: [_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)     
+    <!-- - :construction::construction: [_Solved Problem: A free hanging bar with variable area_](Bars/HangingBar2.md)      -->
 * Thermal expansion
     *  [Constitutive law](./Bars/ThermalExpansion1.md)
     *  [<span style="color:#5faeb6; font-style:italic">Solved problem 1</span>](./Bars/ThermalStressesSP1.md)

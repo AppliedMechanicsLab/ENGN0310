@@ -9,7 +9,7 @@
 
 #### Bar definition
 
-  A bar is a mechanical structure whose dimension in one direction is typically much longer than its other dimensions. The direction of the bar's largest dimension is referred to as the bar's axial direction, or the bar's axis, $ \hat{\boldsymbol{E}}\_{\rm a}$.  The primary mechanical function of a bar is to transmit forces along its length, or its axis.
+  A bar is a mechanical structure whose dimension in one direction is typically much longer than its dimension in other directions. The direction of the bar's largest dimension is referred to as the bar's axial direction, or the bar's axis, $ \hat{\boldsymbol{E}}\_{\rm a}$.  The primary mechanical function of a bar is to transmit forces along its length, or its axis.
 
 
 #### Axial force. Equilibrium, compression, tension.   
@@ -21,7 +21,7 @@ The forces on a bar, by its very definition, are parallel to its axis (see Figur
 
 
 #### Surfaces. End faces, Lateral surface. 
-<ins>End faces </ins>: We refer to the bar as $\mathcal{B}$[^1], to its left face as $\Gamma^{\mathscr{g}}$, and its right face as $\Gamma^{\mathscr{h}}$. The end faces are typically parallel to each other and perpendicular to the bar's axis. The vector $ \hat{\boldsymbol{E}}\_{\rm a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal, we mean that $\hat{\boldsymbol{E}}\_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}\_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter towards the outside.
+<ins>End faces </ins>: We refer to the bar as $\mathcal{B}$[^1], its left face as $\Gamma^{\mathscr{g}}$, and its right face as $\Gamma^{\mathscr{h}}$. The end faces are typically parallel to each other and perpendicular to the bar's axis. The vector $ \hat{\boldsymbol{E}}\_{\rm a}$ is the (outward) normal to $\Gamma^{\mathscr{h}}$. By normal, we mean that $\hat{\boldsymbol{E}}\_{\rm a}$ is perpendicular to $\Gamma^{\mathscr{h}}$ and points away from $\mathcal{B}$'s internal matter (the atoms and molecules composing the Bar) towards the outside. Similarly, $-\hat{\boldsymbol{E}}\_{\rm a}$ is normal to $\Gamma^{\mathscr{g}}$, i.e., it is perpendicular to $\Gamma^{\mathscr{g}}$ and points away from the $\mathcal{B}$ internal matter towards the outside.
 
 Leaving the end faces, the remainder of the surface of $\mathcal{B}$ is called the lateral surface.
 
@@ -59,19 +59,22 @@ $$
 \end{equation}
 $$ 
 
- is approximately a constant. Mathematically speaking, 
+is approximately a constant. Mathematically speaking, 
+
 $$
 \begin{equation}
 \lim_{\delta/L\to 0}\frac{F L}{A \delta} =\text{constant}
 \end{equation}
 $$ 
 
-The constant in the above limit depends on the material composing the bar and is called that materials Young's modulus, $E$. In terms of $E$, the last displayed equation, which is called Hooke's law, can be expressed as
+The constant in the above limit depends on the material composing the bar and is called that material's Young's modulus, $E$. In terms of $E$, the last displayed equation, which is called Hooke's law, can be expressed as
+
 $$
 \begin{equation}
 \frac{F L}{A \delta} =E,
 \end{equation}
 $$ 
+
 or equivalently,
 
 $$
@@ -82,7 +85,7 @@ $$
 
 The term $E A/L$ is called the bar's stiffness.
 
-[^1]: when we want to make the distinction between reference configuration and deformed/current configuration, we refer to the reference configuration as $\mathcal{B}_{\rm ref}$ and the deformed configuration as $\mathcal{B}$
+[^1]: when we want to make the distinction between reference configuration and deformed/current configuration, we refer to the reference configuration as $\mathcal{B}_{\rm ref}$ and the deformed configuration as $\mathcal{B}$.
 
 <!-- 
 TODO: The compression of the chair. 

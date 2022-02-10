@@ -9,7 +9,17 @@
 (pictures used without permission.)
 
 
-
+<div class="row">
+  <div class="column">
+    <img src="./Images/2021-09-27-22-47-17.png" alt="Snow" style="width:32%">
+  </div>
+  <div class="column">
+    <img src="./Images/2021-09-27-23-08-22.png" alt="Forest" style="width:32%">
+  </div>
+  <div class="column">
+    <img src="./Images/2021-09-27-23-19-48.png" alt="Mountains" style="width:32%">
+  </div>
+</div>
 
 
 

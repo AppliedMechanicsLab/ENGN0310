@@ -24,7 +24,7 @@ We are going to solve this problem using the equation
 
 $$
 \begin{align}
-u(X)&=\int_{Y=0}^{X}\frac{F(Y)\, dY}{E(Y)A(Y)},\\
+u(X)&=\int_{Y=0}^{X}\frac{F(Y)}{E(Y)A(Y)}\, dY,\\
 \end{align}
 $$
 
@@ -32,12 +32,12 @@ which, since the area and the modulus are constants, will simplify  to
 
 $$
 \begin{align}
-u(X)&=\int_{Y=0}^{X}\frac{F(Y)}{EA} \, dY
+u(X)&=\int_{Y=0}^{X}\frac{F(Y)}{EA} \, dY.
 \label{eq:uX}
 \end{align}
 $$
 
-and 
+Recall that
 
 $$
 \begin{align}
@@ -62,7 +62,7 @@ $$
 
 is the body force acting on the matter in the  slice $[X, X+\Delta X]$. 
 
-
+Now consider the gravity acting on this slice.
 The volume of the  slice $[X, X+\Delta X]$ is $A \Delta X$, so the mass of slice is $\rho A \Delta X$, and the force due to gravity on this slice  is $\rho A \Delta X g$. 
 
 This force can be written as

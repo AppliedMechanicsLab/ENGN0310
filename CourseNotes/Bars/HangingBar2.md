@@ -23,8 +23,7 @@ We are going to solve this problem using the equations
 
 $$
 \begin{align}
-u(X)&=\int_{Y=0}^{X}\frac{F(Y)\, dY}{E(Y)A(Y)}\\
-\label{eq:uX}
+u(X)&=\int_{Y=0}^{X}\frac{F(Y)}{E(Y)A(Y)}\, dY\label{eq:uX}
 \end{align}
 $$
 
@@ -59,9 +58,10 @@ A volume element at the distance $X$ from the fixed end is $A(X)\, dX$. The mass
 $$
 \int_{X}^{X+\Delta X}
 \rho(Y)A(Y)g(Y)\, dY\hat{\boldsymbol{E}}_a,
-$$. 
+$$
 
 which implies that
+
 $$
 \begin{align}
 b(X)=\rho(Y)A(Y)g(Y).
@@ -121,7 +121,7 @@ Specifically the elongation of the bar is
 $$
 \begin{align}
 \delta=u(L)&=
-\frac{\rho g L^2}{E2}
+\frac{\rho g L^2}{2E}
 \end{align}
 $$
 

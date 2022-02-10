@@ -91,7 +91,8 @@ $$
 $$
 
 
-From the above four equations we get that
+From the above four equations, we get that
+
 $$
 \begin{align}
 \boldsymbol{F}
