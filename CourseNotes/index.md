@@ -97,7 +97,6 @@
 
 * [Strain definition](Strain/Strain1.md)
 
-### Hooke's Law
 
 
 

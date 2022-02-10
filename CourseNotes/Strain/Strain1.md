@@ -9,7 +9,7 @@ $$
 \boldsymbol{X}=X_1 \hat{\boldsymbol{E}}_1+X_2 \hat{\boldsymbol{E}}_2+X_3 \hat{\boldsymbol{E}}_3.
 $$
 
-After deformation the position vector of the material particle $\boldsymbol{X}$ is $\boldsymbol{x}$. The components of $\boldsymbol{x}$ are $x_1,x_2,~x_3$ that are defined such that
+After deformation, the position vector of the material particle $\boldsymbol{X}$ is $\boldsymbol{x}$. The components of $\boldsymbol{x}$ are $x_1,x_2,~x_3$ that are defined such that
 
 $$
 \boldsymbol{x}=x_1 \hat{\boldsymbol{E}}_1+x_2 \hat{\boldsymbol{E}}_2+x_3 \hat{\boldsymbol{E}}_3.
@@ -28,7 +28,7 @@ $$
 
 
 
-The strain field is the three variable function $\breve{\boldsymbol{\epsilon}}(\cdot,\cdot,\cdot)$ that is defind such that
+The strain field is the three variable function $\breve{\boldsymbol{\epsilon}}(\cdot,\cdot,\cdot)$ that is defined such that
 
 $$
 \begin{align}
