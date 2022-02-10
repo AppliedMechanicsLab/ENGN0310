@@ -32,8 +32,7 @@ The angle of twist  is
 $$
 \begin{align*}
 \theta
-&=\frac{T L}{G J}\\
-&=0.0193862
+&=\frac{T L}{G J}=0.0193862
 \end{align*}
 $$
 

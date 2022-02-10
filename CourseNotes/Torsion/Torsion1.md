@@ -22,7 +22,7 @@ where
 * $\phi(X)$ is the angle of twist
 
 at material particle $X$ in the shaft. 
->Note: You can refer to [this page](Torsion-J.mD) for some notes on polar moment of inertia J(X) 
+>Note: You can refer to [this page](./Torsion-J.mD) for some notes on polar moment of inertia J(X) 
 
 <!-- If we take the torque, shear modulus, and polar moment of inertia to be constant throughout the shaft (so that $T(X) = T, G(X) = G$, and $J(X)=J$), we get that  -->
 
@@ -46,13 +46,14 @@ $$
 $$
 
 If we take $\phi(0)=0$, we get that the angle of twist at material particle $X$ in the shaft is
+
 $$
 \begin{align*}
 \phi(X)=& \int_{0}^{X}\frac{T(Y)}{G(Y) J(Y)} dY
 \end{align*}
 $$
 
-The equation can be simplified to the following when the torque, shear modulus, and polar moment of inertia is constant throughout the shaft so that $T(X) = T, G(X) = G$, and $J(X)=J$; we then get that 
+The equation can be simplified to the following when the torque, shear modulus, and polar moment of inertia is constant throughout the shaft, i.e., $T(X) = T, G(X) = G$, and $J(X)=J$;
 
 $$
 \begin{align*}
@@ -60,7 +61,7 @@ $$
 \end{align*}
 $$
 
-so that in such case, the angle of twist at material particle X is simply 
+In such case, the angle of twist at material particle X is simply 
 
 $$
 \begin{align*}
@@ -74,7 +75,7 @@ $$
 \theta = \frac{T L}{G J}
 $$
 
-Note that we can consider a vector form of this equation like we did with bars in the previous sections. Defining $\hat{\boldsymbol{E}_{\rm a}}$ in the same that we did for bars, we can write
+Note that we can consider a vector form of this equation like we did with bars in the previous sections. Defining $\hat{\boldsymbol{E}_{\rm a}}$ in the same manner as we did for bars, we can write
 
 $$
 \boldsymbol{T}= \frac{G J}{L}\boldsymbol{\theta}.

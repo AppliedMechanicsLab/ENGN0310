@@ -1,7 +1,7 @@
 {% include mathjax_support %}
 {% include command %}
 
-# Definition of moments on cross-sections. 
+# Definition of moments on a cross-section. 
 
 
 #### Definition of $\boldsymbol{M}(X_1,\hat{\boldsymbol{E}}_1)$

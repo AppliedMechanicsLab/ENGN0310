@@ -5,7 +5,7 @@
 
 ### Problem statement
 
-Consider a rod 2 m long at $10^\circ\,\rm C$. Find the expansion of this bar when the temperature is raised to $80^\circ\,\rm C$. Take $E=1.0\times 10^5~\rm MPa$ and $\alpha=12 \times 10^{-6}$. 
+Consider a rod $2~\rm{m}$ long at $10^\circ\,\rm C$. Find the expansion of this bar when the temperature is raised to $80^\circ\,\rm C$. Take $E=1.0\times 10^5~\rm MPa$ and $\alpha=12 \times 10^{-6}$. 
 
 
 ### Solution

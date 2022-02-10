@@ -11,17 +11,12 @@
 
 
 <p float="left">
-  <img src="./Images/2021-09-27-22-47-17.png" width="100" />
-  <img src="./Images/2021-09-27-23-08-22.png" width="100" /> 
-  <img src="./Images/2021-09-27-23-19-48.png" width="100" />
+  <img src="./Images/2021-09-27-22-47-17.png" width="150" />
+  <img src="./Images/2021-09-27-23-08-22.png" width="150" /> 
+  <img src="./Images/2021-09-27-23-19-48.png" width="150" />
 </p>
 (pictures used without permission.)
 
-
-
-<!-- |   |   | |
-|---|---|---|
-|![](./Images/2021-09-27-23-06-12.png)   |  ![](./Images/2021-09-27-23-05-06.png) | ![](./Images/2021-09-27-23-05-41.png) | -->
 
 
 

@@ -4,7 +4,7 @@
 # Solved problem 4
 
 
-A rod 2 m long at $10^\circ\,\rm C$ is heated to $80^\circ\,\rm C$. There is a 1 mm gap between the right face of the bar and a rigid wall. Take $E=1.0\times 10^5\rm MPa$ and $\alpha=12 \times 10^{-6}$. What is the "axial stress" in the bar?
+A rod $2~\rm{m}$ long at $10^\circ\,\rm C$ is heated to $80^\circ\,\rm C$. There is a $1~\rm{mm}$ gap between the right face of the bar and a rigid wall. Take $E=1.0\times 10^5~\rm MPa$ and $\alpha=12 \times 10^{-6}$. What is the "axial stress" in the bar?
 
 
 
@@ -12,7 +12,7 @@ A rod 2 m long at $10^\circ\,\rm C$ is heated to $80^\circ\,\rm C$. There is a 1
 
 # Solution
 
-From Solved problem 1, we know that if there was nothing opposing the expansion of the right face, then the length of the bar would grow by 1.68 mm. However, there is only a gap of  1 mm between the right face of the wall and a rigid wall. So the bar will expand, make contact with right end when it expands by 1 mm, after which the displacement on the right face of bar will remain fixed at 1 mm. 
+From Solved problem 1, we know that if there was nothing opposing the expansion of the right face, then the length of the bar would grow by $1.68~\rm{mm}$. However, there is only a gap of  $1~\rm{mm}$ between the right face of the wall and a rigid wall. So the bar will expand, make contact with right end when it expands by $1~\rm{mm}$, after which the displacement on the right face of bar will remain fixed at $1~\rm{mm}$. 
 
 From the  [solved  problem 1](./ThermalStressesSP1.md) we have that 
 
@@ -31,7 +31,7 @@ $$
 \end{equation}
 $$
 
-We know that left face is fixed, so $u(0)=0$, and that $u(L)=1~\rm mm=:u_0$. Thus, the above equation simplifies to
+We know that left face is fixed, so $u(0)=0$, and that $u(L)=1~\rm{mm}=:u_0$. Thus, the above equation simplifies to
 
 
 $$

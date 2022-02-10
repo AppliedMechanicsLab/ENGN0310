@@ -18,6 +18,7 @@ $$
 J=\frac{\pi a^4}{2},
 \end{align*}
 $$
+
 where $a$ is the radius of the cross-section. For the current case, we get that
 
 $$
@@ -30,8 +31,7 @@ The angle of twist is given as
 
 $$
 \begin{align*}
-\theta&=\frac{T L}{GJ} \\
-       &=0.0163314
+\theta&=\frac{T L}{GJ}=0.0163314
 \end{align*}
 $$
 
