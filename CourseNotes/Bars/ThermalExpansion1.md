@@ -3,24 +3,19 @@
 
 # Thermal stresses
 
-|   |   |   |
+<!-- |   |   |   |
 |---|---|---|
 |  ![](./Images/2021-09-27-22-47-17.png)  |  ![](./Images/2021-09-27-23-08-22.png) | ![](./Images/2021-09-27-23-19-48.png)|
+(pictures used without permission.) -->
+
+
+
+<p float="left">
+  <img src="./Images/2021-09-27-22-47-17.png" width="100" />
+  <img src="./Images/2021-09-27-23-08-22.png" width="100" /> 
+  <img src="./Images/2021-09-27-23-19-48.png" width="100" />
+</p>
 (pictures used without permission.)
-
-
-<div class="row">
-  <div class="column">
-    <img src="./Images/2021-09-27-22-47-17.png" alt="Snow" style="width:32%">
-  </div>
-  <div class="column">
-    <img src="./Images/2021-09-27-23-08-22.png" alt="Forest" style="width:32%">
-  </div>
-  <div class="column">
-    <img src="./Images/2021-09-27-23-19-48.png" alt="Mountains" style="width:32%">
-  </div>
-</div>
-
 
 
 
