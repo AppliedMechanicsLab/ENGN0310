@@ -65,7 +65,7 @@ The normal component of the traction vector, $\boldsymbol{t}_n$ is $(\boldsymbol
 
 $$ 
 \begin{align}
-\left[\boldsymbol{t}_n\right]
+\left[\boldsymbol{t}_n\right]|_{\text{plane stress}}
 &=
 \left(\sigma_{11} \cos^2 (\phi )+\sigma_{12}\sin (2\phi )+\sigma_{22}\sin^2 (\phi)\right)\begin{bmatrix}
 \cos(\phi)\\
@@ -76,3 +76,37 @@ $$
 $$
 
 Note that in arriving at the last equation, we set $\sigma_{12}=\sigma_{21}$.
+
+Defining 
+
+$$
+\begin{equation}
+\sigma(\phi):=\left(
+\sigma_{11}\cos^2{(\phi)}+\sigma_{12}\sin{(2\phi)}+\sigma_{22} \sin^2{(\phi)}\right),
+\end{equation}
+$$
+
+we get that
+
+$$ 
+\begin{align}
+\left[\boldsymbol{t}_n\right]|_{\text{plane stress}}
+&=\sigma(\phi)\begin{bmatrix}
+\cos(\phi)\\
+\sin(\phi)\\
+0
+\end{bmatrix}\\
+&=\sigma(\phi)[\hat{\boldsymbol{n}}]
+\end{align}
+$$
+
+The last equation in component free-form reads
+
+$$
+\begin{align}
+\left.\boldsymbol{t}_n\right|_{\text{plane stress}}&=\sigma(\phi) \hat{\boldsymbol{n}}
+\end{align}
+$$
+
+The quantity $\sigma(\phi)$ is called the normal stress.
+

@@ -4,10 +4,7 @@
 
 # Mohr circle
 
-<!-- In a [previous section](./Stress4.md) we derived that the normal stress $\sigma$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is -->
-
-In a previous section,  we derived that the normal stress $\sigma$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is
-
+In a [previous section](./Stress4.md) we derived that the normal stress $\sigma$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is
 
 
 $$
