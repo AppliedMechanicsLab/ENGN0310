@@ -6,7 +6,7 @@
 
 ![](2021-11-14-19-42-52.png)
 
-From the last section we have that
+In a [previous section](./Stress3.md), we derived that
 
 $$ 
 \begin{align}
