@@ -4,7 +4,9 @@
 
 # Mohr circle
 
-In a [previous section](./Stress4.md) we derived that the normal stress $\sigma$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is
+<!-- In a [previous section](./Stress4.md) we derived that the normal stress $\sigma$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is -->
+
+In a previous section,  we derived that the normal stress $\sigma$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is
 
 
 
@@ -22,7 +24,7 @@ $$
 
 The angle $\phi$ is the angle that the vector $\hat{\boldsymbol{n}}$ makes with the $\hat{\boldsymbol{E}}_1$ direction.
 
-Similarly in a [previous section](./Stress5.md) we derived that the shear stress $\tau$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is
+Similarly, in a [previous section](./Stress5.md) we derived that the shear stress $\tau$ on a plane with the outward normal $\hat{\boldsymbol{n}}$ is
 
 $$
 \begin{align}
@@ -34,7 +36,7 @@ The curve $\gamma: [0,2\pi)\to \mathbb{T}^2$[^1]
 $$
 \gamma(\phi)=(\sigma(\phi),\tau(\phi))
 $$
-is called the Mohr's circle since its graph is a circle of radius $r:=\sqrt{a^2+b^2}$ and centered at $(c,0)$. This fact can be shown using the expressions for $\sigma(\phi)$ and $\tau(\phi)$ that appear in  terms of stress components to get that
+is called the Mohr's circle since its graph is a circle of radius $r:=\sqrt{a^2+b^2}$ centered at $(c,0)$. This fact can be shown using the expressions for $\sigma(\phi)$ and $\tau(\phi)$ that appear in  terms of stress components to get that
 
 $$
 \begin{align}
@@ -50,8 +52,8 @@ A mathematica code to plot the Mohr's circle is [here](./WFiles/MohrCircle.nb)
 
 ##### Remarks
 
-* As $\phi$ goes from $0$ to $2\pi$ we go around the Mohr's circle twice. 
-* Thus, if $\phi$ increases by $\Delta \phi$ the point $(\sigma(\phi),\tau(\phi))$ move on the circle by $2\Delta \phi$.
-* As $\phi$ goes from $0$ to $2\pi$ the point $(\sigma(\phi),\tau(\phi))$ moves in the anti-clockwise direction on the circle. 
+* As $\phi$ goes from $0$ to $2\pi$, we go around the Mohr's circle twice. 
+* Thus, if $\phi$ increases by $\Delta \phi$, the point $(\sigma(\phi),\tau(\phi))$ move on the circle by $2\Delta \phi$.
+* As $\phi$ goes from $0$ to $2\pi$, the point $(\sigma(\phi),\tau(\phi))$ moves in the anti-clockwise direction on the circle. 
 *  The points where the circle intersects the x-axis corresponds to the directions of the maximum and minimum value of   $\sigma(\cdot)$.
 * The highest and lowest points on the circle correspond to the directions of the maximum and minimum value of $\tau(\cdot)$.

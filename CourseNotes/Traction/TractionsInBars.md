@@ -6,7 +6,7 @@
 
 ### Axial loading
 
-The force on the left side of the bar is $\boldsymbol{F}=-F_1\hat{\boldsymbol{E}}\_1$.The matrix representation of the force is 
+The force on the left side of a bar is $\boldsymbol{F}=-F_1\hat{\boldsymbol{E}}\_1$. The matrix representation of the force is 
 
 $$
 \left[
@@ -20,26 +20,24 @@ $$
 $$
 
  
-Consider the angled cut $A-A'$ has the normal vector $\hat{\boldsymbol{n}}$. The normal vector can be written as $\hat{\boldsymbol{n}}=-\sin(\theta)\hat{\boldsymbol{E}}_1+\cos(\theta)\hat{\boldsymbol{E}}_2$. In matrix representation the vector can be written as 
+Consider the angled cut $A-A'$ which has the normal vector $\hat{\boldsymbol{n}}$. The normal vector can be written as $\hat{\boldsymbol{n}}=-\sin(\theta)\hat{\boldsymbol{E}}_1+\cos(\theta)\hat{\boldsymbol{E}}_2$. In matrix representation, the vector can be written as 
 
 $$
 \left[
 \hat{\boldsymbol{n}}\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_2)}=
 \left[
 \begin{array}{r}
-\sin(\theta)\\
+-\sin(\theta)\\
 \cos(\theta)\\
 \end{array}
 \right]
 $$
 
-The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, from force  equilibrium, $-\boldsymbol{F}$. The mean/average traction vector on  $AA'(\hat{\boldsymbol{n}})$ is defined to be the force acting on it divided by its area. The area of $AA'(\hat{\boldsymbol{n}})$ is
-
-The cross-sectional area $Bl$,  where $l \sin(\theta)=H $, which means that $l=H/\sin(\theta)$, which in turn implies that 
+The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, from force  equilibrium, $-\boldsymbol{F}$. The mean/average traction vector on  $AA'(\hat{\boldsymbol{n}})$ is defined to be the force acting on it divided by its area. The area of $AA'(\hat{\boldsymbol{n}})$ is the cross-sectional area $Bl$,  where $l \sin(\theta)=H $. This means that $l=H/\sin(\theta)$, which in turn implies that 
 
 $\left
 \langle \boldsymbol{t}\right\rangle(AA'(\hat{\boldsymbol{n}}))
-=-\boldsymbol{F}\sin(\theta)/BH$. In matrix notation the traction vector can be written as 
+=-\boldsymbol{F}\sin(\theta)/BH$. In matrix notation, the traction vector can be written as 
 
 
 $$
@@ -47,18 +45,24 @@ $$
 \left\langle \boldsymbol{t}\right\rangle(AA'(\hat{\boldsymbol{n}}))\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_2)}
 =\left[
 \begin{array}{r}
-F_1 \sin(\theta)/BH \\
+-F_1 \sin(\theta)/BH \\
 0
 \end{array}
 \right]
 $$
 
-In the following when it is clear instead of writing $\left[\left
-\langle \boldsymbol{t}\right\rangle (AA'(\hat{\boldsymbol{n}}))\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_2)}$ we will simply write $\left[
-\left
-\langle \boldsymbol{t}\right\rangle(AA'(\hat{\boldsymbol{n}}))\right]$.
+In the following, when it is clear, instead of writing 
 
-Following the same analysis as before the traction vector on the surface $AA'(-\hat{\boldsymbol{n}})$ is 
+$$\left[\left
+\langle \boldsymbol{t}\right\rangle (AA'(\hat{\boldsymbol{n}}))\right]_{(\hat{\boldsymbol{E}}_1,\hat{\boldsymbol{E}}_2)}$$
+
+ we will simply write 
+ 
+$$\left[
+\left
+\langle \boldsymbol{t}\right\rangle(AA'(\hat{\boldsymbol{n}}))\right].$$
+
+Following the same analysis as before, the traction vector on the surface $AA'(-\hat{\boldsymbol{n}})$ is 
 
 $$
 \left[
@@ -75,9 +79,10 @@ $$
 
 ### Transverse loading
 
-The force on the right side of the bar is $\boldsymbol{F}=F_2\hat{\boldsymbol{E}}\_2$.The force on the left side of the bar is $-\boldsymbol{F}$.The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, from force equilibrium, $\boldsymbol{F}$.
+The force on the right side of the bar is $\boldsymbol{F}=F_2\hat{\boldsymbol{E}}\_2$. The force on the left side of the bar is $-\boldsymbol{F}$. The force vector on the surface $AA'(\hat{\boldsymbol{n}})$ is, from force equilibrium, $\boldsymbol{F}$.
 
 The matrix representation of $\boldsymbol{F}$ is
+
 $$
 \left[
 {\boldsymbol{F}}\right]=
@@ -88,8 +93,6 @@ F_2\\
 \end{array}
 \right]
 $$
-
- 
 
 The traction vector on  $AA'(\hat{\boldsymbol{n}})$ is defined to be the force acting on it devided by its area. The area of $AA'(\hat{\boldsymbol{n}})$ is $B H/\sin(\theta)$. Therefore, the traction vector on $AA'(\hat{\boldsymbol{n}})$ (in matrix) notation is
 

@@ -38,7 +38,9 @@ $$
 \boldsymbol{t}-\boldsymbol{t}_n,
 \end{align}
 $$
+
 which in matrix form reads
+
 $$
 \begin{align}
 [\boldsymbol{t}_s]&=
@@ -46,7 +48,7 @@ $$
 \end{align}
 $$
 
-From the first two equations of this section and the last equation we get that
+From the first two equations of this section and the last equation, we get that
 
 $$
 \begin{align}
@@ -65,10 +67,12 @@ Defining
 $$
 \begin{equation}
 \tau(\phi):=\left(
--\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \phi)+\sigma_{12} \cos(2 \phi)\right)
+-\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \phi)+\sigma_{12} \cos(2 \phi)\right),
 \end{equation}
 $$
+
 we get that
+
 $$
 \begin{align}
 \left.\left[\boldsymbol{t}_s\right]\right|_{\text{plane stress}}&=
@@ -80,7 +84,8 @@ $$
 \end{align}
 $$
 
-Note that the column matrix appearing in the above equation, which is $[-\sin(\phi),\cos(\phi),0]^{\sf T}$ is matrix representation of the vector $\hat{\boldsymbol{E}}_3\times \hat{\boldsymbol{n}}$. Denoting the vector $\hat{\boldsymbol{E}}_3\times \hat{\boldsymbol{n}}$ as  $\hat{\boldsymbol{m}}$ we can write the last equation as.
+Note that the column matrix appearing in the above equation, which is $[-\sin(\phi),\cos(\phi),0]^{\sf T}$ is matrix representation of the vector $\hat{\boldsymbol{E}}_3\times \hat{\boldsymbol{n}}$. Denoting the vector $\hat{\boldsymbol{E}}_3\times \hat{\boldsymbol{n}}$ as  $\hat{\boldsymbol{m}}$,  we can write the last equation as
+
 $$
 \begin{align}
 \left.\left[\boldsymbol{t}_s\right]\right|_{\text{plane stress}}&=
@@ -88,7 +93,8 @@ $$
 \end{align}
 $$
 
-The last equation in component free-form reads as
+The last equation in component free-form reads 
+
 $$
 \begin{align}
 \left.\boldsymbol{t}_s\right|_{\text{plane stress}}&=\tau(\phi) \hat{\boldsymbol{m}}

@@ -41,7 +41,7 @@ $$
 \end{align}
 $$
 
-The vectors $\boldsymbol{t}_n$, $\boldsymbol{t}_s$ can be computed directly from the stress tensor. However, it is always better to first compute the traction vector from the stress tensor as $\boldsymbol{t}=\boldsymbol{\sigma}^{\rm T}\hat{\boldsymbol{n}}$ and then compute $\boldsymbol{t}_n$, $\boldsymbol{t}_s$, respectively, from the last two equation.
+The vectors $\boldsymbol{t}_n$, $\boldsymbol{t}_s$ can be computed directly from the stress tensor. However, it is always better to first compute the traction vector from the stress tensor as $\boldsymbol{t}=\boldsymbol{\sigma}^{\rm T}\hat{\boldsymbol{n}}$ and then compute $\boldsymbol{t}_n$, $\boldsymbol{t}_s$, respectively, from the last two equations.
 
 <!-- $$
 \begin{align}

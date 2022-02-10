@@ -11,12 +11,18 @@ $$
     \tau(\phi) [\hat{\boldsymbol{m}}]
     \end{align}
 $$
+
 where 
 
 $$
     \begin{align}
     \tau(\phi)&:=\left(
     -\frac{\sigma_{11} - \sigma_{22}}{2} \sin(2 \phi)+\sigma_{12} \cos(2 \phi)\right)\\
+    \end{align}
+$$
+
+$$
+    \begin{align}
     [\hat{\boldsymbol{m}}]&:=\begin{bmatrix}
     -\sin(\phi)\\
     \cos(\phi)\\

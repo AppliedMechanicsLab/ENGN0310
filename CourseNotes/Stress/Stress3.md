@@ -33,6 +33,7 @@ $$
 $$
 
 For the case of plane stress we have that
+
 $$
 \begin{align}
 \left.[\boldsymbol{\sigma}]\right|_{\text{plane stress}}
@@ -46,7 +47,7 @@ $$
 $$
 
 
-The traction on the surface $(\Gamma, \hat{\boldsymbol{n}})$ is, by the definition of $\boldsymbol{\sigma}$, $\boldsymbol{t}=\boldsymbol{\sigma}^{\rm T}\boldsymbol{n}$. Thus, we get grom the last two equations that for plane stress
+The traction on the surface $(\Gamma, \hat{\boldsymbol{n}})$ is, by the definition of $\boldsymbol{\sigma}$, $\boldsymbol{t}=\boldsymbol{\sigma}^{\rm T}\boldsymbol{n}$. Thus, we get from the last two equations that for plane stress,
 
 $$ 
 \begin{align}
@@ -73,4 +74,5 @@ $$
 \end{bmatrix}
 \end{align}
 $$
-In arriving at the last equation we set $\sigma_{12}=\sigma_{21}$.
+
+Note that in arriving at the last equation, we set $\sigma_{12}=\sigma_{21}$.

@@ -14,7 +14,7 @@ $$
 \end{align}
 $$
 
-In the above equation the operator $\left(\cdot\right)^{\rm T} $ gives the transpose of a tensor. The transpose of a tensor is defined such that
+In the above equation, the operator $\left(\cdot\right)^{\rm T} $ gives the transpose of a tensor. The transpose of a tensor is defined such that
 
 $$
 \begin{align}
@@ -25,7 +25,8 @@ for all vector $\boldsymbol{x}$, $\boldsymbol{y}$.
 
 
 
-In component form the relation between stress and traction can be written as
+In component form, the relation between stress and traction can be written as
+
 $$
 \begin{align}
 \left[\boldsymbol{t}\right] &=
@@ -36,7 +37,8 @@ $$
 \left[\boldsymbol{n}\right],
 \end{align}
 $$
-where the simplifications in the second and the third step follow from the properties of matrices and tensors. In summary we have that
+
+where the simplifications in the second and the third steps follow from the properties of matrices and tensors. In summary, we have that
 
 $$
 \begin{align}

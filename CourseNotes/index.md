@@ -68,15 +68,15 @@
 ### Columns 
 
 * [Introduction to elastic instabilities: Rigid link model ](./Buckling/Buckling1.md)
-* [Column buckling: pin-pin joints](./Buckling/Buckling2.md)
-* [Column buckling: anchored-pin joints](./Buckling/Buckling2.md)
+<!-- * [Column buckling: pin-pin joints](./Buckling/Buckling2.md)
+* [Column buckling: anchored-pin joints](./Buckling/Buckling2.md) -->
 
 ## Solid Mechanics
 
 ### Traction
 
 * [Introduction](Traction/Introduction.md)
-* [Matrix representation of Traction vectors](Traction/TractionsInBars.md)
+<!-- * [Matrix representation of Traction vectors](Traction/TractionsInBars.md) -->
 * [Normal and shear components of the traction vector](Traction/NormalShearComponents.md)
 <!-- * [Shear tractions](Traction/ShearTraction1.md) -->
 * [Maximum Normal and Shear Stresses in an Axially Loaded Bar](Traction/Max.md)
@@ -84,13 +84,13 @@
 
 ### Stress
 
-* :construction::construction: [Traction corresponding to a stress tenor](Stress/Traction.md)
-* :construction::construction: [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
-* :construction::construction: [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
-* :construction::construction: [Maximum normal stress](Stress/Stress4.md)
-* :construction::construction: [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
+*  [Traction corresponding to a stress tenor](Stress/Traction.md)
+* [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
+* [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
+<!-- * :construction::construction: [Maximum normal stress](Stress/Stress4.md) -->
+*[Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
 * [Maximum shear stress](Stress/Stress6.md)
-* :construction: :construction: [Mohr circle](Stress/Stress7.md)
+* [Mohr circle](Stress/Stress7.md)
 
 
 ### Strain

@@ -2,7 +2,9 @@
 {% include command %}
 
 
-A column is rigid and attached at the base to a torwsional spring of stiffness $k$. The torsional sping proides a moment of $-k \theta\hat{\boldsymbol{E}}_3$ (in N-m). We apply a force at the top of the column of $P \hat{\boldsymbol{E}}_2$. Say that after the column has rotated. Applied moment of the 
+A column is rigid and attached at the base to a torsional spring of stiffness $k$. The torsional spring provides a moment of $-k \theta\hat{\boldsymbol{E}}_3$ (in $\rm{N \cdot m}$). Say that after the column has rotated, we apply a force of $P \hat{\boldsymbol{E}}_2$ at the top of the column. Then, we have that
+
+<!-- Say that after the column has rotated. Applied moment of the  -->
 
 
 $$
@@ -14,7 +16,7 @@ $$
 \end{align}
 $$
 
-From the balance of moment about the point $\mathcal{O}$ we get that
+From the balance of moment about the point $\mathcal{O}$, we get that
 
 $$
 \begin{align}
@@ -25,7 +27,7 @@ $$
 
 
 Let's consider a pinned joint. 
-Momemnt arm between $\mathcal{M}$ and $P$. $l\hat{\boldsymbol{E}}_1$ minus $X_1\hat{\boldsymbol{E}}_1+y(X_1)\hat{\boldsymbol{E}}_2$. This comes out to be $(l-X_1)\hat{\boldsymbol{E}}_1-y(X_1)\hat{\boldsymbol{E}}_2$. The force in vector form is of course $-P \hat{\boldsymbol{E}}_1$. The momemnt is now
+Moment arm between $\mathcal{M}$ and $P$ is $l\hat{\boldsymbol{E}}_1$ minus ($X_1\hat{\boldsymbol{E}}_1+y(X_1)\hat{\boldsymbol{E}}_2$). This comes out to be $(l-X_1)\hat{\boldsymbol{E}}_1-y(X_1)\hat{\boldsymbol{E}}_2$. The force in vector form is of course $-P \hat{\boldsymbol{E}}_1$. The momemnt is now
 
 
 $$
@@ -79,7 +81,8 @@ P_n&= \frac{n^2 \pi^2 E I}{L^2}
 $$
 
 
-Euler Buckling load
+where Euler Buckling load is
+
 $$
 \begin{align}
 P_{\rm cr}&= \frac{\pi^2 E I}{L^2} 

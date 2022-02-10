@@ -31,6 +31,7 @@ f_1=\frac{P b}{(a+b)}
 $$
 
 It follows from the last two numbered equations that 
+
 $$
 \begin{align}
 f_1&=\frac{P b}{(a+b)},\\
@@ -42,14 +43,16 @@ $$
 #### Moment along the beam
 
 Let $\mathcal{M}$ be some material particle between the points $\mathcal{O}$ and $\mathcal{C}$, where  $\mathcal{C}$ is the material particle upon which the applied force $\boldsymbol{P}$ acts. 
-Consider the segment lying between the points $\mathcal{O}$ and $\mathcal{M}$ (shown in grey in the figure). We will next compute the moment of all the foces acting on the segment about the point $\mathcal{M}$. The position vector of $\mathcal{M}$ is ${}^m\\! X_1\hat{\boldsymbol{E}}_1$.  The moment of the tractions on the surface $\Gamma({}^m\\! X_1,\hat{\boldsymbol{E}}_1)$ about the centroid  of the surface $\Gamma({}^m\\! X_1)$, which is the point $\mathcal{M}$, is, by definition, $\boldsymbol{M}({}^m\\!X_1,\hat{\boldsymbol{E}}_1)$. The only other force acting on the segment is the left reaction force. The moment of this force is $(-{}^m\\! X\_1\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$ which simplifies to $ P X_1  b/(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segement should be zero about any point, we have that 
+Consider the segment lying between the points $\mathcal{O}$ and $\mathcal{M}$ (shown in grey in the figure). We will next compute the moment of all the forces acting on the segment about the point $\mathcal{M}$. The position vector of $\mathcal{M}$ is ${}^m\\! X_1\hat{\boldsymbol{E}}_1$.  The moment of the tractions on the surface $\Gamma({}^m\\! X_1,\hat{\boldsymbol{E}}_1)$ about the centroid  of the surface $\Gamma({}^m\\! X_1)$, which is the point $\mathcal{M}$, is, by definition, $\boldsymbol{M}({}^m\\!X_1,\hat{\boldsymbol{E}}_1)$. The only other force acting on the segment is the left reaction force. The moment of this force is $(-{}^m\\! X\_1\hat{\boldsymbol{E}}_1)\times (-f\_1\hat{\boldsymbol{E}}_2)$ which simplifies to $ P X_1  b/(a+b)\hat{\boldsymbol{E}}_3$. Since the moment of all the forces acting on the segment should be zero about any point, we have that 
 
 $$
 \begin{align}
 \boldsymbol{M}({}^m\!X_1,\hat{\boldsymbol{E}}_1)+\frac{P b}{(a+b)}{}^m\! X_1\hat{\boldsymbol{E}}_3=\boldsymbol{0},
 \end{align}
 $$
+
 from which it follows that 
+
 $$
 \begin{align}
 M(X_1)&=-\frac{P b X_1 }{(a+b)}  \quad \forall X_1\in(0,a).
@@ -66,14 +69,16 @@ $$
 \boldsymbol{M}({}^n\!X_1,\hat{\boldsymbol{E}}_1)\cdot \hat{\boldsymbol{E}}_3&=-P a\left(1-\frac{ ^n\!X_1}{(a+b)}\right)
 \end{align}
 $$
+
 from which it follows that 
+
 $$
 \begin{align}
 M(X_1)&=P a\left(\frac{X_1}{(a+b)}-1\right) \quad \forall X_1\in(a,a+b),
 \end{align}
 $$
 
-Integrating the governing differential equations (6) and (9), we get that
+Integrating the governing differential equations (6) and (10), we get that
 
 $$
 \begin{align}
@@ -85,6 +90,7 @@ $$
 
 #### Setting $\lim_{X_1\to a^-}y'(X_1)=\lim_{X_1\to a^+}y'(X_1)$ we get $C_1$ in terms of $B_1$
 We know that 
+
 $$
 \begin{align}
 \lim_{X_1\to a^-}y'(X_1)&=\lim_{X_1\to a^+}y'(X_1)\\
@@ -110,6 +116,7 @@ $$
 We have that $C_0=0$. 
 
 #### Setting $\lim_{X_1\to a^-}y(X_1)=\lim_{X_1\to a^+}y(X_1)$ we get $B_0$
+
 $$
 \begin{align}
 \lim_{X_1\to a^-}y(X_1)&=\lim_{X_1\to a^+}y(X_1)\\
