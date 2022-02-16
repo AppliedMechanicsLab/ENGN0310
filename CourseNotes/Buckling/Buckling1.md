@@ -5,7 +5,6 @@
 
 
 Consider a rigid column attached to a torsional spring of stiffness $k$ at its base.
-
 <br/>
     <center>
      <img src="Column-fig1.png" alt="drawing" width="160"/>
