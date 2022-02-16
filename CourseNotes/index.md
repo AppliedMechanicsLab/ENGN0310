@@ -67,7 +67,7 @@
 
 ### Columns 
 
-* [Introduction to elastic instabilities: Rigid link model ](./Buckling/Buckling1.md)
+* [Introduction to elastic instabilities](./Buckling/Buckling1.md)
 
 <!-- * [Column buckling: pin-pin joints](./Buckling/Buckling2.md)
 * [Column buckling: anchored-pin joints](./Buckling/Buckling2.md) -->
