@@ -86,7 +86,7 @@
 ### Stress
 
 *  [Traction corresponding to a stress tenor](Stress/Traction.md)
-* [Shear and traction component of the traction vector given a stress tensor](Stress/Stress2.md)
+* [Normal and Shear component of the traction vector given a stress tensor](Stress/Stress2.md)
 * [Matrix representation of the normal component of the traction vector in plane stress](Stress/Stress3.md) 
 * [Maximum and minimum normal stress](Stress/Stress4.md)
 * [Matrix representation of the shear component of the traction vector in plane stress](Stress/Stress5.md) 
