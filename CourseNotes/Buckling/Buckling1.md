@@ -35,12 +35,48 @@ P l \sin(\theta) \hat{\boldsymbol{E}}_3-k \theta\hat{\boldsymbol{E}}_3&=\boldsym
 $$
 
 A necessary condition for instability is the existence of more than one equilibrium state. 
+We can interpret the above result by considering the following plot of $\sin{(\theta)}$ and $\dfrac{k}{PL}\theta$.
+
+<br/>
+    <center>
+     <img src="fig3-ver3.png" alt="drawing" width="300"/>
+    </center> 
+<br/>
+
+Consider the case when (i) $k/PL>1$:
+
+The equilibrium state is at $\theta=0$. We can see that this is a stable case by noticing that for any slight perturbation to $\theta$, it always holds that
+
+$$
+\left|\dfrac{k}{PL}\theta\right|>\left|\sin{(\theta)}\right|,
+$$
+
+Physically, this means that the moment provided by the torsional spring will always resist that by the applied load $P$.
+
+Now consider the case when (ii) $k/PL<1$:
+
+We see that there are three possible equilibrium states (denoted with stars). The system can be in equilibrium at $\theta=0$, as with case (i). However, notice that when $\theta$ is perturbed slightly to a non-zero value, it holds that between $0<\theta<\theta^+$,
+
+$$
+\dfrac{k}{PL}\theta<\sin{(\theta)}.
+$$
+
+Physically, this means that when $0<\theta<\theta^+$, the moment by the applied load $P$ is greater than that provided by the torsional spring. Hence, the column will keep rotating until at $\theta=\theta^+$, the next equilibrium state is attained. In other words, slight perturbation to of $\theta$ to a positive value will cause the column to suddenly "jump" from $\theta=0$ to $\theta=\theta^+$ (instability). 
+
+The same argument can be repeated for $\theta^-<\theta<0$.
+
+<!-- Notice further that the column will oscillate around $\theta^+$. This is because the slight perturbation of $\theta$ to the right will be resisted by the torsional spring, which drives the column to rotate counter clockwise, while the perturbation of $\theta$ to the right will be resisted by $P$, such that it drives the column to rotate clockwise. -->
+
+(iii) At $k/PL=1$:
+
+$\dfrac{k}{PL}\theta$ is tangent to $\sin{\theta}$ at $\theta=0$. This is when the system transitions from a stable to unstable behavior.
+
 
 Let's now consider a pinned joint. 
 
 <br/>
     <center>
-     <img src="Column-fig2.png" alt="drawing" width="370"/>
+     <img src="Column-fig2.png" alt="drawing" width="400"/>
     </center>
 <br/>
  
